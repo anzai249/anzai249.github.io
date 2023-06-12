@@ -8274,6 +8274,16 @@ pre .deletion {
 .post-page-container .article-content-container .recommended-article {
   overflow: visible !important;
 }
+@media (max-width: 780px) {
+  .post-page-container .article-content-container .recommended-article .mobile {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .post-page-container .article-content-container .recommended-article .desktop {
+    display: none;
+  }
+}
 .post-page-container .article-content-container .recommended-article .recommended-article-header {
   font-size: 28px;
   font-weight: 550;
