@@ -78,12 +78,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/2022/11/Hello-world-0.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
-  </entry>
-  <entry>
     <title>我的世界C4D竹子预置</title>
     <url>/archives/posts/2022/11/C4D-bamboo-rig.html</url>
     <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
@@ -122,6 +116,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/2022/11/Hello-world-0.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
     <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
     <url>/archives/posts/2023/06/celebrity-bochkareva.html</url>
     <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
@@ -155,6 +155,54 @@
       <tags>
         <tag>名人</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/2023/06/celebrity-xiaoyun.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     
+                >
+
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历"><a href="#简要经历" class="headerlink" title="简要经历"></a>简要经历</h3><p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h3><p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖"><a href="#获奖" class="headerlink" title="获奖"></a>获奖</h3><ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -209,164 +257,6 @@
       <tags>
         <tag>游戏</tag>
         <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>gif表情包制作工艺流程</title>
-    <url>/archives/posts/2022/11/gif-making-process.html</url>
-    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
-<ul>
-<li>Photoshop</li>
-<li>Premiere Pro</li>
-<li>Bandicam</li>
-</ul>
-<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/1.png"
-                     
-                >
-
-<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/3.png"
-                     
-                >
-
-<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/4.png"
-                     
-                >
-
-<p>创建个300*300的新序列</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/5.png"
-                     
-                >
-
-<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/6.png"
-                     
-                >
-
-<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/9.png"
-                     
-                >
-
-<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/10.png"
-                     
-                >
-
-<p>给它来个超级键，把蓝背景去掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/11.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/12.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/13.png"
-                     
-                >
-
-<p>完美！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/15.png"
-                     
-                >
-
-<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
-<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/16.png"
-                     
-                >
-
-<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
-<p>接下来就简单了，直接存储为Web所用格式。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/17.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/18.png"
-                     
-                >
-
-<p>预览完了就直接存储吧！</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/三叶草.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>Ps</tag>
-        <tag>Pr</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/2023/05/recent-notes.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
       </tags>
   </entry>
   <entry>
@@ -447,423 +337,6 @@
       <tags>
         <tag>机器视觉</tag>
         <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SDS基础知识梳理</title>
-    <url>/archives/posts/2023/06/sds-recap.html</url>
-    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
-</div><div class="notel-content"><p>这是我根据个人理解整理的SDS课程主要框架和知识，如有错误可邮件叫我更正。<br>本课程为英文授课，此处用中文梳理知识点，如有翻译理解问题多多包涵。</p>
-</div></div>
-
-<h1 id="软件工程系统开发"><a href="#软件工程系统开发" class="headerlink" title="软件工程系统开发"></a>软件工程系统开发</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>本课程由荷兰方提斯大学的Ir. Georgiana Manolache授课。</p>
-<p>系统开发是创造人工系统以满足预定的需求的一门学科，也是一门艺术。它是一个解决问题的过程，在这个过程中，我们将人类知识库中的适当元素用于创造针对某一问题的新知识，并由此确定问题的解决方案。</p>
-<h2 id="系统开发角色"><a href="#系统开发角色" class="headerlink" title="系统开发角色"></a>系统开发角色</h2><h3 id="信息系统"><a href="#信息系统" class="headerlink" title="信息系统"></a>信息系统</h3><p>信息可以为业务提供动力，而且需要被正确管理。</p>
-<p>处理计算机生成的信息与处理人工生成的数据的方式不同。</p>
-<h4 id="信息系统包括"><a href="#信息系统包括" class="headerlink" title="信息系统包括"></a>信息系统包括</h4><ul>
-<li>业务处理系统 (TPS)</li>
-<li>信息管理系统 (MIS)</li>
-<li>决策支持系统 (DSS)</li>
-<li>专家系统</li>
-</ul>
-<h3 id="系统分析和设计-SAD"><a href="#系统分析和设计-SAD" class="headerlink" title="系统分析和设计 (SAD)"></a>系统分析和设计 (SAD)</h3><ul>
-<li>发现问题、机会和目标</li>
-<li>分析组织中人为和计算机生成的数据</li>
-<li>设计计算机信息系统 (IS)，并解决问题</li>
-</ul>
-<p>总目的：找到和解决对的问题</p>
-<p>在没有适当规划的情况下建立一个系统，会导致用户的极大不满，并经常导致系统的废弃。用户参与整个系统项目是成功的关键。新技术也推动了对系统分析的需求。</p>
-<h3 id="系统分析师"><a href="#系统分析师" class="headerlink" title="系统分析师"></a>系统分析师</h3><p>系统分析师是一个分析业务流程和信息系统的人。</p>
-<p>需要具备以下品质：</p>
-<ul>
-<li>问题解决者</li>
-<li>交流者</li>
-<li>崇高的道德素养，无论是个人方面还是职业方面</li>
-<li>自律，自勉</li>
-</ul>
-<h2 id="开发方法-Development-Methodologies"><a href="#开发方法-Development-Methodologies" class="headerlink" title="开发方法 (Development Methodologies)"></a>开发方法 (Development Methodologies)</h2><h3 id="传统软件开发生命周期-SDLC"><a href="#传统软件开发生命周期-SDLC" class="headerlink" title="传统软件开发生命周期 (SDLC)"></a>传统软件开发生命周期 (SDLC)</h3><p>传统软件开发生命周期分为七个阶段。如下图。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/SDLC.png"
-                     
-                >
-
-<p>瀑布开发。</p>
-<h3 id="敏捷开发"><a href="#敏捷开发" class="headerlink" title="敏捷开发"></a>敏捷开发</h3><p>迭代、循序渐进的软件开发方法。</p>
-<p>极限开发(XP)，能力成熟度模型(CMM)</p>
-<p>五个阶段：</p>
-<ol>
-<li>探索</li>
-<li>规划</li>
-<li>迭代到第一个发行版</li>
-<li>Productionizing（不知道怎么翻译，词典上的意思是to make something into a product which can be sold，我找不到中文里比较好的词形容这个。）</li>
-<li>维护</li>
-</ol>
-<p>十二个准则：</p>
-<ul>
-<li>满足客户</li>
-<li>欢迎改变</li>
-<li>频繁交付</li>
-<li>共同工作</li>
-<li>信任支持</li>
-<li>面对面谈</li>
-<li>工作软件（我的理解就是这玩意应该是那种可以看各个人贡献的那种项目管理软件）</li>
-<li>持续开发</li>
-<li>长期关注</li>
-<li>容易维护</li>
-<li>自我组织</li>
-<li>反思调整</li>
-</ul>
-<h3 id="面向对象的软件开发-OO"><a href="#面向对象的软件开发-OO" class="headerlink" title="面向对象的软件开发 (OO)"></a>面向对象的软件开发 (OO)</h3><p>SDLC的替代方法，小规模快速迭代的开发。适用于为应对动态商业环境而快速变化的系统，也适用于持续维护、不断调整和设计的信息系统。</p>
-<p>这种方式考验的是系统的对象和组件的严谨性。</p>
-<p>统一建模语言(UML)是OO开发的业界标准。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/UML.png"
-                     
-                >
-
-<h4 id="UML的阶段"><a href="#UML的阶段" class="headerlink" title="UML的阶段"></a>UML的阶段</h4><ol>
-<li>问题识别<ol>
-<li>用例图</li>
-<li>用例场景</li>
-</ol>
-</li>
-<li>系统分析<ol>
-<li>活动图</li>
-<li>序列图</li>
-<li>类图</li>
-<li>状态图</li>
-</ol>
-</li>
-<li>系统设计<ol>
-<li>修改UML图</li>
-<li>制定方法规范</li>
-<li>开发和记录系统</li>
-</ol>
-</li>
-</ol>
-<h4 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h4><p>OO的复用、抽象和分离关注点(SOC)让我们的代码更加易懂和易维护。</p>
-<h4 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h4><ul>
-<li>封装</li>
-<li>继承</li>
-<li>多态</li>
-</ul>
-<h4 id="UML-CHEAT-SHEET"><a href="#UML-CHEAT-SHEET" class="headerlink" title="UML CHEAT SHEET"></a>UML CHEAT SHEET</h4><p>放图不解释。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/cheatsheet.png"
-                     
-                >
-
-<h2 id="组织"><a href="#组织" class="headerlink" title="组织"></a>组织</h2><p>组织是旨在通过人员和资源完成预定的目标的系统。</p>
-<h3 id="塑造组织的因素"><a href="#塑造组织的因素" class="headerlink" title="塑造组织的因素"></a>塑造组织的因素</h3><ul>
-<li>管理水平</li>
-<li>组织设计</li>
-<li>组织文化</li>
-</ul>
-<h3 id="用图形描述系统"><a href="#用图形描述系统" class="headerlink" title="用图形描述系统"></a>用图形描述系统</h3><h4 id="内容级数据流图-DFD"><a href="#内容级数据流图-DFD" class="headerlink" title="内容级数据流图 (DFD)"></a>内容级数据流图 (DFD)</h4><p>重点在于流入和流出系统的数据以及对这些数据的处理。外部实体需要排除在系统之外。</p>
-<h4 id="实体关系图-ER"><a href="#实体关系图-ER" class="headerlink" title="实体关系图 (ER)"></a>实体关系图 (ER)</h4><p>重点在于组织系统内的实体和它们的关系。可以帮助确定问题的大小和范围。也被系统设计者用来帮助对文件或数据库进行建模。</p>
-<h5 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h5><ul>
-<li>一对一</li>
-<li>一对多</li>
-<li>多对多</li>
-</ul>
-<h2 id="信息系统-IS"><a href="#信息系统-IS" class="headerlink" title="信息系统 (IS)"></a>信息系统 (IS)</h2><p>信息系统是一个根据一套可预测的逻辑假设将数据处理成信息的系统。</p>
-<p>是一个开放系统。</p>
-<p>主要组件：</p>
-<ul>
-<li>应用</li>
-<li>信息技术</li>
-<li>人</li>
-<li>流程</li>
-</ul>
-<h2 id="建模体系-Modelling-Systems"><a href="#建模体系-Modelling-Systems" class="headerlink" title="建模体系 (Modelling Systems)"></a>建模体系 (Modelling Systems)</h2><h3 id="作用域分析"><a href="#作用域分析" class="headerlink" title="作用域分析"></a>作用域分析</h3><p>作用域分析确定了业务概念，这些概念将被细化为信息系统分析模型的组成部分。</p>
-<h4 id="作用域范围-Domain-Scope"><a href="#作用域范围-Domain-Scope" class="headerlink" title="作用域范围 (Domain Scope)"></a>作用域范围 (Domain Scope)</h4><p>作用域范围定义了将一个作用域内的共享活动、规则和概念与外部的共享活动、规则和概念分开的界限。也就是说不属于本软件系统开发范围的东西不碰。</p>
-<h4 id="作用域词典-Domain-Dictionary"><a href="#作用域词典-Domain-Dictionary" class="headerlink" title="作用域词典 (Domain Dictionary)"></a>作用域词典 (Domain Dictionary)</h4><p>记录作用域中所有东西，旨在讲利益相关者和分析师们联系起来。</p>
-<p>包括以下方面：</p>
-<ul>
-<li>过程</li>
-<li>方法</li>
-<li>角色</li>
-<li>物体 (Object)</li>
-<li>业务规则</li>
-<li>公式</li>
-<li>识别器 (Identifier)</li>
-</ul>
-<h5 id="业务规则"><a href="#业务规则" class="headerlink" title="业务规则"></a>业务规则</h5><p>业务规则是一套约束企业运作的详细的政策、法律、程序、准则和标准。</p>
-<ul>
-<li>事实</li>
-<li>推论</li>
-<li>触发器</li>
-<li>约束</li>
-<li>计算</li>
-</ul>
-<h3 id="需求收集"><a href="#需求收集" class="headerlink" title="需求收集"></a>需求收集</h3><p>一个产品必须具有其客户想要的功能，以实现特定的目标。</p>
-<h4 id="需求发现"><a href="#需求发现" class="headerlink" title="需求发现"></a>需求发现</h4><p>需求发现确定了系统的范围和主要目标。</p>
-<p>需求收集定义了达到这些目标所需要的东西。</p>
-<h4 id="需求分类"><a href="#需求分类" class="headerlink" title="需求分类"></a>需求分类</h4><p>功能性需求和非功能性需求</p>
-<h4 id="管理需求"><a href="#管理需求" class="headerlink" title="管理需求"></a>管理需求</h4><ol>
-<li>记录和更新需求</li>
-<li>记录来源</li>
-<li>将需求分为不同单元</li>
-<li>独立识别每个需求</li>
-<li>核实需求并记录核实情况</li>
-<li>对需求进行优先排序</li>
-<li>对需求进行有意义的分类</li>
-</ol>
-<h3 id="行为建模"><a href="#行为建模" class="headerlink" title="行为建模"></a>行为建模</h3><p>包含用例建模。</p>
-<ul>
-<li>用例是系统行为的一部分</li>
-<li>用例正式确定了利益相关者和系统之间互动</li>
-<li>用例详细描述了利益相关者与系统的互动，以完成对利益相关者有价值的目标</li>
-<li>用例是技术独立的</li>
-</ul>
-<p>优势：</p>
-<ul>
-<li>以用户为中心的技术，从用户的角度捕捉需求。</li>
-<li>易于理解，为与其他团队（如市场）、客户和用户的沟通提供了一个很好的方式。</li>
-<li>用于功能需求的验证和确认。</li>
-<li>通过将项目分解为主要功能，帮助管理大型复杂项目。</li>
-<li>作为工作估算、日程安排等的基础。</li>
-</ul>
-<p>缺点：</p>
-<ul>
-<li>不包含非功能需求。</li>
-<li>所有的（子）系统都没有关联角色，有些重要的功能不会被察觉。</li>
-<li>可能会导致实体对象和类的过度创建，以及功能过度分离。</li>
-<li>不太正式的语言可能会导致验收测试出现问题，因为没有充分定义验收标准。</li>
-</ul>
-<p>这个阶段需要产出：</p>
-<ul>
-<li>用例总结</li>
-<li>内容图</li>
-<li>用例图</li>
-</ul>
-<h3 id="结构建模"><a href="#结构建模" class="headerlink" title="结构建模"></a>结构建模</h3><p>包含UML图。</p>
-<h3 id="动态建模"><a href="#动态建模" class="headerlink" title="动态建模"></a>动态建模</h3><p>描述了一个系统的内部行为。</p>
-<h4 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h4><p>序列图表示参与单一用例或场景的对象的图形化描述。每个步骤都被分为一个独立的阶段。</p>
-<ul>
-<li>帮助完善用例描述</li>
-<li>帮助寻找参与对象</li>
-<li>帮助确定类的责任</li>
-<li>帮助确定对象之间必要的通信</li>
-<li>可以帮助完善子系统的接口</li>
-</ul>
-<h4 id="状态图"><a href="#状态图" class="headerlink" title="状态图"></a>状态图</h4><ul>
-<li>用于描述一个对象在响应事件时的状态转换序列</li>
-<li>可以帮助识别重要的对象属性</li>
-<li>可以帮助完善一个对象的行为描述</li>
-<li>应该把重点放在影响对象行为的重要属性上</li>
-</ul>
-<h4 id="交互图"><a href="#交互图" class="headerlink" title="交互图"></a>交互图</h4><h4 id="合作图"><a href="#合作图" class="headerlink" title="合作图"></a>合作图</h4><h4 id="活动图"><a href="#活动图" class="headerlink" title="活动图"></a>活动图</h4><h2 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h2><h3 id="抽象工厂模式"><a href="#抽象工厂模式" class="headerlink" title="抽象工厂模式"></a>抽象工厂模式</h3><p>是一种创建型模式。</p>
-<p>无需指明具体的类就可以创建有相关对象的簇。适用于当客户无法预料到要实例化的类群时。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/absfact.png"
-                     
-                >
-
-<h3 id="组合模式"><a href="#组合模式" class="headerlink" title="组合模式"></a>组合模式</h3><p>是一种结构型模式。</p>
-<p>将对象“组合”成三个结构以表示部分-整体的层次。适用于客户应该忽略对象的组合和单个对象之间的区别时。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/composite.png"
-                     
-                >
-
-<h3 id="命令模式"><a href="#命令模式" class="headerlink" title="命令模式"></a>命令模式</h3><p>是一种行为型模式。</p>
-<p>封装来自一个服务的请求。适用于需要用一个要执行的动作来参数化对象时。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/command.png"
-                     
-                >
-
-<h2 id="用户界面-UI"><a href="#用户界面-UI" class="headerlink" title="用户界面 (UI)"></a>用户界面 (UI)</h2><h3 id="界面设计原则"><a href="#界面设计原则" class="headerlink" title="界面设计原则"></a>界面设计原则</h3><ul>
-<li>必须考虑到用户需求、经验和能力。</li>
-<li>设计者必须遵从人类的生理和心理规律设计界面，需要提前意识到用户可能会犯的错误。</li>
-<li>UI设计原则以平面设计原则为基础，尽管不是所有的原则都适用。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>软件工程</tag>
-        <tag>预习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flarum搭建踩坑记录</title>
-    <url>/archives/posts/2023/06/trying-flarum.html</url>
-    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
-<li>Windows服务器一台</li>
-<li>WampServer （我是大懒蛋）</li>
-<li>Composer</li>
-</ul>
-<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/slow.png"
-                     
-                >
-
-<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
-<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/ms.png"
-                     
-                >
-
-<p><code>composer create-project flarum/flarum .</code></p>
-<p>把这个东西放到wamp里的www目录，开wamp。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/localhost.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/MySQL.png"
-                     
-                >
-
-<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
-<p>进去装个中文语言包。</p>
-<p><code>composer require flarum-lang/chinese-simplified</code></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/zhcn.png"
-                     
-                >
-
-<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/403.png"
-                     
-                >
-
-<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/virtualhost.png"
-                     
-                >
-
-<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
-<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
-<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>把URL重写all掉，然后访问限制解放。</p>
-<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
-<p>大功告成。</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/bingo.png"
-                     
-                >
-
-<p>让我看看沙雕网友在里面讨论的……</p>
-<p>这这这这都发的是些什么啊？</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>Web</tag>
-        <tag>Apache</tag>
-        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -1300,51 +773,578 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/2023/06/celebrity-xiaoyun.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+    <title>gif表情包制作工艺流程</title>
+    <url>/archives/posts/2022/11/gif-making-process.html</url>
+    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
+<ul>
+<li>Photoshop</li>
+<li>Premiere Pro</li>
+<li>Bandicam</li>
+</ul>
+<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/1.png"
                      
                 >
 
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历"><a href="#简要经历" class="headerlink" title="简要经历"></a>简要经历</h3><p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h3><p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖"><a href="#获奖" class="headerlink" title="获奖"></a>获奖</h3><ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/3.png"
+                     
+                >
+
+<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/4.png"
+                     
+                >
+
+<p>创建个300*300的新序列</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/5.png"
+                     
+                >
+
+<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/6.png"
+                     
+                >
+
+<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/9.png"
+                     
+                >
+
+<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/10.png"
+                     
+                >
+
+<p>给它来个超级键，把蓝背景去掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/11.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/12.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/13.png"
+                     
+                >
+
+<p>完美！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/15.png"
+                     
+                >
+
+<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
+<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/16.png"
+                     
+                >
+
+<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
+<p>接下来就简单了，直接存储为Web所用格式。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/17.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/18.png"
+                     
+                >
+
+<p>预览完了就直接存储吧！</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/三叶草.gif"
+                     
+                >
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
-        <tag>名人</tag>
-        <tag>密码学</tag>
+        <tag>游戏</tag>
+        <tag>Ps</tag>
+        <tag>Pr</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/2023/05/recent-notes.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SDS基础知识梳理</title>
+    <url>/archives/posts/2023/06/sds-recap.html</url>
+    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>这是我根据个人理解整理的SDS课程主要框架和知识，如有错误可邮件叫我更正。<br>本课程为英文授课，此处用中文梳理知识点，如有翻译理解问题多多包涵。</p>
+</div></div>
+
+<h1 id="软件工程系统开发"><a href="#软件工程系统开发" class="headerlink" title="软件工程系统开发"></a>软件工程系统开发</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>本课程由荷兰方提斯大学的Ir. Georgiana Manolache授课。</p>
+<p>系统开发是创造人工系统以满足预定的需求的一门学科，也是一门艺术。它是一个解决问题的过程，在这个过程中，我们将人类知识库中的适当元素用于创造针对某一问题的新知识，并由此确定问题的解决方案。</p>
+<h2 id="系统开发角色"><a href="#系统开发角色" class="headerlink" title="系统开发角色"></a>系统开发角色</h2><h3 id="信息系统"><a href="#信息系统" class="headerlink" title="信息系统"></a>信息系统</h3><p>信息可以为业务提供动力，而且需要被正确管理。</p>
+<p>处理计算机生成的信息与处理人工生成的数据的方式不同。</p>
+<h4 id="信息系统包括"><a href="#信息系统包括" class="headerlink" title="信息系统包括"></a>信息系统包括</h4><ul>
+<li>业务处理系统 (TPS)</li>
+<li>信息管理系统 (MIS)</li>
+<li>决策支持系统 (DSS)</li>
+<li>专家系统</li>
+</ul>
+<h3 id="系统分析和设计-SAD"><a href="#系统分析和设计-SAD" class="headerlink" title="系统分析和设计 (SAD)"></a>系统分析和设计 (SAD)</h3><ul>
+<li>发现问题、机会和目标</li>
+<li>分析组织中人为和计算机生成的数据</li>
+<li>设计计算机信息系统 (IS)，并解决问题</li>
+</ul>
+<p>总目的：找到和解决对的问题</p>
+<p>在没有适当规划的情况下建立一个系统，会导致用户的极大不满，并经常导致系统的废弃。用户参与整个系统项目是成功的关键。新技术也推动了对系统分析的需求。</p>
+<h3 id="系统分析师"><a href="#系统分析师" class="headerlink" title="系统分析师"></a>系统分析师</h3><p>系统分析师是一个分析业务流程和信息系统的人。</p>
+<p>需要具备以下品质：</p>
+<ul>
+<li>问题解决者</li>
+<li>交流者</li>
+<li>崇高的道德素养，无论是个人方面还是职业方面</li>
+<li>自律，自勉</li>
+</ul>
+<h2 id="开发方法-Development-Methodologies"><a href="#开发方法-Development-Methodologies" class="headerlink" title="开发方法 (Development Methodologies)"></a>开发方法 (Development Methodologies)</h2><h3 id="传统软件开发生命周期-SDLC"><a href="#传统软件开发生命周期-SDLC" class="headerlink" title="传统软件开发生命周期 (SDLC)"></a>传统软件开发生命周期 (SDLC)</h3><p>传统软件开发生命周期分为七个阶段。如下图。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/SDLC.png"
+                     
+                >
+
+<p>瀑布开发。</p>
+<h3 id="敏捷开发"><a href="#敏捷开发" class="headerlink" title="敏捷开发"></a>敏捷开发</h3><p>迭代、循序渐进的软件开发方法。</p>
+<p>极限开发(XP)，能力成熟度模型(CMM)</p>
+<p>五个阶段：</p>
+<ol>
+<li>探索</li>
+<li>规划</li>
+<li>迭代到第一个发行版</li>
+<li>Productionizing（不知道怎么翻译，词典上的意思是to make something into a product which can be sold，我找不到中文里比较好的词形容这个。）</li>
+<li>维护</li>
+</ol>
+<p>十二个准则：</p>
+<ul>
+<li>满足客户</li>
+<li>欢迎改变</li>
+<li>频繁交付</li>
+<li>共同工作</li>
+<li>信任支持</li>
+<li>面对面谈</li>
+<li>工作软件（我的理解就是这玩意应该是那种可以看各个人贡献的那种项目管理软件）</li>
+<li>持续开发</li>
+<li>长期关注</li>
+<li>容易维护</li>
+<li>自我组织</li>
+<li>反思调整</li>
+</ul>
+<h3 id="面向对象的软件开发-OO"><a href="#面向对象的软件开发-OO" class="headerlink" title="面向对象的软件开发 (OO)"></a>面向对象的软件开发 (OO)</h3><p>SDLC的替代方法，小规模快速迭代的开发。适用于为应对动态商业环境而快速变化的系统，也适用于持续维护、不断调整和设计的信息系统。</p>
+<p>这种方式考验的是系统的对象和组件的严谨性。</p>
+<p>统一建模语言(UML)是OO开发的业界标准。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/UML.png"
+                     
+                >
+
+<h4 id="UML的阶段"><a href="#UML的阶段" class="headerlink" title="UML的阶段"></a>UML的阶段</h4><ol>
+<li>问题识别<ol>
+<li>用例图</li>
+<li>用例场景</li>
+</ol>
+</li>
+<li>系统分析<ol>
+<li>活动图</li>
+<li>序列图</li>
+<li>类图</li>
+<li>状态图</li>
+</ol>
+</li>
+<li>系统设计<ol>
+<li>修改UML图</li>
+<li>制定方法规范</li>
+<li>开发和记录系统</li>
+</ol>
+</li>
+</ol>
+<h4 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h4><p>OO的复用、抽象和分离关注点(SOC)让我们的代码更加易懂和易维护。</p>
+<h4 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h4><ul>
+<li>封装</li>
+<li>继承</li>
+<li>多态</li>
+</ul>
+<h4 id="UML-CHEAT-SHEET"><a href="#UML-CHEAT-SHEET" class="headerlink" title="UML CHEAT SHEET"></a>UML CHEAT SHEET</h4><p>放图不解释。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/cheatsheet.png"
+                     
+                >
+
+<h2 id="组织"><a href="#组织" class="headerlink" title="组织"></a>组织</h2><p>组织是旨在通过人员和资源完成预定的目标的系统。</p>
+<h3 id="塑造组织的因素"><a href="#塑造组织的因素" class="headerlink" title="塑造组织的因素"></a>塑造组织的因素</h3><ul>
+<li>管理水平</li>
+<li>组织设计</li>
+<li>组织文化</li>
+</ul>
+<h3 id="用图形描述系统"><a href="#用图形描述系统" class="headerlink" title="用图形描述系统"></a>用图形描述系统</h3><h4 id="内容级数据流图-DFD"><a href="#内容级数据流图-DFD" class="headerlink" title="内容级数据流图 (DFD)"></a>内容级数据流图 (DFD)</h4><p>重点在于流入和流出系统的数据以及对这些数据的处理。外部实体需要排除在系统之外。</p>
+<h4 id="实体关系图-ER"><a href="#实体关系图-ER" class="headerlink" title="实体关系图 (ER)"></a>实体关系图 (ER)</h4><p>重点在于组织系统内的实体和它们的关系。可以帮助确定问题的大小和范围。也被系统设计者用来帮助对文件或数据库进行建模。</p>
+<h5 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h5><ul>
+<li>一对一</li>
+<li>一对多</li>
+<li>多对多</li>
+</ul>
+<h2 id="信息系统-IS"><a href="#信息系统-IS" class="headerlink" title="信息系统 (IS)"></a>信息系统 (IS)</h2><p>信息系统是一个根据一套可预测的逻辑假设将数据处理成信息的系统。</p>
+<p>是一个开放系统。</p>
+<p>主要组件：</p>
+<ul>
+<li>应用</li>
+<li>信息技术</li>
+<li>人</li>
+<li>流程</li>
+</ul>
+<h2 id="建模体系-Modelling-Systems"><a href="#建模体系-Modelling-Systems" class="headerlink" title="建模体系 (Modelling Systems)"></a>建模体系 (Modelling Systems)</h2><h3 id="作用域分析"><a href="#作用域分析" class="headerlink" title="作用域分析"></a>作用域分析</h3><p>作用域分析确定了业务概念，这些概念将被细化为信息系统分析模型的组成部分。</p>
+<h4 id="作用域范围-Domain-Scope"><a href="#作用域范围-Domain-Scope" class="headerlink" title="作用域范围 (Domain Scope)"></a>作用域范围 (Domain Scope)</h4><p>作用域范围定义了将一个作用域内的共享活动、规则和概念与外部的共享活动、规则和概念分开的界限。也就是说不属于本软件系统开发范围的东西不碰。</p>
+<h4 id="作用域词典-Domain-Dictionary"><a href="#作用域词典-Domain-Dictionary" class="headerlink" title="作用域词典 (Domain Dictionary)"></a>作用域词典 (Domain Dictionary)</h4><p>记录作用域中所有东西，旨在讲利益相关者和分析师们联系起来。</p>
+<p>包括以下方面：</p>
+<ul>
+<li>过程</li>
+<li>方法</li>
+<li>角色</li>
+<li>物体 (Object)</li>
+<li>业务规则</li>
+<li>公式</li>
+<li>识别器 (Identifier)</li>
+</ul>
+<h5 id="业务规则"><a href="#业务规则" class="headerlink" title="业务规则"></a>业务规则</h5><p>业务规则是一套约束企业运作的详细的政策、法律、程序、准则和标准。</p>
+<ul>
+<li>事实</li>
+<li>推论</li>
+<li>触发器</li>
+<li>约束</li>
+<li>计算</li>
+</ul>
+<h3 id="需求收集"><a href="#需求收集" class="headerlink" title="需求收集"></a>需求收集</h3><p>一个产品必须具有其客户想要的功能，以实现特定的目标。</p>
+<h4 id="需求发现"><a href="#需求发现" class="headerlink" title="需求发现"></a>需求发现</h4><p>需求发现确定了系统的范围和主要目标。</p>
+<p>需求收集定义了达到这些目标所需要的东西。</p>
+<h4 id="需求分类"><a href="#需求分类" class="headerlink" title="需求分类"></a>需求分类</h4><p>功能性需求和非功能性需求</p>
+<h4 id="管理需求"><a href="#管理需求" class="headerlink" title="管理需求"></a>管理需求</h4><ol>
+<li>记录和更新需求</li>
+<li>记录来源</li>
+<li>将需求分为不同单元</li>
+<li>独立识别每个需求</li>
+<li>核实需求并记录核实情况</li>
+<li>对需求进行优先排序</li>
+<li>对需求进行有意义的分类</li>
+</ol>
+<h3 id="行为建模"><a href="#行为建模" class="headerlink" title="行为建模"></a>行为建模</h3><p>包含用例建模。</p>
+<ul>
+<li>用例是系统行为的一部分</li>
+<li>用例正式确定了利益相关者和系统之间互动</li>
+<li>用例详细描述了利益相关者与系统的互动，以完成对利益相关者有价值的目标</li>
+<li>用例是技术独立的</li>
+</ul>
+<p>优势：</p>
+<ul>
+<li>以用户为中心的技术，从用户的角度捕捉需求。</li>
+<li>易于理解，为与其他团队（如市场）、客户和用户的沟通提供了一个很好的方式。</li>
+<li>用于功能需求的验证和确认。</li>
+<li>通过将项目分解为主要功能，帮助管理大型复杂项目。</li>
+<li>作为工作估算、日程安排等的基础。</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>不包含非功能需求。</li>
+<li>所有的（子）系统都没有关联角色，有些重要的功能不会被察觉。</li>
+<li>可能会导致实体对象和类的过度创建，以及功能过度分离。</li>
+<li>不太正式的语言可能会导致验收测试出现问题，因为没有充分定义验收标准。</li>
+</ul>
+<p>这个阶段需要产出：</p>
+<ul>
+<li>用例总结</li>
+<li>内容图</li>
+<li>用例图</li>
+</ul>
+<h3 id="结构建模"><a href="#结构建模" class="headerlink" title="结构建模"></a>结构建模</h3><p>包含UML图。</p>
+<h3 id="动态建模"><a href="#动态建模" class="headerlink" title="动态建模"></a>动态建模</h3><p>描述了一个系统的内部行为。</p>
+<h4 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h4><p>序列图表示参与单一用例或场景的对象的图形化描述。每个步骤都被分为一个独立的阶段。</p>
+<ul>
+<li>帮助完善用例描述</li>
+<li>帮助寻找参与对象</li>
+<li>帮助确定类的责任</li>
+<li>帮助确定对象之间必要的通信</li>
+<li>可以帮助完善子系统的接口</li>
+</ul>
+<h4 id="状态图"><a href="#状态图" class="headerlink" title="状态图"></a>状态图</h4><ul>
+<li>用于描述一个对象在响应事件时的状态转换序列</li>
+<li>可以帮助识别重要的对象属性</li>
+<li>可以帮助完善一个对象的行为描述</li>
+<li>应该把重点放在影响对象行为的重要属性上</li>
+</ul>
+<h4 id="交互图"><a href="#交互图" class="headerlink" title="交互图"></a>交互图</h4><h4 id="合作图"><a href="#合作图" class="headerlink" title="合作图"></a>合作图</h4><h4 id="活动图"><a href="#活动图" class="headerlink" title="活动图"></a>活动图</h4><h2 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h2><h3 id="抽象工厂模式"><a href="#抽象工厂模式" class="headerlink" title="抽象工厂模式"></a>抽象工厂模式</h3><p>是一种创建型模式。</p>
+<p>无需指明具体的类就可以创建有相关对象的簇。适用于当客户无法预料到要实例化的类群时。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/absfact.png"
+                     
+                >
+
+<h3 id="组合模式"><a href="#组合模式" class="headerlink" title="组合模式"></a>组合模式</h3><p>是一种结构型模式。</p>
+<p>将对象“组合”成三个结构以表示部分-整体的层次。适用于客户应该忽略对象的组合和单个对象之间的区别时。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/composite.png"
+                     
+                >
+
+<h3 id="命令模式"><a href="#命令模式" class="headerlink" title="命令模式"></a>命令模式</h3><p>是一种行为型模式。</p>
+<p>封装来自一个服务的请求。适用于需要用一个要执行的动作来参数化对象时。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/sds-recap/command.png"
+                     
+                >
+
+<h2 id="用户界面-UI"><a href="#用户界面-UI" class="headerlink" title="用户界面 (UI)"></a>用户界面 (UI)</h2><h3 id="界面设计原则"><a href="#界面设计原则" class="headerlink" title="界面设计原则"></a>界面设计原则</h3><ul>
+<li>必须考虑到用户需求、经验和能力。</li>
+<li>设计者必须遵从人类的生理和心理规律设计界面，需要提前意识到用户可能会犯的错误。</li>
+<li>UI设计原则以平面设计原则为基础，尽管不是所有的原则都适用。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>软件工程</tag>
+        <tag>预习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flarum搭建踩坑记录</title>
+    <url>/archives/posts/2023/06/trying-flarum.html</url>
+    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>Windows服务器一台</li>
+<li>WampServer （我是大懒蛋）</li>
+<li>Composer</li>
+</ul>
+<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/slow.png"
+                     
+                >
+
+<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
+<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/ms.png"
+                     
+                >
+
+<p><code>composer create-project flarum/flarum .</code></p>
+<p>把这个东西放到wamp里的www目录，开wamp。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/localhost.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/MySQL.png"
+                     
+                >
+
+<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
+<p>进去装个中文语言包。</p>
+<p><code>composer require flarum-lang/chinese-simplified</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/zhcn.png"
+                     
+                >
+
+<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/403.png"
+                     
+                >
+
+<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/virtualhost.png"
+                     
+                >
+
+<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
+<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
+<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>把URL重写all掉，然后访问限制解放。</p>
+<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
+<p>大功告成。</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/bingo.png"
+                     
+                >
+
+<p>让我看看沙雕网友在里面讨论的……</p>
+<p>这这这这都发的是些什么啊？</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>Web</tag>
+        <tag>Apache</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
 </search>
