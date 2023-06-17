@@ -508,7 +508,7 @@
 <li>二进制值</li>
 </ul>
 <h5 id="NULL"><a href="#NULL" class="headerlink" title="NULL"></a>NULL</h5><p>空值，不等于0。</p>
-<h3 id="DDL-和-DML"><a href="#DDL-和-DML" class="headerlink" title="DDL 和 DML"></a>DDL 和 DML</h3><p>数据定于语言（DDL）和数据操作语言（DML），前者创建表、联系和其他结构，后者数据查询和修改。</p>
+<h3 id="DDL-和-DML"><a href="#DDL-和-DML" class="headerlink" title="DDL 和 DML"></a>DDL 和 DML</h3><p>数据定义语言（DDL）和数据操作语言（DML），前者创建表、联系和其他结构，后者数据查询和修改。</p>
 <h2 id="维度建模"><a href="#维度建模" class="headerlink" title="维度建模"></a>维度建模</h2><p>专为数据仓库解决方案而优化的数据库设计方法。</p>
 <p>它解决了两个重要的需求：</p>
 <ul>
