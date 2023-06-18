@@ -340,149 +340,6 @@
       </tags>
   </entry>
   <entry>
-    <title>gif表情包制作工艺流程</title>
-    <url>/archives/posts/2022/11/gif-making-process.html</url>
-    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
-<ul>
-<li>Photoshop</li>
-<li>Premiere Pro</li>
-<li>Bandicam</li>
-</ul>
-<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/1.png"
-                     
-                >
-
-<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/3.png"
-                     
-                >
-
-<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/4.png"
-                     
-                >
-
-<p>创建个300*300的新序列</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/5.png"
-                     
-                >
-
-<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/6.png"
-                     
-                >
-
-<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/9.png"
-                     
-                >
-
-<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/10.png"
-                     
-                >
-
-<p>给它来个超级键，把蓝背景去掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/11.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/12.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/13.png"
-                     
-                >
-
-<p>完美！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/15.png"
-                     
-                >
-
-<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
-<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/16.png"
-                     
-                >
-
-<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
-<p>接下来就简单了，直接存储为Web所用格式。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/17.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/18.png"
-                     
-                >
-
-<p>预览完了就直接存储吧！</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/三叶草.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>Ps</tag>
-        <tag>Pr</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DWH基础知识梳理</title>
     <url>/archives/posts/2023/06/dwh-recap.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -916,6 +773,149 @@
       </tags>
   </entry>
   <entry>
+    <title>gif表情包制作工艺流程</title>
+    <url>/archives/posts/2022/11/gif-making-process.html</url>
+    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
+<ul>
+<li>Photoshop</li>
+<li>Premiere Pro</li>
+<li>Bandicam</li>
+</ul>
+<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/1.png"
+                     
+                >
+
+<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/3.png"
+                     
+                >
+
+<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/4.png"
+                     
+                >
+
+<p>创建个300*300的新序列</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/5.png"
+                     
+                >
+
+<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/6.png"
+                     
+                >
+
+<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/9.png"
+                     
+                >
+
+<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/10.png"
+                     
+                >
+
+<p>给它来个超级键，把蓝背景去掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/11.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/12.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/13.png"
+                     
+                >
+
+<p>完美！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/15.png"
+                     
+                >
+
+<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
+<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/16.png"
+                     
+                >
+
+<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
+<p>接下来就简单了，直接存储为Web所用格式。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/17.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/18.png"
+                     
+                >
+
+<p>预览完了就直接存储吧！</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//gif-making-process/三叶草.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>Ps</tag>
+        <tag>Pr</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/2023/06/ielts-tips.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -965,6 +965,171 @@
       </categories>
       <tags>
         <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flarum搭建踩坑记录</title>
+    <url>/archives/posts/2023/06/trying-flarum.html</url>
+    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>Windows服务器一台</li>
+<li>WampServer （我是大懒蛋）</li>
+<li>Composer</li>
+</ul>
+<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/slow.png"
+                     
+                >
+
+<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
+<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/ms.png"
+                     
+                >
+
+<p><code>composer create-project flarum/flarum .</code></p>
+<p>把这个东西放到wamp里的www目录，开wamp。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/localhost.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/MySQL.png"
+                     
+                >
+
+<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
+<p>进去装个中文语言包。</p>
+<p><code>composer require flarum-lang/chinese-simplified</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/zhcn.png"
+                     
+                >
+
+<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/403.png"
+                     
+                >
+
+<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/virtualhost.png"
+                     
+                >
+
+<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
+<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
+<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>把URL重写all掉，然后访问限制解放。</p>
+<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
+<p>大功告成。</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/bingo.png"
+                     
+                >
+
+<p>让我看看沙雕网友在里面讨论的……</p>
+<p>这这这这都发的是些什么啊？</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>Web</tag>
+        <tag>Apache</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -1217,171 +1382,6 @@
         <tag>编程</tag>
         <tag>软件工程</tag>
         <tag>预习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flarum搭建踩坑记录</title>
-    <url>/archives/posts/2023/06/trying-flarum.html</url>
-    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
-<li>Windows服务器一台</li>
-<li>WampServer （我是大懒蛋）</li>
-<li>Composer</li>
-</ul>
-<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/slow.png"
-                     
-                >
-
-<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
-<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/ms.png"
-                     
-                >
-
-<p><code>composer create-project flarum/flarum .</code></p>
-<p>把这个东西放到wamp里的www目录，开wamp。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/localhost.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/MySQL.png"
-                     
-                >
-
-<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
-<p>进去装个中文语言包。</p>
-<p><code>composer require flarum-lang/chinese-simplified</code></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/zhcn.png"
-                     
-                >
-
-<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/403.png"
-                     
-                >
-
-<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/virtualhost.png"
-                     
-                >
-
-<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
-<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
-<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>把URL重写all掉，然后访问限制解放。</p>
-<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
-<p>大功告成。</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn1.tianli0.top/gh/anzai249/anzai249.github.io@main/archives/posts/2023/06/trying-flarum/bingo.png"
-                     
-                >
-
-<p>让我看看沙雕网友在里面讨论的……</p>
-<p>这这这这都发的是些什么啊？</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>Web</tag>
-        <tag>Apache</tag>
-        <tag>MySQL</tag>
       </tags>
   </entry>
 </search>
