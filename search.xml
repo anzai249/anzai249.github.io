@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/2022/11/C4D-bamboo-rig.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/3.png"
+                     
+                >
+
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/2022/12/22tianti.html</url>
     <content><![CDATA[<h2 id="前排提醒"><a href="#前排提醒" class="headerlink" title="前排提醒"></a>前排提醒</h2><p>自己写的，我很菜，别喷了别喷了，如果能让你学到点什么那就再好不过了。</p>
@@ -78,34 +117,35 @@
       </tags>
   </entry>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/2022/11/C4D-bamboo-rig.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/2023/07/C4D-pot-rig.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/2.png"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/python.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/3.png"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/userdata.png"
                      
                 >
 
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
+<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
+<p>就在用户数据里选择每个面的图样（？）便可。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/usage.png"
+                     
+                >
+
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
+<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -115,6 +155,12 @@
         <tag>3D</tag>
         <tag>游戏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/2022/11/Hello-world-0.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -173,52 +219,6 @@
         <tag>3D</tag>
         <tag>Blender</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/2023/07/C4D-pot-rig.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/python.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/userdata.png"
-                     
-                >
-
-<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
-<p>就在用户数据里选择每个面的图样（？）便可。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/usage.png"
-                     
-                >
-
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
-<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/2022/11/Hello-world-0.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
   </entry>
   <entry>
     <title>【Blender II】三兄弟</title>
@@ -881,60 +881,6 @@
       </tags>
   </entry>
   <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/2022/12/chinese-cartoon.html</url>
-    <content><![CDATA[<div class="wo">
-  <div class="t">
-    剧透警告
-  </div>
-  <div class="c">
-    我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。
-  </div>
-</div>
-
-<div class="wg">
-  <div class="t">
-    提示
-  </div>
-  <div class="c">
-    非专业解读，有感而发随便写写，勿喷。
-  </div>
-</div>
-
-<h2 id="早上好，夜之城！"><a href="#早上好，夜之城！" class="headerlink" title="早上好，夜之城！"></a>早上好，夜之城！</h2><h3 id="哭！都给我哭！"><a href="#哭！都给我哭！" class="headerlink" title="哭！都给我哭！"></a>哭！都给我哭！</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-
-<h3 id="关于边缘行者动画"><a href="#关于边缘行者动画" class="headerlink" title="关于边缘行者动画"></a>关于边缘行者动画</h3><ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><del>不行！女主不够攻！</del></li>
-</ol>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/2022/12/chinese-cartoon/1.png"
-                      class="" alt="1"
-                >
-
-<h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因"><a href="#尝试分析原因" class="headerlink" title="尝试分析原因"></a>尝试分析原因</h3><ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦"><a href="#做梦" class="headerlink" title="做梦"></a>做梦</h3><p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重拾darknet</title>
     <url>/archives/posts/2022/12/darknet-review.html</url>
     <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
@@ -1012,6 +958,60 @@
       <tags>
         <tag>机器视觉</tag>
         <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/2022/12/chinese-cartoon.html</url>
+    <content><![CDATA[<div class="wo">
+  <div class="t">
+    剧透警告
+  </div>
+  <div class="c">
+    我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。
+  </div>
+</div>
+
+<div class="wg">
+  <div class="t">
+    提示
+  </div>
+  <div class="c">
+    非专业解读，有感而发随便写写，勿喷。
+  </div>
+</div>
+
+<h2 id="早上好，夜之城！"><a href="#早上好，夜之城！" class="headerlink" title="早上好，夜之城！"></a>早上好，夜之城！</h2><h3 id="哭！都给我哭！"><a href="#哭！都给我哭！" class="headerlink" title="哭！都给我哭！"></a>哭！都给我哭！</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+
+<h3 id="关于边缘行者动画"><a href="#关于边缘行者动画" class="headerlink" title="关于边缘行者动画"></a>关于边缘行者动画</h3><ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><del>不行！女主不够攻！</del></li>
+</ol>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/archives/posts/2022/12/chinese-cartoon/1.png"
+                      class="" alt="1"
+                >
+
+<h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因"><a href="#尝试分析原因" class="headerlink" title="尝试分析原因"></a>尝试分析原因</h3><ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦"><a href="#做梦" class="headerlink" title="做梦"></a>做梦</h3><p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>动画</tag>
       </tags>
   </entry>
   <entry>
@@ -1785,6 +1785,21 @@
       </tags>
   </entry>
   <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/2023/05/recent-notes.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SDS基础知识梳理</title>
     <url>/archives/posts/2023/06/sds-recap.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -2037,21 +2052,6 @@
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/2023/05/recent-notes.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>syokupan_natto 作品鉴赏</title>
     <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
     <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
@@ -2217,47 +2217,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎 II】简单的射线追踪</title>
-    <url>/archives/posts/2023/07/ue5-2-hittarget.html</url>
-    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/tracing.png"
-                     
-                >
-
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/ok.png"
-                     
-                >
-
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【虚幻引擎 I】RPC的使用</title>
     <url>/archives/posts/2023/07/ue5-1-rpc.html</url>
     <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
@@ -2340,6 +2299,47 @@
         <tag>编程</tag>
         <tag>Vue</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎 II】简单的射线追踪</title>
+    <url>/archives/posts/2023/07/ue5-2-hittarget.html</url>
+    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/tracing.png"
+                     
+                >
+
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/ok.png"
+                     
+                >
+
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
