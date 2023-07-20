@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/2022/11/C4D-bamboo-rig.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/3.png"
-                     
-                >
-
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/2022/12/22tianti.html</url>
     <content><![CDATA[<h2 id="前排提醒"><a href="#前排提醒" class="headerlink" title="前排提醒"></a>前排提醒</h2><p>自己写的，我很菜，别喷了别喷了，如果能让你学到点什么那就再好不过了。</p>
@@ -117,35 +78,34 @@
       </tags>
   </entry>
   <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/2023/07/C4D-pot-rig.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/2022/11/C4D-bamboo-rig.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/python.png"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/2.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/userdata.png"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11//C4D-bamboo-rig/3.png"
                      
                 >
 
-<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
-<p>就在用户数据里选择每个面的图样（？）便可。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/usage.png"
-                     
-                >
-
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
-<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -155,12 +115,6 @@
         <tag>3D</tag>
         <tag>游戏</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/2022/11/Hello-world-0.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -219,6 +173,52 @@
         <tag>3D</tag>
         <tag>Blender</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/2023/07/C4D-pot-rig.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/python.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/userdata.png"
+                     
+                >
+
+<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
+<p>就在用户数据里选择每个面的图样（？）便可。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/C4D-pot-rig/usage.png"
+                     
+                >
+
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
+<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/2022/11/Hello-world-0.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
   </entry>
   <entry>
     <title>【Blender II】三兄弟</title>
@@ -785,6 +785,53 @@
       </tags>
   </entry>
   <entry>
+    <title>【周三名人 IV】维多利亚女王</title>
+    <url>/archives/posts/2023/07/celebrity-victoria.html</url>
+    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
+</div></div>
+
+<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
+                     
+                >
+
+<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
+<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
+<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/Victoria_Marriage01.jpg"
+                     
+                >
+
+<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
+<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
+<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
+<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
+<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
+<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
+<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
+<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【周三名人 II】王小云</title>
     <url>/archives/posts/2023/06/celebrity-xiaoyun.html</url>
     <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
@@ -831,53 +878,6 @@
       <tags>
         <tag>名人</tag>
         <tag>密码学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 IV】维多利亚女王</title>
-    <url>/archives/posts/2023/07/celebrity-victoria.html</url>
-    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
-</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
-</div></div>
-
-<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
-                     
-                >
-
-<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
-<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
-<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/Victoria_Marriage01.jpg"
-                     
-                >
-
-<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
-<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
-<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
-<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
-<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
-<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
-<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
-<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -1785,92 +1785,6 @@
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/2023/05/recent-notes.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SDS基础知识梳理</title>
     <url>/archives/posts/2023/06/sds-recap.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -2123,6 +2037,92 @@
       </tags>
   </entry>
   <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/2023/05/recent-notes.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2022/11/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Flarum搭建踩坑记录</title>
     <url>/archives/posts/2023/06/trying-flarum.html</url>
     <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
@@ -2217,6 +2217,47 @@
       </tags>
   </entry>
   <entry>
+    <title>【虚幻引擎 II】简单的射线追踪</title>
+    <url>/archives/posts/2023/07/ue5-2-hittarget.html</url>
+    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/tracing.png"
+                     
+                >
+
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/ok.png"
+                     
+                >
+
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎 I】RPC的使用</title>
     <url>/archives/posts/2023/07/ue5-1-rpc.html</url>
     <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
@@ -2263,47 +2304,6 @@
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-1-rpc/after.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎 II】简单的射线追踪</title>
-    <url>/archives/posts/2023/07/ue5-2-hittarget.html</url>
-    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/tracing.png"
-                     
-                >
-
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/ok.png"
-                     
-                >
-
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/gh/anzai249/anzai249.github.io@main/archives/posts/2023/07/ue5-2-hittarget/hitself.png"
                      
                 >]]></content>
       <categories>
