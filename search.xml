@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/c391084a.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/3.png"
-                     
-                >
-
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的世界C4D纹饰陶罐预置</title>
     <url>/archives/posts/e66fbc14.html</url>
     <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
@@ -133,7 +94,7 @@
 
 <h3 id="样例输出-5"><a href="#样例输出-5" class="headerlink" title="样例输出"></a>样例输出</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">0 0 1 0 0</span><br><span class="line">0 1 2 1 1</span><br><span class="line">0 0 1 0 0</span><br><span class="line">0 0 1 0 0</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></div>
 
-<img lazyload="" src="/images/loading.svg" data-src="/archives/posts/8bdbda59/2592381e-097f-43d5-9ff8-9a8521eb1859.jpg" class="" alt="矩阵坐标">
+
 <p>可以看见吗？看不见记得反馈</p>
 <h3 id="题解-5"><a href="#题解-5" class="headerlink" title="题解"></a>题解</h3><p>纯纯考验耐心</p>
 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String args[])</span> {</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">scan</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> <span class="variable">q</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> square[][] = <span class="keyword">new</span> <span class="title class_">int</span>[n][n];</span><br><span class="line">        <span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">String</span> <span class="variable">op</span> <span class="operator">=</span> <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                square[i][j] = <span class="number">0</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;q;i++){</span><br><span class="line">            x = scan.nextInt();</span><br><span class="line">            y = scan.nextInt();</span><br><span class="line">            op = scan.next();</span><br><span class="line">            <span class="keyword">if</span>(op.equals(<span class="string">"U"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=x-<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>-j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"D"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=n-x;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>+j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"L"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;y;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>-j]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"R"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n-y+<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>+j]++;</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                System.out.print(square[i][j]);</span><br><span class="line">                <span class="keyword">if</span>(j!=n-<span class="number">1</span>){</span><br><span class="line">                    System.out.print(<span class="string">" "</span>);</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">            System.out.print(<span class="string">"\n"</span>);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
@@ -157,10 +118,182 @@
       </tags>
   </entry>
   <entry>
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/c391084a.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/3.png"
+                     
+                >
+
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello world</title>
     <url>/archives/posts/8bd69e52.html</url>
     <content><![CDATA[<p>Hello world</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>进度是不是有点快啊……</p>
+<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先创建一个小方块，加个倒角，当作身体。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/box.png"
+                     
+                >
+
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/legs.png"
+                     
+                >
+
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool.png"
+                     
+                >
+
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no1.png"
+                     
+                >
+
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no2.png"
+                     
+                >
+
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no3.png"
+                     
+                >
+
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/ok.png"
+                     
+                >
+
+<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/background.png"
+                     
+                >
+
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/light.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/config.png"
+                     
+                >
+
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/pff.png"
+                     
+                >
+
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool2.png"
+                     
+                >
+
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -395,139 +528,6 @@
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/ui.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>进度是不是有点快啊……</p>
-<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/box.png"
-                     
-                >
-
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/legs.png"
-                     
-                >
-
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool.png"
-                     
-                >
-
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no1.png"
-                     
-                >
-
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no2.png"
-                     
-                >
-
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no3.png"
-                     
-                >
-
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/ok.png"
-                     
-                >
-
-<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/background.png"
-                     
-                >
-
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/light.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/config.png"
-                     
-                >
-
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/pff.png"
-                     
-                >
-
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool2.png"
-                     
-                >
-
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/3bros.png"
                      
                 >]]></content>
       <categories>
@@ -881,6 +881,19 @@
       </tags>
   </entry>
   <entry>
+    <title>关于近期干扰连接的公告</title>
+    <url>/archives/posts/b47922c2.html</url>
+    <content><![CDATA[<h1 id="关于近期干扰连接的公告"><a href="#关于近期干扰连接的公告" class="headerlink" title="关于近期干扰连接的公告"></a>关于近期干扰连接的公告</h1><h2 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h2><p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
+<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="新域名"><a href="#新域名" class="headerlink" title="新域名"></a>新域名</h3><p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
+<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>望周知</p>
+<h3 id="周三名人"><a href="#周三名人" class="headerlink" title="周三名人"></a>周三名人</h3><p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
     <url>/archives/posts/15cf674d.html</url>
     <content><![CDATA[<div class="wo">
@@ -911,12 +924,7 @@
 <li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
 <li><del>不行！女主不够攻！</del></li>
 </ol>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/15cf674d/1.png"
-                      class="" alt="1"
-                >
+
 
 <h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
 <h3 id="尝试分析原因"><a href="#尝试分析原因" class="headerlink" title="尝试分析原因"></a>尝试分析原因</h3><ol>
@@ -938,70 +946,30 @@
     <title>重拾darknet</title>
     <url>/archives/posts/4d1dd1ac.html</url>
     <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/pineapple.jpg"
-                      class="" alt="菠萝"
-                >
+
 
 <p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/1.png"
-                      class="" alt="数据集1"
-                >
+<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4>
 
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/2.png"
-                      class="" alt="数据集2"
-                >
+
 
 <p>提前标注好了，开扌……</p>
 <h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/4Folders.png"
-                      class="" alt="4个文件夹"
-                >
+
 
 <p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/chart1.png"
-                      class="" alt="2"
-                >
+<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4>
 
 <p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/chart2.png"
-                      class="" alt="3"
-                >
+<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4>
 
 <p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
 <p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
 <div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
 
-<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/chart_yolov4-18650.png"
-                      class="" alt="4"
-                >
+<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4>
 
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/archives/posts/4d1dd1ac/battery.png"
-                      class="" alt="结果"
-                >
+
 
 <p>轻轻松松，简简单单！</p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
@@ -1013,19 +981,6 @@
         <tag>机器视觉</tag>
         <tag>人工智能</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于近期干扰连接的公告</title>
-    <url>/archives/posts/b47922c2.html</url>
-    <content><![CDATA[<h1 id="关于近期干扰连接的公告"><a href="#关于近期干扰连接的公告" class="headerlink" title="关于近期干扰连接的公告"></a>关于近期干扰连接的公告</h1><h2 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h2><p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
-<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="新域名"><a href="#新域名" class="headerlink" title="新域名"></a>新域名</h3><p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
-<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>望周知</p>
-<h3 id="周三名人"><a href="#周三名人" class="headerlink" title="周三名人"></a>周三名人</h3><p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
-]]></content>
   </entry>
   <entry>
     <title>DWH基础知识梳理</title>
@@ -1785,92 +1740,6 @@
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/e3aeb0a4.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SDS基础知识梳理</title>
     <url>/archives/posts/44534fa9.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -2123,64 +1992,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎 I】RPC的使用</title>
-    <url>/archives/posts/bac6a1f4.html</url>
-    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
-<ul>
-<li>必须从Actor处调用。</li>
-<li>这个Actor必须被复制（replicated）。</li>
-<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
-<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
-<li>Multicast是例外：<ul>
-<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
-<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
-<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
-</ul>
-</li>
-</ul>
-<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
-<p>在服务端和客户端的调用详细表格。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/invoke.png"
-                     
-                >
-
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/before.png"
-                     
-                >
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>嘿嘿……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/after.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Flarum搭建踩坑记录</title>
     <url>/archives/posts/5bc11bd7.html</url>
     <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
@@ -2275,6 +2086,150 @@
       </tags>
   </entry>
   <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/e3aeb0a4.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎 I】RPC的使用</title>
+    <url>/archives/posts/bac6a1f4.html</url>
+    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
+<ul>
+<li>必须从Actor处调用。</li>
+<li>这个Actor必须被复制（replicated）。</li>
+<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
+<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
+<li>Multicast是例外：<ul>
+<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
+<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
+<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
+</ul>
+</li>
+</ul>
+<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
+<p>在服务端和客户端的调用详细表格。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/invoke.png"
+                     
+                >
+
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/before.png"
+                     
+                >
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>嘿嘿……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/after.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎 II】简单的射线追踪</title>
     <url>/archives/posts/ef2e4bdf.html</url>
     <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
@@ -2316,6 +2271,32 @@
       </tags>
   </entry>
   <entry>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+
+<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Vue I】从楼梯上摔下来</title>
     <url>/archives/posts/574e7c50.html</url>
     <content><![CDATA[<h2 id="目的何在？"><a href="#目的何在？" class="headerlink" title="目的何在？"></a>目的何在？</h2><p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
@@ -2332,32 +2313,6 @@
 <p>成功引入与运行。</p>
 <p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
 ]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-
-<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
         <category>Vue学习笔记</category>
