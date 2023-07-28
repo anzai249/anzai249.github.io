@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/e66fbc14.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/c391084a.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/C4D-pot-rig/python.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/2.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/C4D-pot-rig/userdata.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/3.png"
                      
                 >
 
-<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
-<p>就在用户数据里选择每个面的图样（？）便可。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/C4D-pot-rig/usage.png"
-                     
-                >
-
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
-<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -118,34 +117,93 @@
       </tags>
   </entry>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/c391084a.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
+    <title>【Blender I】从零开始</title>
+    <url>/archives/posts/9f8d1a65.html</url>
+    <content><![CDATA[<h2 id="从零开始学习Blender"><a href="#从零开始学习Blender" class="headerlink" title="从零开始学习Blender"></a>从零开始学习Blender</h2><blockquote>
+<p>Ah shit, here we go again.</p>
+</blockquote>
+<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/Earth.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//C4D-bamboo-rig/3.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/blender.png"
                      
                 >
 
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
+<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
+<p>Blender这玩意还开源，拿了就走了等着啊。</p>
+<h2 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h2><p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/rightup.png"
+                     
+                >
+
+<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/tools.png"
+                     
+                >
+
+<p>呜呜呜，为啥预览图都这么简陋T_T</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/add.png"
+                     
+                >
+
+<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/e66fbc14.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/python.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/userdata.png"
+                     
+                >
+
+<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
+<p>就在用户数据里选择每个面的图样（？）便可。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/usage.png"
+                     
+                >
+
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
+<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -170,7 +228,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/box.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/box.png"
                      
                 >
 
@@ -178,7 +236,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/legs.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/legs.png"
                      
                 >
 
@@ -186,7 +244,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool.png"
                      
                 >
 
@@ -194,7 +252,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no1.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no1.png"
                      
                 >
 
@@ -202,7 +260,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no2.png"
                      
                 >
 
@@ -210,7 +268,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/no3.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no3.png"
                      
                 >
 
@@ -218,7 +276,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/ok.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/ok.png"
                      
                 >
 
@@ -226,7 +284,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/background.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/background.png"
                      
                 >
 
@@ -235,14 +293,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/light.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/light.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/highcontrast.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/highcontrast.png"
                      
                 >
 
@@ -250,7 +308,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/backcolor.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/backcolor.png"
                      
                 >
 
@@ -258,7 +316,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/config.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/config.png"
                      
                 >
 
@@ -267,7 +325,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/pff.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/pff.png"
                      
                 >
 
@@ -275,7 +333,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/bool2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool2.png"
                      
                 >
 
@@ -283,67 +341,9 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-2-3bros/3bros.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/3bros.png"
                      
                 >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender I】从零开始</title>
-    <url>/archives/posts/9f8d1a65.html</url>
-    <content><![CDATA[<h2 id="从零开始学习Blender"><a href="#从零开始学习Blender" class="headerlink" title="从零开始学习Blender"></a>从零开始学习Blender</h2><blockquote>
-<p>Ah shit, here we go again.</p>
-</blockquote>
-<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-1/Earth.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-1/blender.png"
-                     
-                >
-
-<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
-<p>Blender这玩意还开源，拿了就走了等着啊。</p>
-<h2 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h2><p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-1/rightup.png"
-                     
-                >
-
-<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-1/tools.png"
-                     
-                >
-
-<p>呜呜呜，为啥预览图都这么简陋T_T</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-1/add.png"
-                     
-                >
-
-<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
-]]></content>
       <categories>
         <category>卷</category>
         <category>Blender学习笔记</category>
@@ -365,21 +365,21 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/1pie.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/1pie.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/2pies.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/2pies.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/3pies.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/3pies.png"
                      
                 >
 
@@ -389,14 +389,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/drag.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/drag.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/drag2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/drag2.png"
                      
                 >
 
@@ -404,7 +404,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/up.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/up.png"
                      
                 >
 
@@ -412,7 +412,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/youbiao.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/youbiao.png"
                      
                 >
 
@@ -420,14 +420,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/sign.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/sign.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/text.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/text.png"
                      
                 >
 
@@ -435,7 +435,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/chinese.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/chinese.png"
                      
                 >
 
@@ -443,7 +443,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/shitihua.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/shitihua.png"
                      
                 >
 
@@ -451,14 +451,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/tube1.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/tube1.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/tube2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/tube2.png"
                      
                 >
 
@@ -466,21 +466,21 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/rocket1.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket1.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/rocket2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket2.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/rocket3.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket3.png"
                      
                 >
 
@@ -488,7 +488,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/fire.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/fire.png"
                      
                 >
 
@@ -496,7 +496,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/big1.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/big1.png"
                      
                 >
 
@@ -504,14 +504,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/string.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/string.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/string2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/string2.png"
                      
                 >
 
@@ -519,7 +519,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/big2.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/big2.png"
                      
                 >
 
@@ -527,7 +527,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-3-ui/ui.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/ui.png"
                      
                 >]]></content>
       <categories>
@@ -547,7 +547,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/01.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/01.png"
                      
                 >
 
@@ -555,7 +555,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/02.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/02.png"
                      
                 >
 
@@ -563,7 +563,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/03.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/03.png"
                      
                 >
 
@@ -571,7 +571,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/04.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/04.png"
                      
                 >
 
@@ -579,14 +579,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/05.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/05.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/06.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/06.png"
                      
                 >
 
@@ -594,21 +594,21 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/07.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/07.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/08.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/08.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/09.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/09.png"
                      
                 >
 
@@ -616,7 +616,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/10.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/10.png"
                      
                 >
 
@@ -624,7 +624,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/11.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/11.png"
                      
                 >
 
@@ -632,7 +632,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/12.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/12.png"
                      
                 >
 
@@ -640,14 +640,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/13.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/13.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/14.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/14.png"
                      
                 >
 
@@ -655,7 +655,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/15.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/15.png"
                      
                 >
 
@@ -663,14 +663,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/16.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/16.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/17.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/17.png"
                      
                 >
 
@@ -678,7 +678,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/18.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/18.png"
                      
                 >
 
@@ -686,7 +686,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/19.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/19.png"
                      
                 >
 
@@ -694,7 +694,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/blender-4-btcstation/coin.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/coin.png"
                      
                 >
 ]]></content>
@@ -708,49 +708,12 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
-    <url>/archives/posts/bf30c6e.html</url>
-    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
-<h2 id="玛丽亚·波奇卡列娃"><a href="#玛丽亚·波奇卡列娃" class="headerlink" title="玛丽亚·波奇卡列娃"></a>玛丽亚·波奇卡列娃</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
-                     
-                >
-
-<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
-<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><h4 id="出身"><a href="#出身" class="headerlink" title="出身"></a>出身</h4><p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
-<h4 id="从军生涯"><a href="#从军生涯" class="headerlink" title="从军生涯"></a>从军生涯</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
-                     
-                >
-
-<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
-<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
-<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
-<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
-<h4 id="退役后"><a href="#退役后" class="headerlink" title="退役后"></a>退役后</h4><p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
-<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
-<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 III】鬼头明里</title>
     <url>/archives/posts/aec84f53.html</url>
     <content><![CDATA[<h2 id="鬼头明里"><a href="#鬼头明里" class="headerlink" title="鬼头明里"></a>鬼头明里</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-akari/akari.webp"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-akari/akari.webp"
                      
                 >
 
@@ -762,7 +725,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
                      
                 >
 
@@ -785,60 +748,13 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 IV】维多利亚女王</title>
-    <url>/archives/posts/4ab990d6.html</url>
-    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
-</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
-</div></div>
-
-<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
-                     
-                >
-
-<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
-<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
-<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-victoria/Victoria_Marriage01.jpg"
-                     
-                >
-
-<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
-<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
-<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
-<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
-<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
-<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
-<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
-<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 II】王小云</title>
     <url>/archives/posts/39029b32.html</url>
     <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
 <h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
                      
                 >
 
@@ -881,17 +797,76 @@
       </tags>
   </entry>
   <entry>
-    <title>关于近期干扰连接的公告</title>
-    <url>/archives/posts/b47922c2.html</url>
-    <content><![CDATA[<h1 id="关于近期干扰连接的公告"><a href="#关于近期干扰连接的公告" class="headerlink" title="关于近期干扰连接的公告"></a>关于近期干扰连接的公告</h1><h2 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h2><p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
-<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="新域名"><a href="#新域名" class="headerlink" title="新域名"></a>新域名</h3><p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
-<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>望周知</p>
-<h3 id="周三名人"><a href="#周三名人" class="headerlink" title="周三名人"></a>周三名人</h3><p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
+    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
+    <url>/archives/posts/bf30c6e.html</url>
+    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
+<h2 id="玛丽亚·波奇卡列娃"><a href="#玛丽亚·波奇卡列娃" class="headerlink" title="玛丽亚·波奇卡列娃"></a>玛丽亚·波奇卡列娃</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
+                     
+                >
+
+<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
+<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><h4 id="出身"><a href="#出身" class="headerlink" title="出身"></a>出身</h4><p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
+<h4 id="从军生涯"><a href="#从军生涯" class="headerlink" title="从军生涯"></a>从军生涯</h4><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
+                     
+                >
+
+<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
+<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
+<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
+<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
+<h4 id="退役后"><a href="#退役后" class="headerlink" title="退役后"></a>退役后</h4><p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
+<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
+<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
 ]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 V】蒙哥马利</title>
+    <url>/archives/posts/a7511508.html</url>
+    <content><![CDATA[<blockquote>
+<p>每一位士兵在上阵前都必须明白，他所投身的这场小规模战斗在整个大局中所起到的作用。</p>
+<p>——伯纳德·劳·蒙哥马利</p>
+</blockquote>
+<h2 id="蒙哥马利"><a href="#蒙哥马利" class="headerlink" title="蒙哥马利"></a>蒙哥马利</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>伯纳德·劳·蒙哥马利（Bernard Law Montgomery），又可称为第一代阿拉曼的蒙哥马利子爵伯纳德·劳·蒙哥马利（Bernard Law Montgomery, 1st Viscount Montgomery of Alamein）。英国陆军元帅，二战最杰出的指挥官之一。</p>
+<h3 id="一战"><a href="#一战" class="headerlink" title="一战"></a>一战</h3><p>蒙哥马利毕业于坎伯利参谋学院，在第一次世界大战中作战英勇，屡次升迁，担任多种职务，战争结束后任驻防德国科隆明火枪联队第二指挥官。</p>
+<p>之后参与英爱战争、镇压巴勒斯坦暴动。1939年8月回国接任以“钢铁师”著称的英国远征军第3师师长。</p>
+<h3 id="二战"><a href="#二战" class="headerlink" title="二战"></a>二战</h3><p>1940年5月28日，比利时投降，英军被迫撤退，蒙哥马利接任第2军军长，指挥撤退。</p>
+<p>1942年，德国击败英国第8集团军，驻军阿拉曼，指挥官正是被称为“沙漠之狐”的隆美尔。蒙哥马利被任命为第8军军长，在10月-11月发动第二次阿拉曼战役，击溃德军，扭转北非战局。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
+                     
+                >
+
+<p>经过这次战役，蒙哥马利声名大噪，被称为捕捉沙漠之狐的猎手。1943年5月，北非轴心国军队投降，北非战役结束。</p>
+<p>1943年7月，蒙哥马利率领军队登录西西里岛，进而进军意大利半岛，9月，意大利投降。</p>
+<p>1944年1月，参与制定诺曼底登陆计划，6月，蒙哥马利率领第21集团军和协调美国第12集团军作战，成功开辟新战线。</p>
+<p>1944年9月17日，刚进升为元帅的蒙哥马利向驻荷兰德军发动“市场花园行动”，但以惨重的伤亡落败。</p>
+<h3 id="战后"><a href="#战后" class="headerlink" title="战后"></a>战后</h3><p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
+<p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
   </entry>
   <entry>
     <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
@@ -983,6 +958,19 @@
       </tags>
   </entry>
   <entry>
+    <title>关于近期干扰连接的公告</title>
+    <url>/archives/posts/b47922c2.html</url>
+    <content><![CDATA[<h1 id="关于近期干扰连接的公告"><a href="#关于近期干扰连接的公告" class="headerlink" title="关于近期干扰连接的公告"></a>关于近期干扰连接的公告</h1><h2 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h2><p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
+<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="新域名"><a href="#新域名" class="headerlink" title="新域名"></a>新域名</h3><p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
+<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>望周知</p>
+<h3 id="周三名人"><a href="#周三名人" class="headerlink" title="周三名人"></a>周三名人</h3><p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>DWH基础知识梳理</title>
     <url>/archives/posts/908a9dd4.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -1018,7 +1006,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/ExcelGuru.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/ExcelGuru.png"
                      
                 >
 
@@ -1030,7 +1018,7 @@
 <h4 id="数据到行动-D2A"><a href="#数据到行动-D2A" class="headerlink" title="数据到行动 (D2A)"></a>数据到行动 (D2A)</h4><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/D2A.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/D2A.png"
                      
                 >
 
@@ -1055,7 +1043,7 @@
 <h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/solution.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/solution.png"
                      
                 >
 
@@ -1282,7 +1270,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/BatchStreaming.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/BatchStreaming.png"
                      
                 >
 
@@ -1344,14 +1332,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/DataQuality.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/DataQuality.png"
                      
                 >
 
 <h2 id="信息提交"><a href="#信息提交" class="headerlink" title="信息提交"></a>信息提交</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/Delivery.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/Delivery.png"
                      
                 >
 
@@ -1396,14 +1384,14 @@
 <h3 id="现代结构与统一结构"><a href="#现代结构与统一结构" class="headerlink" title="现代结构与统一结构"></a>现代结构与统一结构</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/modern.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/modern.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/dwh-recap/unified.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/unified.png"
                      
                 >]]></content>
       <categories>
@@ -1416,12 +1404,202 @@
       </tags>
   </entry>
   <entry>
+    <title>【周三名人 IV】维多利亚女王</title>
+    <url>/archives/posts/4ab990d6.html</url>
+    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
+</div></div>
+
+<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
+                     
+                >
+
+<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
+<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
+<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/Victoria_Marriage01.jpg"
+                     
+                >
+
+<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
+<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
+<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
+<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
+<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
+<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
+<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
+<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>gif表情包制作工艺流程</title>
+    <url>/archives/posts/6f1a8c0d.html</url>
+    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
+<ul>
+<li>Photoshop</li>
+<li>Premiere Pro</li>
+<li>Bandicam</li>
+</ul>
+<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/1.png"
+                     
+                >
+
+<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/3.png"
+                     
+                >
+
+<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/4.png"
+                     
+                >
+
+<p>创建个300*300的新序列</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/5.png"
+                     
+                >
+
+<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/6.png"
+                     
+                >
+
+<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/9.png"
+                     
+                >
+
+<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/10.png"
+                     
+                >
+
+<p>给它来个超级键，把蓝背景去掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/11.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/12.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/13.png"
+                     
+                >
+
+<p>完美！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/15.png"
+                     
+                >
+
+<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
+<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/16.png"
+                     
+                >
+
+<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
+<p>接下来就简单了，直接存储为Web所用格式。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/17.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/18.png"
+                     
+                >
+
+<p>预览完了就直接存储吧！</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/三叶草.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>Ps</tag>
+        <tag>Pr</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git使用手册</title>
     <url>/archives/posts/9f0af8b7.html</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/git-notes/logo.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/git-notes/logo.png"
                      
                 >
 
@@ -1506,149 +1684,6 @@
       </tags>
   </entry>
   <entry>
-    <title>gif表情包制作工艺流程</title>
-    <url>/archives/posts/6f1a8c0d.html</url>
-    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
-<ul>
-<li>Photoshop</li>
-<li>Premiere Pro</li>
-<li>Bandicam</li>
-</ul>
-<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/1.png"
-                     
-                >
-
-<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/3.png"
-                     
-                >
-
-<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/4.png"
-                     
-                >
-
-<p>创建个300*300的新序列</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/5.png"
-                     
-                >
-
-<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/6.png"
-                     
-                >
-
-<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/9.png"
-                     
-                >
-
-<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/10.png"
-                     
-                >
-
-<p>给它来个超级键，把蓝背景去掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/11.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/12.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/13.png"
-                     
-                >
-
-<p>完美！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/15.png"
-                     
-                >
-
-<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
-<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/16.png"
-                     
-                >
-
-<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
-<p>接下来就简单了，直接存储为Web所用格式。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/17.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/18.png"
-                     
-                >
-
-<p>预览完了就直接存储吧！</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts//gif-making-process/三叶草.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>Ps</tag>
-        <tag>Pr</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -1691,14 +1726,14 @@
     <content><![CDATA[<h1 id="ReCAPTCHA-Ps模板"><a href="#ReCAPTCHA-Ps模板" class="headerlink" title="ReCAPTCHA Ps模板"></a>ReCAPTCHA Ps模板</h1><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/recaptcha-psd/preview.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/preview.png"
                      
                 >
 
 <h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/recaptcha-psd/layers.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/layers.png"
                      
                 >
 
@@ -1706,7 +1741,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/recaptcha-psd/doubleclick.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/doubleclick.png"
                      
                 >
 
@@ -1714,7 +1749,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/recaptcha-psd/new.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/new.png"
                      
                 >
 
@@ -1722,7 +1757,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/recaptcha-psd/bingo.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/bingo.png"
                      
                 >
 
@@ -1775,7 +1810,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/SDLC.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/SDLC.png"
                      
                 >
 
@@ -1811,7 +1846,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/UML.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/UML.png"
                      
                 >
 
@@ -1845,7 +1880,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/cheatsheet.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/cheatsheet.png"
                      
                 >
 
@@ -1954,7 +1989,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/absfact.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/absfact.png"
                      
                 >
 
@@ -1963,7 +1998,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/composite.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/composite.png"
                      
                 >
 
@@ -1972,7 +2007,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/sds-recap/command.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/command.png"
                      
                 >
 
@@ -1992,97 +2027,18 @@
       </tags>
   </entry>
   <entry>
-    <title>Flarum搭建踩坑记录</title>
-    <url>/archives/posts/5bc11bd7.html</url>
-    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
-<li>Windows服务器一台</li>
-<li>WampServer （我是大懒蛋）</li>
-<li>Composer</li>
-</ul>
-<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/slow.png"
-                     
-                >
-
-<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
-<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/ms.png"
-                     
-                >
-
-<p><code>composer create-project flarum/flarum .</code></p>
-<p>把这个东西放到wamp里的www目录，开wamp。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/localhost.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/MySQL.png"
-                     
-                >
-
-<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
-<p>进去装个中文语言包。</p>
-<p><code>composer require flarum-lang/chinese-simplified</code></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/zhcn.png"
-                     
-                >
-
-<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/403.png"
-                     
-                >
-
-<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/virtualhost.png"
-                     
-                >
-
-<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
-<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
-<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>把URL重写all掉，然后访问限制解放。</p>
-<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
-<p>大功告成。</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/trying-flarum/bingo.png"
-                     
-                >
-
-<p>让我看看沙雕网友在里面讨论的……</p>
-<p>这这这这都发的是些什么啊？</p>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
-        <tag>Web</tag>
-        <tag>Apache</tag>
-        <tag>MySQL</tag>
+        <tag>英语</tag>
       </tags>
   </entry>
   <entry>
@@ -2094,56 +2050,56 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
                      
                 >
 ]]></content>
@@ -2177,7 +2133,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/invoke.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/invoke.png"
                      
                 >
 
@@ -2185,7 +2141,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/before.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/before.png"
                      
                 >
 
@@ -2202,7 +2158,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-1-rpc/after.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/after.png"
                      
                 >]]></content>
       <categories>
@@ -2215,18 +2171,97 @@
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
+    <title>Flarum搭建踩坑记录</title>
+    <url>/archives/posts/5bc11bd7.html</url>
+    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>Windows服务器一台</li>
+<li>WampServer （我是大懒蛋）</li>
+<li>Composer</li>
+</ul>
+<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/slow.png"
+                     
+                >
+
+<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
+<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/ms.png"
+                     
+                >
+
+<p><code>composer create-project flarum/flarum .</code></p>
+<p>把这个东西放到wamp里的www目录，开wamp。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/localhost.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/MySQL.png"
+                     
+                >
+
+<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
+<p>进去装个中文语言包。</p>
+<p><code>composer require flarum-lang/chinese-simplified</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/zhcn.png"
+                     
+                >
+
+<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/403.png"
+                     
+                >
+
+<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/virtualhost.png"
+                     
+                >
+
+<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
+<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
+<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>把URL重写all掉，然后访问限制解放。</p>
+<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
+<p>大功告成。</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/bingo.png"
+                     
+                >
+
+<p>让我看看沙雕网友在里面讨论的……</p>
+<p>这这这这都发的是些什么啊？</p>
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
-        <tag>英语</tag>
+        <tag>Web</tag>
+        <tag>Apache</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -2236,7 +2271,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-2-hittarget/tracing.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/tracing.png"
                      
                 >
 
@@ -2250,7 +2285,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-2-hittarget/ok.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/ok.png"
                      
                 >
 
@@ -2258,7 +2293,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn2.chuqis.com/npm/anzai-bed-res@1.0.0/posts/ue5-2-hittarget/hitself.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/hitself.png"
                      
                 >]]></content>
       <categories>
@@ -2268,32 +2303,6 @@
       <tags>
         <tag>游戏</tag>
         <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-
-<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -2313,6 +2322,32 @@
 <p>成功引入与运行。</p>
 <p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
 ]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+
+<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
         <category>Vue学习笔记</category>
