@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/c391084a.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/3.png"
-                     
-                >
-
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/8bdbda59.html</url>
     <content><![CDATA[<h2 id="前排提醒"><a href="#前排提醒" class="headerlink" title="前排提醒"></a>前排提醒</h2><p>自己写的，我很菜，别喷了别喷了，如果能让你学到点什么那就再好不过了。</p>
@@ -117,6 +78,45 @@
       </tags>
   </entry>
   <entry>
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/c391084a.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/3.png"
+                     
+                >
+
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender I】从零开始</title>
     <url>/archives/posts/9f8d1a65.html</url>
     <content><![CDATA[<h2 id="从零开始学习Blender"><a href="#从零开始学习Blender" class="headerlink" title="从零开始学习Blender"></a>从零开始学习Blender</h2><blockquote>
@@ -175,6 +175,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
     <title>我的世界C4D纹饰陶罐预置</title>
     <url>/archives/posts/e66fbc14.html</url>
     <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
@@ -212,145 +218,6 @@
         <tag>C4D</tag>
         <tag>3D</tag>
         <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>进度是不是有点快啊……</p>
-<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/box.png"
-                     
-                >
-
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/legs.png"
-                     
-                >
-
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool.png"
-                     
-                >
-
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no1.png"
-                     
-                >
-
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no2.png"
-                     
-                >
-
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no3.png"
-                     
-                >
-
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/ok.png"
-                     
-                >
-
-<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/background.png"
-                     
-                >
-
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/light.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/config.png"
-                     
-                >
-
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/pff.png"
-                     
-                >
-
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool2.png"
-                     
-                >
-
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -528,6 +395,139 @@
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/ui.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>进度是不是有点快啊……</p>
+<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先创建一个小方块，加个倒角，当作身体。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/box.png"
+                     
+                >
+
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/legs.png"
+                     
+                >
+
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool.png"
+                     
+                >
+
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no1.png"
+                     
+                >
+
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no2.png"
+                     
+                >
+
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no3.png"
+                     
+                >
+
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/ok.png"
+                     
+                >
+
+<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/background.png"
+                     
+                >
+
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/light.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/config.png"
+                     
+                >
+
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/pff.png"
+                     
+                >
+
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool2.png"
+                     
+                >
+
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/3bros.png"
                      
                 >]]></content>
       <categories>
@@ -748,44 +748,30 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+    <title>【周三名人 V】蒙哥马利</title>
+    <url>/archives/posts/a7511508.html</url>
+    <content><![CDATA[<blockquote>
+<p>每一位士兵在上阵前都必须明白，他所投身的这场小规模战斗在整个大局中所起到的作用。</p>
+<p>——伯纳德·劳·蒙哥马利</p>
+</blockquote>
+<h2 id="蒙哥马利"><a href="#蒙哥马利" class="headerlink" title="蒙哥马利"></a>蒙哥马利</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>伯纳德·劳·蒙哥马利（Bernard Law Montgomery），又可称为第一代阿拉曼的蒙哥马利子爵伯纳德·劳·蒙哥马利（Bernard Law Montgomery, 1st Viscount Montgomery of Alamein）。英国陆军元帅，二战最杰出的指挥官之一。</p>
+<h3 id="一战"><a href="#一战" class="headerlink" title="一战"></a>一战</h3><p>蒙哥马利毕业于坎伯利参谋学院，在第一次世界大战中作战英勇，屡次升迁，担任多种职务，战争结束后任驻防德国科隆明火枪联队第二指挥官。</p>
+<p>之后参与英爱战争、镇压巴勒斯坦暴动。1939年8月回国接任以“钢铁师”著称的英国远征军第3师师长。</p>
+<h3 id="二战"><a href="#二战" class="headerlink" title="二战"></a>二战</h3><p>1940年5月28日，比利时投降，英军被迫撤退，蒙哥马利接任第2军军长，指挥撤退。</p>
+<p>1942年，德国击败英国第8集团军，驻军阿拉曼，指挥官正是被称为“沙漠之狐”的隆美尔。蒙哥马利被任命为第8军军长，在10月-11月发动第二次阿拉曼战役，击溃德军，扭转北非战局。</p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
                      
                 >
 
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历"><a href="#简要经历" class="headerlink" title="简要经历"></a>简要经历</h3><p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h3><p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖"><a href="#获奖" class="headerlink" title="获奖"></a>获奖</h3><ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>经过这次战役，蒙哥马利声名大噪，被称为捕捉沙漠之狐的猎手。1943年5月，北非轴心国军队投降，北非战役结束。</p>
+<p>1943年7月，蒙哥马利率领军队登录西西里岛，进而进军意大利半岛，9月，意大利投降。</p>
+<p>1944年1月，参与制定诺曼底登陆计划，6月，蒙哥马利率领第21集团军和协调美国第12集团军作战，成功开辟新战线。</p>
+<p>1944年9月17日，刚进升为元帅的蒙哥马利向驻荷兰德军发动“市场花园行动”，但以惨重的伤亡落败。</p>
+<h3 id="战后"><a href="#战后" class="headerlink" title="战后"></a>战后</h3><p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
+<p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -793,7 +779,94 @@
       </categories>
       <tags>
         <tag>名人</tag>
-        <tag>密码学</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 IV】维多利亚女王</title>
+    <url>/archives/posts/4ab990d6.html</url>
+    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
+</div></div>
+
+<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
+                     
+                >
+
+<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
+<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
+<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/Victoria_Marriage01.jpg"
+                     
+                >
+
+<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
+<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
+<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
+<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
+<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
+<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
+<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
+<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重拾darknet</title>
+    <url>/archives/posts/4d1dd1ac.html</url>
+    <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+
+
+<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
+<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4>
+
+
+
+<p>提前标注好了，开扌……</p>
+<h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+
+
+<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
+<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4>
+
+<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
+<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4>
+
+<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
+<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4>
+
+
+
+<p>轻轻松松，简简单单！</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>机器视觉</tag>
+        <tag>人工智能</tag>
       </tags>
   </entry>
   <entry>
@@ -823,41 +896,6 @@
 <h4 id="退役后"><a href="#退役后" class="headerlink" title="退役后"></a>退役后</h4><p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
 <p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
 <h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 V】蒙哥马利</title>
-    <url>/archives/posts/a7511508.html</url>
-    <content><![CDATA[<blockquote>
-<p>每一位士兵在上阵前都必须明白，他所投身的这场小规模战斗在整个大局中所起到的作用。</p>
-<p>——伯纳德·劳·蒙哥马利</p>
-</blockquote>
-<h2 id="蒙哥马利"><a href="#蒙哥马利" class="headerlink" title="蒙哥马利"></a>蒙哥马利</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>伯纳德·劳·蒙哥马利（Bernard Law Montgomery），又可称为第一代阿拉曼的蒙哥马利子爵伯纳德·劳·蒙哥马利（Bernard Law Montgomery, 1st Viscount Montgomery of Alamein）。英国陆军元帅，二战最杰出的指挥官之一。</p>
-<h3 id="一战"><a href="#一战" class="headerlink" title="一战"></a>一战</h3><p>蒙哥马利毕业于坎伯利参谋学院，在第一次世界大战中作战英勇，屡次升迁，担任多种职务，战争结束后任驻防德国科隆明火枪联队第二指挥官。</p>
-<p>之后参与英爱战争、镇压巴勒斯坦暴动。1939年8月回国接任以“钢铁师”著称的英国远征军第3师师长。</p>
-<h3 id="二战"><a href="#二战" class="headerlink" title="二战"></a>二战</h3><p>1940年5月28日，比利时投降，英军被迫撤退，蒙哥马利接任第2军军长，指挥撤退。</p>
-<p>1942年，德国击败英国第8集团军，驻军阿拉曼，指挥官正是被称为“沙漠之狐”的隆美尔。蒙哥马利被任命为第8军军长，在10月-11月发动第二次阿拉曼战役，击溃德军，扭转北非战局。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
-                     
-                >
-
-<p>经过这次战役，蒙哥马利声名大噪，被称为捕捉沙漠之狐的猎手。1943年5月，北非轴心国军队投降，北非战役结束。</p>
-<p>1943年7月，蒙哥马利率领军队登录西西里岛，进而进军意大利半岛，9月，意大利投降。</p>
-<p>1944年1月，参与制定诺曼底登陆计划，6月，蒙哥马利率领第21集团军和协调美国第12集团军作战，成功开辟新战线。</p>
-<p>1944年9月17日，刚进升为元帅的蒙哥马利向驻荷兰德军发动“市场花园行动”，但以惨重的伤亡落败。</p>
-<h3 id="战后"><a href="#战后" class="headerlink" title="战后"></a>战后</h3><p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
-<p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -918,43 +956,52 @@
       </tags>
   </entry>
   <entry>
-    <title>重拾darknet</title>
-    <url>/archives/posts/4d1dd1ac.html</url>
-    <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     
+                >
 
-
-<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4>
-
-
-
-<p>提前标注好了，开扌……</p>
-<h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-
-
-<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4>
-
-<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4>
-
-<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
-<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4>
-
-
-
-<p>轻轻松松，简简单单！</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历"><a href="#简要经历" class="headerlink" title="简要经历"></a>简要经历</h3><p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h3><p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖"><a href="#获奖" class="headerlink" title="获奖"></a>获奖</h3><ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>卷</category>
+        <category>周三名人</category>
       </categories>
       <tags>
-        <tag>机器视觉</tag>
-        <tag>人工智能</tag>
+        <tag>名人</tag>
+        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -1404,53 +1451,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 IV】维多利亚女王</title>
-    <url>/archives/posts/4ab990d6.html</url>
-    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
-</div><div class="notel-content"><p>本篇文章涉及众多人物关系和西方皇室称谓，作为东方人对此了解较浅，有错误希望各位指出。</p>
-</div></div>
-
-<h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
-                     
-                >
-
-<p>维多利亚女王（Queen Victoria），1819年5月24日4点15分在伦敦肯辛顿宫出生，父亲是肯特与斯特拉森公爵爱德华亲王，母亲是德国公主、肯特公爵夫人、萨克森-科堡-萨尔费尔德公主维多利亚。</p>
-<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><p>1837年，维多利亚年满18岁，6月20日威廉四世驾崩，维多利亚继位成为女王。</p>
-<p>1840年2月10日，与阿尔伯特亲王在伦敦圣詹姆斯宫皇家教堂大婚。维多利亚在婚礼结束后已是神魂俱醉，当晚更因头痛躺卧在床，但她仍觉得无比幸福与快乐。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/Victoria_Marriage01.jpg"
-                     
-                >
-
-<p>与阿尔伯特共育有9个孩子，长子爱德华七世（阿尔伯特·爱德华王子）是伊丽莎白二世的曾祖父。</p>
-<p>女王一生历经坎坷，光是躲过的刺杀就有8次。</p>
-<p>1845年，爱尔兰爆发饥荒，女王在当地被称为“饥荒女王”。但其实她以个人名义捐款2000英镑赈灾，比其他任何个人都多。</p>
-<p>她还热衷于改善英法关系，她主持很多英国王室成员和奥尔良宫间的互访活动，并通过克伯格斯的婚姻与奥尔良宫建立关系。在1843至1845年间，女王夫妇与路易斯·菲利普一世在诺曼底德尤堡中会晤。1844年路易斯·菲利普一世回访英格兰，成为首位造访英国国王的法国君主。</p>
-<p>1861年12月14日，阿尔伯特去世，女王认为他的死与前往剑桥大学与和爱尔兰女演员同居的长子面谈的行程有关，故她余恨绵绵，只穿黑袍，过着隐居生活。</p>
-<p>1901年1月22日，傍晚六点三十分，女王驾崩，结束近64年的统治，享寿81岁，长子即位为爱德华七世。</p>
-<h3 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h3><p>维多利亚时代英国在工业、文化、政治、科学和军事等领域都获得了巨大进步，伴随着第一次工业革命的结束，英国成为世界上最富有的国家。但是伴随而来的也有大幅侵略扩张和工人的劳动问题，社会与警察机构的发展不平衡也导致了犯罪率的上升。</p>
-<p>维多利亚时代人们喜欢道德修养和谦虚礼貌。这些因素进一步的形成男女平等和种族平等这些观念，而且还形成许多进餐观念。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>gif表情包制作工艺流程</title>
     <url>/archives/posts/6f1a8c0d.html</url>
     <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
@@ -1594,6 +1594,97 @@
       </tags>
   </entry>
   <entry>
+    <title>三个月雅思突击经验</title>
+    <url>/archives/posts/a65333d3.html</url>
+    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>这是我根据自己的水平和自己的经理总结的复习经验，供参考，可能有不适合你的地方，不要强行套用。</p>
+</div></div>
+
+<h1 id="三个月雅思突击经验"><a href="#三个月雅思突击经验" class="headerlink" title="三个月雅思突击经验"></a>三个月雅思突击经验</h1><h2 id="报名"><a href="#报名" class="headerlink" title="报名"></a>报名</h2><p>我用了3个月达到的6分，但是个人建议留出4-5个月准备雅思考试，我有一丢丢基础，记得先报上名，这样才能有紧迫感，逼着你去学习。</p>
+<p>因为我是冲动消费报上的，所以报的时候没什么顾虑，报的时候一定要坚定。</p>
+<h2 id="各个小部分的学习经验"><a href="#各个小部分的学习经验" class="headerlink" title="各个小部分的学习经验"></a>各个小部分的学习经验</h2><h3 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h3><p>我完全反对传统的听力学习方法，这是我总结的一些听力提升歪门邪道：</p>
+<p>英文教程（tutorial）&gt;英文授课（lesson）&gt;英文知识科普&gt;英文动画片&gt;英文游戏实况&gt;英文电影电视剧&gt;英文歌曲</p>
+<p>重在积累，而非无脑听Script。</p>
+<p>对于填空题基本就是听到什么就写就好，Part4也是如此。选择题的迷惑性选项和错误引导很多，需要多练和认真审题。</p>
+<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>类似听力，不要去死背单词什么的。</p>
+<p>英文游戏&gt;英文开发文档&gt;英文使用说明&gt;英文课文&gt;英文小说&gt;英文杂志&gt;英文诗歌</p>
+<p>对于阅读不要读原文，先看题目，看到题目之后就去文章中找原文，把原文勾出来，然后再去做题，一般来说题目都是按文章顺序排列的，所以正着找就好，做了这么多题只见过一个反着的。</p>
+<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><p>不太擅长输出。</p>
+<p>我的办法就是自己先写2-3份作文去给老师看一看，然后把老师给的建议都记下来，然后以后的作文都按这个来写。</p>
+<p>对于小作文，可以将slightly、significant、fluctuate这种常见描述数据的词记到一个本子上，然后再记几个高级词，每次写作都直接拿来用，用的多了就记住了。</p>
+<h3 id="口语"><a href="#口语" class="headerlink" title="口语"></a>口语</h3><p>如果不太敢在线发言的话可以先找个和蔼的外国人随便聊一聊，真的很感谢学校开Free Talk这个项目，一个外教和几个同学聊天，很有用的。</p>
+<p>在那以后我就敢在线和外国人开语音了，不过时间不是太长，不过我敢保证和外国人开语音打游戏是有用的。</p>
+<p>练口音是网上找了一份雅思例题和答案，想起来就读一两段，找到发音的感觉，但是不要去背答案，你需要provide your own opinion，我读的太少了，建议每天都读一两段。</p>
+<p>不要让考官认为你知道什么，不然他会深入去问这个东西。比如说你说你喜欢喝Americano，他就会说一堆你听不懂的咖啡。我就是，我说旅游会让年轻人了解其他的文化，然后他就问我，年轻人了解其他文化有什么好处，直接完蛋。</p>
+<h2 id="其他建议"><a href="#其他建议" class="headerlink" title="其他建议"></a>其他建议</h2><h3 id="刷题"><a href="#刷题" class="headerlink" title="刷题"></a>刷题</h3><p>我三个月刷了5本多的剑雅真题，剑12到17，我的学习时间都是课余时间挪出来的，不太有规律，个人建议每天不低于3小时，我就太少了。</p>
+<p>刷题的同时也要学习新的东西，要有新鲜血液流入。</p>
+<h3 id="背单词"><a href="#背单词" class="headerlink" title="背单词"></a>背单词</h3><p>真的千万别背单词了，没用的，你记不住，还浪费时间。</p>
+<p>可以试试我在阅读里提到的那些方法，用了你高兴，还能记忆深刻。</p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>雅思其实很简单的，比CET简单还科学，更有说服力，我建议四六级考不过的不妨考虑一下雅思。</p>
+<p>我觉得我又行了，暑假学第四门语言。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ReCAPTCHA恶搞Ps模板</title>
+    <url>/archives/posts/7e916f91.html</url>
+    <content><![CDATA[<h1 id="ReCAPTCHA-Ps模板"><a href="#ReCAPTCHA-Ps模板" class="headerlink" title="ReCAPTCHA Ps模板"></a>ReCAPTCHA Ps模板</h1><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/preview.png"
+                     
+                >
+
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/layers.png"
+                     
+                >
+
+<p>每个图层的简要说明</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/doubleclick.png"
+                     
+                >
+
+<p>双击想要编辑的智能对象</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/new.png"
+                     
+                >
+
+<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/bingo.png"
+                     
+                >
+
+<p>回去就可以看到这个里面的也变了。</p>
+<p>那么之后随意修改一下文字就可以啦！</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>Fake ReCAPTCHA.psd</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>Ps</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git使用手册</title>
     <url>/archives/posts/9f0af8b7.html</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><img  
@@ -1684,34 +1775,12 @@
       </tags>
   </entry>
   <entry>
-    <title>三个月雅思突击经验</title>
-    <url>/archives/posts/a65333d3.html</url>
-    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
-</div><div class="notel-content"><p>这是我根据自己的水平和自己的经理总结的复习经验，供参考，可能有不适合你的地方，不要强行套用。</p>
-</div></div>
-
-<h1 id="三个月雅思突击经验"><a href="#三个月雅思突击经验" class="headerlink" title="三个月雅思突击经验"></a>三个月雅思突击经验</h1><h2 id="报名"><a href="#报名" class="headerlink" title="报名"></a>报名</h2><p>我用了3个月达到的6分，但是个人建议留出4-5个月准备雅思考试，我有一丢丢基础，记得先报上名，这样才能有紧迫感，逼着你去学习。</p>
-<p>因为我是冲动消费报上的，所以报的时候没什么顾虑，报的时候一定要坚定。</p>
-<h2 id="各个小部分的学习经验"><a href="#各个小部分的学习经验" class="headerlink" title="各个小部分的学习经验"></a>各个小部分的学习经验</h2><h3 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h3><p>我完全反对传统的听力学习方法，这是我总结的一些听力提升歪门邪道：</p>
-<p>英文教程（tutorial）&gt;英文授课（lesson）&gt;英文知识科普&gt;英文动画片&gt;英文游戏实况&gt;英文电影电视剧&gt;英文歌曲</p>
-<p>重在积累，而非无脑听Script。</p>
-<p>对于填空题基本就是听到什么就写就好，Part4也是如此。选择题的迷惑性选项和错误引导很多，需要多练和认真审题。</p>
-<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>类似听力，不要去死背单词什么的。</p>
-<p>英文游戏&gt;英文开发文档&gt;英文使用说明&gt;英文课文&gt;英文小说&gt;英文杂志&gt;英文诗歌</p>
-<p>对于阅读不要读原文，先看题目，看到题目之后就去文章中找原文，把原文勾出来，然后再去做题，一般来说题目都是按文章顺序排列的，所以正着找就好，做了这么多题只见过一个反着的。</p>
-<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><p>不太擅长输出。</p>
-<p>我的办法就是自己先写2-3份作文去给老师看一看，然后把老师给的建议都记下来，然后以后的作文都按这个来写。</p>
-<p>对于小作文，可以将slightly、significant、fluctuate这种常见描述数据的词记到一个本子上，然后再记几个高级词，每次写作都直接拿来用，用的多了就记住了。</p>
-<h3 id="口语"><a href="#口语" class="headerlink" title="口语"></a>口语</h3><p>如果不太敢在线发言的话可以先找个和蔼的外国人随便聊一聊，真的很感谢学校开Free Talk这个项目，一个外教和几个同学聊天，很有用的。</p>
-<p>在那以后我就敢在线和外国人开语音了，不过时间不是太长，不过我敢保证和外国人开语音打游戏是有用的。</p>
-<p>练口音是网上找了一份雅思例题和答案，想起来就读一两段，找到发音的感觉，但是不要去背答案，你需要provide your own opinion，我读的太少了，建议每天都读一两段。</p>
-<p>不要让考官认为你知道什么，不然他会深入去问这个东西。比如说你说你喜欢喝Americano，他就会说一堆你听不懂的咖啡。我就是，我说旅游会让年轻人了解其他的文化，然后他就问我，年轻人了解其他文化有什么好处，直接完蛋。</p>
-<h2 id="其他建议"><a href="#其他建议" class="headerlink" title="其他建议"></a>其他建议</h2><h3 id="刷题"><a href="#刷题" class="headerlink" title="刷题"></a>刷题</h3><p>我三个月刷了5本多的剑雅真题，剑12到17，我的学习时间都是课余时间挪出来的，不太有规律，个人建议每天不低于3小时，我就太少了。</p>
-<p>刷题的同时也要学习新的东西，要有新鲜血液流入。</p>
-<h3 id="背单词"><a href="#背单词" class="headerlink" title="背单词"></a>背单词</h3><p>真的千万别背单词了，没用的，你记不住，还浪费时间。</p>
-<p>可以试试我在阅读里提到的那些方法，用了你高兴，还能记忆深刻。</p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>雅思其实很简单的，比CET简单还科学，更有说服力，我建议四六级考不过的不妨考虑一下雅思。</p>
-<p>我觉得我又行了，暑假学第四门语言。</p>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -1721,57 +1790,61 @@
       </tags>
   </entry>
   <entry>
-    <title>ReCAPTCHA恶搞Ps模板</title>
-    <url>/archives/posts/7e916f91.html</url>
-    <content><![CDATA[<h1 id="ReCAPTCHA-Ps模板"><a href="#ReCAPTCHA-Ps模板" class="headerlink" title="ReCAPTCHA Ps模板"></a>ReCAPTCHA Ps模板</h1><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/preview.png"
-                     
-                >
-
-<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/layers.png"
-                     
-                >
-
-<p>每个图层的简要说明</p>
+    <title>【虚幻引擎 I】RPC的使用</title>
+    <url>/archives/posts/bac6a1f4.html</url>
+    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
+<ul>
+<li>必须从Actor处调用。</li>
+<li>这个Actor必须被复制（replicated）。</li>
+<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
+<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
+<li>Multicast是例外：<ul>
+<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
+<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
+<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
+</ul>
+</li>
+</ul>
+<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
+<p>在服务端和客户端的调用详细表格。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/doubleclick.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/invoke.png"
                      
                 >
 
-<p>双击想要编辑的智能对象</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/new.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/before.png"
                      
                 >
 
-<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>嘿嘿……</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/bingo.png"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/after.png"
                      
-                >
-
-<p>回去就可以看到这个里面的也变了。</p>
-<p>那么之后随意修改一下文字就可以啦！</p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>Fake ReCAPTCHA.psd</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
-]]></content>
+                >]]></content>
       <categories>
-        <category>睡大觉</category>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
       </categories>
       <tags>
-        <tag>Ps</tag>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
@@ -2027,18 +2100,71 @@
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h2><p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
+    <title>【虚幻引擎 II】简单的射线追踪</title>
+    <url>/archives/posts/ef2e4bdf.html</url>
+    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/tracing.png"
+                     
+                >
+
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/ok.png"
+                     
+                >
+
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue I】从楼梯上摔下来</title>
+    <url>/archives/posts/574e7c50.html</url>
+    <content><![CDATA[<h2 id="目的何在？"><a href="#目的何在？" class="headerlink" title="目的何在？"></a>目的何在？</h2><p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
+<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
+<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
+<h2 id="Vue简介"><a href="#Vue简介" class="headerlink" title="Vue简介"></a>Vue简介</h2><p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>组件化</li>
+<li>声明式</li>
+<li>虚拟DOM和Diff算法</li>
+</ul>
+<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>成功引入与运行。</p>
+<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
 ]]></content>
       <categories>
         <category>卷</category>
+        <category>Vue学习笔记</category>
       </categories>
       <tags>
-        <tag>英语</tag>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -2113,61 +2239,29 @@
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎 I】RPC的使用</title>
-    <url>/archives/posts/bac6a1f4.html</url>
-    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
-<ul>
-<li>必须从Actor处调用。</li>
-<li>这个Actor必须被复制（replicated）。</li>
-<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
-<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
-<li>Multicast是例外：<ul>
-<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
-<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
-<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
-</ul>
-</li>
-</ul>
-<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
-<p>在服务端和客户端的调用详细表格。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/invoke.png"
-                     
-                >
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
 
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/before.png"
-                     
-                >
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
 
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
 
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>嘿嘿……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/after.png"
-                     
-                >]]></content>
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
-        <category>虚幻5学习笔记</category>
+        <category>Vue学习笔记</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -2262,100 +2356,6 @@
         <tag>Web</tag>
         <tag>Apache</tag>
         <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎 II】简单的射线追踪</title>
-    <url>/archives/posts/ef2e4bdf.html</url>
-    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/tracing.png"
-                     
-                >
-
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/ok.png"
-                     
-                >
-
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue I】从楼梯上摔下来</title>
-    <url>/archives/posts/574e7c50.html</url>
-    <content><![CDATA[<h2 id="目的何在？"><a href="#目的何在？" class="headerlink" title="目的何在？"></a>目的何在？</h2><p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
-<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
-<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
-<h2 id="Vue简介"><a href="#Vue简介" class="headerlink" title="Vue简介"></a>Vue简介</h2><p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
-<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>组件化</li>
-<li>声明式</li>
-<li>虚拟DOM和Diff算法</li>
-</ul>
-<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>成功引入与运行。</p>
-<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-
-<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
 </search>
