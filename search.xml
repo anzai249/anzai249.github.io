@@ -54,7 +54,7 @@
 
 <h3 id="样例输出-5"><a href="#样例输出-5" class="headerlink" title="样例输出"></a>样例输出</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">0 0 1 0 0</span><br><span class="line">0 1 2 1 1</span><br><span class="line">0 0 1 0 0</span><br><span class="line">0 0 1 0 0</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></div>
 
-<p><img lazyload="" src="/images/loading.svg" data-src="/./22tianti/2592381e-097f-43d5-9ff8-9a8521eb1859.jpg" alt="矩阵坐标"><br>可以看见吗？看不见记得反馈</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/22tianti/2592381e-097f-43d5-9ff8-9a8521eb1859.jpg" alt="矩阵坐标"><br>可以看见吗？看不见记得反馈</p>
 <h3 id="题解-5"><a href="#题解-5" class="headerlink" title="题解"></a>题解</h3><p>纯纯考验耐心</p>
 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String args[])</span> {</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">scan</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> <span class="variable">q</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> square[][] = <span class="keyword">new</span> <span class="title class_">int</span>[n][n];</span><br><span class="line">        <span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">String</span> <span class="variable">op</span> <span class="operator">=</span> <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                square[i][j] = <span class="number">0</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;q;i++){</span><br><span class="line">            x = scan.nextInt();</span><br><span class="line">            y = scan.nextInt();</span><br><span class="line">            op = scan.next();</span><br><span class="line">            <span class="keyword">if</span>(op.equals(<span class="string">"U"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=x-<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>-j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"D"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=n-x;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>+j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"L"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;y;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>-j]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"R"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n-y+<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>+j]++;</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                System.out.print(square[i][j]);</span><br><span class="line">                <span class="keyword">if</span>(j!=n-<span class="number">1</span>){</span><br><span class="line">                    System.out.print(<span class="string">" "</span>);</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">            System.out.print(<span class="string">"\n"</span>);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 
@@ -82,7 +82,7 @@
     <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/1.png"
                      
                 >
 手捏竹子真的累死我了！！所以我打算捏个自动竹子。
@@ -90,14 +90,14 @@
 <h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/2.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/3.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/3.png"
                      
                 >
 
@@ -1015,23 +1015,13 @@
   <entry>
     <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
     <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[<div class="wo">
-  <div class="t">
-    剧透警告
-  </div>
-  <div class="c">
-    我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。
-  </div>
-</div>
+    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>剧透警告</p>
+</div><div class="notel-content"><p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+</div></div>
 
-<div class="wg">
-  <div class="t">
-    提示
-  </div>
-  <div class="c">
-    非专业解读，有感而发随便写写，勿喷。
-  </div>
-</div>
+<div class="note-large blue"><div class="notel-title"><p>提示</p>
+</div><div class="notel-content"><p>非专业解读，有感而发随便写写，勿喷。</p>
+</div></div>
 
 <h2 id="早上好，夜之城！"><a href="#早上好，夜之城！" class="headerlink" title="早上好，夜之城！"></a>早上好，夜之城！</h2><h3 id="哭！都给我哭！"><a href="#哭！都给我哭！" class="headerlink" title="哭！都给我哭！"></a>哭！都给我哭！</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
 
@@ -1046,7 +1036,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./chinese-cartoon/1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
                       alt="1"
                 ></p>
 <h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
@@ -1085,20 +1075,20 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/pineapple.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
                       alt="菠萝"
                 ></p>
 <p>2202年暑假打比赛的时候训练的凤梨识别。</p>
 <h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
                       alt="数据集1"
                 ></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
                       alt="数据集2"
                 ></p>
 <p>提前标注好了，开扌……</p>
@@ -1106,21 +1096,21 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/4Folders.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
                       alt="4个文件夹"
                 ></p>
 <p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
 <h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/chart1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
                       alt="2"
                 ></p>
 <p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
 <h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/chart2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
                       alt="3"
                 ></p>
 <p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
@@ -1130,13 +1120,13 @@
 <h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/chart_yolov4-18650.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
                       alt="4"
                 ></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/./darknet-review/battery.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
                       alt="结果"
                 ></p>
 <p>轻轻松松，简简单单！</p>
