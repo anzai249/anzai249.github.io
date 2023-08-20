@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/c391084a.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-
-<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//C4D-bamboo-rig/3.png"
-                     
-                >
-
-<p>花了一下午时间捏这个</p>
-<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/8bdbda59.html</url>
     <content><![CDATA[<h2 id="前排提醒"><a href="#前排提醒" class="headerlink" title="前排提醒"></a>前排提醒</h2><p>自己写的，我很菜，别喷了别喷了，如果能让你学到点什么那就再好不过了。</p>
@@ -93,8 +54,7 @@
 
 <h3 id="样例输出-5"><a href="#样例输出-5" class="headerlink" title="样例输出"></a>样例输出</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">0 0 1 0 0</span><br><span class="line">0 1 2 1 1</span><br><span class="line">0 0 1 0 0</span><br><span class="line">0 0 1 0 0</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></div>
 
-
-<p>可以看见吗？看不见记得反馈</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="/./22tianti/2592381e-097f-43d5-9ff8-9a8521eb1859.jpg" alt="矩阵坐标"><br>可以看见吗？看不见记得反馈</p>
 <h3 id="题解-5"><a href="#题解-5" class="headerlink" title="题解"></a>题解</h3><p>纯纯考验耐心</p>
 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String args[])</span> {</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">scan</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> <span class="variable">q</span> <span class="operator">=</span> scan.nextInt();</span><br><span class="line">        <span class="type">int</span> square[][] = <span class="keyword">new</span> <span class="title class_">int</span>[n][n];</span><br><span class="line">        <span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">y</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">String</span> <span class="variable">op</span> <span class="operator">=</span> <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                square[i][j] = <span class="number">0</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;q;i++){</span><br><span class="line">            x = scan.nextInt();</span><br><span class="line">            y = scan.nextInt();</span><br><span class="line">            op = scan.next();</span><br><span class="line">            <span class="keyword">if</span>(op.equals(<span class="string">"U"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=x-<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>-j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"D"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;=n-x;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>+j][y-<span class="number">1</span>]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"L"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;y;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>-j]++;</span><br><span class="line">                }</span><br><span class="line">            }<span class="keyword">else</span> <span class="keyword">if</span>(op.equals(<span class="string">"R"</span>)){</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n-y+<span class="number">1</span>;j++){</span><br><span class="line">                    square[x-<span class="number">1</span>][y-<span class="number">1</span>+j]++;</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++){</span><br><span class="line">                System.out.print(square[i][j]);</span><br><span class="line">                <span class="keyword">if</span>(j!=n-<span class="number">1</span>){</span><br><span class="line">                    System.out.print(<span class="string">" "</span>);</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">            System.out.print(<span class="string">"\n"</span>);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
 
@@ -117,20 +77,59 @@
       </tags>
   </entry>
   <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/e66fbc14.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/c391084a.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布"><a href="#竹子预置配布" class="headerlink" title="竹子预置配布"></a>竹子预置配布</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/python.png"
+                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+
+<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/2.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/userdata.png"
+                     data-src="https://evan.beee.top/users/anzai/posts//C4D-bamboo-rig/3.png"
+                     
+                >
+
+<p>花了一下午时间捏这个</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/e66fbc14.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布"><a href="#陶罐预置配布" class="headerlink" title="陶罐预置配布"></a>陶罐预置配布</h2><h3 id="制作与用法"><a href="#制作与用法" class="headerlink" title="制作与用法"></a>制作与用法</h3><p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/python.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/userdata.png"
                      
                 >
 
@@ -139,7 +138,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/C4D-pot-rig/usage.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/usage.png"
                      
                 >
 
@@ -157,6 +156,64 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender I】从零开始</title>
+    <url>/archives/posts/9f8d1a65.html</url>
+    <content><![CDATA[<h2 id="从零开始学习Blender"><a href="#从零开始学习Blender" class="headerlink" title="从零开始学习Blender"></a>从零开始学习Blender</h2><blockquote>
+<p>Ah shit, here we go again.</p>
+</blockquote>
+<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/Earth.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/blender.png"
+                     
+                >
+
+<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
+<p>Blender这玩意还开源，拿了就走了等着啊。</p>
+<h2 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h2><p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/rightup.png"
+                     
+                >
+
+<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/tools.png"
+                     
+                >
+
+<p>呜呜呜，为啥预览图都这么简陋T_T</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/add.png"
+                     
+                >
+
+<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender II】三兄弟</title>
     <url>/archives/posts/db52fdd4.html</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>进度是不是有点快啊……</p>
@@ -164,7 +221,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/box.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
                      
                 >
 
@@ -172,7 +229,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/legs.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
                      
                 >
 
@@ -180,7 +237,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
                      
                 >
 
@@ -188,7 +245,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
                      
                 >
 
@@ -196,7 +253,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
                      
                 >
 
@@ -204,7 +261,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/no3.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
                      
                 >
 
@@ -212,7 +269,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/ok.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
                      
                 >
 
@@ -220,7 +277,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/background.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
                      
                 >
 
@@ -229,14 +286,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/light.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/highcontrast.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
                      
                 >
 
@@ -244,7 +301,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/backcolor.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
                      
                 >
 
@@ -252,7 +309,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/config.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
                      
                 >
 
@@ -261,7 +318,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/pff.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
                      
                 >
 
@@ -269,7 +326,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/bool2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
                      
                 >
 
@@ -277,7 +334,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-2-3bros/3bros.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
                      
                 >]]></content>
       <categories>
@@ -290,59 +347,249 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
+    <title>【Blender III】给微软做UI？</title>
+    <url>/archives/posts/3e8cf982.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>半夜睡不着学的，可能写一半就无了。</p>
+<blockquote>
+<p>二行書き一行消すや寒灯下</p>
+<p>——高浜虚子</p>
+</blockquote>
+<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先做三个板子。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/1pie.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/2pies.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/3pies.png"
+                     
+                >
+
+<p>做到这睡着了</p>
+<p>以下是第二天做的。</p>
+<p>拉一个圆柱。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/drag.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/drag2.png"
+                     
+                >
+
+<p>把头上搞窄一点。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/up.png"
+                     
+                >
+
+<p>这样可以把游标定位在这个面中心。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/youbiao.png"
+                     
+                >
+
+<p>搞个小牌子，弄上文字。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/sign.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/text.png"
+                     
+                >
+
+<p>可以把中文复制上去，不知道为啥。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/chinese.png"
+                     
+                >
+
+<p>实体化一下，让它有厚度。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/shitihua.png"
+                     
+                >
+
+<p>之后建管道，压出来的面删除之后可以用“桥接循环边”来让里面连起来。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/tube1.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/tube2.png"
+                     
+                >
+
+<p>小火箭。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/rocket1.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/rocket2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/rocket3.png"
+                     
+                >
+
+<p>小火箭喷的火可以用“衰减编辑”来制作，可以让它像水滴一样。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/fire.png"
+                     
+                >
+
+<p>现在是这样</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/big1.png"
+                     
+                >
+
+<p>画一个样条。给它倒角调大点，就有厚度了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/string.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/string2.png"
+                     
+                >
+
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/big2.png"
+                     
+                >
+
+<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>大功告成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-3-ui/ui.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
   </entry>
   <entry>
-    <title>【Blender I】从零开始</title>
-    <url>/archives/posts/9f8d1a65.html</url>
-    <content><![CDATA[<h2 id="从零开始学习Blender"><a href="#从零开始学习Blender" class="headerlink" title="从零开始学习Blender"></a>从零开始学习Blender</h2><blockquote>
-<p>Ah shit, here we go again.</p>
-</blockquote>
-<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
+    <title>【Blender V】车</title>
+    <url>/archives/posts/8f815186.html</url>
+    <content><![CDATA[<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先捏个形状。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/Earth.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
                      
                 >
 
+<p>还有车窗。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/blender.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
                      
                 >
 
-<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
-<p>Blender这玩意还开源，拿了就走了等着啊。</p>
-<h2 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h2><p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
+<p>道路两旁的树直接用粒子系统解决。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/rightup.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
                      
                 >
 
-<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
+<p>雪。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/tools.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
                      
                 >
 
-<p>呜呜呜，为啥预览图都这么简陋T_T</p>
+<p>改成毛发，就可以看到这种效果。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-1/add.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
                      
                 >
 
-<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
+<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     
+                >
+
+<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>导出动画我还是有点基础的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     
+                >
 ]]></content>
       <categories>
         <category>卷</category>
@@ -361,7 +608,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/01.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/01.png"
                      
                 >
 
@@ -369,7 +616,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/02.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/02.png"
                      
                 >
 
@@ -377,7 +624,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/03.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/03.png"
                      
                 >
 
@@ -385,7 +632,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/04.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/04.png"
                      
                 >
 
@@ -393,14 +640,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/05.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/05.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/06.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/06.png"
                      
                 >
 
@@ -408,21 +655,21 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/07.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/07.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/08.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/08.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/09.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/09.png"
                      
                 >
 
@@ -430,7 +677,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/10.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/10.png"
                      
                 >
 
@@ -438,7 +685,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/11.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/11.png"
                      
                 >
 
@@ -446,7 +693,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/12.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/12.png"
                      
                 >
 
@@ -454,14 +701,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/13.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/13.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/14.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/14.png"
                      
                 >
 
@@ -469,7 +716,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/15.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/15.png"
                      
                 >
 
@@ -477,14 +724,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/16.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/16.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/17.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/17.png"
                      
                 >
 
@@ -492,7 +739,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/18.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/18.png"
                      
                 >
 
@@ -500,7 +747,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/19.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/19.png"
                      
                 >
 
@@ -508,7 +755,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-4-btcstation/coin.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/coin.png"
                      
                 >
 ]]></content>
@@ -519,111 +766,6 @@
       <tags>
         <tag>3D</tag>
         <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender V】车</title>
-    <url>/archives/posts/8f815186.html</url>
-    <content><![CDATA[<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先捏个形状。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/1.png"
-                     
-                >
-
-<p>还有车窗。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/2.png"
-                     
-                >
-
-<p>道路两旁的树直接用粒子系统解决。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/3.png"
-                     
-                >
-
-<p>雪。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/4.png"
-                     
-                >
-
-<p>改成毛发，就可以看到这种效果。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/5.png"
-                     
-                >
-
-<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/6.png"
-                     
-                >
-
-<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>导出动画我还是有点基础的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.4/posts/blender-5-car/car0001-0300.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
-    <url>/archives/posts/bf30c6e.html</url>
-    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
-<h2 id="玛丽亚·波奇卡列娃"><a href="#玛丽亚·波奇卡列娃" class="headerlink" title="玛丽亚·波奇卡列娃"></a>玛丽亚·波奇卡列娃</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
-                     
-                >
-
-<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
-<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><h4 id="出身"><a href="#出身" class="headerlink" title="出身"></a>出身</h4><p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
-<h4 id="从军生涯"><a href="#从军生涯" class="headerlink" title="从军生涯"></a>从军生涯</h4><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
-                     
-                >
-
-<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
-<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
-<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
-<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
-<h4 id="退役后"><a href="#退役后" class="headerlink" title="退役后"></a>退役后</h4><p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
-<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
-<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -632,7 +774,7 @@
     <content><![CDATA[<h2 id="鬼头明里"><a href="#鬼头明里" class="headerlink" title="鬼头明里"></a>鬼头明里</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-akari/akari.webp"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/akari.webp"
                      
                 >
 
@@ -644,7 +786,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
                      
                 >
 
@@ -667,198 +809,12 @@
       </tags>
   </entry>
   <entry>
-    <title>【Blender III】给微软做UI？</title>
-    <url>/archives/posts/3e8cf982.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>半夜睡不着学的，可能写一半就无了。</p>
-<blockquote>
-<p>二行書き一行消すや寒灯下</p>
-<p>——高浜虚子</p>
-</blockquote>
-<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>先做三个板子。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/1pie.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/2pies.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/3pies.png"
-                     
-                >
-
-<p>做到这睡着了</p>
-<p>以下是第二天做的。</p>
-<p>拉一个圆柱。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/drag.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/drag2.png"
-                     
-                >
-
-<p>把头上搞窄一点。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/up.png"
-                     
-                >
-
-<p>这样可以把游标定位在这个面中心。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/youbiao.png"
-                     
-                >
-
-<p>搞个小牌子，弄上文字。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/sign.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/text.png"
-                     
-                >
-
-<p>可以把中文复制上去，不知道为啥。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/chinese.png"
-                     
-                >
-
-<p>实体化一下，让它有厚度。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/shitihua.png"
-                     
-                >
-
-<p>之后建管道，压出来的面删除之后可以用“桥接循环边”来让里面连起来。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/tube1.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/tube2.png"
-                     
-                >
-
-<p>小火箭。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket1.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/rocket3.png"
-                     
-                >
-
-<p>小火箭喷的火可以用“衰减编辑”来制作，可以让它像水滴一样。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/fire.png"
-                     
-                >
-
-<p>现在是这样</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/big1.png"
-                     
-                >
-
-<p>画一个样条。给它倒角调大点，就有厚度了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/string.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/string2.png"
-                     
-                >
-
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/big2.png"
-                     
-                >
-
-<h2 id="渲染"><a href="#渲染" class="headerlink" title="渲染"></a>渲染</h2><p>大功告成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/blender-3-ui/ui.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 VI】空海</title>
     <url>/archives/posts/359fc4d7.html</url>
     <content><![CDATA[<h2 id="空海"><a href="#空海" class="headerlink" title="空海"></a>空海</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.5/posts/celebrity-kukai/Kukai.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
                      
                 >
 
@@ -872,6 +828,43 @@
 <p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
 <p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
 <h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
+    <url>/archives/posts/bf30c6e.html</url>
+    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
+<h2 id="玛丽亚·波奇卡列娃"><a href="#玛丽亚·波奇卡列娃" class="headerlink" title="玛丽亚·波奇卡列娃"></a>玛丽亚·波奇卡列娃</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
+                     
+                >
+
+<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
+<h3 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h3><h4 id="出身"><a href="#出身" class="headerlink" title="出身"></a>出身</h4><p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
+<h4 id="从军生涯"><a href="#从军生涯" class="headerlink" title="从军生涯"></a>从军生涯</h4><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
+                     
+                >
+
+<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
+<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
+<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
+<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
+<h4 id="退役后"><a href="#退役后" class="headerlink" title="退役后"></a>退役后</h4><p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
+<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
+<h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -897,7 +890,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
                      
                 >
 
@@ -918,6 +911,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
     <title>【周三名人 IV】维多利亚女王</title>
     <url>/archives/posts/4ab990d6.html</url>
     <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>前排提醒</p>
@@ -927,7 +926,7 @@
 <h2 id="维多利亚女王"><a href="#维多利亚女王" class="headerlink" title="维多利亚女王"></a>维多利亚女王</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-victoria/250px-Queen_Victoria_by_Bassano.jpg"
                      
                 >
 
@@ -937,7 +936,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/Victoria_Marriage01.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-victoria/Victoria_Marriage01.jpg"
                      
                 >
 
@@ -952,7 +951,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-victoria/1024px-Franz_Xaver_Winterhalter_Family_of_Queen_Victoria.jpg"
                      
                 >]]></content>
       <categories>
@@ -965,62 +964,13 @@
       </tags>
   </entry>
   <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[<div class="wo">
-  <div class="t">
-    剧透警告
-  </div>
-  <div class="c">
-    我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。
-  </div>
-</div>
-
-<div class="wg">
-  <div class="t">
-    提示
-  </div>
-  <div class="c">
-    非专业解读，有感而发随便写写，勿喷。
-  </div>
-</div>
-
-<h2 id="早上好，夜之城！"><a href="#早上好，夜之城！" class="headerlink" title="早上好，夜之城！"></a>早上好，夜之城！</h2><h3 id="哭！都给我哭！"><a href="#哭！都给我哭！" class="headerlink" title="哭！都给我哭！"></a>哭！都给我哭！</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-
-<h3 id="关于边缘行者动画"><a href="#关于边缘行者动画" class="headerlink" title="关于边缘行者动画"></a>关于边缘行者动画</h3><ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><del>不行！女主不够攻！</del></li>
-</ol>
-
-
-<h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因"><a href="#尝试分析原因" class="headerlink" title="尝试分析原因"></a>尝试分析原因</h3><ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦"><a href="#做梦" class="headerlink" title="做梦"></a>做梦</h3><p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 II】王小云</title>
     <url>/archives/posts/39029b32.html</url>
     <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
 <h2 id="王小云"><a href="#王小云" class="headerlink" title="王小云"></a>王小云</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
                      
                 >
 
@@ -1063,43 +1013,56 @@
       </tags>
   </entry>
   <entry>
-    <title>重拾darknet</title>
-    <url>/archives/posts/4d1dd1ac.html</url>
-    <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[<div class="wo">
+  <div class="t">
+    剧透警告
+  </div>
+  <div class="c">
+    我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。
+  </div>
+</div>
 
+<div class="wg">
+  <div class="t">
+    提示
+  </div>
+  <div class="c">
+    非专业解读，有感而发随便写写，勿喷。
+  </div>
+</div>
 
-<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4>
+<h2 id="早上好，夜之城！"><a href="#早上好，夜之城！" class="headerlink" title="早上好，夜之城！"></a>早上好，夜之城！</h2><h3 id="哭！都给我哭！"><a href="#哭！都给我哭！" class="headerlink" title="哭！都给我哭！"></a>哭！都给我哭！</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
 
-
-
-<p>提前标注好了，开扌……</p>
-<h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-
-
-<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4>
-
-<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4>
-
-<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
-<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4>
-
-
-
-<p>轻轻松松，简简单单！</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+<h3 id="关于边缘行者动画"><a href="#关于边缘行者动画" class="headerlink" title="关于边缘行者动画"></a>关于边缘行者动画</h3><ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><del>不行！女主不够攻！</del></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling"><a href="#早上好，国漫！现在我有BingChilling" class="headerlink" title="早上好，国漫！现在我有BingChilling"></a>早上好，国漫！<del>现在我有BingChilling</del></h2><p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因"><a href="#尝试分析原因" class="headerlink" title="尝试分析原因"></a>尝试分析原因</h3><ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦"><a href="#做梦" class="headerlink" title="做梦"></a>做梦</h3><p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
 ]]></content>
       <categories>
-        <category>卷</category>
+        <category>睡大觉</category>
       </categories>
       <tags>
-        <tag>机器视觉</tag>
-        <tag>人工智能</tag>
+        <tag>游戏</tag>
+        <tag>动画</tag>
       </tags>
   </entry>
   <entry>
@@ -1114,6 +1077,78 @@
 <p>望周知</p>
 <h3 id="周三名人"><a href="#周三名人" class="headerlink" title="周三名人"></a>周三名人</h3><p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>重拾darknet</title>
+    <url>/archives/posts/4d1dd1ac.html</url>
+    <content><![CDATA[<h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/pineapple.jpg"
+                      alt="菠萝"
+                ></p>
+<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
+<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/1.png"
+                      alt="数据集1"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/2.png"
+                      alt="数据集2"
+                ></p>
+<p>提前标注好了，开扌……</p>
+<h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/4Folders.png"
+                      alt="4个文件夹"
+                ></p>
+<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
+<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/chart1.png"
+                      alt="2"
+                ></p>
+<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
+<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/chart2.png"
+                      alt="3"
+                ></p>
+<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
+<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/chart_yolov4-18650.png"
+                      alt="4"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./darknet-review/battery.png"
+                      alt="结果"
+                ></p>
+<p>轻轻松松，简简单单！</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>机器视觉</tag>
+        <tag>人工智能</tag>
+      </tags>
   </entry>
   <entry>
     <title>DWH基础知识梳理</title>
@@ -1151,7 +1186,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/ExcelGuru.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/ExcelGuru.png"
                      
                 >
 
@@ -1163,7 +1198,7 @@
 <h4 id="数据到行动-D2A"><a href="#数据到行动-D2A" class="headerlink" title="数据到行动 (D2A)"></a>数据到行动 (D2A)</h4><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/D2A.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/D2A.png"
                      
                 >
 
@@ -1188,7 +1223,7 @@
 <h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/solution.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/solution.png"
                      
                 >
 
@@ -1415,7 +1450,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/BatchStreaming.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/BatchStreaming.png"
                      
                 >
 
@@ -1477,14 +1512,14 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/DataQuality.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/DataQuality.png"
                      
                 >
 
 <h2 id="信息提交"><a href="#信息提交" class="headerlink" title="信息提交"></a>信息提交</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/Delivery.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/Delivery.png"
                      
                 >
 
@@ -1529,14 +1564,14 @@
 <h3 id="现代结构与统一结构"><a href="#现代结构与统一结构" class="headerlink" title="现代结构与统一结构"></a>现代结构与统一结构</h3><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/modern.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/modern.png"
                      
                 >
 
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/dwh-recap/unified.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/dwh-recap/unified.png"
                      
                 >]]></content>
       <categories>
@@ -1554,7 +1589,7 @@
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/git-notes/logo.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
                      
                 >
 
@@ -1639,6 +1674,149 @@
       </tags>
   </entry>
   <entry>
+    <title>gif表情包制作工艺流程</title>
+    <url>/archives/posts/6f1a8c0d.html</url>
+    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
+<ul>
+<li>Photoshop</li>
+<li>Premiere Pro</li>
+<li>Bandicam</li>
+</ul>
+<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/1.png"
+                     
+                >
+
+<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/2.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/3.png"
+                     
+                >
+
+<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/4.png"
+                     
+                >
+
+<p>创建个300*300的新序列</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/5.png"
+                     
+                >
+
+<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/6.png"
+                     
+                >
+
+<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/9.png"
+                     
+                >
+
+<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/10.png"
+                     
+                >
+
+<p>给它来个超级键，把蓝背景去掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/11.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/12.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/13.png"
+                     
+                >
+
+<p>完美！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/15.png"
+                     
+                >
+
+<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
+<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/16.png"
+                     
+                >
+
+<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
+<p>接下来就简单了，直接存储为Web所用格式。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/17.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/18.png"
+                     
+                >
+
+<p>预览完了就直接存储吧！</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts//gif-making-process/三叶草.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>Ps</tag>
+        <tag>Pr</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -1676,162 +1854,19 @@
       </tags>
   </entry>
   <entry>
-    <title>gif表情包制作工艺流程</title>
-    <url>/archives/posts/6f1a8c0d.html</url>
-    <content><![CDATA[<h2 id="GIF表情包制作工艺流程"><a href="#GIF表情包制作工艺流程" class="headerlink" title="GIF表情包制作工艺流程"></a>GIF表情包制作工艺流程</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>所用软件：</p>
-<ul>
-<li>Photoshop</li>
-<li>Premiere Pro</li>
-<li>Bandicam</li>
-</ul>
-<h3 id="正式开搞"><a href="#正式开搞" class="headerlink" title="正式开搞"></a>正式开搞</h3><p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/1.png"
-                     
-                >
-
-<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/2.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/3.png"
-                     
-                >
-
-<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/4.png"
-                     
-                >
-
-<p>创建个300*300的新序列</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/5.png"
-                     
-                >
-
-<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/6.png"
-                     
-                >
-
-<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/9.png"
-                     
-                >
-
-<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/10.png"
-                     
-                >
-
-<p>给它来个超级键，把蓝背景去掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/11.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/12.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/13.png"
-                     
-                >
-
-<p>完美！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/15.png"
-                     
-                >
-
-<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
-<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/16.png"
-                     
-                >
-
-<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
-<p>接下来就简单了，直接存储为Web所用格式。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/17.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/18.png"
-                     
-                >
-
-<p>预览完了就直接存储吧！</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts//gif-making-process/三叶草.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>Ps</tag>
-        <tag>Pr</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ReCAPTCHA恶搞Ps模板</title>
     <url>/archives/posts/7e916f91.html</url>
     <content><![CDATA[<h1 id="ReCAPTCHA-Ps模板"><a href="#ReCAPTCHA-Ps模板" class="headerlink" title="ReCAPTCHA Ps模板"></a>ReCAPTCHA Ps模板</h1><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/preview.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
                      
                 >
 
 <h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/layers.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
                      
                 >
 
@@ -1839,7 +1874,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/doubleclick.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
                      
                 >
 
@@ -1847,7 +1882,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/new.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
                      
                 >
 
@@ -1855,7 +1890,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/recaptcha-psd/bingo.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
                      
                 >
 
@@ -1885,323 +1920,6 @@
       </categories>
       <tags>
         <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/e3aeb0a4.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flarum搭建踩坑记录</title>
-    <url>/archives/posts/5bc11bd7.html</url>
-    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
-<li>Windows服务器一台</li>
-<li>WampServer （我是大懒蛋）</li>
-<li>Composer</li>
-</ul>
-<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/slow.png"
-                     
-                >
-
-<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
-<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/ms.png"
-                     
-                >
-
-<p><code>composer create-project flarum/flarum .</code></p>
-<p>把这个东西放到wamp里的www目录，开wamp。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/localhost.png"
-                     
-                >
-
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/MySQL.png"
-                     
-                >
-
-<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
-<p>进去装个中文语言包。</p>
-<p><code>composer require flarum-lang/chinese-simplified</code></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/zhcn.png"
-                     
-                >
-
-<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/403.png"
-                     
-                >
-
-<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/virtualhost.png"
-                     
-                >
-
-<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
-<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
-<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>把URL重写all掉，然后访问限制解放。</p>
-<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
-<p>大功告成。</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/trying-flarum/bingo.png"
-                     
-                >
-
-<p>让我看看沙雕网友在里面讨论的……</p>
-<p>这这这这都发的是些什么啊？</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>Web</tag>
-        <tag>Apache</tag>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 I】RPC的使用</title>
-    <url>/archives/posts/bac6a1f4.html</url>
-    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
-<ul>
-<li>必须从Actor处调用。</li>
-<li>这个Actor必须被复制（replicated）。</li>
-<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
-<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
-<li>Multicast是例外：<ul>
-<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
-<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
-<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
-</ul>
-</li>
-</ul>
-<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
-<p>在服务端和客户端的调用详细表格。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/invoke.png"
-                     
-                >
-
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/before.png"
-                     
-                >
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>嘿嘿……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-1-rpc/after.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 II】简单的射线追踪</title>
-    <url>/archives/posts/ef2e4bdf.html</url>
-    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/tracing.png"
-                     
-                >
-
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-
-<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/ok.png"
-                     
-                >
-
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue I】从楼梯上摔下来</title>
-    <url>/archives/posts/574e7c50.html</url>
-    <content><![CDATA[<h2 id="目的何在？"><a href="#目的何在？" class="headerlink" title="目的何在？"></a>目的何在？</h2><p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
-<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
-<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
-<h2 id="Vue简介"><a href="#Vue简介" class="headerlink" title="Vue简介"></a>Vue简介</h2><p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
-<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
-<li>组件化</li>
-<li>声明式</li>
-<li>虚拟DOM和Diff算法</li>
-</ul>
-<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>成功引入与运行。</p>
-<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-
-<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -2240,7 +1958,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/SDLC.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/SDLC.png"
                      
                 >
 
@@ -2276,7 +1994,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/UML.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/UML.png"
                      
                 >
 
@@ -2310,7 +2028,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/cheatsheet.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/cheatsheet.png"
                      
                 >
 
@@ -2419,7 +2137,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/absfact.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/absfact.png"
                      
                 >
 
@@ -2428,7 +2146,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/composite.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/composite.png"
                      
                 >
 
@@ -2437,7 +2155,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.2/posts/sds-recap/command.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/sds-recap/command.png"
                      
                 >
 
@@ -2454,6 +2172,270 @@
         <tag>编程</tag>
         <tag>软件工程</tag>
         <tag>预习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/e3aeb0a4.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏"><a href="#COSER-syokupan-natto-作品鉴赏" class="headerlink" title="COSER syokupan_natto 作品鉴赏"></a>COSER syokupan_natto 作品鉴赏</h2><p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flarum搭建踩坑记录</title>
+    <url>/archives/posts/5bc11bd7.html</url>
+    <content><![CDATA[<h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+<li>Windows服务器一台</li>
+<li>WampServer （我是大懒蛋）</li>
+<li>Composer</li>
+</ul>
+<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/slow.png"
+                     
+                >
+
+<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
+<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/ms.png"
+                     
+                >
+
+<p><code>composer create-project flarum/flarum .</code></p>
+<p>把这个东西放到wamp里的www目录，开wamp。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/localhost.png"
+                     
+                >
+
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/MySQL.png"
+                     
+                >
+
+<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
+<p>进去装个中文语言包。</p>
+<p><code>composer require flarum-lang/chinese-simplified</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/zhcn.png"
+                     
+                >
+
+<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/403.png"
+                     
+                >
+
+<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/virtualhost.png"
+                     
+                >
+
+<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
+<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
+<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>把URL重写all掉，然后访问限制解放。</p>
+<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
+<p>大功告成。</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/bingo.png"
+                     
+                >
+
+<p>让我看看沙雕网友在里面讨论的……</p>
+<p>这这这这都发的是些什么啊？</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>Web</tag>
+        <tag>Apache</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 II】简单的射线追踪</title>
+    <url>/archives/posts/ef2e4bdf.html</url>
+    <content><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
+                     
+                >
+
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
+                     
+                >
+
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 I】RPC的使用</title>
+    <url>/archives/posts/bac6a1f4.html</url>
+    <content><![CDATA[<h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
+<ul>
+<li>必须从Actor处调用。</li>
+<li>这个Actor必须被复制（replicated）。</li>
+<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
+<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
+<li>Multicast是例外：<ul>
+<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
+<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
+<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
+</ul>
+</li>
+</ul>
+<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
+<p>在服务端和客户端的调用详细表格。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/invoke.png"
+                     
+                >
+
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/before.png"
+                     
+                >
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>嘿嘿……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/after.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
@@ -2477,7 +2459,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/card1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card1.png"
                      
                 >
 
@@ -2485,7 +2467,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/card2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card2.png"
                      
                 >
 
@@ -2494,7 +2476,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/card3.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card3.png"
                      
                 >
 
@@ -2505,7 +2487,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/mode1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode1.png"
                      
                 >
 
@@ -2513,7 +2495,7 @@
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/mode2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode2.png"
                      
                 >
 
@@ -2523,7 +2505,7 @@
 <h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://cdn.chuqis.com/npm/anzai-bed-res@1.0.7/posts/ue5-3-cardgame/ok.gif"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/ok.gif"
                      
                 >]]></content>
       <categories>
@@ -2533,6 +2515,59 @@
       <tags>
         <tag>游戏</tag>
         <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue I】从楼梯上摔下来</title>
+    <url>/archives/posts/574e7c50.html</url>
+    <content><![CDATA[<h2 id="目的何在？"><a href="#目的何在？" class="headerlink" title="目的何在？"></a>目的何在？</h2><p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
+<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
+<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
+<h2 id="Vue简介"><a href="#Vue简介" class="headerlink" title="Vue简介"></a>Vue简介</h2><p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ul>
+<li>组件化</li>
+<li>声明式</li>
+<li>虚拟DOM和Diff算法</li>
+</ul>
+<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>成功引入与运行。</p>
+<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+
+<h2 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>
