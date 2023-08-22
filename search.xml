@@ -2565,7 +2565,7 @@
 </div><div class="notel-content"><p>本教程面向零基础用户，下面的一些定义也经过专门设计与解读，大佬请勿喷。如果您不是计算机类专业或没有相关专业知识，预算在50元以内，那么这个教程就是为你准备的！这里我会以本站搭建的历程稍作改动作为教程。</p>
 </div></div>
 
-<h2 id="Hexo搭建个人网站零基础教学"><a href="#Hexo搭建个人网站零基础教学" class="headerlink" title="Hexo搭建个人网站零基础教学"></a>Hexo搭建个人网站零基础教学</h2><h3 id="基础知识速通"><a href="#基础知识速通" class="headerlink" title="基础知识速通"></a>基础知识速通</h3><p>思考：我们访问一个网站的时候，电脑需要经过哪几步处理？</p>
+<h1 id="Hexo搭建个人网站零基础教学"><a href="#Hexo搭建个人网站零基础教学" class="headerlink" title="Hexo搭建个人网站零基础教学"></a>Hexo搭建个人网站零基础教学</h1><h2 id="基础知识速通"><a href="#基础知识速通" class="headerlink" title="基础知识速通"></a>基础知识速通</h2><p>思考：我们访问一个网站的时候，电脑需要经过哪几步处理？</p>
 <ol>
 <li>我们用户输入像 <a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”</li>
 <li>电脑查询这个“网址”对应的“位置”</li>
@@ -2574,7 +2574,7 @@
 </ol>
 <p>如果想让你的电脑时时刻刻都知道这个位置的网站内容，这个位置需要一个24小时都开机的电脑，这样它就可以24小时把网页发给你的电脑，这台24小时开机的电脑叫做“服务器”，我们为了节约成本，可以选用Vercel、Netlify、GitHub Pages之类的服务来代替自己购买服务器，这里我们用Netlify做演示，因为剩下那俩实在太慢了。</p>
 <p><a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”我们可以通过购买“域名”来获得。</p>
-<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>我用过阿里云万网和NameSilo购买域名，一般来说域名越长越便宜。.top域名便宜的只需要$1。</p>
+<h2 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h2><p>我用过阿里云万网和NameSilo购买域名，一般来说域名越长越便宜。.top域名便宜的只需要$1。</p>
 <p>这里用万网举例，需要注意的是，如果你的服务器在大陆地区，你的网站需要备案。如果你的域名在大陆地区，你的域名需要实名认证。</p>
 <p><a class="link"   href="https://wanwang.aliyun.com/" >阿里云万网点这里！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>注册一个账号，在这里搜索想要的域名。</p>
@@ -2593,7 +2593,7 @@
                       alt="万网2"
                 ></p>
 <p>买完后先把实名信息传上去，先放着，我们进行下一步。</p>
-<h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h3><p>搭建环境我们需要下载以下软件。</p>
+<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><p>搭建环境我们需要下载以下软件。</p>
 <ul>
 <li><a class="link"   href="https://code.visualstudio.com/" >VSCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 <li><a class="link"   href="https://nodejs.org/en" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
@@ -2609,7 +2609,7 @@
 <ul>
 <li><a class="link"   href="https://www.dogfight360.com/blog/686/" >steamcommunity 302 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> （仅限Windows）</li>
 </ul>
-<h4 id="steamcommunity-302"><a href="#steamcommunity-302" class="headerlink" title="steamcommunity 302"></a>steamcommunity 302</h4><p>从这里下载。</p>
+<h3 id="steamcommunity-302"><a href="#steamcommunity-302" class="headerlink" title="steamcommunity 302"></a>steamcommunity 302</h3><p>从这里下载。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -2624,8 +2624,9 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2F302setting.png"
                       alt="setting"
                 ></p>
-<h4 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h4><p>这里推荐下载LTS版本。设置保持默认，一路Next到底。</p>
-<h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><p>Git的安装有些复杂，两点比较重要，其他保持默认。</p>
+<h3 id="VSCode"><a href="#VSCode" class="headerlink" title="VSCode"></a>VSCode</h3><p>安装好后需要用插件设置语言为中文，其实英文也没啥问题。不赘述，Bing搜索有很多。</p>
+<h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>这里推荐下载LTS版本。设置保持默认，一路Next到底。</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>Git的安装有些复杂，两点比较重要，其他保持默认。</p>
 <p>这里要把Windows Terminal那项打开，Windows Explorer integration可以关闭。</p>
 <p><img  
                      lazyload
@@ -2640,8 +2641,8 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitvscode.png"
                       alt="文本编辑器"
                 ></p>
-<h4 id="其他环境"><a href="#其他环境" class="headerlink" title="其他环境"></a>其他环境</h4><p>其他环境基本可以保持默认Next到底，这里暂时不多赘述。全部安装好后最好重启一下。</p>
-<h3 id="配置-amp-搭建"><a href="#配置-amp-搭建" class="headerlink" title="配置&amp;搭建"></a>配置&amp;搭建</h3><p>首先我们先新建一个文件夹，用来存你的网页源码。注意，文件夹名字要用<strong>英文</strong>，尽量<strong>不要</strong>有特殊符号。</p>
+<h3 id="其他环境"><a href="#其他环境" class="headerlink" title="其他环境"></a>其他环境</h3><p>其他环境基本可以保持默认Next到底，这里暂时不多赘述。全部安装好后最好重启一下。</p>
+<h2 id="配置-amp-搭建"><a href="#配置-amp-搭建" class="headerlink" title="配置&amp;搭建"></a>配置&amp;搭建</h2><p>首先我们先新建一个文件夹，用来存你的网页源码。注意，文件夹名字要用<strong>英文</strong>，尽量<strong>不要</strong>有特殊符号。</p>
 <p>我就叫testsite了，你网站叫啥名字就可以叫什么。</p>
 <p><img  
                      lazyload
@@ -2700,8 +2701,10 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fconfig.png"
                       alt="config"
                 ></p>
-<p>寻找主题。</p>
-<p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程。</p>
+<p>如果你无法通过双击的方式打开<code>_config.yml</code>，那么说明你VSCode设置可能有问题。如果你确认你安装了VSCode，你可以通过输入以下命令打开整个文件夹，然后再在左侧点击<code>_config.yml</code>。或者直接右键打开方式选“Visual Studio Code”</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">code .</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="寻找主题"><a href="#寻找主题" class="headerlink" title="寻找主题"></a>寻找主题</h3><p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程。</p>
 <p>以我的主题举例。点进去后作者会亲切的教你如何安装和设置。</p>
 <p><img  
                      lazyload
@@ -2715,7 +2718,7 @@
 <p>或者</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
 
-<p>然后再把<code>_config.yml</code>里的主题设置改掉。</p>
+<p>然后再把<code>_config.yml</code>里的主题设置改掉，把默认的landscape改成你下载的主题名字。找不到这一行的可以使用搜索功能。</p>
 <div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span></span><br></pre></td></tr></table></figure></div>
 
 <p>这样主题就设置好了！</p>
@@ -2751,7 +2754,7 @@
 
 <p>之后你就可以用Markdown语法写文章了！</p>
 <p>学习Markdown可以去<a class="link"   href="https://www.runoob.com/markdown/md-tutorial.html" >菜鸟教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>先去GitHub创建一个新仓库。最好是私有库，private。</p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>先去GitHub创建一个新仓库。最好是私有库，private。</p>
 <p>然后按照<a class="link"   href="https://www.runoob.com/git/git-remote-repo.html" >教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 把你的网页源码传上GitHub。</p>
 <p>你大概能看到你类似这样的东西。那么你就成功了！</p>
 <p><img  
@@ -2789,7 +2792,7 @@
                       alt="build"
                 ></p>
 <p>最后点部署，等它一堆命令过去，就部署完成啦！</p>
-<h3 id="解析网站"><a href="#解析网站" class="headerlink" title="解析网站"></a>解析网站</h3><p>这里的domain settings可以自定义域名。</p>
+<h2 id="解析网站"><a href="#解析网站" class="headerlink" title="解析网站"></a>解析网站</h2><p>这里的domain settings可以自定义域名。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -2804,15 +2807,15 @@
                       alt="custom"
                 ></p>
 <p>等个几分钟，估计你就可以通过你的域名访问了。</p>
-<h3 id="更新网站"><a href="#更新网站" class="headerlink" title="更新网站"></a>更新网站</h3><p>主条目：<a href="https://anzai.sleepingbed.top/archives/posts/9f0af8b7">Git使用手册</a></p>
+<h2 id="更新网站"><a href="#更新网站" class="headerlink" title="更新网站"></a>更新网站</h2><p>主条目：<a href="https://anzai.sleepingbed.top/archives/posts/9f0af8b7">Git使用手册</a></p>
 <p>我们需要把代码推到我们的仓库让它自动更新。</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新信息&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
 
 <p>这样应该就好了。</p>
-<h3 id="网站加速"><a href="#网站加速" class="headerlink" title="网站加速"></a>网站加速</h3><p>如果你觉得网站很慢，可以使用CDN服务，CDN是内容分发网络，我们现在主要用它加速网站。我购买了我主题作者的CDN服务，这样可以将网站的静态资源（如图片）加速加载。</p>
+<h2 id="网站加速"><a href="#网站加速" class="headerlink" title="网站加速"></a>网站加速</h2><p>如果你觉得网站很慢，可以使用CDN服务，CDN是内容分发网络，我们现在主要用它加速网站。我购买了我主题作者的CDN服务，这样可以将网站的静态资源（如图片）加速加载。</p>
 <p>如果觉得太复杂，那么可以使用图床来托管图片。</p>
 <p>图片链接直接改为加速后的链接即可。（这里需要有Markdown基础哦）</p>
-<h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>最近问的人实在是太多了，如果你觉得哪里有错误或者哪里需要加点什么，欢迎评论或者私信。</p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>最近问的人实在是太多了，如果你觉得哪里有错误或者哪里需要加点什么，欢迎评论或者私信。</p>
 ]]></content>
       <categories>
         <category>卷</category>
