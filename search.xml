@@ -2754,8 +2754,17 @@
 
 <p>之后你就可以用Markdown语法写文章了！</p>
 <p>学习Markdown可以去<a class="link"   href="https://www.runoob.com/markdown/md-tutorial.html" >菜鸟教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>先去GitHub创建一个新仓库。最好是私有库，private。</p>
-<p>然后按照<a class="link"   href="https://www.runoob.com/git/git-remote-repo.html" >教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 把你的网页源码传上GitHub。</p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>先去GitHub创建一个新仓库。最好是私有库，private。不需要README，加上了反而麻烦，也不需要gitignore，hexo给你生成好了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnewrepo.png"
+                      alt="newrepo"
+                ></p>
+<p>创建完之后会给你一些指令，把给你的指令魔改一下。像这样，再执行<code>commit</code>和之后的代码。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+
+<p>如果需要详细教学请按照<a class="link"   href="https://www.runoob.com/git/git-remote-repo.html" >教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>把你的网页源码传上GitHub。</p>
 <p>你大概能看到你类似这样的东西。那么你就成功了！</p>
 <p><img  
                      lazyload
