@@ -1838,6 +1838,12 @@
 </ol>
 <p>如果想让你的电脑时时刻刻都知道这个位置的网站内容，这个位置需要一个24小时都开机的电脑，这样它就可以24小时把网页发给你的电脑，这台24小时开机的电脑叫做“服务器”，我们为了节约成本，可以选用Vercel、Netlify、GitHub Pages之类的服务来代替自己购买服务器，这里我们用Netlify做演示，因为剩下那俩实在太慢了。</p>
 <p><a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”我们可以通过购买“域名”来获得。</p>
+<p>入门所需知识：</p>
+<ul>
+<li>Markdown语法</li>
+<li>HTML基础使用</li>
+</ul>
+<p>以上两条会一丢丢即可，忘记了可以查。</p>
 <h2 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h2><p>我用过阿里云万网和NameSilo购买域名，一般来说域名越长越便宜。.top域名便宜的只需要$1。</p>
 <p>这里用万网举例，需要注意的是，如果你的服务器在大陆地区，你的网站需要备案。如果你的域名在大陆地区，你的域名需要实名认证。</p>
 <p><a class="link"   href="https://wanwang.aliyun.com/" >阿里云万网点这里！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
