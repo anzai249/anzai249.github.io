@@ -15,8 +15,33 @@
     <atom:link href="https://anzai.sleepingbed.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>啊对对对，开摆就完了呗</description>
-    <pubDate>Wed, 13 Sep 2023 06:53:54 GMT</pubDate>
+    <pubDate>Tue, 19 Sep 2023 07:34:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>【图形学 I】线性代数</title>
+      <link>https://anzai.sleepingbed.top/archives/posts/f8a38e4</link>
+      <guid>https://anzai.sleepingbed.top/archives/posts/f8a38e4</guid>
+      <pubDate>Tue, 19 Sep 2023 03:46:23 GMT</pubDate>
+      
+      <description>呜呜呜真的要去做游戏了</description>
+      
+      
+      
+      
+      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/">卷</category>
+      
+      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/">计算机图形学</category>
+      
+      
+      <category domain="https://anzai.sleepingbed.top/tags/3D/">3D</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/">图形学</category>
+      
+      
+      <comments>https://anzai.sleepingbed.top/archives/posts/f8a38e4#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>【周三名人 VIII】南条爱乃</title>
@@ -486,31 +511,6 @@
       
       
       <comments>https://anzai.sleepingbed.top/archives/posts/574e7c50#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>【Blender I】从零开始</title>
-      <link>https://anzai.sleepingbed.top/archives/posts/9f8d1a65</link>
-      <guid>https://anzai.sleepingbed.top/archives/posts/9f8d1a65</guid>
-      <pubDate>Mon, 03 Jul 2023 01:40:44 GMT</pubDate>
-      
-      <description>另起炉灶。</description>
-      
-      
-      
-      
-      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/">卷</category>
-      
-      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/Blender%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">Blender学习笔记</category>
-      
-      
-      <category domain="https://anzai.sleepingbed.top/tags/3D/">3D</category>
-      
-      <category domain="https://anzai.sleepingbed.top/tags/Blender/">Blender</category>
-      
-      
-      <comments>https://anzai.sleepingbed.top/archives/posts/9f8d1a65#disqus_thread</comments>
       
     </item>
     

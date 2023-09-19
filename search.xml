@@ -3011,4 +3011,109 @@
         <tag>前端</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【图形学 I】线性代数</title>
+    <url>/archives/posts/f8a38e4.html</url>
+    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
+</div><div class="notel-content"><p>我数学很差，如果哪里整错了求纠正！</p>
+</div></div>
+
+<h1 id="图形学相关线性代数"><a href="#图形学相关线性代数" class="headerlink" title="图形学相关线性代数"></a>图形学相关线性代数</h1><p>本文转门学习一些和图形学相关的线性代数基础知识，不深究。</p>
+<h2 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h2><h3 id="表示"><a href="#表示" class="headerlink" title="表示"></a>表示</h3><p>不多说。</p>
+<p>$$\overrightarrow{a}$$</p>
+<p>$$\overrightarrow{AB}&#x3D;B-A$$</p>
+<h3 id="向量长度"><a href="#向量长度" class="headerlink" title="向量长度"></a>向量长度</h3><p>$$\left| \left| \overrightarrow{a}\right| \right| $$</p>
+<p>如果$\overrightarrow{a}$是个二维向量，设$\overrightarrow{a}&#x3D;\begin{pmatrix}<br>x \<br>y<br>\end{pmatrix}$。</p>
+<div class="note-large blue"><div class="notel-title"><p>提醒</p>
+</div><div class="notel-content"><p>这里的向量坐标都用纵向的矩阵，为啥呢？老师是这样教的。横向的也一样用。下面的转置和这个相关。</p>
+</div></div>
+
+<p>勾股定理：</p>
+<p>$$\left| \left| \overrightarrow{a}\right| \right| &#x3D;\sqrt{x^2+y^2}$$</p>
+<p>矩阵相乘：</p>
+<p>$$<br>\left| \left| \overrightarrow{a}\right| \right| ^2&#x3D;<br>\begin{pmatrix}<br>x \<br>y<br>\end{pmatrix}\cdot \begin{pmatrix}<br>x \<br>y<br>\end{pmatrix}<br>$$</p>
+<p>单位向量的长度是$1$。</p>
+<p>$$\hat{a}$$</p>
+<p>$$\left| \left| \hat{a}\right| \right| &#x3D;1$$</p>
+<p>$$\hat{a}&#x3D;\overrightarrow{a}&#x2F;\left| \left| \overrightarrow{a}\right| \right| $$</p>
+<h3 id="向量对应矩阵转置"><a href="#向量对应矩阵转置" class="headerlink" title="向量对应矩阵转置"></a>向量对应矩阵转置</h3><p>具体请看矩阵部分的转置。</p>
+<p>如果$\overrightarrow{a}$是个二维向量，设$\overrightarrow{a}&#x3D;\begin{pmatrix}<br>x \<br>y<br>\end{pmatrix}$。</p>
+<p>那么它对应的矩阵</p>
+<p>$$ A&#x3D;\begin{pmatrix}<br>x \<br>y<br>\end{pmatrix}<br>$$ </p>
+<p>转置：</p>
+<p>$$ A^T&#x3D;(x,y)<br>$$ </p>
+<h3 id="点积"><a href="#点积" class="headerlink" title="点积"></a>点积</h3><p>如果$\overrightarrow{a}$和$\overrightarrow{b}$是两个二维向量，设$\overrightarrow{a}&#x3D;\begin{pmatrix} x_{a} \ y_{a} \end{pmatrix}$，$\overrightarrow{b}&#x3D;\begin{pmatrix} x_{b} \ y_{b} \end{pmatrix}$。三维的就设个$z$哪来那么多问题！！</p>
+<p>$$<br>\overrightarrow{a}\cdot \overrightarrow{b}&#x3D;\begin{pmatrix} x_{a} \ y_{a} \end{pmatrix}\cdot\begin{pmatrix} x_{b} \ y_{b} \end{pmatrix}&#x3D;x_{a} y_{a}+x_{b} y_{b}<br>$$</p>
+<p>$$<br>\overrightarrow{a}\cdot \overrightarrow{b}&#x3D;\left| \left| \overrightarrow{a}\right| \right| \left| \left| \overrightarrow{b}\right| \right| cos\theta<br>$$</p>
+<p>高中数学。</p>
+<p>$$<br>cos\theta&#x3D;\dfrac<br>{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \left| \overrightarrow{a}\right| \right| \left| \left| \overrightarrow{b}\right| \right| }<br>$$</p>
+<p>单位向量：</p>
+<p>$$<br>cos\theta&#x3D;\hat{a}\cdot \hat{b}<br>$$</p>
+<p>点积满足交换律、结合律、分配律。</p>
+<p>点积的几何意义：</p>
+<p>若$\overrightarrow{a}\cdot \overrightarrow{b}&gt;0$，则两向量夹角在$0°$到$90°$。</p>
+<p>若$若$\overrightarrow{a}\cdot \overrightarrow{b}&gt;0$，则两向量夹角在$0°$到$90°$。\cdot \overrightarrow{b}&#x3D;0$，则两向量夹角为$90°$。</p>
+<p>若$\overrightarrow{a}\cdot \overrightarrow{b}&lt;0$，则两向量夹角在$90°$到$180°$。</p>
+<p>还有投影。</p>
+<p>$$<br>\left|\left|\overrightarrow{b}_{\bot}\right|\right|&#x3D;\dfrac<br>{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \left| \overrightarrow{a}\right| \right| }<br>$$</p>
+<h3 id="叉积"><a href="#叉积" class="headerlink" title="叉积"></a>叉积</h3><p><del>XG!</del></p>
+<p>左手系和右手系的区别：</p>
+<p>红色x轴，蓝色z轴，绿色y轴。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/cg-1-linearalgebra/leftright.png"
+                      alt="left right"
+                ></p>
+<div class="note-large blue"><div class="notel-title"><p>提醒</p>
+</div><div class="notel-content"><p>之后的东西统一都用右手系。</p>
+</div></div>
+
+<p>叉积可以算和两个向量垂直的那个向量。</p>
+<p>比如右手系中的这几个轴：</p>
+<p>$$\overrightarrow{x}×\overrightarrow{z}&#x3D;\overrightarrow{y}$$</p>
+<p>$$\overrightarrow{z}×\overrightarrow{x}&#x3D;-\overrightarrow{y}$$</p>
+<p>明显可见叉积不满足交换律。</p>
+<p>$$\overrightarrow{x}×\overrightarrow{z}&#x3D;-\overrightarrow{z}×\overrightarrow{x}$$</p>
+<p>如果用的右手系，那么可以使用右手螺旋定则。</p>
+<p>四指为叉积中前者到后者的方向，拇指为结果的方向。</p>
+<h4 id="二维"><a href="#二维" class="headerlink" title="二维"></a>二维</h4><p>如果$\overrightarrow{a}$和$\overrightarrow{b}$是两个二维向量，设$\overrightarrow{a}&#x3D;\begin{pmatrix} x_{a} \ y_{a} \end{pmatrix}$，$\overrightarrow{b}&#x3D;\begin{pmatrix} x_{b} \ y_{b} \end{pmatrix}$。</p>
+<p>$$<br>\overrightarrow{a}×\overrightarrow{b}&#x3D;\begin{vmatrix}<br>x_{a}&amp;y_{a} \<br>x_{b}&amp;y_{b}<br>\end{vmatrix}<br>$$</p>
+<p>呜呜呜行列式忘了怎么算了。</p>
+<h4 id="三维"><a href="#三维" class="headerlink" title="三维"></a>三维</h4><p>如果$\overrightarrow{a}$和$\overrightarrow{b}$是两个三维向量，设$\overrightarrow{a}&#x3D;\begin{pmatrix} x_{a} \ y_{a} \ z_{a} \end{pmatrix}$，$\overrightarrow{b}&#x3D;\begin{pmatrix} x_{b} \ y_{b} \ z_{a} \end{pmatrix}$。</p>
+<p>$$<br>\overrightarrow{a}×\overrightarrow{b}&#x3D;\begin{vmatrix}<br>i&amp;j&amp;k\<br>x_{a}&amp;y_{a}&amp;z_{a}\<br>x_{b}&amp;y_{b}&amp;z_{b}<br>\end{vmatrix}<br>$$</p>
+<p>$$<br>i&#x3D;\begin{pmatrix} 1 \ 0 \ 0 \end{pmatrix},<br>j&#x3D;\begin{pmatrix} 0 \ 1 \ 0 \end{pmatrix},<br>k&#x3D;\begin{pmatrix} 0 \ 0 \ 1 \end{pmatrix}<br>$$</p>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><h3 id="表示-1"><a href="#表示-1" class="headerlink" title="表示"></a>表示</h3><p>$$<br>A&#x3D;\begin{pmatrix} 1&amp;1&amp;4&amp;5 \ 1&amp;4&amp;1&amp;9 \ 1&amp;9&amp;8&amp;1 \end{pmatrix}<br>$$</p>
+<h3 id="转置"><a href="#转置" class="headerlink" title="转置"></a>转置</h3><p>$$<br>A^T&#x3D;\begin{pmatrix} 1&amp;1&amp;1 \ 1&amp;4&amp;9 \ 4&amp;1&amp;8 \ 5&amp;9&amp;1\end{pmatrix}<br>$$ </p>
+<h3 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h3><p>乘法的结果会继承前者的行数与后者的列数，而且前者的列数必须等于后者的行数。</p>
+<p>也就是说上面那两个矩阵可以相乘，最后得出的矩阵是个$3×3$的。</p>
+<p>$$<br>\begin{pmatrix} 1&amp;1&amp;4&amp;5 \ 1&amp;4&amp;1&amp;9 \ 1&amp;9&amp;8&amp;1 \end{pmatrix}×\begin{pmatrix} 1&amp;1&amp;1 \ 1&amp;4&amp;9 \ 4&amp;1&amp;8 \ 5&amp;9&amp;1\end{pmatrix}&#x3D;v<br>$$</p>
+<p>结果第i行j列的数是前者i行与后者j列的点积。太难算了不算了！</p>
+<p>$$<br>(AB)^T&#x3D;B^TA^T<br>$$</p>
+<h3 id="单位矩阵"><a href="#单位矩阵" class="headerlink" title="单位矩阵"></a>单位矩阵</h3><p>都是方阵。</p>
+<p>$$<br>I_{3×3}&#x3D;\begin{pmatrix} 1&amp;0&amp;0 \ 0&amp;1&amp;0 \ 0&amp;0&amp;1 \end{pmatrix}<br>$$</p>
+<h3 id="逆矩阵"><a href="#逆矩阵" class="headerlink" title="逆矩阵"></a>逆矩阵</h3><p>$\left| A\right|≠0$，那么</p>
+<p>$$<br>A^{-1}&#x3D;\dfrac{A^*}{\left| A\right|}<br>$$</p>
+<p>$A^*$是伴随矩阵，$\left| A\right|$是对应行列式。</p>
+<p>先求伴随矩阵。</p>
+<p>设$A&#x3D;\begin{pmatrix} a_{11}&amp;a_{21}&amp;a_{31} \ a_{12}&amp;a_{22}&amp;a_{32} \ a_{13}&amp;a_{23}&amp;a_{33} \end{pmatrix}$</p>
+<p>代数余子式：</p>
+<p>好难写通式……</p>
+<p>$$<br>A_{xy}&#x3D;(-1)^{x+y}\begin{vmatrix}<br>a_{?}&amp;a_{?} \<br>a_{?}&amp;a_{?}<br>\end{vmatrix}<br>$$</p>
+<p>举例子吧</p>
+<p>$$<br>A_{11}&#x3D;(-1)^{1+1}\begin{vmatrix}<br>a_{22}&amp;a_{32} \<br>a_{23}&amp;a_{33}<br>\end{vmatrix}<br>$$</p>
+<p>那么</p>
+<p>$A^*&#x3D;\begin{pmatrix} A_{11}&amp;A_{21}&amp;A_{31} \ A_{12}&amp;A_{22}&amp;A_{32} \ A_{13}&amp;A_{23}&amp;A_{33} \end{pmatrix}$</p>
+<p>好了，套这个就好了！</p>
+<p>$$<br>A^{-1}&#x3D;\dfrac{A^*}{\left| A\right|}<br>$$</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>计算机图形学</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>图形学</tag>
+      </tags>
+  </entry>
 </search>
