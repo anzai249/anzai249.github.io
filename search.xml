@@ -87,6 +87,46 @@
       </tags>
   </entry>
   <entry>
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/e66fbc14.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
+<h3 id="制作与用法">制作与用法</h3>
+<p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/python.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/userdata.png"
+                     
+                >
+<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
+<p>就在用户数据里选择每个面的图样（？）便可。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/usage.png"
+                     
+                >
+<h3 id="下载">下载</h3>
+<p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
+<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender I】从零开始</title>
     <url>/archives/posts/9f8d1a65.html</url>
     <content><![CDATA[<h2 id="从零开始学习Blender">从零开始学习Blender</h2>
@@ -137,8 +177,8 @@
         <category>Blender学习笔记</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
         <tag>3D</tag>
+        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -176,171 +216,9 @@
         <category>卷</category>
       </categories>
       <tags>
-        <tag>3D</tag>
         <tag>C4D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/e66fbc14.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
-<h3 id="制作与用法">制作与用法</h3>
-<p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/python.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/userdata.png"
-                     
-                >
-<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
-<p>就在用户数据里选择每个面的图样（？）便可。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/usage.png"
-                     
-                >
-<h3 id="下载">下载</h3>
-<p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
-<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
         <tag>3D</tag>
-        <tag>C4D</tag>
         <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>进度是不是有点快啊……</p>
-<h2 id="制作">制作</h2>
-<p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
-                     
-                >
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
-                     
-                >
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
-                     
-                >
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
-                     
-                >
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
-                     
-                >
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
-                     
-                >
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
-                     
-                >
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
-                     
-                >
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-        <tag>3D</tag>
       </tags>
   </entry>
   <entry>
@@ -507,8 +385,130 @@
         <category>Blender学习笔记</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
         <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>进度是不是有点快啊……</p>
+<h2 id="制作">制作</h2>
+<p>先创建一个小方块，加个倒角，当作身体。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
+                     
+                >
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
+                     
+                >
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
+                     
+                >
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
+                     
+                >
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
+                     
+                >
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
+                     
+                >
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
+                     
+                >
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
+                     
+                >
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -516,153 +516,6 @@
     <url>/archives/posts/8bd69e52.html</url>
     <content><![CDATA[<p>Hello world</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>【周三名人 III】鬼头明里</title>
-    <url>/archives/posts/aec84f53.html</url>
-    <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/akari.webp"
-                     
-                >
-<p>鬼头明里，日本声优，所属事务所Raccoon Dog。代表角色有《LoveLive!》的近江彼方，《调教咖啡厅》的日向夏帆，《鬼灭之刃》的灶门祢豆子。</p>
-<h3 id="出身">出身</h3>
-<p>1994年10月16日出生，日本爱知县名古屋出身。Pro Fit声优养成所毕业。</p>
-<h3 id="个人生活">个人生活</h3>
-<p>喜欢画画、唱歌。</p>
-<p>小时候的梦想是成为漫画家，曾被别人夸画画画得好，适合当漫画家从而对漫画家产生了兴趣。后来因父母想要她使用自己的钱读大学，便边打工边上了育成所。</p>
-<p>曾经在诊所、拉面店等地打工，因此瘦了很多。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
-                     
-                >
-<p>明里画的夏帆，从萌娘百科偷的图。</p>
-<p>擅长做炒面、炒乌冬、蛋包饭、蒜香猪五花炒鸡蛋小松菜、锡箔纸烧烤。</p>
-<h4 id="阿卡林衣柜">阿卡林衣柜</h4>
-<p>会根据发型挑选衣服。许多女性声优都会从她那里寻找衣服或者搭配建议。</p>
-<p>前田佳织里：“多谢明里さま让我活下去！”</p>
-<p>鬼头明里：“等等你不会一直靠我送的衣服活下去吧？”</p>
-<p>指出毬亚：“推荐的品牌名是Akari Kito，只要穿上这个品牌的衣服就会变时尚喔。”</p>
-<h3 id="所获荣誉">所获荣誉</h3>
-<p>2021年3月6日，获得第15届声优奖助演女优赏。</p>
-<p>2023年，在第17回声优奖中以虹咲学园学园偶像同好会名义获得歌唱奖。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender V】车</title>
-    <url>/archives/posts/8f815186.html</url>
-    <content><![CDATA[<h2 id="制作">制作</h2>
-<p>先捏个形状。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
-                     
-                >
-<p>还有车窗。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
-                     
-                >
-<p>道路两旁的树直接用粒子系统解决。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
-                     
-                >
-<p>雪。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
-                     
-                >
-<p>改成毛发，就可以看到这种效果。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
-                     
-                >
-<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>导出动画我还是有点基础的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-        <tag>3D</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VI】空海</title>
-    <url>/archives/posts/359fc4d7.html</url>
-    <content><![CDATA[<h2 id="空海">空海</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
-                     
-                >
-<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
-<h3 id="留学中国">留学中国</h3>
-<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
-<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
-<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
-<h3 id="返回日本">返回日本</h3>
-<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
-<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
-<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
-<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
-<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
-<h3 id="评价">评价</h3>
-<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="http://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
   </entry>
   <entry>
     <title>【Blender IV】金币基站</title>
@@ -812,8 +665,111 @@
         <category>Blender学习笔记</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
         <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Blender V】车</title>
+    <url>/archives/posts/8f815186.html</url>
+    <content><![CDATA[<h2 id="制作">制作</h2>
+<p>先捏个形状。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     
+                >
+<p>还有车窗。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     
+                >
+<p>道路两旁的树直接用粒子系统解决。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
+                     
+                >
+<p>雪。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
+                     
+                >
+<p>改成毛发，就可以看到这种效果。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
+                     
+                >
+<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>导出动画我还是有点基础的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VI】空海</title>
+    <url>/archives/posts/359fc4d7.html</url>
+    <content><![CDATA[<h2 id="空海">空海</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
+                     
+                >
+<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
+<h3 id="留学中国">留学中国</h3>
+<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
+<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
+<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
+<h3 id="返回日本">返回日本</h3>
+<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
+<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
+<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
+<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
+<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
+<h3 id="评价">评价</h3>
+<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -943,6 +899,50 @@
       <tags>
         <tag>名人</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 III】鬼头明里</title>
+    <url>/archives/posts/aec84f53.html</url>
+    <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/akari.webp"
+                     
+                >
+<p>鬼头明里，日本声优，所属事务所Raccoon Dog。代表角色有《LoveLive!》的近江彼方，《调教咖啡厅》的日向夏帆，《鬼灭之刃》的灶门祢豆子。</p>
+<h3 id="出身">出身</h3>
+<p>1994年10月16日出生，日本爱知县名古屋出身。Pro Fit声优养成所毕业。</p>
+<h3 id="个人生活">个人生活</h3>
+<p>喜欢画画、唱歌。</p>
+<p>小时候的梦想是成为漫画家，曾被别人夸画画画得好，适合当漫画家从而对漫画家产生了兴趣。后来因父母想要她使用自己的钱读大学，便边打工边上了育成所。</p>
+<p>曾经在诊所、拉面店等地打工，因此瘦了很多。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
+                     
+                >
+<p>明里画的夏帆，从萌娘百科偷的图。</p>
+<p>擅长做炒面、炒乌冬、蛋包饭、蒜香猪五花炒鸡蛋小松菜、锡箔纸烧烤。</p>
+<h4 id="阿卡林衣柜">阿卡林衣柜</h4>
+<p>会根据发型挑选衣服。许多女性声优都会从她那里寻找衣服或者搭配建议。</p>
+<p>前田佳织里：“多谢明里さま让我活下去！”</p>
+<p>鬼头明里：“等等你不会一直靠我送的衣服活下去吧？”</p>
+<p>指出毬亚：“推荐的品牌名是Akari Kito，只要穿上这个品牌的衣服就会变时尚喔。”</p>
+<h3 id="所获荣誉">所获荣誉</h3>
+<p>2021年3月6日，获得第15届声优奖助演女优赏。</p>
+<p>2023年，在第17回声优奖中以虹咲学园学园偶像同好会名义获得歌唱奖。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>动画</tag>
       </tags>
   </entry>
   <entry>
@@ -1112,24 +1112,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于近期干扰连接的公告</title>
-    <url>/archives/posts/b47922c2.html</url>
-    <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
-<h2 id="想说的话">想说的话</h2>
-<p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
-<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
-<h2 id="正文">正文</h2>
-<h3 id="新域名">新域名</h3>
-<p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
-<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>望周知</p>
-<h3 id="周三名人">周三名人</h3>
-<p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>【周三名人 VII】华彦钧</title>
     <url>/archives/posts/c29ca138.html</url>
     <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
@@ -1148,6 +1130,163 @@
       </categories>
       <tags>
         <tag>名人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VIII】南条爱乃</title>
+    <url>/archives/posts/4194a63b.html</url>
+    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>提醒</p>
+</div><div class="notel-content"><p>这有可能是最后一篇周三名人了。</p>
+</div></div>
+<h2 id="南条爱乃">南条爱乃</h2>
+<h3 id="简介">简介</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
+                      alt="南条爱乃"
+                ></p>
+<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
+<h3 id="出身">出身</h3>
+<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
+<p>2010年加入LoveLive!，出演绚濑绘里。</p>
+<h3 id="个人生活">个人生活</h3>
+<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
+<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
+<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
+<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
+<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>剧透警告</p>
+</div><div class="notel-content"><p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+</div></div>
+<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
+<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
+<ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><s>不行！女主不够攻！</s></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
+<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因">尝试分析原因</h3>
+<ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦">做梦</h3>
+<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重拾darknet</title>
+    <url>/archives/posts/4d1dd1ac.html</url>
+    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
+<h3 id="啊啊啊">啊啊啊</h3>
+<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
+                      alt="菠萝"
+                ></p>
+<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
+<h3 id="开整">开整</h3>
+<h4 id="准备数据集">准备数据集</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
+                      alt="数据集1"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
+                      alt="数据集2"
+                ></p>
+<p>提前标注好了，开扌……</p>
+<h4 id="第一次训练">第一次训练</h4>
+<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
+                      alt="4个文件夹"
+                ></p>
+<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
+<h4 id="第二次训练">第二次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
+                      alt="2"
+                ></p>
+<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
+<h4 id="第三次训练">第三次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
+                      alt="3"
+                ></p>
+<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
+<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="第四次训练">第四次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
+                      alt="4"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
+                      alt="结果"
+                ></p>
+<p>轻轻松松，简简单单！</p>
+<h3 id="总结">总结</h3>
+<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>机器视觉</tag>
+        <tag>人工智能</tag>
       </tags>
   </entry>
   <entry>
@@ -1672,161 +1811,22 @@
       </tags>
   </entry>
   <entry>
-    <title>重拾darknet</title>
-    <url>/archives/posts/4d1dd1ac.html</url>
-    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
-<h3 id="啊啊啊">啊啊啊</h3>
-<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
-                      alt="菠萝"
-                ></p>
-<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整">开整</h3>
-<h4 id="准备数据集">准备数据集</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
-                      alt="数据集1"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
-                      alt="数据集2"
-                ></p>
-<p>提前标注好了，开扌……</p>
-<h4 id="第一次训练">第一次训练</h4>
-<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
-                      alt="4个文件夹"
-                ></p>
-<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练">第二次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
-                      alt="2"
-                ></p>
-<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练">第三次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
-                      alt="3"
-                ></p>
-<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
-<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-<h4 id="第四次训练">第四次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
-                      alt="4"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
-                      alt="结果"
-                ></p>
-<p>轻轻松松，简简单单！</p>
-<h3 id="总结">总结</h3>
-<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+    <title>关于近期干扰连接的公告</title>
+    <url>/archives/posts/b47922c2.html</url>
+    <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
+<h2 id="想说的话">想说的话</h2>
+<p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
+<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
+<h2 id="正文">正文</h2>
+<h3 id="新域名">新域名</h3>
+<p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
+<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>望周知</p>
+<h3 id="周三名人">周三名人</h3>
+<p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
 ]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>机器视觉</tag>
-        <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VIII】南条爱乃</title>
-    <url>/archives/posts/4194a63b.html</url>
-    <content><![CDATA[<div class="note-large blue"><div class="notel-title"><p>提醒</p>
-</div><div class="notel-content"><p>这有可能是最后一篇周三名人了。</p>
-</div></div>
-<h2 id="南条爱乃">南条爱乃</h2>
-<h3 id="简介">简介</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="http://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
-                      alt="南条爱乃"
-                ></p>
-<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
-<h3 id="出身">出身</h3>
-<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
-<p>2010年加入LoveLive!，出演绚濑绘里。</p>
-<h3 id="个人生活">个人生活</h3>
-<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
-<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
-<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
-<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
-<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>剧透警告</p>
-</div><div class="notel-content"><p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
-</div></div>
-<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
-<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
-<ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><s>不行！女主不够攻！</s></li>
-</ol>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
-                      alt="1"
-                ></p>
-<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
-<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因">尝试分析原因</h3>
-<ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦">做梦</h3>
-<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
   </entry>
   <entry>
     <title>Git使用手册</title>
@@ -2329,6 +2329,23 @@
       </tags>
   </entry>
   <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况">近况</h2>
+<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划">计划</h2>
+<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[<div class="note-large red"><div class="notel-title"><p>前排提醒</p>
@@ -2426,88 +2443,6 @@
       </categories>
       <tags>
         <tag>Ps</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/e3aeb0a4.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
-<p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况">近况</h2>
-<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划">计划</h2>
-<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
       </tags>
   </entry>
   <entry>
@@ -2805,190 +2740,68 @@
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎5 IV】纯蓝图实现简单的血量系统</title>
-    <url>/archives/posts/67561b4.html</url>
-    <content><![CDATA[<p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
-<h2 id="目标">目标</h2>
-<p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
-<h2 id="详细">详细</h2>
-<h3 id="接口">接口</h3>
-<p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 加血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 减血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">LoseHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<p>好了！编译之后就直接去蓝图。</p>
-<h3 id="数据存储">数据存储</h3>
-<p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
-<p>两个函数，一个加血一个减血，每个都需要一个<code>Amount</code>的整数parameter。两个变量，一个当前血量，一个最大血量，最大血量临时设置为100。</p>
-<p><img  
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/e3aeb0a4.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
+<p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Ffuncvar.png"
-                      alt="funcvar"
-                ></p>
-<p>加血，把当前血量和加血量相加，SET到当前血量上，如果当前血量超过最大血量，那给弄回最大血量。减血差不多的逻辑，不放图了。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2FAddhp.png"
-                      alt="Addhp"
-                ></p>
-<h3 id="UI">UI</h3>
-<p>血条用进度条，红色，按钮用来测试加血。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fui.png"
-                      alt="ui"
-                ></p>
-<p>按钮名叫Eat，按了就把刚刚在<code>CardGameMode.h</code>里定义的加血调用了。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Feat.png"
-                      alt="eat"
-                ></p>
-<h3 id="GameMode">GameMode</h3>
-<p>不太会理线。</p>
-<p>大致意思就是事件开始的时候把UI显示出来，然后更新一下UI上显示的血量。</p>
-<p>然后减血触发，本来很简单的除法运算，画了这么多是因为我想让进度条平滑伸缩，所以弄了个时间轴，把时间轴乘上这个数，然后加到进度条上去，就会有进度条播放，每帧减少血量，平滑过渡的效果了。</p>
-<p><code>LoseHPTrigger()</code>的触发我写到代码里了。</p>
-<p>加血不放了，一样的道理。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fgamemode.png"
-                      alt="gamemode"
-                ></p>
-<h2 id="效果">效果</h2>
-<p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fbingo.png"
-                      alt="bingo"
-                ></p>
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
 ]]></content>
       <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
+        <category>睡大觉</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 II】简单的射线追踪</title>
-    <url>/archives/posts/ef2e4bdf.html</url>
-    <content><![CDATA[<h2 id="原理">原理</h2>
-<p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
-                     
-                >
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码">代码</h2>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="完成">完成</h2>
-<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
-                     
-                >
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 III】做个翻卡片连连看</title>
-    <url>/archives/posts/167165dd.html</url>
-    <content><![CDATA[<h2 id="游戏规则">游戏规则</h2>
-<p>电脑随机生成含有偶数个卡片的矩阵，玩家点击卡片，卡片翻转展示正面的图案，翻开下一张卡片时，如果两张卡片图案相同，则消除，图片不同则两张卡片翻转会原来的状态。</p>
-<pre class="mermaid">graph LR
-    A[翻开第一个卡片] --> B[储存第一个卡片的ID];
-    B --> C[翻开第二个卡片];
-    C --> D{两张卡片ID是否相同?};
-    D -- Yes --> E[卡片消除];
-    D -- No --> F[两张卡片翻转回去];
-    F --> A;</pre>
-<h2 id="实现">实现</h2>
-<p>篇幅原因只展示关键代码。</p>
-<h3 id="卡片">卡片</h3>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.h</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">ACard</span>();</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flip</span><span class="params">()</span></span>; <span class="comment">// 改变翻转状态</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span>; <span class="comment">// 翻转动画调用</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">FlipOver</span><span class="params">()</span></span>; <span class="comment">// 翻转结束，其实用Finished这样的词更好</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">bool</span> <span class="title">IsFlipped</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回是否翻转</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function">FString <span class="title">GetCardID</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回卡片ID（图案）</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span>; <span class="comment">// 指定卡片ID</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UPROPERTY</span>(EditAnywhere)</span><br><span class="line">        UStaticMeshComponent* CardMesh; <span class="comment">// 卡片模型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">	<span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">BeginPlay</span><span class="params">()</span> <span class="keyword">override</span></span>; <span class="comment">// 开始播放</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">bool</span> bIsFlipped; <span class="comment">// 是否翻转的bool</span></span><br><span class="line">    FString CardID; <span class="comment">// 卡片ID</span></span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.cpp</span></span><br><span class="line"></span><br><span class="line">ACard::<span class="built_in">ACard</span>()</span><br><span class="line">&#123;</span><br><span class="line"> 	<span class="comment">// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don&#x27;t need it.</span></span><br><span class="line">	PrimaryActorTick.bCanEverTick = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">	CardMesh = <span class="built_in">CreateDefaultSubobject</span>&lt;UStaticMeshComponent&gt;(<span class="built_in">TEXT</span>(<span class="string">&quot;Card Mesh&quot;</span>));</span><br><span class="line">	RootComponent = CardMesh;</span><br><span class="line"></span><br><span class="line">	bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Called when the game starts or when spawned</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flip</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;Filp state changed&quot;</span>));</span><br><span class="line">	<span class="keyword">if</span> (!bIsFlipped) <span class="comment">// 简单的判断</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 传入一个不断变化的Z之后给它赋值到卡片的旋转上</span></span><br><span class="line">	FRotator CardRotator = CardMesh-&gt;<span class="built_in">GetComponentRotation</span>();</span><br><span class="line">	CardRotator.Yaw = Z;</span><br><span class="line">	CardMesh-&gt;<span class="built_in">SetWorldRotation</span>(CardRotator);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::FlipOver</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ACardGameMode* GameModeRef = <span class="literal">nullptr</span>; <span class="comment">// 定义和获得游戏模式</span></span><br><span class="line">	<span class="keyword">if</span> (!GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		UWorld* World = <span class="built_in">GetWorld</span>();</span><br><span class="line">		<span class="keyword">if</span> (World)</span><br><span class="line">		&#123;</span><br><span class="line">			AGameModeBase* GameMode = UGameplayStatics::<span class="built_in">GetGameMode</span>(World);</span><br><span class="line">			GameModeRef = <span class="built_in">Cast</span>&lt;ACardGameMode&gt;(GameMode);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		GameModeRef-&gt;<span class="built_in">CardClicked</span>(<span class="keyword">this</span>); <span class="comment">// 调用游戏模式里的点击卡片函数</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ACard::IsFlipped</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> bIsFlipped;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">FString <span class="title">ACard::GetCardID</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> CardID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CardID = NewID;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>用蓝方块代替卡片，再弄一个灯光，之后告诉你目的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card1.png"
-                     
-                >
-<p>操作灯光。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card2.png"
-                     
-                >
-<p>卡片翻转动画，需要先判断是否处于正在旋转的状态，如果不弄这个可能会出现怪怪的问题，比如说快速点击同一个卡片，它自己和自己匹配上也能消除/doge。然后就是判断它是否已经旋转，已经旋转的点击之后倒放，翻回来，没旋转的正放，旋转。Finished之后调用FlipOver()去GameMode里进行逻辑判断。</p>
-<p>（然后我刚开始把Is Flipped的if连反了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card3.png"
-                     
-                >
-<h3 id="游戏模式">游戏模式</h3>
-<p>.h不分享了，直接.cpp</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.cpp</span></span><br><span class="line"></span><br><span class="line">ACardGameMode::<span class="built_in">ACardGameMode</span>()</span><br><span class="line">&#123;</span><br><span class="line">    DefaultPawnClass = <span class="literal">nullptr</span>;</span><br><span class="line">    FlippedCardNum = <span class="number">0</span>;</span><br><span class="line">    CardClass = ACard::<span class="built_in">StaticClass</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 游戏开始时调用 StartGame() 函数</span></span><br><span class="line">    <span class="built_in">StartGame</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::StartGame</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    CardPatterns.<span class="built_in">Empty</span>(); <span class="comment">// 这俩是TArray，前者是存卡片ID（图案，FString）的，后者是存卡片（ACard*）的</span></span><br><span class="line">    CardGrid.<span class="built_in">Empty</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (int32 i = <span class="number">0</span>; i &lt; <span class="number">8</span>; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        FString CardPattern = FString::<span class="built_in">Printf</span>(<span class="built_in">TEXT</span>(<span class="string">&quot;Pattern_%d&quot;</span>), i); <span class="comment">// 生成ID</span></span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    CardPatterns.<span class="built_in">Sort</span>([](<span class="type">const</span> FString&amp; A, <span class="type">const</span> FString&amp; B) &#123; <span class="comment">// 打乱ID</span></span><br><span class="line">        <span class="keyword">return</span> FMath::<span class="built_in">RandBool</span>();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="type">const</span> int32 NumRows = <span class="number">4</span>; <span class="comment">// 行列，记得乘出来是个偶数，不然最后会剩一个</span></span><br><span class="line">    <span class="type">const</span> int32 NumCols = <span class="number">4</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (CardClass) <span class="comment">// 判断一下给的卡片子类是否存在（不存在引擎会炸，别问我怎么知道的）</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (int32 Row = <span class="number">0</span>; Row &lt; NumRows; ++Row)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (int32 Col = <span class="number">0</span>; Col &lt; NumCols; ++Col)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="function">FTransform <span class="title">SpawnTransform</span><span class="params">(FRotator::ZeroRotator, FVector(<span class="number">0.00f</span>, Row * <span class="number">100.0f</span>, <span class="number">50</span> + Col * <span class="number">100.0f</span>), FVector::OneVector)</span></span>; <span class="comment">// 分配坐标</span></span><br><span class="line">                ACard* NewCard = <span class="built_in">GetWorld</span>()-&gt;<span class="built_in">SpawnActor</span>&lt;ACard&gt;(CardClass, SpawnTransform.<span class="built_in">GetLocation</span>(), FRotator::ZeroRotator); <span class="comment">// 生成</span></span><br><span class="line">                NewCard-&gt;<span class="built_in">SetCardID</span>(CardPatterns[Row * NumCols + Col]); <span class="comment">// 分配ID</span></span><br><span class="line">                CardGrid.<span class="built_in">Add</span>(NewCard); <span class="comment">// 放到卡片序列里</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::CardClicked</span><span class="params">(ACard* ClickedCard)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;%s&quot;</span>), *ClickedCard-&gt;<span class="built_in">GetCardID</span>());</span><br><span class="line">    <span class="keyword">if</span> (ClickedCard-&gt;<span class="built_in">IsFlipped</span>()) <span class="comment">// 判断它是否已经翻过来了，因为这个是在最后调用的，所以要反着写。</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (FlippedCardNum &lt; <span class="number">1</span>) <span class="comment">// 原理同上，1的时候点击才会达到翻开两个消除。</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum++;</span><br><span class="line">            <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">            MemoryCard = ClickedCard; <span class="comment">// 翻开一个的时候把它记下来</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum = <span class="number">0</span>; <span class="comment">// 消除了，可以初始化翻开的卡片数</span></span><br><span class="line">            <span class="keyword">if</span> (MemoryCard-&gt;<span class="built_in">GetCardID</span>() == ClickedCard-&gt;<span class="built_in">GetCardID</span>()) <span class="comment">// 两个是否一样</span></span><br><span class="line">            &#123;</span><br><span class="line">                ClickedCard-&gt;<span class="built_in">Destroy</span>(); <span class="comment">// 一样就消了</span></span><br><span class="line">                MemoryCard-&gt;<span class="built_in">Destroy</span>();</span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>; <span class="comment">// 清掉记下来的卡片</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">CardFilp</span>(ClickedCard, MemoryCard); <span class="comment">// 不一样就把两个都翻回去，这个函数在下面那张图里</span></span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        FlippedCardNum--; <span class="comment">// 如果卡片是翻过来的，那么把它翻回去</span></span><br><span class="line">        <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">        MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>这是CardFilp()，一次性把这俩卡都翻回去。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode1.png"
-                     
-                >
-<p>要把这里指定为卡的子类，不然上面的if(CardClass)过不去。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode2.png"
-                     
-                >
-<h3 id="其他">其他</h3>
-<p>需要写一个允许监听鼠标点击和悬停事件的Controller，这里不多赘述。</p>
-<p>没有美术师，所以没有模型和图案。判断图案全靠输出日志。如果想加图案也不难，直接往Card类里塞Mesh就行了。</p>
-<h2 id="效果">效果</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/ok.gif"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -3082,6 +2895,46 @@
       </tags>
   </entry>
   <entry>
+    <title>【虚幻引擎5 II】简单的射线追踪</title>
+    <url>/archives/posts/ef2e4bdf.html</url>
+    <content><![CDATA[<h2 id="原理">原理</h2>
+<p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
+                     
+                >
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="完成">完成</h2>
+<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
+                     
+                >
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎5 I】RPC的使用</title>
     <url>/archives/posts/bac6a1f4.html</url>
     <content><![CDATA[<h2 id="关于RPC">关于RPC</h2>
@@ -3137,33 +2990,150 @@
       </tags>
   </entry>
   <entry>
-    <title>【Vue I】从楼梯上摔下来</title>
-    <url>/archives/posts/574e7c50.html</url>
-    <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
-<p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
-<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
-<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
-<h2 id="Vue简介">Vue简介</h2>
-<p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
-<h3 id="特点">特点</h3>
-<ul>
-<li>组件化</li>
-<li>声明式</li>
-<li>虚拟DOM和Diff算法</li>
-</ul>
-<h2 id="Hello-World">Hello World</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>成功引入与运行。</p>
-<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
+    <title>【虚幻引擎5 IV】纯蓝图实现简单的血量系统</title>
+    <url>/archives/posts/67561b4.html</url>
+    <content><![CDATA[<p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
+<h2 id="目标">目标</h2>
+<p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
+<h2 id="详细">详细</h2>
+<h3 id="接口">接口</h3>
+<p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 加血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 减血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">LoseHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<p>好了！编译之后就直接去蓝图。</p>
+<h3 id="数据存储">数据存储</h3>
+<p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
+<p>两个函数，一个加血一个减血，每个都需要一个<code>Amount</code>的整数parameter。两个变量，一个当前血量，一个最大血量，最大血量临时设置为100。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Ffuncvar.png"
+                      alt="funcvar"
+                ></p>
+<p>加血，把当前血量和加血量相加，SET到当前血量上，如果当前血量超过最大血量，那给弄回最大血量。减血差不多的逻辑，不放图了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2FAddhp.png"
+                      alt="Addhp"
+                ></p>
+<h3 id="UI">UI</h3>
+<p>血条用进度条，红色，按钮用来测试加血。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fui.png"
+                      alt="ui"
+                ></p>
+<p>按钮名叫Eat，按了就把刚刚在<code>CardGameMode.h</code>里定义的加血调用了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Feat.png"
+                      alt="eat"
+                ></p>
+<h3 id="GameMode">GameMode</h3>
+<p>不太会理线。</p>
+<p>大致意思就是事件开始的时候把UI显示出来，然后更新一下UI上显示的血量。</p>
+<p>然后减血触发，本来很简单的除法运算，画了这么多是因为我想让进度条平滑伸缩，所以弄了个时间轴，把时间轴乘上这个数，然后加到进度条上去，就会有进度条播放，每帧减少血量，平滑过渡的效果了。</p>
+<p><code>LoseHPTrigger()</code>的触发我写到代码里了。</p>
+<p>加血不放了，一样的道理。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fgamemode.png"
+                      alt="gamemode"
+                ></p>
+<h2 id="效果">效果</h2>
+<p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fbingo.png"
+                      alt="bingo"
+                ></p>
 ]]></content>
       <categories>
         <category>卷</category>
-        <category>Vue学习笔记</category>
+        <category>虚幻5学习笔记</category>
       </categories>
       <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 III】做个翻卡片连连看</title>
+    <url>/archives/posts/167165dd.html</url>
+    <content><![CDATA[<h2 id="游戏规则">游戏规则</h2>
+<p>电脑随机生成含有偶数个卡片的矩阵，玩家点击卡片，卡片翻转展示正面的图案，翻开下一张卡片时，如果两张卡片图案相同，则消除，图片不同则两张卡片翻转会原来的状态。</p>
+<pre class="mermaid">graph LR
+    A[翻开第一个卡片] --> B[储存第一个卡片的ID];
+    B --> C[翻开第二个卡片];
+    C --> D{两张卡片ID是否相同?};
+    D -- Yes --> E[卡片消除];
+    D -- No --> F[两张卡片翻转回去];
+    F --> A;</pre>
+<h2 id="实现">实现</h2>
+<p>篇幅原因只展示关键代码。</p>
+<h3 id="卡片">卡片</h3>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.h</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">ACard</span>();</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flip</span><span class="params">()</span></span>; <span class="comment">// 改变翻转状态</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span>; <span class="comment">// 翻转动画调用</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">FlipOver</span><span class="params">()</span></span>; <span class="comment">// 翻转结束，其实用Finished这样的词更好</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">bool</span> <span class="title">IsFlipped</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回是否翻转</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function">FString <span class="title">GetCardID</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回卡片ID（图案）</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span>; <span class="comment">// 指定卡片ID</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UPROPERTY</span>(EditAnywhere)</span><br><span class="line">        UStaticMeshComponent* CardMesh; <span class="comment">// 卡片模型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">	<span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">BeginPlay</span><span class="params">()</span> <span class="keyword">override</span></span>; <span class="comment">// 开始播放</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">bool</span> bIsFlipped; <span class="comment">// 是否翻转的bool</span></span><br><span class="line">    FString CardID; <span class="comment">// 卡片ID</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.cpp</span></span><br><span class="line"></span><br><span class="line">ACard::<span class="built_in">ACard</span>()</span><br><span class="line">&#123;</span><br><span class="line"> 	<span class="comment">// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don&#x27;t need it.</span></span><br><span class="line">	PrimaryActorTick.bCanEverTick = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">	CardMesh = <span class="built_in">CreateDefaultSubobject</span>&lt;UStaticMeshComponent&gt;(<span class="built_in">TEXT</span>(<span class="string">&quot;Card Mesh&quot;</span>));</span><br><span class="line">	RootComponent = CardMesh;</span><br><span class="line"></span><br><span class="line">	bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Called when the game starts or when spawned</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flip</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;Filp state changed&quot;</span>));</span><br><span class="line">	<span class="keyword">if</span> (!bIsFlipped) <span class="comment">// 简单的判断</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 传入一个不断变化的Z之后给它赋值到卡片的旋转上</span></span><br><span class="line">	FRotator CardRotator = CardMesh-&gt;<span class="built_in">GetComponentRotation</span>();</span><br><span class="line">	CardRotator.Yaw = Z;</span><br><span class="line">	CardMesh-&gt;<span class="built_in">SetWorldRotation</span>(CardRotator);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::FlipOver</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ACardGameMode* GameModeRef = <span class="literal">nullptr</span>; <span class="comment">// 定义和获得游戏模式</span></span><br><span class="line">	<span class="keyword">if</span> (!GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		UWorld* World = <span class="built_in">GetWorld</span>();</span><br><span class="line">		<span class="keyword">if</span> (World)</span><br><span class="line">		&#123;</span><br><span class="line">			AGameModeBase* GameMode = UGameplayStatics::<span class="built_in">GetGameMode</span>(World);</span><br><span class="line">			GameModeRef = <span class="built_in">Cast</span>&lt;ACardGameMode&gt;(GameMode);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		GameModeRef-&gt;<span class="built_in">CardClicked</span>(<span class="keyword">this</span>); <span class="comment">// 调用游戏模式里的点击卡片函数</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ACard::IsFlipped</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> bIsFlipped;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">FString <span class="title">ACard::GetCardID</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> CardID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CardID = NewID;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>用蓝方块代替卡片，再弄一个灯光，之后告诉你目的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card1.png"
+                     
+                >
+<p>操作灯光。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card2.png"
+                     
+                >
+<p>卡片翻转动画，需要先判断是否处于正在旋转的状态，如果不弄这个可能会出现怪怪的问题，比如说快速点击同一个卡片，它自己和自己匹配上也能消除/doge。然后就是判断它是否已经旋转，已经旋转的点击之后倒放，翻回来，没旋转的正放，旋转。Finished之后调用FlipOver()去GameMode里进行逻辑判断。</p>
+<p>（然后我刚开始把Is Flipped的if连反了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card3.png"
+                     
+                >
+<h3 id="游戏模式">游戏模式</h3>
+<p>.h不分享了，直接.cpp</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.cpp</span></span><br><span class="line"></span><br><span class="line">ACardGameMode::<span class="built_in">ACardGameMode</span>()</span><br><span class="line">&#123;</span><br><span class="line">    DefaultPawnClass = <span class="literal">nullptr</span>;</span><br><span class="line">    FlippedCardNum = <span class="number">0</span>;</span><br><span class="line">    CardClass = ACard::<span class="built_in">StaticClass</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 游戏开始时调用 StartGame() 函数</span></span><br><span class="line">    <span class="built_in">StartGame</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::StartGame</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    CardPatterns.<span class="built_in">Empty</span>(); <span class="comment">// 这俩是TArray，前者是存卡片ID（图案，FString）的，后者是存卡片（ACard*）的</span></span><br><span class="line">    CardGrid.<span class="built_in">Empty</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (int32 i = <span class="number">0</span>; i &lt; <span class="number">8</span>; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        FString CardPattern = FString::<span class="built_in">Printf</span>(<span class="built_in">TEXT</span>(<span class="string">&quot;Pattern_%d&quot;</span>), i); <span class="comment">// 生成ID</span></span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    CardPatterns.<span class="built_in">Sort</span>([](<span class="type">const</span> FString&amp; A, <span class="type">const</span> FString&amp; B) &#123; <span class="comment">// 打乱ID</span></span><br><span class="line">        <span class="keyword">return</span> FMath::<span class="built_in">RandBool</span>();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="type">const</span> int32 NumRows = <span class="number">4</span>; <span class="comment">// 行列，记得乘出来是个偶数，不然最后会剩一个</span></span><br><span class="line">    <span class="type">const</span> int32 NumCols = <span class="number">4</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (CardClass) <span class="comment">// 判断一下给的卡片子类是否存在（不存在引擎会炸，别问我怎么知道的）</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (int32 Row = <span class="number">0</span>; Row &lt; NumRows; ++Row)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (int32 Col = <span class="number">0</span>; Col &lt; NumCols; ++Col)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="function">FTransform <span class="title">SpawnTransform</span><span class="params">(FRotator::ZeroRotator, FVector(<span class="number">0.00f</span>, Row * <span class="number">100.0f</span>, <span class="number">50</span> + Col * <span class="number">100.0f</span>), FVector::OneVector)</span></span>; <span class="comment">// 分配坐标</span></span><br><span class="line">                ACard* NewCard = <span class="built_in">GetWorld</span>()-&gt;<span class="built_in">SpawnActor</span>&lt;ACard&gt;(CardClass, SpawnTransform.<span class="built_in">GetLocation</span>(), FRotator::ZeroRotator); <span class="comment">// 生成</span></span><br><span class="line">                NewCard-&gt;<span class="built_in">SetCardID</span>(CardPatterns[Row * NumCols + Col]); <span class="comment">// 分配ID</span></span><br><span class="line">                CardGrid.<span class="built_in">Add</span>(NewCard); <span class="comment">// 放到卡片序列里</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::CardClicked</span><span class="params">(ACard* ClickedCard)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;%s&quot;</span>), *ClickedCard-&gt;<span class="built_in">GetCardID</span>());</span><br><span class="line">    <span class="keyword">if</span> (ClickedCard-&gt;<span class="built_in">IsFlipped</span>()) <span class="comment">// 判断它是否已经翻过来了，因为这个是在最后调用的，所以要反着写。</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (FlippedCardNum &lt; <span class="number">1</span>) <span class="comment">// 原理同上，1的时候点击才会达到翻开两个消除。</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum++;</span><br><span class="line">            <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">            MemoryCard = ClickedCard; <span class="comment">// 翻开一个的时候把它记下来</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum = <span class="number">0</span>; <span class="comment">// 消除了，可以初始化翻开的卡片数</span></span><br><span class="line">            <span class="keyword">if</span> (MemoryCard-&gt;<span class="built_in">GetCardID</span>() == ClickedCard-&gt;<span class="built_in">GetCardID</span>()) <span class="comment">// 两个是否一样</span></span><br><span class="line">            &#123;</span><br><span class="line">                ClickedCard-&gt;<span class="built_in">Destroy</span>(); <span class="comment">// 一样就消了</span></span><br><span class="line">                MemoryCard-&gt;<span class="built_in">Destroy</span>();</span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>; <span class="comment">// 清掉记下来的卡片</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">CardFilp</span>(ClickedCard, MemoryCard); <span class="comment">// 不一样就把两个都翻回去，这个函数在下面那张图里</span></span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        FlippedCardNum--; <span class="comment">// 如果卡片是翻过来的，那么把它翻回去</span></span><br><span class="line">        <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">        MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>这是CardFilp()，一次性把这俩卡都翻回去。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode1.png"
+                     
+                >
+<p>要把这里指定为卡的子类，不然上面的if(CardClass)过不去。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode2.png"
+                     
+                >
+<h3 id="其他">其他</h3>
+<p>需要写一个允许监听鼠标点击和悬停事件的Controller，这里不多赘述。</p>
+<p>没有美术师，所以没有模型和图案。判断图案全靠输出日志。如果想加图案也不难，直接往Card类里塞Mesh就行了。</p>
+<h2 id="效果">效果</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/ok.gif"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
@@ -3252,6 +3222,36 @@
       <tags>
         <tag>游戏</tag>
         <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue I】从楼梯上摔下来</title>
+    <url>/archives/posts/574e7c50.html</url>
+    <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
+<p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
+<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
+<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
+<h2 id="Vue简介">Vue简介</h2>
+<p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
+<h3 id="特点">特点</h3>
+<ul>
+<li>组件化</li>
+<li>声明式</li>
+<li>虚拟DOM和Diff算法</li>
+</ul>
+<h2 id="Hello-World">Hello World</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>成功引入与运行。</p>
+<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>
