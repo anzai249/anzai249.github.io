@@ -3254,4 +3254,53 @@
         <tag>虚幻引擎</tag>
       </tags>
   </entry>
+  <entry>
+    <title>开源匿名提问箱 - CyberGui</title>
+    <url>/archives/posts/aecf41ef.html</url>
+    <content><![CDATA[<h1>CyberGui</h1>
+<h2 id="背景">背景</h2>
+<p>觉得市面上的匿名提问箱都好乱，想在自己网站上搭一个匿名提问，专门让访客问网站主人问题。</p>
+<p>所以我就写了个这个。开源的，你可以自己部署，详细教程往下滑~</p>
+<h2 id="效果">效果</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-light.png"
+                      alt="light"
+                ></p>
+<p>支持暗色模式。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-dark.png"
+                      alt="dark"
+                ></p>
+<p>支持移动端访问和多语言。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-mobile.png"
+                      alt="mobile"
+                ></p>
+<h2 id="采用技术">采用技术</h2>
+<p>前端： Vue</p>
+<p>后端： Node.js</p>
+<p>数据库：MySQL（后期可能考虑加其他的）</p>
+<h2 id="体验">体验</h2>
+<p><a class="link"   href="https://cybergui.sleepingbed.top/" >点我点我！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行，pr记得pr到dev分支。</p>
+<p>师傅们别乱攻击，服务器挺贵，家境贫寒，有漏洞一定要来issue哦。</p>
+<h2 id="自己部署">自己部署</h2>
+<p>项目地址：<a class="link"   href="https://github.com/anzai249/CyberGui/" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>文档：<a class="link"   href="https://cybergui-docs.sleepingbed.top/" >CyberGui Docs <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Web</tag>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
 </search>

@@ -15,8 +15,33 @@
     <atom:link href="https://anzai.sleepingbed.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>啊对对对，开摆就完了呗</description>
-    <pubDate>Tue, 19 Sep 2023 09:29:59 GMT</pubDate>
+    <pubDate>Sat, 11 Nov 2023 14:38:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>开源匿名提问箱 - CyberGui</title>
+      <link>https://anzai.sleepingbed.top/archives/posts/aecf41ef</link>
+      <guid>https://anzai.sleepingbed.top/archives/posts/aecf41ef</guid>
+      <pubDate>Sat, 11 Nov 2023 14:08:34 GMT</pubDate>
+      
+      <description>随便写了个开源提问箱，匿名的，可以自己部署。</description>
+      
+      
+      
+      
+      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/">卷</category>
+      
+      
+      <category domain="https://anzai.sleepingbed.top/tags/%E7%BC%96%E7%A8%8B/">编程</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/Web/">Web</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/Vue/">Vue</category>
+      
+      
+      <comments>https://anzai.sleepingbed.top/archives/posts/aecf41ef#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>【图形学 I】线性代数</title>
@@ -484,33 +509,6 @@
       
       
       <comments>https://anzai.sleepingbed.top/archives/posts/db52fdd4#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>【Vue I】从楼梯上摔下来</title>
-      <link>https://anzai.sleepingbed.top/archives/posts/574e7c50</link>
-      <guid>https://anzai.sleepingbed.top/archives/posts/574e7c50</guid>
-      <pubDate>Tue, 04 Jul 2023 08:50:37 GMT</pubDate>
-      
-      <description>预习笔记还是复习笔记？</description>
-      
-      
-      
-      
-      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/">卷</category>
-      
-      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/Vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">Vue学习笔记</category>
-      
-      
-      <category domain="https://anzai.sleepingbed.top/tags/%E7%BC%96%E7%A8%8B/">编程</category>
-      
-      <category domain="https://anzai.sleepingbed.top/tags/Vue/">Vue</category>
-      
-      <category domain="https://anzai.sleepingbed.top/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      
-      <comments>https://anzai.sleepingbed.top/archives/posts/574e7c50#disqus_thread</comments>
       
     </item>
     
