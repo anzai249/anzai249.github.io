@@ -3262,6 +3262,7 @@
 <p>觉得市面上的匿名提问箱都好乱，想在自己网站上搭一个匿名提问，专门让访客问网站主人问题。</p>
 <p>所以我就写了个这个。开源的，你可以自己部署，详细教程往下滑~</p>
 <h2 id="效果">效果</h2>
+<h3 id="图">图</h3>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -3282,6 +3283,27 @@
                      data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-mobile.jpg"
                       alt="mobile"
                 ></p>
+<h3 id="主要功能">主要功能</h3>
+<h4 id="For-visitors">For visitors</h4>
+<ul>
+<li>匿名提问</li>
+<li>不适宜内容模糊处理</li>
+</ul>
+<h4 id="For-owner">For owner</h4>
+<ul>
+<li>密码验证回答问题</li>
+<li>编辑问题回答</li>
+<li>删除问题</li>
+<li>更改不适宜内容是否模糊处理</li>
+<li>可配置内容审核后展示</li>
+<li>自定义头像</li>
+</ul>
+<h4 id="其他">其他</h4>
+<ul>
+<li>多语言</li>
+<li>可配置匿名提问者随机头像背景</li>
+<li>暗色模式</li>
+</ul>
 <h2 id="采用技术">采用技术</h2>
 <p>前端： Vue</p>
 <p>后端： Node.js</p>
