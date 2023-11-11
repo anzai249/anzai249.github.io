@@ -3279,7 +3279,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-mobile.png"
+                     data-src="http://evan.beee.top/users/anzai/posts/cybergui/preview-mobile.jpg"
                       alt="mobile"
                 ></p>
 <h2 id="采用技术">采用技术</h2>
@@ -3291,6 +3291,7 @@
 <p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行，pr记得pr到dev分支。</p>
 <p>师傅们别乱攻击，服务器挺贵，家境贫寒，有漏洞一定要来issue哦。</p>
 <h2 id="自己部署">自己部署</h2>
+<p>点个星星呗~</p>
 <p>项目地址：<a class="link"   href="https://github.com/anzai249/CyberGui/" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>文档：<a class="link"   href="https://cybergui-docs.sleepingbed.top/" >CyberGui Docs <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
