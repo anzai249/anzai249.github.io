@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的世界C4D纹饰陶罐预置</title>
+    <url>/archives/posts/e66fbc14.html</url>
+    <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
+<h3 id="制作与用法">制作与用法</h3>
+<p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/python.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/userdata.png"
+                     
+                >
+<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
+<p>就在用户数据里选择每个面的图样（？）便可。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/usage.png"
+                     
+                >
+<h3 id="下载">下载</h3>
+<p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
+<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的世界C4D竹子预置</title>
     <url>/archives/posts/c391084a.html</url>
     <content><![CDATA[<h2 id="竹子预置配布">竹子预置配布</h2>
@@ -39,6 +79,12 @@
         <tag>3D</tag>
         <tag>游戏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
   </entry>
   <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
@@ -124,223 +170,6 @@
       <tags>
         <tag>ACM</tag>
         <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的世界C4D纹饰陶罐预置</title>
-    <url>/archives/posts/e66fbc14.html</url>
-    <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
-<h3 id="制作与用法">制作与用法</h3>
-<p>刚开始用了个列表的用户数据，但是我发现返回出来的字符串没法读取，所以又写了个Python脚本，但是后来发现这样太屎山了，就给换成了选择块。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/python.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/userdata.png"
-                     
-                >
-<p>然后就是R26这个预置是什么弱智！！！好难用！貌似导出来的东西<strong>只支持R25以上的C4D版本</strong>。</p>
-<p>就在用户数据里选择每个面的图样（？）便可。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-pot-rig/usage.png"
-                     
-                >
-<h3 id="下载">下载</h3>
-<p>阿里云盘的分享功能检测变严了，单纯改后缀不行了，所以我就把照片和压缩包结合到一起了。下载下来记得改后缀，改成.zip。</p>
-<p>大概是只支持R25以上版本，新的预置文件是zip，lib4d貌似已经退役了。</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/FJmnfJVYXkR" >https://www.aliyundrive.com/s/FJmnfJVYXkR <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>进度是不是有点快啊……</p>
-<h2 id="制作">制作</h2>
-<p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
-                     
-                >
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
-                     
-                >
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
-                     
-                >
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
-                     
-                >
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
-                     
-                >
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
-                     
-                >
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
-                     
-                >
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
-                     
-                >
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender I】从零开始</title>
-    <url>/archives/posts/9f8d1a65.html</url>
-    <content><![CDATA[<h2 id="从零开始学习Blender">从零开始学习Blender</h2>
-<blockquote>
-<p>Ah shit, here we go again.</p>
-</blockquote>
-<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/Earth.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/blender.png"
-                     
-                >
-<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
-<p>Blender这玩意还开源，拿了就走了等着啊。</p>
-<h2 id="基础操作">基础操作</h2>
-<p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/rightup.png"
-                     
-                >
-<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/tools.png"
-                     
-                >
-<p>呜呜呜，为啥预览图都这么简陋T_T</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/add.png"
-                     
-                >
-<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -512,66 +341,173 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
+    <title>【Blender I】从零开始</title>
+    <url>/archives/posts/9f8d1a65.html</url>
+    <content><![CDATA[<h2 id="从零开始学习Blender">从零开始学习Blender</h2>
+<blockquote>
+<p>Ah shit, here we go again.</p>
+</blockquote>
+<p>又一次从零开始了，想起了8年前第一次碰C4D，C4D学了8年才会基础操作，什么时候我的Blender水平才能追上C4D啊。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/Earth.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/blender.png"
+                     
+                >
+<p>看着这完全不熟悉的界面还是有些惆怅啊……</p>
+<p>Blender这玩意还开源，拿了就走了等着啊。</p>
+<h2 id="基础操作">基础操作</h2>
+<p>鼠标中键旋转视图，滚动滚轮进行缩放视图，Shift+中键拖动视图。但是我怎么感觉还是右上角好用……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/rightup.png"
+                     
+                >
+<p>框选工具必改刷选工具啊。工具都很容易理解。Shift+C复原游标。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/tools.png"
+                     
+                >
+<p>呜呜呜，为啥预览图都这么简陋T_T</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-1/add.png"
+                     
+                >
+<p>基操都了解了，那么下次课开冲，直接做案例。（←信心十足）</p>
 ]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
   </entry>
   <entry>
-    <title>【Blender V】车</title>
-    <url>/archives/posts/8f815186.html</url>
-    <content><![CDATA[<h2 id="制作">制作</h2>
-<p>先捏个形状。</p>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>进度是不是有点快啊……</p>
+<h2 id="制作">制作</h2>
+<p>先创建一个小方块，加个倒角，当作身体。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
                      
                 >
-<p>还有车窗。</p>
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
                      
                 >
-<p>道路两旁的树直接用粒子系统解决。</p>
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
                      
                 >
-<p>雪。</p>
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
                      
                 >
-<p>改成毛发，就可以看到这种效果。</p>
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
                      
                 >
-<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
                      
                 >
 <h2 id="渲染">渲染</h2>
-<p>导出动画我还是有点基础的。</p>
+<p>加个背景，经典弯折场景。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
                      
                 >
-]]></content>
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
+                     
+                >
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
+                     
+                >
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
       <categories>
         <category>卷</category>
         <category>Blender学习笔记</category>
@@ -734,6 +670,70 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender V】车</title>
+    <url>/archives/posts/8f815186.html</url>
+    <content><![CDATA[<h2 id="制作">制作</h2>
+<p>先捏个形状。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     
+                >
+<p>还有车窗。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     
+                >
+<p>道路两旁的树直接用粒子系统解决。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
+                     
+                >
+<p>雪。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
+                     
+                >
+<p>改成毛发，就可以看到这种效果。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
+                     
+                >
+<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>导出动画我还是有点基础的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【周三名人 III】鬼头明里</title>
     <url>/archives/posts/aec84f53.html</url>
     <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
@@ -778,38 +778,35 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
-    <url>/archives/posts/bf30c6e.html</url>
-    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
-<h2 id="玛丽亚·波奇卡列娃">玛丽亚·波奇卡列娃</h2>
+    <title>【周三名人 VI】空海</title>
+    <url>/archives/posts/359fc4d7.html</url>
+    <content><![CDATA[<h2 id="空海">空海</h2>
 <h3 id="简介">简介</h3>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
                      
                 >
-<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
-<h3 id="经历">经历</h3>
-<h4 id="出身">出身</h4>
-<p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
-<h4 id="从军生涯">从军生涯</h4>
+<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
+<h3 id="留学中国">留学中国</h3>
+<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
+<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
+<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
+<h3 id="返回日本">返回日本</h3>
+<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
+<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
+<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
+<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
+<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
+<h3 id="评价">评价</h3>
+<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
                      
-                >
-<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
-<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
-<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
-<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
-<h4 id="退役后">退役后</h4>
-<p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
-<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
-<h3 id="评价">评价</h3>
-<p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
-]]></content>
+                >]]></content>
       <categories>
         <category>卷</category>
         <category>周三名人</category>
@@ -848,6 +845,48 @@
 <h3 id="战后">战后</h3>
 <p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
 <p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
+    <url>/archives/posts/bf30c6e.html</url>
+    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
+<h2 id="玛丽亚·波奇卡列娃">玛丽亚·波奇卡列娃</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
+                     
+                >
+<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
+<h3 id="经历">经历</h3>
+<h4 id="出身">出身</h4>
+<p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
+<h4 id="从军生涯">从军生涯</h4>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
+                     
+                >
+<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
+<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
+<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
+<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
+<h4 id="退役后">退役后</h4>
+<p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
+<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
+<h3 id="评价">评价</h3>
+<p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -912,99 +951,6 @@
       <tags>
         <tag>名人</tag>
         <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VI】空海</title>
-    <url>/archives/posts/359fc4d7.html</url>
-    <content><![CDATA[<h2 id="空海">空海</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
-                     
-                >
-<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
-<h3 id="留学中国">留学中国</h3>
-<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
-<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
-<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
-<h3 id="返回日本">返回日本</h3>
-<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
-<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
-<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
-<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
-<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
-<h3 id="评价">评价</h3>
-<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云">王小云</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
-                     
-                >
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历">简要经历</h3>
-<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研">科研</h3>
-<p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖">获奖</h3>
-<ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料">参考资料</h3>
-<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -1144,6 +1090,254 @@
       </tags>
   </entry>
   <entry>
+    <title>【周三名人 VII】华彦钧</title>
+    <url>/archives/posts/c29ca138.html</url>
+    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
+<h3 id="生平">生平</h3>
+<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
+<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
+<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
+<p>1950年12月4日病故。</p>
+<h3 id="音乐作品">音乐作品</h3>
+<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
+<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>剧透警告</p>
+
+    </div>
+    <div class="notel-content">
+      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+
+    </div>
+  </div>
+<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
+<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
+<ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><s>不行！女主不够攻！</s></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
+<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因">尝试分析原因</h3>
+<ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦">做梦</h3>
+<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云">王小云</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     
+                >
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历">简要经历</h3>
+<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研">科研</h3>
+<p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖">获奖</h3>
+<ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>密码学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VIII】南条爱乃</title>
+    <url>/archives/posts/4194a63b.html</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>提醒</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这有可能是最后一篇周三名人了。</p>
+
+    </div>
+  </div>
+<h2 id="南条爱乃">南条爱乃</h2>
+<h3 id="简介">简介</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
+                      alt="南条爱乃"
+                ></p>
+<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
+<h3 id="出身">出身</h3>
+<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
+<p>2010年加入LoveLive!，出演绚濑绘里。</p>
+<h3 id="个人生活">个人生活</h3>
+<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
+<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
+<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
+<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
+<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重拾darknet</title>
+    <url>/archives/posts/4d1dd1ac.html</url>
+    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
+<h3 id="啊啊啊">啊啊啊</h3>
+<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
+                      alt="菠萝"
+                ></p>
+<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
+<h3 id="开整">开整</h3>
+<h4 id="准备数据集">准备数据集</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
+                      alt="数据集1"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
+                      alt="数据集2"
+                ></p>
+<p>提前标注好了，开扌……</p>
+<h4 id="第一次训练">第一次训练</h4>
+<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
+                      alt="4个文件夹"
+                ></p>
+<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
+<h4 id="第二次训练">第二次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
+                      alt="2"
+                ></p>
+<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
+<h4 id="第三次训练">第三次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
+                      alt="3"
+                ></p>
+<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
+<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="第四次训练">第四次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
+                      alt="4"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
+                      alt="结果"
+                ></p>
+<p>轻轻松松，简简单单！</p>
+<h3 id="总结">总结</h3>
+<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>机器视觉</tag>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开源匿名提问箱 - CyberGui</title>
     <url>/archives/posts/aecf41ef.html</url>
     <content><![CDATA[<h1>CyberGui</h1>
@@ -1216,78 +1410,6 @@
       </tags>
   </entry>
   <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>剧透警告</p>
-
-    </div>
-    <div class="notel-content">
-      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
-
-    </div>
-  </div>
-<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
-<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
-<ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><s>不行！女主不够攻！</s></li>
-</ol>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
-                      alt="1"
-                ></p>
-<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
-<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因">尝试分析原因</h3>
-<ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦">做梦</h3>
-<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VII】华彦钧</title>
-    <url>/archives/posts/c29ca138.html</url>
-    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
-<h3 id="生平">生平</h3>
-<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
-<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
-<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
-<p>1950年12月4日病故。</p>
-<h3 id="音乐作品">音乐作品</h3>
-<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
-<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于近期干扰连接的公告</title>
     <url>/archives/posts/b47922c2.html</url>
     <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
@@ -1306,134 +1428,136 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Git使用手册</title>
-    <url>/archives/posts/9f0af8b7.html</url>
-    <content><![CDATA[<h2 id="简介">简介</h2>
+    <title>gif表情包制作工艺流程</title>
+    <url>/archives/posts/6f1a8c0d.html</url>
+    <content><![CDATA[<h2 id="GIF表情包制作工艺流程">GIF表情包制作工艺流程</h2>
+<h3 id="准备工作">准备工作</h3>
+<p>所用软件：</p>
+<ul>
+<li>Photoshop</li>
+<li>Premiere Pro</li>
+<li>Bandicam</li>
+</ul>
+<h3 id="正式开搞">正式开搞</h3>
+<p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/1.png"
                      
                 >
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-<h2 id="基础用法">基础用法</h2>
-<h3 id="创建仓库">创建仓库</h3>
-<p>本地新建</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-<p>克隆仓库</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="工作区域">工作区域</h3>
-<ul>
-<li>工作区
-<ul>
-<li>.git所在目录</li>
-<li>用户实际操作的目录</li>
-</ul>
-</li>
-<li>暂存区
-<ul>
-<li>.git/index</li>
-<li>存放add后没有commit的内容</li>
-</ul>
-</li>
-<li>本地仓库
-<ul>
-<li>.git/objects</li>
-<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
-</ul>
-</li>
-</ul>
-<h3 id="文件状态">文件状态</h3>
-<pre class="mermaid">flowchart LR
-   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
-   A[未跟踪] --"git add"--> D[已暂存]
-   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
-   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
-<h3 id="提交">提交</h3>
-<p>查看仓库状态</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-<p>添加到暂存区</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
-<p>从暂存区中删除</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
-<p>提交</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
-<h3 id="日志">日志</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
-<h3 id="回退版本">回退版本</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
-<h3 id="对比文件">对比文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
-<p>此外本质零还可以比较分支之间的差异。</p>
-<h3 id="删除文件">删除文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
-<h3 id="关联远程">关联远程</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
-<h3 id="分支">分支</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<p>rebase</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Gitflow模型">Gitflow模型</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
-<p>将仓库分为以下分支进行开发：</p>
-<ul>
-<li>main</li>
-<li>hotfix</li>
-<li>release</li>
-<li>develop</li>
-<li>feature</li>
-</ul>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VIII】南条爱乃</title>
-    <url>/archives/posts/4194a63b.html</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>提醒</p>
-
-    </div>
-    <div class="notel-content">
-      <p>这有可能是最后一篇周三名人了。</p>
-
-    </div>
-  </div>
-<h2 id="南条爱乃">南条爱乃</h2>
-<h3 id="简介">简介</h3>
-<p><img  
+<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
-                      alt="南条爱乃"
-                ></p>
-<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
-<h3 id="出身">出身</h3>
-<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
-<p>2010年加入LoveLive!，出演绚濑绘里。</p>
-<h3 id="个人生活">个人生活</h3>
-<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
-<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
-<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
-<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
-<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/2.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/3.png"
+                     
+                >
+<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/4.png"
+                     
+                >
+<p>创建个300*300的新序列</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/5.png"
+                     
+                >
+<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/6.png"
+                     
+                >
+<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/9.png"
+                     
+                >
+<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/10.png"
+                     
+                >
+<p>给它来个超级键，把蓝背景去掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/11.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/12.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/13.png"
+                     
+                >
+<p>完美！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/15.png"
+                     
+                >
+<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
+<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/16.png"
+                     
+                >
+<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
+<p>接下来就简单了，直接存储为Web所用格式。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/17.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/18.png"
+                     
+                >
+<p>预览完了就直接存储吧！</p>
+<h3 id="效果">效果</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/三叶草.gif"
+                     
+                >
 ]]></content>
       <categories>
         <category>卷</category>
-        <category>周三名人</category>
       </categories>
       <tags>
-        <tag>名人</tag>
-        <tag>动画</tag>
+        <tag>游戏</tag>
+        <tag>Ps</tag>
+        <tag>Pr</tag>
       </tags>
   </entry>
   <entry>
@@ -1966,83 +2090,92 @@
       </tags>
   </entry>
   <entry>
-    <title>重拾darknet</title>
-    <url>/archives/posts/4d1dd1ac.html</url>
-    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
-<h3 id="啊啊啊">啊啊啊</h3>
-<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
-<p><img  
+    <title>Git使用手册</title>
+    <url>/archives/posts/9f0af8b7.html</url>
+    <content><![CDATA[<h2 id="简介">简介</h2>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
-                      alt="菠萝"
-                ></p>
-<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整">开整</h3>
-<h4 id="准备数据集">准备数据集</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
-                      alt="数据集1"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
-                      alt="数据集2"
-                ></p>
-<p>提前标注好了，开扌……</p>
-<h4 id="第一次训练">第一次训练</h4>
-<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
-                      alt="4个文件夹"
-                ></p>
-<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练">第二次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
-                      alt="2"
-                ></p>
-<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练">第三次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
-                      alt="3"
-                ></p>
-<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
-<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-<h4 id="第四次训练">第四次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
-                      alt="4"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
-                      alt="结果"
-                ></p>
-<p>轻轻松松，简简单单！</p>
-<h3 id="总结">总结</h3>
-<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
+                     
+                >
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<h2 id="基础用法">基础用法</h2>
+<h3 id="创建仓库">创建仓库</h3>
+<p>本地新建</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>克隆仓库</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="工作区域">工作区域</h3>
+<ul>
+<li>工作区
+<ul>
+<li>.git所在目录</li>
+<li>用户实际操作的目录</li>
+</ul>
+</li>
+<li>暂存区
+<ul>
+<li>.git/index</li>
+<li>存放add后没有commit的内容</li>
+</ul>
+</li>
+<li>本地仓库
+<ul>
+<li>.git/objects</li>
+<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
+</ul>
+</li>
+</ul>
+<h3 id="文件状态">文件状态</h3>
+<pre class="mermaid">flowchart LR
+   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
+   A[未跟踪] --"git add"--> D[已暂存]
+   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
+   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
+<h3 id="提交">提交</h3>
+<p>查看仓库状态</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+<p>添加到暂存区</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
+<p>从暂存区中删除</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
+<p>提交</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
+<h3 id="日志">日志</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
+<h3 id="回退版本">回退版本</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
+<h3 id="对比文件">对比文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
+<p>此外本质零还可以比较分支之间的差异。</p>
+<h3 id="删除文件">删除文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
+<h3 id="关联远程">关联远程</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+<h3 id="分支">分支</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<p>rebase</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Gitflow模型">Gitflow模型</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
+<p>将仓库分为以下分支进行开发：</p>
+<ul>
+<li>main</li>
+<li>hotfix</li>
+<li>release</li>
+<li>develop</li>
+<li>feature</li>
+</ul>
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
-        <tag>机器视觉</tag>
-        <tag>人工智能</tag>
+        <tag>编程</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -2332,59 +2465,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ReCAPTCHA恶搞Ps模板</title>
-    <url>/archives/posts/7e916f91.html</url>
-    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
-<h2 id="效果">效果</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
-                     
-                >
-<h2 id="使用说明">使用说明</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
-                     
-                >
-<p>每个图层的简要说明</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
-                     
-                >
-<p>双击想要编辑的智能对象</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
-                     
-                >
-<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
-                     
-                >
-<p>回去就可以看到这个里面的也变了。</p>
-<p>那么之后随意修改一下文字就可以啦！</p>
-<h2 id="下载">下载</h2>
-<p>Fake ReCAPTCHA.psd</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>Ps</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[
@@ -2441,243 +2521,75 @@
       </tags>
   </entry>
   <entry>
-    <title>gif表情包制作工艺流程</title>
-    <url>/archives/posts/6f1a8c0d.html</url>
-    <content><![CDATA[<h2 id="GIF表情包制作工艺流程">GIF表情包制作工艺流程</h2>
-<h3 id="准备工作">准备工作</h3>
-<p>所用软件：</p>
-<ul>
-<li>Photoshop</li>
-<li>Premiere Pro</li>
-<li>Bandicam</li>
-</ul>
-<h3 id="正式开搞">正式开搞</h3>
-<p>那么以《植物大战僵尸》这款经典游戏为例，我已经把背景偷偷改成蓝色了😜</p>
-<img  
+    <title>社恐患者如何做脱稿演讲？</title>
+    <url>/archives/posts/3c42d251.html</url>
+    <content><![CDATA[<h1>社恐患者如何做脱稿演讲？</h1>
+<p>（封面是leonardo.ai生成的）</p>
+<p>作为一个自我感觉良好的社恐患者，我觉得我做的演讲还像那么回事，所以我就来分享经验了。</p>
+<h2 id="小小的发展历程">小小的发展历程</h2>
+<p>我记得第一次让我做英文演讲的时候我准备了一个很长很长的稿子（甚至这个稿子我还能翻到一小段）</p>
+<blockquote>
+<p>Jupiter’s administration has a lot of trouble managing employees, but some of the Jupiter stores are using online calendars or excel sheets, and the problem with this is that it is too detailed and unreliable.</p>
+</blockquote>
+<p>第一次我纯捧读，老师问了问题我都不知道怎么答。</p>
+<p>之后我就发现，用PPT+临场发挥要比捧读效果好100倍，之后我不管是中文还是英文演讲都采用这种模式，自我感觉还不错。</p>
+<h2 id="技巧">技巧</h2>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/1.png"
-                     
-                >
-<p>那么我们用南瓜或者坚果挡住过来的僵尸，种下自己想要的植物并用<em><strong>Bandicam</strong></em>录像保存，以三叶草为例。</p>
-<img  
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Leonardo_Diffusion_XL_cartoon_speech_presentation_man_smile_2d_3.jpg"
+                      alt="AI生成的"
+                ></p>
+<p>AI生成的图，做同款去<a href="leonardo.ai">leonardo.ai</a>。</p>
+<h3 id="演讲前的准备">演讲前的准备</h3>
+<p>明确一下你要讲的是什么，找个好看的PPT模板。</p>
+<p>PPT的设计包括插图、字体都要尽可能贴近原先的模板，这样看着协调。（也许因为我是INTJ）</p>
+<p>分好层次，不要把一堆内容都放一张幻灯片上面。</p>
+<p><strong>重要！</strong> 尽量不要把整句话、整段话复制进PPT，很影响视觉效果，而且这样和捧读没啥区别了。</p>
+<h4 id="记不住稿子怎么办？">记不住稿子怎么办？</h4>
+<p>一般来说我喜欢往PPT里插一些图片来提示我。</p>
+<p>虽说这张幻灯片我做的不是很满意，字有点多了，但是用来举例问题不大。我在这放个汉堡，演讲的时候我就知道在这里要讲汉堡店了。汉堡图右下角的框框我把原本的字缩减，放到这既可以点缀图片又可以提示我下一步说什么。</p>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/2.png"
-                     
-                >
-<img  
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/burger.png"
+                      alt="汉堡"
+                ></p>
+<h4 id="图片的其他作用">图片的其他作用</h4>
+<p>增加趣味性，吸引听众。</p>
+<p>有一回我做中文演讲就在这里加了个这个XD</p>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/3.png"
-                     
-                >
-<p>录好之后就可以关闭游戏，打开 <em><strong>Premiere Pro</strong></em></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/4.png"
-                     
-                >
-<p>创建个300*300的新序列</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/5.png"
-                     
-                >
-<p>把录好的视频拖进来，别改变序列大小，保持现有设置</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/6.png"
-                     
-                >
-<p>调整位置和缩放让想要的植物显示到屏幕正中间</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/9.png"
-                     
-                >
-<p>精细调整下方序列长度，让其正确循环，比较好的检验方法就是复制一份，两个拼接起来，如果衔接很自然，那就成功了！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/10.png"
-                     
-                >
-<p>给它来个超级键，把蓝背景去掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/11.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/12.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/13.png"
-                     
-                >
-<p>完美！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/15.png"
-                     
-                >
-<p>导出记得用苹果的这个带Alpha的XMF配置，对后续操作非常方便。</p>
-<p>接着打开 <em><strong>Photoshop</strong></em> ，导入图片。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/16.png"
-                     
-                >
-<p>XMF已经将Alpha通道处理好，所以看上去干干净净。</p>
-<p>接下来就简单了，直接存储为Web所用格式。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/17.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/18.png"
-                     
-                >
-<p>预览完了就直接存储吧！</p>
-<h3 id="效果">效果</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/gif-making-process/三叶草.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>Ps</tag>
-        <tag>Pr</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况">近况</h2>
-<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划">计划</h2>
-<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Jackie.png"
+                      alt="成龙"
+                ></p>
+<h4 id="做完PPT该干什么？">做完PPT该干什么？</h4>
+<p>过一遍PPT，从头到尾，这时你需要在脑子里思考，那张幻灯片出现的时候说什么，这样到场上就很少会紧张忘词啥的了。<strong>这一步也很重要。</strong></p>
+<h3 id="语言">语言</h3>
+<p>没啥水平，全是技巧。</p>
+<p>我雅思口语仅5分。然而演讲注重的是吸引听众听懂且信服，而口语考试看的是综合能力，所以口语考试成绩并不能完全决定你的演讲效果。</p>
+<p>英语的话最主要的要了解一些西方国家的文化，他们喜欢什么就说什么，这样会极大吸引听众和老师。如果不知道如何表达更加吸引人，那你就列一些比较火的事物或梗，比如软件质量差这方面我就用了电子游戏Cyberpunk 2077的首发举例。</p>
+<p>中文那就随便说了，我们自己知道哪些词，哪些句子，哪些梗引人注目，那么就多说一点。</p>
+<p>分享个这个<a href="https://anzai.sleepingbed.top/archives/posts/a65333d3">三个月突击雅思经验</a>。</p>
+<h3 id="自信">自信</h3>
+<p>就像Carl Wolff老师说的一样，你上台的时候全场的焦点是你，你比他们都强，不需要怕别人能说你什么。听Carl老师说这个之前，我一直激励自己不害怕的办法是在心里重复这句话：“他们又不会吃了你！”</p>
+<p>上去之后你要面带微笑。可能是因为我平常就爱笑吧，这个对我不太难，建议大家平常就保持乐观。</p>
+<p>拿个麦克风，好玩。</p>
+<p>PPT上有重点拿手去指一指。</p>
+<h3 id="不要读稿子">不要读稿子</h3>
+<p>别看我上课演讲有的时候拿个本子，我那本子里没有一句完整的话，全是关键词。</p>
+<p>读稿子会显得很不自然，你没有思考的时间，欻欻欻全读下来了，语气没有起伏，听起来没什么激情。如果你觉得不能马上脱离这种状态，那就先这样，然后在演讲里加一些自己的闲话啥的。比如你读了一段有意思的地方，你就可以说说&quot;That’s interesting.&quot;啥的，之后就慢慢把这个自己发挥的慢慢变长。</p>
+<p>一定要记住，讲的内容要尽可能联系生活实际，不能说空话，这样听众容易犯困。</p>
+<h2 id="结语">结语</h2>
+<p>在演讲中，准备和自信是成功的关键。保持简洁明了，让听众容易理解。用生动的语言激发共鸣，展现热情。最重要的是，不要害怕犯错，因为每一次尝试都是成长的机会。相信你们也能成为出色的演讲者！（结语是ChatGPT写的，还有模有样的）</p>
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
         <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flarum搭建踩坑记录</title>
-    <url>/archives/posts/5bc11bd7.html</url>
-    <content><![CDATA[<h2 id="Flarum搭建踩坑记录">Flarum搭建踩坑记录</h2>
-<h3 id="目的">目的</h3>
-<p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备">准备</h3>
-<ul>
-<li>Windows服务器一台</li>
-<li>WampServer （我是大懒蛋）</li>
-<li>Composer</li>
-</ul>
-<h3 id="开干">开干</h3>
-<p>WampServer这东西太大了吧……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/slow.png"
-                     
-                >
-<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
-<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/ms.png"
-                     
-                >
-<p><code>composer create-project flarum/flarum .</code></p>
-<p>把这个东西放到wamp里的www目录，开wamp。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/localhost.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/MySQL.png"
-                     
-                >
-<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
-<p>进去装个中文语言包。</p>
-<p><code>composer require flarum-lang/chinese-simplified</code></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/zhcn.png"
-                     
-                >
-<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/403.png"
-                     
-                >
-<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/virtualhost.png"
-                     
-                >
-<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
-<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
-<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>把URL重写all掉，然后访问限制解放。</p>
-<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
-<p>大功告成。</p>
-<h3 id="效果">效果</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/bingo.png"
-                     
-                >
-<p>让我看看沙雕网友在里面讨论的……</p>
-<p>这这这这都发的是些什么啊？</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>Web</tag>
-        <tag>Apache</tag>
-        <tag>MySQL</tag>
+        <tag>个人修养</tag>
       </tags>
   </entry>
   <entry>
@@ -2983,6 +2895,141 @@
       </tags>
   </entry>
   <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况">近况</h2>
+<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划">计划</h2>
+<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/e3aeb0a4.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
+<p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ReCAPTCHA恶搞Ps模板</title>
+    <url>/archives/posts/7e916f91.html</url>
+    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
+<h2 id="效果">效果</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
+                     
+                >
+<h2 id="使用说明">使用说明</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
+                     
+                >
+<p>每个图层的简要说明</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
+                     
+                >
+<p>双击想要编辑的智能对象</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
+                     
+                >
+<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
+                     
+                >
+<p>回去就可以看到这个里面的也变了。</p>
+<p>那么之后随意修改一下文字就可以啦！</p>
+<h2 id="下载">下载</h2>
+<p>Fake ReCAPTCHA.psd</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>Ps</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎5 I】RPC的使用</title>
     <url>/archives/posts/bac6a1f4.html</url>
     <content><![CDATA[<h2 id="关于RPC">关于RPC</h2>
@@ -3038,6 +3085,96 @@
       </tags>
   </entry>
   <entry>
+    <title>Flarum搭建踩坑记录</title>
+    <url>/archives/posts/5bc11bd7.html</url>
+    <content><![CDATA[<h2 id="Flarum搭建踩坑记录">Flarum搭建踩坑记录</h2>
+<h3 id="目的">目的</h3>
+<p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备">准备</h3>
+<ul>
+<li>Windows服务器一台</li>
+<li>WampServer （我是大懒蛋）</li>
+<li>Composer</li>
+</ul>
+<h3 id="开干">开干</h3>
+<p>WampServer这东西太大了吧……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/slow.png"
+                     
+                >
+<p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
+<p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/ms.png"
+                     
+                >
+<p><code>composer create-project flarum/flarum .</code></p>
+<p>把这个东西放到wamp里的www目录，开wamp。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/localhost.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/MySQL.png"
+                     
+                >
+<p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
+<p>进去装个中文语言包。</p>
+<p><code>composer require flarum-lang/chinese-simplified</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/zhcn.png"
+                     
+                >
+<p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/403.png"
+                     
+                >
+<p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/virtualhost.png"
+                     
+                >
+<p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
+<p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
+<div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>把URL重写all掉，然后访问限制解放。</p>
+<p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
+<p>大功告成。</p>
+<h3 id="效果">效果</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/bingo.png"
+                     
+                >
+<p>让我看看沙雕网友在里面讨论的……</p>
+<p>这这这这都发的是些什么啊？</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>Web</tag>
+        <tag>Apache</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎5 II】简单的射线追踪</title>
     <url>/archives/posts/ef2e4bdf.html</url>
     <content><![CDATA[<h2 id="原理">原理</h2>
@@ -3068,6 +3205,78 @@
                      data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
                      
                 >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 IV】纯蓝图实现简单的血量系统</title>
+    <url>/archives/posts/67561b4.html</url>
+    <content><![CDATA[<p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
+<h2 id="目标">目标</h2>
+<p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
+<h2 id="详细">详细</h2>
+<h3 id="接口">接口</h3>
+<p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 加血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 减血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">LoseHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<p>好了！编译之后就直接去蓝图。</p>
+<h3 id="数据存储">数据存储</h3>
+<p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
+<p>两个函数，一个加血一个减血，每个都需要一个<code>Amount</code>的整数parameter。两个变量，一个当前血量，一个最大血量，最大血量临时设置为100。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Ffuncvar.png"
+                      alt="funcvar"
+                ></p>
+<p>加血，把当前血量和加血量相加，SET到当前血量上，如果当前血量超过最大血量，那给弄回最大血量。减血差不多的逻辑，不放图了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2FAddhp.png"
+                      alt="Addhp"
+                ></p>
+<h3 id="UI">UI</h3>
+<p>血条用进度条，红色，按钮用来测试加血。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fui.png"
+                      alt="ui"
+                ></p>
+<p>按钮名叫Eat，按了就把刚刚在<code>CardGameMode.h</code>里定义的加血调用了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Feat.png"
+                      alt="eat"
+                ></p>
+<h3 id="GameMode">GameMode</h3>
+<p>不太会理线。</p>
+<p>大致意思就是事件开始的时候把UI显示出来，然后更新一下UI上显示的血量。</p>
+<p>然后减血触发，本来很简单的除法运算，画了这么多是因为我想让进度条平滑伸缩，所以弄了个时间轴，把时间轴乘上这个数，然后加到进度条上去，就会有进度条播放，每帧减少血量，平滑过渡的效果了。</p>
+<p><code>LoseHPTrigger()</code>的触发我写到代码里了。</p>
+<p>加血不放了，一样的道理。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fgamemode.png"
+                      alt="gamemode"
+                ></p>
+<h2 id="效果">效果</h2>
+<p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fbingo.png"
+                      alt="bingo"
+                ></p>
+]]></content>
       <categories>
         <category>卷</category>
         <category>虚幻5学习笔记</category>
@@ -3153,215 +3362,6 @@
       </tags>
   </entry>
   <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/e3aeb0a4.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
-<p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>社恐患者如何做脱稿演讲？</title>
-    <url>/archives/posts/3c42d251.html</url>
-    <content><![CDATA[<h1>社恐患者如何做脱稿演讲？</h1>
-<p>（封面是leonardo.ai生成的）</p>
-<p>作为一个自我感觉良好的社恐患者，我觉得我做的演讲还像那么回事，所以我就来分享经验了。</p>
-<h2 id="小小的发展历程">小小的发展历程</h2>
-<p>我记得第一次让我做英文演讲的时候我准备了一个很长很长的稿子（甚至这个稿子我还能翻到一小段）</p>
-<blockquote>
-<p>Jupiter’s administration has a lot of trouble managing employees, but some of the Jupiter stores are using online calendars or excel sheets, and the problem with this is that it is too detailed and unreliable.</p>
-</blockquote>
-<p>第一次我纯捧读，老师问了问题我都不知道怎么答。</p>
-<p>之后我就发现，用PPT+临场发挥要比捧读效果好100倍，之后我不管是中文还是英文演讲都采用这种模式，自我感觉还不错。</p>
-<h2 id="技巧">技巧</h2>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Leonardo_Diffusion_XL_cartoon_speech_presentation_man_smile_2d_3.jpg"
-                      alt="AI生成的"
-                ></p>
-<p>AI生成的图，做同款去<a href="leonardo.ai">leonardo.ai</a>。</p>
-<h3 id="演讲前的准备">演讲前的准备</h3>
-<p>明确一下你要讲的是什么，找个好看的PPT模板。</p>
-<p>PPT的设计包括插图、字体都要尽可能贴近原先的模板，这样看着协调。（也许因为我是INTJ）</p>
-<p>分好层次，不要把一堆内容都放一张幻灯片上面。</p>
-<p><strong>重要！</strong> 尽量不要把整句话、整段话复制进PPT，很影响视觉效果，而且这样和捧读没啥区别了。</p>
-<h4 id="记不住稿子怎么办？">记不住稿子怎么办？</h4>
-<p>一般来说我喜欢往PPT里插一些图片来提示我。</p>
-<p>虽说这张幻灯片我做的不是很满意，字有点多了，但是用来举例问题不大。我在这放个汉堡，演讲的时候我就知道在这里要讲汉堡店了。汉堡图右下角的框框我把原本的字缩减，放到这既可以点缀图片又可以提示我下一步说什么。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/burger.png"
-                      alt="汉堡"
-                ></p>
-<h4 id="图片的其他作用">图片的其他作用</h4>
-<p>增加趣味性，吸引听众。</p>
-<p>有一回我做中文演讲就在这里加了个这个XD</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Jackie.png"
-                      alt="成龙"
-                ></p>
-<h4 id="做完PPT该干什么？">做完PPT该干什么？</h4>
-<p>过一遍PPT，从头到尾，这时你需要在脑子里思考，那张幻灯片出现的时候说什么，这样到场上就很少会紧张忘词啥的了。<strong>这一步也很重要。</strong></p>
-<h3 id="语言">语言</h3>
-<p>没啥水平，全是技巧。</p>
-<p>我雅思口语仅5分。然而演讲注重的是吸引听众听懂且信服，而口语考试看的是综合能力，所以口语考试成绩并不能完全决定你的演讲效果。</p>
-<p>英语的话最主要的要了解一些西方国家的文化，他们喜欢什么就说什么，这样会极大吸引听众和老师。如果不知道如何表达更加吸引人，那你就列一些比较火的事物或梗，比如软件质量差这方面我就用了电子游戏Cyberpunk 2077的首发举例。</p>
-<p>中文那就随便说了，我们自己知道哪些词，哪些句子，哪些梗引人注目，那么就多说一点。</p>
-<p>分享个这个<a href="https://anzai.sleepingbed.top/archives/posts/a65333d3">三个月突击雅思经验</a>。</p>
-<h3 id="自信">自信</h3>
-<p>就像Carl Wolff老师说的一样，你上台的时候全场的焦点是你，你比他们都强，不需要怕别人能说你什么。听Carl老师说这个之前，我一直激励自己不害怕的办法是在心里重复这句话：“他们又不会吃了你！”</p>
-<p>上去之后你要面带微笑。可能是因为我平常就爱笑吧，这个对我不太难，建议大家平常就保持乐观。</p>
-<p>拿个麦克风，好玩。</p>
-<p>PPT上有重点拿手去指一指。</p>
-<h3 id="不要读稿子">不要读稿子</h3>
-<p>别看我上课演讲有的时候拿个本子，我那本子里没有一句完整的话，全是关键词。</p>
-<p>读稿子会显得很不自然，你没有思考的时间，欻欻欻全读下来了，语气没有起伏，听起来没什么激情。如果你觉得不能马上脱离这种状态，那就先这样，然后在演讲里加一些自己的闲话啥的。比如你读了一段有意思的地方，你就可以说说&quot;That’s interesting.&quot;啥的，之后就慢慢把这个自己发挥的慢慢变长。</p>
-<p>一定要记住，讲的内容要尽可能联系生活实际，不能说空话，这样听众容易犯困。</p>
-<h2 id="结语">结语</h2>
-<p>在演讲中，准备和自信是成功的关键。保持简洁明了，让听众容易理解。用生动的语言激发共鸣，展现热情。最重要的是，不要害怕犯错，因为每一次尝试都是成长的机会。相信你们也能成为出色的演讲者！（结语是ChatGPT写的，还有模有样的）</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-        <tag>个人修养</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 IV】纯蓝图实现简单的血量系统</title>
-    <url>/archives/posts/67561b4.html</url>
-    <content><![CDATA[<p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
-<h2 id="目标">目标</h2>
-<p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
-<h2 id="详细">详细</h2>
-<h3 id="接口">接口</h3>
-<p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 加血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 减血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">LoseHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<p>好了！编译之后就直接去蓝图。</p>
-<h3 id="数据存储">数据存储</h3>
-<p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
-<p>两个函数，一个加血一个减血，每个都需要一个<code>Amount</code>的整数parameter。两个变量，一个当前血量，一个最大血量，最大血量临时设置为100。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Ffuncvar.png"
-                      alt="funcvar"
-                ></p>
-<p>加血，把当前血量和加血量相加，SET到当前血量上，如果当前血量超过最大血量，那给弄回最大血量。减血差不多的逻辑，不放图了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2FAddhp.png"
-                      alt="Addhp"
-                ></p>
-<h3 id="UI">UI</h3>
-<p>血条用进度条，红色，按钮用来测试加血。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fui.png"
-                      alt="ui"
-                ></p>
-<p>按钮名叫Eat，按了就把刚刚在<code>CardGameMode.h</code>里定义的加血调用了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Feat.png"
-                      alt="eat"
-                ></p>
-<h3 id="GameMode">GameMode</h3>
-<p>不太会理线。</p>
-<p>大致意思就是事件开始的时候把UI显示出来，然后更新一下UI上显示的血量。</p>
-<p>然后减血触发，本来很简单的除法运算，画了这么多是因为我想让进度条平滑伸缩，所以弄了个时间轴，把时间轴乘上这个数，然后加到进度条上去，就会有进度条播放，每帧减少血量，平滑过渡的效果了。</p>
-<p><code>LoseHPTrigger()</code>的触发我写到代码里了。</p>
-<p>加血不放了，一样的道理。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fgamemode.png"
-                      alt="gamemode"
-                ></p>
-<h2 id="效果">效果</h2>
-<p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fbingo.png"
-                      alt="bingo"
-                ></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Vue I】从楼梯上摔下来</title>
     <url>/archives/posts/574e7c50.html</url>
     <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
@@ -3381,31 +3381,6 @@
 <p>成功引入与运行。</p>
 <p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
 ]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-<h2 id="v-model">v-model</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
         <category>Vue学习笔记</category>
@@ -3477,6 +3452,31 @@
       <tags>
         <tag>游戏</tag>
         <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+<h2 id="v-model">v-model</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>
