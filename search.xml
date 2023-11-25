@@ -3479,4 +3479,377 @@
         <tag>前端</tag>
       </tags>
   </entry>
+  <entry>
+    <title>QP基础知识梳理</title>
+    <url>/archives/posts/a68331c2.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>前排提醒</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这是我根据个人理解整理的QP课程主要框架和知识，如有错误可邮件或评论区叫我更正。<br>
+本课程为英文授课，此处用中文梳理知识点，如有翻译理解问题多多包涵。</p>
+
+    </div>
+  </div>
+<h1>质量保证原则</h1>
+<h2 id="简介">简介</h2>
+<p>本课程由荷兰方提斯大学的Carl Wolff授课。</p>
+<p>课程名字翻译成质量原则太奇怪了，所以我就翻译成了质量<strong>保证</strong>原则。</p>
+<h2 id="课程引入">课程引入</h2>
+<h3 id="组装例子">组装例子</h3>
+<p>波音787飞机、麦当劳汉堡的“组装”过程中需要很多步骤与合作，有的时候还会涉及到不同国家，那么思考，这些过程中哪里会出现错误？为什么？是谁导致了这些错误？</p>
+<h3 id="流程（Process）">流程（Process）</h3>
+<p>流程是为了完成某种或某一组特定的目标而进行的一个或一组活动。</p>
+<p>创建或规划一个流程需要找到它的输入输出，常见的流程涉及影响流程执行方式的决策点，流程还涉及参与者（Actor，可以是人、组织、软件系统等）。</p>
+<h4 id="业务流程（Business-Process）">业务流程（Business Process）</h4>
+<p>业务流程是相关事件、活动和决策的集合，涉及许多参与者和资源，并且共同产生对组织或其客户有价值的结果。</p>
+<ul>
+<li>业务流程是公司向客户提供服务或产品时所做的事情，翻译成商业流程貌似也行。</li>
+<li>如果一家公司拥有更好的流程和或能更好地执行这些流程，那么该公司就能胜过另一家提供类似服务的公司。</li>
+</ul>
+<h4 id="例子">例子</h4>
+<p>以柠檬汽水为例的，这图再详细一点就能当Cheat Sheet用了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/process.png"
+                      alt="ProcessExample"
+                ></p>
+<p>还有更复杂的流程，比如说用户服务。</p>
+<h2 id="质量">质量</h2>
+<p>质量是某件事情的结果。比如一个产品、服务等体验很好，符合预期目的，那么他就是高质量的。</p>
+<p>质量的高低因人而异，汝之蜜糖，彼之砒霜。</p>
+<p>业务质量是衡量公司满足客户需求和期望的程度的指标。</p>
+<p><strong>Everyone in the organization is responsible for quality!</strong></p>
+<h3 id="决定质量的因素">决定质量的因素</h3>
+<ul>
+<li>表现</li>
+<li>特征</li>
+<li>可靠性</li>
+<li>一致性</li>
+<li>耐用性</li>
+<li>适用性</li>
+<li>美观性</li>
+<li>整体感知</li>
+</ul>
+<h3 id="衡量业务质量的因素">衡量业务质量的因素</h3>
+<ul>
+<li>产品和服务</li>
+<li>用户服务（e.g. 售后）</li>
+<li>公司信誉</li>
+<li>财政稳定</li>
+</ul>
+<h3 id="质量管理理念">质量管理理念</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/quality-management-concepts.png"
+                      alt="质量管理理念"
+                ></p>
+<h3 id="决定数据质量的因素">决定数据质量的因素</h3>
+<ul>
+<li><strong>准确性</strong></li>
+<li>完整性</li>
+<li>可靠性</li>
+<li>时效性</li>
+<li>关联性</li>
+<li>可用性</li>
+</ul>
+<h3 id="如何衡量质量？">如何衡量质量？</h3>
+<ul>
+<li>360°反馈</li>
+<li>自我评估</li>
+<li>目标管理（MBO）</li>
+<li>列清单</li>
+</ul>
+<h3 id="设置质量标准">设置质量标准</h3>
+<ul>
+<li>清晰定义的市场</li>
+<li>创建高质量的流程</li>
+<li>设置标准和进行认证</li>
+<li>持续反馈</li>
+<li><strong>让团队参与</strong></li>
+</ul>
+<h3 id="质量管理">质量管理</h3>
+<h4 id="质量管理体系（QMS）">质量管理体系（QMS）</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/QMS.png"
+                      alt="QMS"
+                ></p>
+<h3 id="决定软件质量的因素">决定软件质量的因素</h3>
+<ul>
+<li>安全性（分为Safety和Security，这俩词的区别网上的解释太专业了我不会复述）</li>
+<li>可靠性</li>
+<li>可伸缩性</li>
+<li>稳健性</li>
+<li>可理解性</li>
+<li>可测试性</li>
+<li>适应性</li>
+<li>模块化</li>
+<li>复杂性</li>
+<li>便携性</li>
+<li>可用性</li>
+<li>重复使用性</li>
+<li>高效性</li>
+<li>可学习性</li>
+</ul>
+<h3 id="软件质量保证（SQA）">软件质量保证（SQA）</h3>
+<h4 id="活动">活动</h4>
+<ul>
+<li>应用技术方法</li>
+<li>正式技术审查</li>
+<li>软件测试</li>
+<li>执行标准</li>
+<li>控制变化</li>
+<li>衡量</li>
+<li>记录保存和报告</li>
+</ul>
+<h4 id="好处">好处</h4>
+<ul>
+<li>软件的缺陷更少，减少测试期间花费精力和时间</li>
+<li>更高的可靠性和客户满意</li>
+<li>维护成本降低</li>
+<li>软件整体生命周期成本降低</li>
+</ul>
+<h4 id="坏处">坏处</h4>
+<ul>
+<li>高成本</li>
+<li>文化变动</li>
+</ul>
+<h4 id="错误与故障">错误与故障</h4>
+<p>软件错误是指代码方面的错误，软件故障是指应用过程中的错误。</p>
+<h3 id="质量审查">质量审查</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/quality-review.png"
+                      alt="QualityReview"
+                ></p>
+<h3 id="质量成本">质量成本</h3>
+<ul>
+<li>预防成本</li>
+<li>鉴定成本</li>
+<li>失败成本</li>
+</ul>
+<h2 id="利益相关者">利益相关者</h2>
+<p>可以是员工、管理者、客户等等。</p>
+<h3 id="利益相关者分析">利益相关者分析</h3>
+<p>把利益相关者列出来，然后看他们的能力和利益排这个表。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/stakeholder-analysis.png"
+                      alt="stakeholder-analysis"
+                ></p>
+<h2 id="可持续性">可持续性</h2>
+<ul>
+<li>社会可持续</li>
+<li>经济可持续</li>
+<li>自然可持续</li>
+</ul>
+<h2 id="风险管理">风险管理</h2>
+<p>风险是未来潜在的问题。我们做的每一个决定都可能潜在风险。</p>
+<h3 id="风险管理流程">风险管理流程</h3>
+<pre class="mermaid">graph TD
+A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> E[监控审核] --> A</pre>
+<h3 id="风险评估">风险评估</h3>
+<table>
+<thead>
+<tr>
+<th>流程</th>
+<th>风险</th>
+<th>可能性</th>
+<th>严重性</th>
+<th>影响(=可能性*严重性)</th>
+<th>责任人</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>根据类似这种表来评估可能性和严重性</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/risk-management.png"
+                      alt="risk-management"
+                ></p>
+<h2 id="企业社会责任（CSR）">企业社会责任（CSR）</h2>
+<p>字面意思……</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/how-to-build-csr.png"
+                      alt="how-to-build-csr"
+                ></p>
+<h3 id="不负社会责任的危害">不负社会责任的危害</h3>
+<ul>
+<li>失去业务</li>
+<li>损害公司形象</li>
+<li>让员工、客户、股东、政府感到不满意</li>
+<li>不遵守规则、法律和法规</li>
+<li>失去业务增长的潜力</li>
+<li>被列入黑名单</li>
+<li>可能导致破产</li>
+</ul>
+<h2 id="软件流程改善（SPI）">软件流程改善（SPI）</h2>
+<p>SPI侧重于提高软件组织中工程和管理实践的时间、成本和质量。SPI倡议通常基于明确定义的参考模型进行，比如：</p>
+<ul>
+<li>CMMI（能力成熟度模型整合）</li>
+<li>ISO 9001 / 15504</li>
+</ul>
+<h3 id="CMMI-阶段">CMMI 阶段</h3>
+<p>不会翻译</p>
+<ol>
+<li>Initial</li>
+<li>Managed</li>
+<li>Defined</li>
+<li>Quantitatively Managed</li>
+<li>Optimizing</li>
+</ol>
+<h2 id="项目简报">项目简报</h2>
+<p>项目在最初阶段的简单论证。这一阶段的最终结果被称为项目简报，顾名思义，它是对项目的简要描述。其目的是介绍项目，并解释为什么它相关且值得投入资源和资金来启动。</p>
+<p>为确保项目正确执行，应始终在考虑到将直接影响项目批准的利益相关者的情况下创建项目简报。</p>
+<h3 id="系统性问题分析（SPA）">系统性问题分析（SPA）</h3>
+<ol>
+<li>问题是什么？</li>
+<li>为什么是个问题？</li>
+<li>这对谁来说是个问题？谁不是？</li>
+<li>问题存在多久了？</li>
+<li>问题有多大？</li>
+<li>如果问题未得到解决会发生什么？</li>
+<li>还有其他也需要解决的问题吗？</li>
+<li>过去对这个问题做了什么？</li>
+<li>哪些变更管理方面可能起作用？</li>
+<li>谁对解决方案感兴趣？谁不感兴趣？</li>
+</ol>
+<h3 id="其他需要包含的内容">其他需要包含的内容</h3>
+<ul>
+<li>利益相关者分析</li>
+<li>风险分析</li>
+</ul>
+<h2 id="平衡计分卡（BSC）">平衡计分卡（BSC）</h2>
+<ul>
+<li>视角
+<ul>
+<li>客户</li>
+<li>内部业务流程</li>
+<li>财政</li>
+<li>创新与学习</li>
+</ul>
+</li>
+<li>战略目标（e.g. SWOT）</li>
+<li>度量指标（e.g. KPI）</li>
+<li>目标</li>
+</ul>
+<h2 id="价值链">价值链</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/value-chain.png"
+                      alt="value-chain"
+                ></p>
+<h2 id="商业模式画布">商业模式画布</h2>
+<p>以郑州轻工业大学为例</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/Business-Model-Canvas.png"
+                      alt="zzuli-bmc"
+                ></p>
+<h2 id="质量大师">质量大师</h2>
+<ul>
+<li>菲利普·克罗斯比
+<ul>
+<li>“零缺陷”理念</li>
+</ul>
+</li>
+<li>爱德华·戴明
+<ul>
+<li>全面质量管理（TQM）</li>
+</ul>
+</li>
+<li>约瑟夫·朱兰
+<ul>
+<li>质量三步骤</li>
+</ul>
+</li>
+<li>田口玄一</li>
+<li>新郎茂雄</li>
+<li>今井正明</li>
+<li>大野耐一和丰田英二
+<ul>
+<li>丰田生产系统</li>
+</ul>
+</li>
+</ul>
+<h2 id="测试">测试</h2>
+<p>定义很多，可以自己按照经验自己定义。</p>
+<p>The best way to build confidence is to try to destroy it!</p>
+<h3 id="V-Model">V-Model</h3>
+<p>详见<a class="link"   href="https://zh.wikipedia.org/wiki/V%E6%A8%A1%E5%9E%8B" >V-Model <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="黑盒白盒">黑盒白盒</h3>
+<h4 id="白盒测试">白盒测试</h4>
+<p>根据信息系统组件的技术操作描述来检查信息系统的组件。也称为：玻璃盒或结构测试。</p>
+<p>优点</p>
+<ul>
+<li>可以暴露结构中的弱点</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>检查未指定的特征</li>
+<li>因解释错误、思维错误、主观性以及建造者、测试者常常缺乏动机而不可靠</li>
+</ul>
+<h4 id="黑盒测试">黑盒测试</h4>
+<p>根据信息系统的功能操作描述来检查信息系统。也称为：功能测试。</p>
+<p>优点</p>
+<ul>
+<li>检查必要特征</li>
+<li>用户可以执行此测试</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>对（内部的）冗余或不必要特征缺乏清晰度</li>
+</ul>
+<h3 id="测试计划">测试计划</h3>
+<ol>
+<li>简介</li>
+<li>范围</li>
+<li>测试策略（方法）</li>
+<li>环境需求（测试环境）</li>
+<li>人员配备和培训需求</li>
+<li>测试计划和估算</li>
+<li>测试可交付成果</li>
+<li>退出标准</li>
+<li>暂停和恢复标准</li>
+<li>责任</li>
+<li>风险和应急方案</li>
+<li>假设</li>
+<li>测试参考资料</li>
+<li>审查与批准</li>
+<li>结论</li>
+</ol>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>软件工程</tag>
+        <tag>预习</tag>
+      </tags>
+  </entry>
 </search>
