@@ -15,8 +15,27 @@
     <atom:link href="https://anzai.sleepingbed.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>啊对对对，开摆就完了呗</description>
-    <pubDate>Tue, 28 Nov 2023 04:18:00 GMT</pubDate>
+    <pubDate>Thu, 07 Dec 2023 14:08:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>easy-masonry内嵌测试</title>
+      <link>https://anzai.sleepingbed.top/archives/posts/39986e43</link>
+      <guid>https://anzai.sleepingbed.top/archives/posts/39986e43</guid>
+      <pubDate>Thu, 07 Dec 2023 13:54:37 GMT</pubDate>
+      
+      <description>复刻了个瀑布流相册，看看能不能找到好点的内嵌方式。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<iframe src="https://evan.beee.top/users/anzai/others/index.html" width="100%" height="1600" scrolling="no"></iframe> ]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://anzai.sleepingbed.top/archives/posts/39986e43#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>🎉庆祝本站开设一周年🎉</title>
