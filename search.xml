@@ -2331,7 +2331,7 @@
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line">git config --global user.email 你的邮箱</span><br></pre></td></tr></table></figure></div>
 <p>下面这句是忽略证书验证。</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure></div>
-<p>这样Git初始设置完成。下面配置cnpm。</p>
+<p>这样Git初始设置完成。如果你在中国大陆地区，访问npm速度会很慢，可以通过配置cnpm解决，下面配置cnpm。</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
 <p>安装Hexo。</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
@@ -2359,7 +2359,7 @@
 <p>如果你无法通过双击的方式打开<code>_config.yml</code>，那么说明你VSCode设置可能有问题。如果你确认你安装了VSCode，你可以通过输入以下命令打开整个文件夹，然后再在左侧点击<code>_config.yml</code>。或者直接右键打开方式选“Visual Studio Code”</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">code .</span><br></pre></td></tr></table></figure></div>
 <h3 id="寻找主题">寻找主题</h3>
-<p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程。</p>
+<p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程，请优先按照官方文档中的使用教程使用，我这里只是举一个简单的例子。</p>
 <p>以我的主题举例。点进去后作者会亲切的教你如何安装和设置。</p>
 <p><img  
                      lazyload
@@ -2386,8 +2386,13 @@
                       alt="耶"
                 ></p>
 <p><code>hexo server</code>，它的作用是把你现有的文件在本地开一个服务器，debug用的。</p>
-<p>主题设置！这里有点难。</p>
+<p>主题设置！这里有点麻烦。</p>
 <p>进入<code>node_modules</code>文件夹，找到你的主题目录，一般来说名字是叫<code>hexo-theme-主题名</code>之类的，点进去，里面有个<code>_config.yml</code>，把这个文件复制一份，重命名为<code>_config.主题名.yml</code>，然后剪切到你的刚才的文件夹下。</p>
+
+  <div class="note p-4 mb-4 rounded-small warning">
+    <p>注意，别把它原本的<code>_config.yml</code>给替换了，请一定小心！操作完成后你的工程根目录里应该会有一个<code>_config.yml</code>和一个<code>_config.主题名.yml</code>。</p>
+
+  </div>
 <p>举个例子就是，如果你用的是redefine主题，那么你进入<code>node_modules</code>文件夹，进入<code>hexo-theme-redefine</code>文件夹，然后把<code>_config.yml</code>复制一份，重命名为<code>_config.redefine.yml</code>，剪切到<code>testsite</code>文件夹。</p>
 <p><img  
                      lazyload
@@ -2395,7 +2400,7 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fthemeconfig.png"
                       alt="themeconfig"
                 ></p>
-<p>然后你就打开这个文件，像刚才编辑<code>_config.yml</code>一样编辑这个了，一般来说主题还会有官方文档，具体用法请参见你的主题的官方文档。</p>
+<p>然后你打开这个文件，就能看到主题的自定义配置了，一般来说主题还会有官方文档，具体用法请参见你的主题的官方文档。</p>
 <p>创建新文章。</p>
 <div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure></div>
 <p>这会让你的<code>source/_posts/</code>里面多出一个<code>文章标题.md</code>文件，打开它就可以看到这些。title是你的文章标题，可以改，下面的日期和标签不用多解释吧。想要多个标签可以用 <code>[标签1, 标签2, 标签3]</code>，记住，冒号后面有个空格，不要丢掉。</p>
@@ -2403,6 +2408,12 @@
 <p>之后你就可以用Markdown语法写文章了！</p>
 <p>学习Markdown可以去<a class="link"   href="https://www.runoob.com/markdown/md-tutorial.html" >菜鸟教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h2 id="部署">部署</h2>
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>这里使用的流程是：本地编辑→在线生成→部署。有能力的同学也可以使用：本地编辑→本地生成→部署。</p>
+<p>前者的优点是步骤少、方便，后者的优点是npm包更加可控、更加方便自定义。</p>
+
+  </div>
 <p>先去GitHub创建一个新仓库。最好是私有库，private。不需要README，加上了反而麻烦，也不需要gitignore，hexo给你生成好了。</p>
 <p><img  
                      lazyload
@@ -2420,7 +2431,8 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitrepo.png"
                       alt="repo"
                 ></p>
-<p>接着登录Netlify，new site一个。选import and existing project。</p>
+<p>接着登录Netlify，new site一个。选import an existing project。</p>
+<p>我的Netlify因为使用过，所以可能会和新注册的有所不同，不过应该都大差不差，可以寻找Create from Git之类的。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
