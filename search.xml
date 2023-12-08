@@ -3887,6 +3887,21 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
   <entry>
     <title>easy-masonry内嵌测试</title>
     <url>/archives/posts/39986e43.html</url>
-    <content><![CDATA[<iframe src="https://evan.beee.top/users/anzai/others/index.html" width="100%" height="1600" scrolling="no"></iframe> ]]></content>
+    <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<script>
+    // JavaScript function to resize the iframe height according to its content
+    function resizeIframe() {
+        // Get the iframe element by its id
+        var iframe = document.getElementById("myIframe");
+        // Get the height of the iframe content by accessing its document body scrollHeight
+        var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
+        // Set the iframe height to match the content height
+        iframe.height = iframeHeight;
+        }
+</script>
+<body>
+    <!-- The iframe element with an id and a src attribute pointing to the child page -->
+    <!-- The onload event handler calls the resizeIframe function when the iframe is loaded -->
+    <iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
   </entry>
 </search>
