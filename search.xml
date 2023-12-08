@@ -3888,7 +3888,7 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
     <title>easy-masonry内嵌测试</title>
     <url>/archives/posts/39986e43.html</url>
     <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<script>
+<script data-swup-reload-script>
     function resizeIframe() {
         var iframe = document.getElementById("myIframe");
         var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
