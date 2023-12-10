@@ -41,12 +41,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
-  </entry>
-  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/8bdbda59.html</url>
     <content><![CDATA[<h2 id="前排提醒">前排提醒</h2>
@@ -133,6 +127,25 @@
       </tags>
   </entry>
   <entry>
+    <title>easy-masonry内嵌测试</title>
+    <url>/archives/posts/39986e43.html</url>
+    <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<script data-swup-reload-script>
+    function resizeIframe() {
+        var iframe = document.getElementById("myIframe");
+        var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
+        iframe.height = iframeHeight;
+        }
+</script>
+<iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
     <title>我的世界C4D纹饰陶罐预置</title>
     <url>/archives/posts/e66fbc14.html</url>
     <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
@@ -173,19 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>easy-masonry内嵌测试</title>
-    <url>/archives/posts/39986e43.html</url>
-    <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<script data-swup-reload-script>
-    function resizeIframe() {
-        var iframe = document.getElementById("myIframe");
-        var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
-        iframe.height = iframeHeight;
-        }
-</script>
-<iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
-  </entry>
-  <entry>
     <title>🎉庆祝本站开设一周年🎉</title>
     <url>/archives/posts/c0a885d4.html</url>
     <content><![CDATA[<h1>庆祝本站开设一周年</h1>
@@ -204,280 +204,6 @@
       <categories>
         <category>睡大觉</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>进度是不是有点快啊……</p>
-<h2 id="制作">制作</h2>
-<p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
-                     
-                >
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
-                     
-                >
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
-                     
-                >
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
-                     
-                >
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
-                     
-                >
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
-                     
-                >
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
-                     
-                >
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
-                     
-                >
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender IV】金币基站</title>
-    <url>/archives/posts/1dcf26b5.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>各位都是怎么管理自己的屏幕截图的？我这截了一堆图没法有效管理啊！！</p>
-<h2 id="制作">制作</h2>
-<p>大立方体，加两个边，选中多出来的面，Alt+鼠标左键，选择鼠标靠近方向的循环面。（右下角的东西不用在意XD）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/01.png"
-                     
-                >
-<p>沿法向挤出。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/02.png"
-                     
-                >
-<p>挤成这样。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/03.png"
-                     
-                >
-<p>简单做一下旁边的细节。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/04.png"
-                     
-                >
-<p>做另一边的时候用到了分离，可以把点线面分离出来做借形。借出来的圈圈可以创建一个面，进而创建网格。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/05.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/06.png"
-                     
-                >
-<p>这里有个布尔工具的插件。挺方便的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/07.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/08.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/09.png"
-                     
-                >
-<p>还有一个功能就是可以把线转换为曲线对象。做一些管子什么的挺好。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/10.png"
-                     
-                >
-<p>之后就做上面的东西。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/11.png"
-                     
-                >
-<p>想要给这个东西加上小……突起？可以来个间隔式弃选。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/12.png"
-                     
-                >
-<p>就成这样了，然后缩小挤出一下就好了</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/13.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/14.png"
-                     
-                >
-<p>旁边的管子可以用镜像来复制。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/15.png"
-                     
-                >
-<p>镜像物体选中间的大圆柱，轴向XY，就变成这样了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/16.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/17.png"
-                     
-                >
-<p>为了方便区分可以把颜色选为随机。还挺好看的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/18.png"
-                     
-                >
-<p>加点细节，这就可以了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/19.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/coin.png"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -703,6 +429,280 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender IV】金币基站</title>
+    <url>/archives/posts/1dcf26b5.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>各位都是怎么管理自己的屏幕截图的？我这截了一堆图没法有效管理啊！！</p>
+<h2 id="制作">制作</h2>
+<p>大立方体，加两个边，选中多出来的面，Alt+鼠标左键，选择鼠标靠近方向的循环面。（右下角的东西不用在意XD）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/01.png"
+                     
+                >
+<p>沿法向挤出。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/02.png"
+                     
+                >
+<p>挤成这样。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/03.png"
+                     
+                >
+<p>简单做一下旁边的细节。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/04.png"
+                     
+                >
+<p>做另一边的时候用到了分离，可以把点线面分离出来做借形。借出来的圈圈可以创建一个面，进而创建网格。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/05.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/06.png"
+                     
+                >
+<p>这里有个布尔工具的插件。挺方便的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/07.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/08.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/09.png"
+                     
+                >
+<p>还有一个功能就是可以把线转换为曲线对象。做一些管子什么的挺好。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/10.png"
+                     
+                >
+<p>之后就做上面的东西。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/11.png"
+                     
+                >
+<p>想要给这个东西加上小……突起？可以来个间隔式弃选。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/12.png"
+                     
+                >
+<p>就成这样了，然后缩小挤出一下就好了</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/13.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/14.png"
+                     
+                >
+<p>旁边的管子可以用镜像来复制。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/15.png"
+                     
+                >
+<p>镜像物体选中间的大圆柱，轴向XY，就变成这样了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/16.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/17.png"
+                     
+                >
+<p>为了方便区分可以把颜色选为随机。还挺好看的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/18.png"
+                     
+                >
+<p>加点细节，这就可以了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/19.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/coin.png"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>进度是不是有点快啊……</p>
+<h2 id="制作">制作</h2>
+<p>先创建一个小方块，加个倒角，当作身体。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
+                     
+                >
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
+                     
+                >
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
+                     
+                >
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
+                     
+                >
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
+                     
+                >
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
+                     
+                >
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
+                     
+                >
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
+                     
+                >
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【周三名人 III】鬼头明里</title>
     <url>/archives/posts/aec84f53.html</url>
     <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
@@ -811,6 +811,45 @@
       </tags>
   </entry>
   <entry>
+    <title>【周三名人 VI】空海</title>
+    <url>/archives/posts/359fc4d7.html</url>
+    <content><![CDATA[<h2 id="空海">空海</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
+                     
+                >
+<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
+<h3 id="留学中国">留学中国</h3>
+<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
+<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
+<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
+<h3 id="返回日本">返回日本</h3>
+<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
+<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
+<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
+<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
+<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
+<h3 id="评价">评价</h3>
+<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
     <url>/archives/posts/bf30c6e.html</url>
     <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
@@ -892,45 +931,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 VI】空海</title>
-    <url>/archives/posts/359fc4d7.html</url>
-    <content><![CDATA[<h2 id="空海">空海</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
-                     
-                >
-<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
-<h3 id="留学中国">留学中国</h3>
-<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
-<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
-<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
-<h3 id="返回日本">返回日本</h3>
-<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
-<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
-<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
-<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
-<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
-<h3 id="评价">评价</h3>
-<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 IV】维多利亚女王</title>
     <url>/archives/posts/4ab990d6.html</url>
     <content><![CDATA[
@@ -987,81 +987,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云">王小云</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
-                     
-                >
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历">简要经历</h3>
-<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研">科研</h3>
-<p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖">获奖</h3>
-<ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料">参考资料</h3>
-<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>密码学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VII】华彦钧</title>
-    <url>/archives/posts/c29ca138.html</url>
-    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
-<h3 id="生平">生平</h3>
-<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
-<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
-<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
-<p>1950年12月4日病故。</p>
-<h3 id="音乐作品">音乐作品</h3>
-<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
-<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 VIII】南条爱乃</title>
     <url>/archives/posts/4194a63b.html</url>
     <content><![CDATA[
@@ -1101,6 +1026,27 @@
       <tags>
         <tag>名人</tag>
         <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VII】华彦钧</title>
+    <url>/archives/posts/c29ca138.html</url>
+    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
+<h3 id="生平">生平</h3>
+<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
+<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
+<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
+<p>1950年12月4日病故。</p>
+<h3 id="音乐作品">音乐作品</h3>
+<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
+<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
       </tags>
   </entry>
   <entry>
@@ -2123,92 +2069,57 @@
       </tags>
   </entry>
   <entry>
-    <title>Git使用手册</title>
-    <url>/archives/posts/9f0af8b7.html</url>
-    <content><![CDATA[<h2 id="简介">简介</h2>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云">王小云</h2>
+<h3 id="简介">简介</h3>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
                      
                 >
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-<h2 id="基础用法">基础用法</h2>
-<h3 id="创建仓库">创建仓库</h3>
-<p>本地新建</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-<p>克隆仓库</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="工作区域">工作区域</h3>
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历">简要经历</h3>
+<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研">科研</h3>
+<p>主要从事密码理论及相关数学问题研究。</p>
 <ul>
-<li>工作区
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖">获奖</h3>
 <ul>
-<li>.git所在目录</li>
-<li>用户实际操作的目录</li>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
 </ul>
-</li>
-<li>暂存区
-<ul>
-<li>.git/index</li>
-<li>存放add后没有commit的内容</li>
-</ul>
-</li>
-<li>本地仓库
-<ul>
-<li>.git/objects</li>
-<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
-</ul>
-</li>
-</ul>
-<h3 id="文件状态">文件状态</h3>
-<pre class="mermaid">flowchart LR
-   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
-   A[未跟踪] --"git add"--> D[已暂存]
-   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
-   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
-<h3 id="提交">提交</h3>
-<p>查看仓库状态</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-<p>添加到暂存区</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
-<p>从暂存区中删除</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
-<p>提交</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
-<h3 id="日志">日志</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
-<h3 id="回退版本">回退版本</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
-<h3 id="对比文件">对比文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
-<p>此外本质零还可以比较分支之间的差异。</p>
-<h3 id="删除文件">删除文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
-<h3 id="关联远程">关联远程</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
-<h3 id="分支">分支</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<p>rebase</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Gitflow模型">Gitflow模型</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
-<p>将仓库分为以下分支进行开发：</p>
-<ul>
-<li>main</li>
-<li>hotfix</li>
-<li>release</li>
-<li>develop</li>
-<li>feature</li>
-</ul>
+<h3 id="参考资料">参考资料</h3>
+<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>卷</category>
+        <category>周三名人</category>
       </categories>
       <tags>
-        <tag>编程</tag>
-        <tag>Git</tag>
+        <tag>名人</tag>
+        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -2510,6 +2421,95 @@
       </tags>
   </entry>
   <entry>
+    <title>Git使用手册</title>
+    <url>/archives/posts/9f0af8b7.html</url>
+    <content><![CDATA[<h2 id="简介">简介</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
+                     
+                >
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<h2 id="基础用法">基础用法</h2>
+<h3 id="创建仓库">创建仓库</h3>
+<p>本地新建</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>克隆仓库</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="工作区域">工作区域</h3>
+<ul>
+<li>工作区
+<ul>
+<li>.git所在目录</li>
+<li>用户实际操作的目录</li>
+</ul>
+</li>
+<li>暂存区
+<ul>
+<li>.git/index</li>
+<li>存放add后没有commit的内容</li>
+</ul>
+</li>
+<li>本地仓库
+<ul>
+<li>.git/objects</li>
+<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
+</ul>
+</li>
+</ul>
+<h3 id="文件状态">文件状态</h3>
+<pre class="mermaid">flowchart LR
+   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
+   A[未跟踪] --"git add"--> D[已暂存]
+   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
+   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
+<h3 id="提交">提交</h3>
+<p>查看仓库状态</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+<p>添加到暂存区</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
+<p>从暂存区中删除</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
+<p>提交</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
+<h3 id="日志">日志</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
+<h3 id="回退版本">回退版本</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
+<h3 id="对比文件">对比文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
+<p>此外本质零还可以比较分支之间的差异。</p>
+<h3 id="删除文件">删除文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
+<h3 id="关联远程">关联远程</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+<h3 id="分支">分支</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<p>rebase</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Gitflow模型">Gitflow模型</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
+<p>将仓库分为以下分支进行开发：</p>
+<ul>
+<li>main</li>
+<li>hotfix</li>
+<li>release</li>
+<li>develop</li>
+<li>feature</li>
+</ul>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[
@@ -2563,131 +2563,6 @@
       <tags>
         <tag>英语</tag>
         <tag>个人修养</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>社恐患者如何做脱稿演讲？</title>
-    <url>/archives/posts/3c42d251.html</url>
-    <content><![CDATA[<h1>社恐患者如何做脱稿演讲？</h1>
-<p>（封面是leonardo.ai生成的）</p>
-<p>作为一个自我感觉良好的社恐患者，我觉得我做的演讲还像那么回事，所以我就来分享经验了。</p>
-<h2 id="小小的发展历程">小小的发展历程</h2>
-<p>我记得第一次让我做英文演讲的时候我准备了一个很长很长的稿子（甚至这个稿子我还能翻到一小段）</p>
-<blockquote>
-<p>Jupiter’s administration has a lot of trouble managing employees, but some of the Jupiter stores are using online calendars or excel sheets, and the problem with this is that it is too detailed and unreliable.</p>
-</blockquote>
-<p>第一次我纯捧读，老师问了问题我都不知道怎么答。</p>
-<p>之后我就发现，用PPT+临场发挥要比捧读效果好100倍，之后我不管是中文还是英文演讲都采用这种模式，自我感觉还不错。</p>
-<h2 id="技巧">技巧</h2>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Leonardo_Diffusion_XL_cartoon_speech_presentation_man_smile_2d_3.jpg"
-                      alt="AI生成的"
-                ></p>
-<p>AI生成的图，做同款去<a class="link"   href="https://leonardo.ai/" >leonardo.ai <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
-<h3 id="演讲前的准备">演讲前的准备</h3>
-<p>明确一下你要讲的是什么，找个好看的PPT模板。</p>
-<p>PPT的设计包括插图、字体都要尽可能贴近原先的模板，这样看着协调。（也许因为我是INTJ）</p>
-<p>分好层次，不要把一堆内容都放一张幻灯片上面。</p>
-<p><strong>重要！</strong> 尽量不要把整句话、整段话复制进PPT，很影响视觉效果，而且这样和捧读没啥区别了。</p>
-<h4 id="记不住稿子怎么办？">记不住稿子怎么办？</h4>
-<p>一般来说我喜欢往PPT里插一些图片来提示我。</p>
-<p>虽说这张幻灯片我做的不是很满意，字有点多了，但是用来举例问题不大。我在这放个汉堡，演讲的时候我就知道在这里要讲汉堡店了。汉堡图右下角的框框我把原本的字缩减，放到这既可以点缀图片又可以提示我下一步说什么。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/burger.png"
-                      alt="汉堡"
-                ></p>
-<h4 id="图片的其他作用">图片的其他作用</h4>
-<p>增加趣味性，吸引听众。</p>
-<p>有一回我做中文演讲就在这里加了个这个XD</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Jackie.png"
-                      alt="成龙"
-                ></p>
-<h4 id="做完PPT该干什么？">做完PPT该干什么？</h4>
-<p>过一遍PPT，从头到尾，这时你需要在脑子里思考，那张幻灯片出现的时候说什么，这样到场上就很少会紧张忘词啥的了。<strong>这一步也很重要。</strong></p>
-<h3 id="语言">语言</h3>
-<p>没啥水平，全是技巧。</p>
-<p>我雅思口语仅5分。然而演讲注重的是吸引听众听懂且信服，而口语考试看的是综合能力，所以口语考试成绩并不能完全决定你的演讲效果。</p>
-<p>英语的话最主要的要了解一些西方国家的文化，他们喜欢什么就说什么，这样会极大吸引听众和老师。如果不知道如何表达更加吸引人，那你就列一些比较火的事物或梗，比如软件质量差这方面我就用了电子游戏Cyberpunk 2077的首发举例。</p>
-<p>中文那就随便说了，我们自己知道哪些词，哪些句子，哪些梗引人注目，那么就多说一点。</p>
-<p>分享个这个<a href="https://anzai.sleepingbed.top/archives/posts/a65333d3">三个月突击雅思经验</a>。</p>
-<h3 id="自信">自信</h3>
-<p>就像Carl Wolff老师说的一样，你上台的时候全场的焦点是你，你比他们都强，不需要怕别人能说你什么。听Carl老师说这个之前，我一直激励自己不害怕的办法是在心里重复这句话：“他们又不会吃了你！”</p>
-<p>上去之后你要面带微笑。可能是因为我平常就爱笑吧，这个对我不太难，建议大家平常就保持乐观。</p>
-<p>拿个麦克风，好玩。</p>
-<p>PPT上有重点拿手去指一指。</p>
-<h3 id="不要读稿子">不要读稿子</h3>
-<p>别看我上课演讲有的时候拿个本子，我那本子里没有一句完整的话，全是关键词。</p>
-<p>读稿子会显得很不自然，你没有思考的时间，欻欻欻全读下来了，语气没有起伏，听起来没什么激情。如果你觉得不能马上脱离这种状态，那就先这样，然后在演讲里加一些自己的闲话啥的。比如你读了一段有意思的地方，你就可以说说&quot;That’s interesting.&quot;啥的，之后就慢慢把这个自己发挥的慢慢变长。</p>
-<p>一定要记住，讲的内容要尽可能联系生活实际，不能说空话，这样听众容易犯困。</p>
-<h2 id="结语">结语</h2>
-<p>在演讲中，准备和自信是成功的关键。保持简洁明了，让听众容易理解。用生动的语言激发共鸣，展现热情。最重要的是，不要害怕犯错，因为每一次尝试都是成长的机会。相信你们也能成为出色的演讲者！（结语是ChatGPT写的，还有模有样的）</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-        <tag>个人修养</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ReCAPTCHA恶搞Ps模板</title>
-    <url>/archives/posts/7e916f91.html</url>
-    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
-<h2 id="效果">效果</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
-                     
-                >
-<h2 id="使用说明">使用说明</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
-                     
-                >
-<p>每个图层的简要说明</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
-                     
-                >
-<p>双击想要编辑的智能对象</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
-                     
-                >
-<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
-                     
-                >
-<p>回去就可以看到这个里面的也变了。</p>
-<p>那么之后随意修改一下文字就可以啦！</p>
-<h2 id="下载">下载</h2>
-<p>Fake ReCAPTCHA.psd</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>Ps</tag>
       </tags>
   </entry>
   <entry>
@@ -3061,6 +2936,131 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <tag>编程</tag>
         <tag>软件工程</tag>
         <tag>预习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社恐患者如何做脱稿演讲？</title>
+    <url>/archives/posts/3c42d251.html</url>
+    <content><![CDATA[<h1>社恐患者如何做脱稿演讲？</h1>
+<p>（封面是leonardo.ai生成的）</p>
+<p>作为一个自我感觉良好的社恐患者，我觉得我做的演讲还像那么回事，所以我就来分享经验了。</p>
+<h2 id="小小的发展历程">小小的发展历程</h2>
+<p>我记得第一次让我做英文演讲的时候我准备了一个很长很长的稿子（甚至这个稿子我还能翻到一小段）</p>
+<blockquote>
+<p>Jupiter’s administration has a lot of trouble managing employees, but some of the Jupiter stores are using online calendars or excel sheets, and the problem with this is that it is too detailed and unreliable.</p>
+</blockquote>
+<p>第一次我纯捧读，老师问了问题我都不知道怎么答。</p>
+<p>之后我就发现，用PPT+临场发挥要比捧读效果好100倍，之后我不管是中文还是英文演讲都采用这种模式，自我感觉还不错。</p>
+<h2 id="技巧">技巧</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Leonardo_Diffusion_XL_cartoon_speech_presentation_man_smile_2d_3.jpg"
+                      alt="AI生成的"
+                ></p>
+<p>AI生成的图，做同款去<a class="link"   href="https://leonardo.ai/" >leonardo.ai <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
+<h3 id="演讲前的准备">演讲前的准备</h3>
+<p>明确一下你要讲的是什么，找个好看的PPT模板。</p>
+<p>PPT的设计包括插图、字体都要尽可能贴近原先的模板，这样看着协调。（也许因为我是INTJ）</p>
+<p>分好层次，不要把一堆内容都放一张幻灯片上面。</p>
+<p><strong>重要！</strong> 尽量不要把整句话、整段话复制进PPT，很影响视觉效果，而且这样和捧读没啥区别了。</p>
+<h4 id="记不住稿子怎么办？">记不住稿子怎么办？</h4>
+<p>一般来说我喜欢往PPT里插一些图片来提示我。</p>
+<p>虽说这张幻灯片我做的不是很满意，字有点多了，但是用来举例问题不大。我在这放个汉堡，演讲的时候我就知道在这里要讲汉堡店了。汉堡图右下角的框框我把原本的字缩减，放到这既可以点缀图片又可以提示我下一步说什么。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/burger.png"
+                      alt="汉堡"
+                ></p>
+<h4 id="图片的其他作用">图片的其他作用</h4>
+<p>增加趣味性，吸引听众。</p>
+<p>有一回我做中文演讲就在这里加了个这个XD</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/public-speech/Jackie.png"
+                      alt="成龙"
+                ></p>
+<h4 id="做完PPT该干什么？">做完PPT该干什么？</h4>
+<p>过一遍PPT，从头到尾，这时你需要在脑子里思考，那张幻灯片出现的时候说什么，这样到场上就很少会紧张忘词啥的了。<strong>这一步也很重要。</strong></p>
+<h3 id="语言">语言</h3>
+<p>没啥水平，全是技巧。</p>
+<p>我雅思口语仅5分。然而演讲注重的是吸引听众听懂且信服，而口语考试看的是综合能力，所以口语考试成绩并不能完全决定你的演讲效果。</p>
+<p>英语的话最主要的要了解一些西方国家的文化，他们喜欢什么就说什么，这样会极大吸引听众和老师。如果不知道如何表达更加吸引人，那你就列一些比较火的事物或梗，比如软件质量差这方面我就用了电子游戏Cyberpunk 2077的首发举例。</p>
+<p>中文那就随便说了，我们自己知道哪些词，哪些句子，哪些梗引人注目，那么就多说一点。</p>
+<p>分享个这个<a href="https://anzai.sleepingbed.top/archives/posts/a65333d3">三个月突击雅思经验</a>。</p>
+<h3 id="自信">自信</h3>
+<p>就像Carl Wolff老师说的一样，你上台的时候全场的焦点是你，你比他们都强，不需要怕别人能说你什么。听Carl老师说这个之前，我一直激励自己不害怕的办法是在心里重复这句话：“他们又不会吃了你！”</p>
+<p>上去之后你要面带微笑。可能是因为我平常就爱笑吧，这个对我不太难，建议大家平常就保持乐观。</p>
+<p>拿个麦克风，好玩。</p>
+<p>PPT上有重点拿手去指一指。</p>
+<h3 id="不要读稿子">不要读稿子</h3>
+<p>别看我上课演讲有的时候拿个本子，我那本子里没有一句完整的话，全是关键词。</p>
+<p>读稿子会显得很不自然，你没有思考的时间，欻欻欻全读下来了，语气没有起伏，听起来没什么激情。如果你觉得不能马上脱离这种状态，那就先这样，然后在演讲里加一些自己的闲话啥的。比如你读了一段有意思的地方，你就可以说说&quot;That’s interesting.&quot;啥的，之后就慢慢把这个自己发挥的慢慢变长。</p>
+<p>一定要记住，讲的内容要尽可能联系生活实际，不能说空话，这样听众容易犯困。</p>
+<h2 id="结语">结语</h2>
+<p>在演讲中，准备和自信是成功的关键。保持简洁明了，让听众容易理解。用生动的语言激发共鸣，展现热情。最重要的是，不要害怕犯错，因为每一次尝试都是成长的机会。相信你们也能成为出色的演讲者！（结语是ChatGPT写的，还有模有样的）</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+        <tag>个人修养</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ReCAPTCHA恶搞Ps模板</title>
+    <url>/archives/posts/7e916f91.html</url>
+    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
+<h2 id="效果">效果</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
+                     
+                >
+<h2 id="使用说明">使用说明</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
+                     
+                >
+<p>每个图层的简要说明</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
+                     
+                >
+<p>双击想要编辑的智能对象</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
+                     
+                >
+<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
+                     
+                >
+<p>回去就可以看到这个里面的也变了。</p>
+<p>那么之后随意修改一下文字就可以啦！</p>
+<h2 id="下载">下载</h2>
+<p>Fake ReCAPTCHA.psd</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>Ps</tag>
       </tags>
   </entry>
   <entry>
@@ -3448,6 +3448,61 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
+    <title>【虚幻引擎5 I】RPC的使用</title>
+    <url>/archives/posts/bac6a1f4.html</url>
+    <content><![CDATA[<h2 id="关于RPC">关于RPC</h2>
+<p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
+<ul>
+<li>必须从Actor处调用。</li>
+<li>这个Actor必须被复制（replicated）。</li>
+<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
+<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
+<li>Multicast是例外：
+<ul>
+<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
+<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
+<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
+</ul>
+</li>
+</ul>
+<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
+<p>在服务端和客户端的调用详细表格。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/invoke.png"
+                     
+                >
+<h2 id="使用">使用</h2>
+<p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/before.png"
+                     
+                >
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>嘿嘿……</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/after.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Flarum搭建踩坑记录</title>
     <url>/archives/posts/5bc11bd7.html</url>
     <content><![CDATA[<h2 id="Flarum搭建踩坑记录">Flarum搭建踩坑记录</h2>
@@ -3535,101 +3590,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <tag>Web</tag>
         <tag>Apache</tag>
         <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 II】简单的射线追踪</title>
-    <url>/archives/posts/ef2e4bdf.html</url>
-    <content><![CDATA[<h2 id="原理">原理</h2>
-<p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
-                     
-                >
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码">代码</h2>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="完成">完成</h2>
-<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
-                     
-                >
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 I】RPC的使用</title>
-    <url>/archives/posts/bac6a1f4.html</url>
-    <content><![CDATA[<h2 id="关于RPC">关于RPC</h2>
-<p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
-<ul>
-<li>必须从Actor处调用。</li>
-<li>这个Actor必须被复制（replicated）。</li>
-<li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
-<li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
-<li>Multicast是例外：
-<ul>
-<li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
-<li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
-<li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
-</ul>
-</li>
-</ul>
-<p>Multicast指的是从服务器调用，然后在服务器以及所有当前连接的客户端上执行。</p>
-<p>在服务端和客户端的调用详细表格。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/invoke.png"
-                     
-                >
-<h2 id="使用">使用</h2>
-<p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/before.png"
-                     
-                >
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>嘿嘿……</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/after.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
@@ -3780,20 +3740,65 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-<h2 id="v-model">v-model</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
+    <title>【虚幻引擎5 II】简单的射线追踪</title>
+    <url>/archives/posts/ef2e4bdf.html</url>
+    <content><![CDATA[<h2 id="原理">原理</h2>
+<p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
+                     
+                >
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="完成">完成</h2>
+<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
+                     
+                >
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Vue I】从楼梯上摔下来</title>
+    <url>/archives/posts/574e7c50.html</url>
+    <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
+<p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
+<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
+<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
+<h2 id="Vue简介">Vue简介</h2>
+<p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
+<h3 id="特点">特点</h3>
+<ul>
+<li>组件化</li>
+<li>声明式</li>
+<li>虚拟DOM和Diff算法</li>
+</ul>
+<h2 id="Hello-World">Hello World</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>成功引入与运行。</p>
+<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
+]]></content>
       <categories>
         <category>卷</category>
         <category>Vue学习笔记</category>
@@ -3868,25 +3873,20 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>【Vue I】从楼梯上摔下来</title>
-    <url>/archives/posts/574e7c50.html</url>
-    <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
-<p>之前零基础用Vue写了外专课媒体商城管理系统的前端界面，觉得挺好用，本来以为掌握得很不错，但是我发现我连基本的生命周期都不知道是啥。</p>
-<p>我比较适合先做案例后学基础知识，我觉得这样不至于学到一半就觉得没意思放弃掉。</p>
-<p>所以就来了，从楼梯上摔下来式学习，第一课！</p>
-<h2 id="Vue简介">Vue简介</h2>
-<p>Vue是一款构建用户界面的渐进式JavaScript框架，由尤雨溪（我怎么一直想读成鱿鱼须）开发。</p>
-<h3 id="特点">特点</h3>
-<ul>
-<li>组件化</li>
-<li>声明式</li>
-<li>虚拟DOM和Diff算法</li>
-</ul>
-<h2 id="Hello-World">Hello World</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 引入Vue3的js --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 来个id为root的div --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, World!<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 接住a，显示出来 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;a&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="comment">// 创建实例</span></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">const</span> &#123; createApp &#125; = <span class="title class_">Vue</span></span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">data</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="attr">a</span>: <span class="number">0</span> <span class="comment">//扔回a</span></span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#root&#x27;</span>) <span class="comment">// 挂到id为root的元素上</span></span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>成功引入与运行。</p>
-<p>（如果我把这个直接让Hexo解析会怎么样<i class="fa-solid fa-face-awesome"></i>）</p>
-]]></content>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+<h2 id="v-model">v-model</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
         <category>Vue学习笔记</category>
