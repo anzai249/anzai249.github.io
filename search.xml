@@ -2500,7 +2500,7 @@
 <li>develop</li>
 <li>feature</li>
 </ul>
-<p><a class="link"   href="http://xn--draw-494f378b21z.io" >下图是draw.io <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>（<a class="link"   href="https://www.apache.org/licenses/LICENSE-2.0.html" >Apache License 2.0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>）的一个模板，直接拿来用了，里面的Nightly分支是每晚自动构建。</p>
+<p>下图是<a class="link"   href="https://draw.io" >draw.io <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>（<a class="link"   href="https://www.apache.org/licenses/LICENSE-2.0.html" >Apache License 2.0 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>）的一个模板，直接拿来用了，里面的Nightly分支是每晚自动构建。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
