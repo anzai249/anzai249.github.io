@@ -1306,6 +1306,7 @@
         <tag>编程</tag>
         <tag>Vue</tag>
         <tag>Web</tag>
+        <tag>开源</tag>
       </tags>
   </entry>
   <entry>
@@ -3902,6 +3903,38 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <tag>编程</tag>
         <tag>Vue</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源瀑布流相册生成器 - Easy Masonry</title>
+    <url>/archives/posts/7492ee4b.html</url>
+    <content><![CDATA[<h1>Easy Masonry</h1>
+<h2 id="效果">效果</h2>
+<h3 id="图">图</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"
+                      alt="Masonry"
+                ></p>
+<h3 id="主要功能">主要功能</h3>
+<p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p>
+<h2 id="采用技术">采用技术</h2>
+<p>Vue</p>
+<h2 id="体验">体验</h2>
+<p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p>
+<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p>
+<h2 id="自己部署">自己部署</h2>
+<p>点个星星呗~</p>
+<p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>开源</tag>
       </tags>
   </entry>
 </search>

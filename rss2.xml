@@ -15,8 +15,35 @@
     <atom:link href="https://anzai.sleepingbed.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>啊对对对，开摆就完了呗</description>
-    <pubDate>Fri, 08 Dec 2023 10:07:44 GMT</pubDate>
+    <pubDate>Thu, 21 Dec 2023 13:04:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>开源瀑布流相册生成器 - Easy Masonry</title>
+      <link>https://anzai.sleepingbed.top/archives/posts/7492ee4b</link>
+      <guid>https://anzai.sleepingbed.top/archives/posts/7492ee4b</guid>
+      <pubDate>Thu, 21 Dec 2023 12:50:14 GMT</pubDate>
+      
+      <description>随便复刻了个瀑布流相册，可以自己生成自己的。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1>Easy Masonry</h1><h2 id="效果">效果</h2><h3 id="图">图</h3><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"                      alt="Masonry"                ></p><h3 id="主要功能">主要功能</h3><p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p><h2 id="采用技术">采用技术</h2><p>Vue</p><h2 id="体验">体验</h2><p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p><p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p><h2 id="自己部署">自己部署</h2><p>点个星星呗~</p><p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content:encoded>
+      
+      
+      <category domain="https://anzai.sleepingbed.top/categories/%E5%8D%B7/">卷</category>
+      
+      
+      <category domain="https://anzai.sleepingbed.top/tags/%E7%BC%96%E7%A8%8B/">编程</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/Vue/">Vue</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/%E5%BC%80%E6%BA%90/">开源</category>
+      
+      
+      <comments>https://anzai.sleepingbed.top/archives/posts/7492ee4b#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>easy-masonry内嵌测试</title>
@@ -131,6 +158,8 @@
       <category domain="https://anzai.sleepingbed.top/tags/Vue/">Vue</category>
       
       <category domain="https://anzai.sleepingbed.top/tags/Web/">Web</category>
+      
+      <category domain="https://anzai.sleepingbed.top/tags/%E5%BC%80%E6%BA%90/">开源</category>
       
       
       <comments>https://anzai.sleepingbed.top/archives/posts/aecf41ef#disqus_thread</comments>
