@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head><!-- hexo injector head_begin start --><script>
-                (() => {
-                    let sw = navigator.serviceWorker
-                    let error = () => console.error("ServiceWorker 注册失败，可能是您的浏览器不支持该功能。")
-                    if (!sw?.register('/sw.js')
-                        
-                        ?.catch(error)
-                    ) error()
-                })()
-            </script><!-- hexo injector head_begin end -->
+                      (() => {
+                          const sw = navigator.serviceWorker
+                          const error = () => console.error("ServiceWorker 注册失败，可能是您的浏览器不支持该功能。")
+                          if (!sw?.register('/sw.js')
+                              
+                              ?.catch(error)
+                              ) error()
+                      })()
+                  </script><!-- hexo injector head_begin end -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="安仔の午睡床,虚幻引擎,技术">

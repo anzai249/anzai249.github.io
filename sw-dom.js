@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const SESSION_KEY = 'updated'
     // noinspection JSFileReferences
-    const {onSuccess} = require('../config')
+    const onSuccess = () => {};
     if (sessionStorage.getItem(SESSION_KEY)) {
         onSuccess()
         sessionStorage.removeItem(SESSION_KEY)

@@ -2,7 +2,7 @@
 
 (() => {
     /** 缓存库名称 */
-    const CACHE_NAME = 'kmarBlogCache'
+    const CACHE_NAME = 'anzaiCache'
     /** 控制信息存储地址（必须以`/`结尾） */
     const CTRL_PATH = 'https://id.v3/'
 
@@ -49,6 +49,10 @@
 
     // noinspection JSFileReferences
     let cacheRules = {
+simple: {
+clean: true,
+search: false,
+match: url => url.host === 'kmar.top' && url.pathname.match(/\.(woff2|woff|ttf|cur)$/)}
 }
 
 let isCors = () => false
