@@ -127,12 +127,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
-  </entry>
-  <entry>
     <title>我的世界C4D纹饰陶罐预置</title>
     <url>/archives/posts/e66fbc14.html</url>
     <content><![CDATA[<h2 id="陶罐预置配布">陶罐预置配布</h2>
@@ -173,6 +167,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
     <title>easy-masonry内嵌测试</title>
     <url>/archives/posts/39986e43.html</url>
     <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -184,6 +184,26 @@
         }
 </script>
 <iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
+  </entry>
+  <entry>
+    <title>🎉庆祝本站开设一周年🎉</title>
+    <url>/archives/posts/c0a885d4.html</url>
+    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
+<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
+<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
+<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。没有你们我的网站就不会活这么久。</p>
+<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
+<p>最后提前祝大家圣诞快乐，新年快乐！</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
+                      alt="xmas"
+                ></p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -241,168 +261,118 @@
       </tags>
   </entry>
   <entry>
-    <title>🎉庆祝本站开设一周年🎉</title>
-    <url>/archives/posts/c0a885d4.html</url>
-    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
-<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
-<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
-<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。没有你们我的网站就不会活这么久。</p>
-<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
-<p>最后提前祝大家圣诞快乐，新年快乐！</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
-                      alt="xmas"
-                ></p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【Blender IV】金币基站</title>
-    <url>/archives/posts/1dcf26b5.html</url>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
-<p>各位都是怎么管理自己的屏幕截图的？我这截了一堆图没法有效管理啊！！</p>
+<p>进度是不是有点快啊……</p>
 <h2 id="制作">制作</h2>
-<p>大立方体，加两个边，选中多出来的面，Alt+鼠标左键，选择鼠标靠近方向的循环面。（右下角的东西不用在意XD）</p>
+<p>先创建一个小方块，加个倒角，当作身体。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/01.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
                      
                 >
-<p>沿法向挤出。</p>
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/02.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
                      
                 >
-<p>挤成这样。</p>
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/03.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
                      
                 >
-<p>简单做一下旁边的细节。</p>
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/04.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
                      
                 >
-<p>做另一边的时候用到了分离，可以把点线面分离出来做借形。借出来的圈圈可以创建一个面，进而创建网格。</p>
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/05.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
                      
                 >
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/06.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
                      
                 >
-<p>这里有个布尔工具的插件。挺方便的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/07.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/08.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/09.png"
-                     
-                >
-<p>还有一个功能就是可以把线转换为曲线对象。做一些管子什么的挺好。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/10.png"
-                     
-                >
-<p>之后就做上面的东西。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/11.png"
-                     
-                >
-<p>想要给这个东西加上小……突起？可以来个间隔式弃选。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/12.png"
-                     
-                >
-<p>就成这样了，然后缩小挤出一下就好了</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/13.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/14.png"
-                     
-                >
-<p>旁边的管子可以用镜像来复制。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/15.png"
-                     
-                >
-<p>镜像物体选中间的大圆柱，轴向XY，就变成这样了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/16.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/17.png"
-                     
-                >
-<p>为了方便区分可以把颜色选为随机。还挺好看的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/18.png"
-                     
-                >
-<p>加点细节，这就可以了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/19.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
 <p>完成！</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/coin.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
                      
                 >
-]]></content>
+<h2 id="渲染">渲染</h2>
+<p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
+                     
+                >
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
+                     
+                >
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
+                     
+                >
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
       <categories>
         <category>卷</category>
         <category>Blender学习笔记</category>
@@ -581,6 +551,158 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender IV】金币基站</title>
+    <url>/archives/posts/1dcf26b5.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>各位都是怎么管理自己的屏幕截图的？我这截了一堆图没法有效管理啊！！</p>
+<h2 id="制作">制作</h2>
+<p>大立方体，加两个边，选中多出来的面，Alt+鼠标左键，选择鼠标靠近方向的循环面。（右下角的东西不用在意XD）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/01.png"
+                     
+                >
+<p>沿法向挤出。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/02.png"
+                     
+                >
+<p>挤成这样。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/03.png"
+                     
+                >
+<p>简单做一下旁边的细节。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/04.png"
+                     
+                >
+<p>做另一边的时候用到了分离，可以把点线面分离出来做借形。借出来的圈圈可以创建一个面，进而创建网格。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/05.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/06.png"
+                     
+                >
+<p>这里有个布尔工具的插件。挺方便的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/07.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/08.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/09.png"
+                     
+                >
+<p>还有一个功能就是可以把线转换为曲线对象。做一些管子什么的挺好。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/10.png"
+                     
+                >
+<p>之后就做上面的东西。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/11.png"
+                     
+                >
+<p>想要给这个东西加上小……突起？可以来个间隔式弃选。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/12.png"
+                     
+                >
+<p>就成这样了，然后缩小挤出一下就好了</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/13.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/14.png"
+                     
+                >
+<p>旁边的管子可以用镜像来复制。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/15.png"
+                     
+                >
+<p>镜像物体选中间的大圆柱，轴向XY，就变成这样了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/16.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/17.png"
+                     
+                >
+<p>为了方便区分可以把颜色选为随机。还挺好看的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/18.png"
+                     
+                >
+<p>加点细节，这就可以了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/19.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-4-btcstation/coin.png"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender V】车</title>
     <url>/archives/posts/8f815186.html</url>
     <content><![CDATA[<h2 id="制作">制作</h2>
@@ -689,128 +811,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>进度是不是有点快啊……</p>
-<h2 id="制作">制作</h2>
-<p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
-                     
-                >
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
-                     
-                >
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
-                     
-                >
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
-                     
-                >
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
-                     
-                >
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
-                     
-                >
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
-                     
-                >
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
-                     
-                >
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
     <url>/archives/posts/bf30c6e.html</url>
     <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
@@ -843,45 +843,6 @@
 <h3 id="评价">评价</h3>
 <p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
 ]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VI】空海</title>
-    <url>/archives/posts/359fc4d7.html</url>
-    <content><![CDATA[<h2 id="空海">空海</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
-                     
-                >
-<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
-<h3 id="留学中国">留学中国</h3>
-<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
-<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
-<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
-<h3 id="返回日本">返回日本</h3>
-<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
-<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
-<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
-<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
-<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
-<h3 id="评价">评价</h3>
-<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
-                     
-                >]]></content>
       <categories>
         <category>卷</category>
         <category>周三名人</category>
@@ -931,57 +892,42 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云">王小云</h2>
+    <title>【周三名人 VI】空海</title>
+    <url>/archives/posts/359fc4d7.html</url>
+    <content><![CDATA[<h2 id="空海">空海</h2>
 <h3 id="简介">简介</h3>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
                      
                 >
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历">简要经历</h3>
-<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研">科研</h3>
-<p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖">获奖</h3>
-<ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料">参考资料</h3>
-<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
+<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
+<h3 id="留学中国">留学中国</h3>
+<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
+<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
+<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
+<h3 id="返回日本">返回日本</h3>
+<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
+<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
+<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
+<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
+<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
+<h3 id="评价">评价</h3>
+<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
+                     
+                >]]></content>
       <categories>
         <category>卷</category>
         <category>周三名人</category>
       </categories>
       <tags>
         <tag>名人</tag>
-        <tag>密码学</tag>
+        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -1038,6 +984,81 @@
       <tags>
         <tag>名人</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VII】华彦钧</title>
+    <url>/archives/posts/c29ca138.html</url>
+    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
+<h3 id="生平">生平</h3>
+<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
+<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
+<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
+<p>1950年12月4日病故。</p>
+<h3 id="音乐作品">音乐作品</h3>
+<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
+<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云">王小云</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     
+                >
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历">简要经历</h3>
+<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研">科研</h3>
+<p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖">获奖</h3>
+<ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -1219,6 +1240,57 @@
       </tags>
   </entry>
   <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>剧透警告</p>
+
+    </div>
+    <div class="notel-content">
+      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+
+    </div>
+  </div>
+<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
+<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
+<ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><s>不行！女主不够攻！</s></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
+<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因">尝试分析原因</h3>
+<ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦">做梦</h3>
+<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开源匿名提问箱 - CyberGui</title>
     <url>/archives/posts/aecf41ef.html</url>
     <content><![CDATA[<h1>CyberGui</h1>
@@ -1290,75 +1362,6 @@
         <tag>Web</tag>
         <tag>开源</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>剧透警告</p>
-
-    </div>
-    <div class="notel-content">
-      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
-
-    </div>
-  </div>
-<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
-<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
-<ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><s>不行！女主不够攻！</s></li>
-</ol>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
-                      alt="1"
-                ></p>
-<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
-<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因">尝试分析原因</h3>
-<ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦">做梦</h3>
-<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于近期干扰连接的公告</title>
-    <url>/archives/posts/b47922c2.html</url>
-    <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
-<h2 id="想说的话">想说的话</h2>
-<p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
-<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
-<h2 id="正文">正文</h2>
-<h3 id="新域名">新域名</h3>
-<p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
-<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>望周知</p>
-<h3 id="周三名人">周三名人</h3>
-<p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
-]]></content>
   </entry>
   <entry>
     <title>重拾darknet</title>
@@ -1441,57 +1444,22 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 VII】华彦钧</title>
-    <url>/archives/posts/c29ca138.html</url>
-    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
-<h3 id="生平">生平</h3>
-<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
-<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
-<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
-<p>1950年12月4日病故。</p>
-<h3 id="音乐作品">音乐作品</h3>
-<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
-<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
+    <title>关于近期干扰连接的公告</title>
+    <url>/archives/posts/b47922c2.html</url>
+    <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
+<h2 id="想说的话">想说的话</h2>
+<p>奶奶滴，跟我玩阴的是吧！直接来吧！</p>
+<p><i class="fa-solid fa-peace"></i>愿世间再无如此干扰。</p>
+<h2 id="正文">正文</h2>
+<h3 id="新域名">新域名</h3>
+<p>由于近期anzai.sleepingbed.top访问不稳定，故打开以下备用地址：</p>
+<p><a class="link"   href="https://blog.sleepingbed.top/" >https://blog.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new.sleepingbed.top/" >https://new.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://new1.sleepingbed.top/" >https://new1.sleepingbed.top/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>望周知</p>
+<h3 id="周三名人">周三名人</h3>
+<p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
 ]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开源瀑布流相册生成器 - Easy Masonry</title>
-    <url>/archives/posts/7492ee4b.html</url>
-    <content><![CDATA[<h1>Easy Masonry</h1>
-<h2 id="效果">效果</h2>
-<h3 id="图">图</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"
-                      alt="Masonry"
-                ></p>
-<h3 id="主要功能">主要功能</h3>
-<p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p>
-<h2 id="采用技术">采用技术</h2>
-<p>Vue</p>
-<h2 id="体验">体验</h2>
-<p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p>
-<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p>
-<h2 id="自己部署">自己部署</h2>
-<p>点个星星呗~</p>
-<p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>开源</tag>
-      </tags>
   </entry>
   <entry>
     <title>DWH基础知识梳理</title>
@@ -2020,6 +1988,38 @@
         <tag>编程</tag>
         <tag>软件工程</tag>
         <tag>预习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源瀑布流相册生成器 - Easy Masonry</title>
+    <url>/archives/posts/7492ee4b.html</url>
+    <content><![CDATA[<h1>Easy Masonry</h1>
+<h2 id="效果">效果</h2>
+<h3 id="图">图</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"
+                      alt="Masonry"
+                ></p>
+<h3 id="主要功能">主要功能</h3>
+<p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p>
+<h2 id="采用技术">采用技术</h2>
+<p>Vue</p>
+<h2 id="体验">体验</h2>
+<p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p>
+<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p>
+<h2 id="自己部署">自己部署</h2>
+<p>点个星星呗~</p>
+<p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>开源</tag>
       </tags>
   </entry>
   <entry>
@@ -3578,46 +3578,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎5 II】简单的射线追踪</title>
-    <url>/archives/posts/ef2e4bdf.html</url>
-    <content><![CDATA[<h2 id="原理">原理</h2>
-<p>灵魂画师上线！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
-                     
-                >
-<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
-<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
-<h2 id="代码">代码</h2>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="完成">完成</h2>
-<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
-                     
-                >
-<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【虚幻引擎5 I】RPC的使用</title>
     <url>/archives/posts/bac6a1f4.html</url>
     <content><![CDATA[<h2 id="关于RPC">关于RPC</h2>
@@ -3661,6 +3621,46 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/after.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 II】简单的射线追踪</title>
+    <url>/archives/posts/ef2e4bdf.html</url>
+    <content><![CDATA[<h2 id="原理">原理</h2>
+<p>灵魂画师上线！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/tracing.png"
+                     
+                >
+<p>很多游戏像CS:GO子弹都是从玩家眼睛里以一条直线打出去的，而不是从枪里。</p>
+<p>所以我们只要从屏幕中心或玩家眼睛向外射线，然后在地图里定位这个交点即可实现瞄准。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 先定义</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span>;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Kismet/GameplayStatics.h&quot;</span> <span class="comment">// 包含把客户端屏幕坐标转换为场景里坐标的function。</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;DrawDebugHelpers.h&quot;</span> <span class="comment">// 用于显示Debug盒子</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::TraceUnderCrosshairs</span><span class="params">(FHitResult&amp; TraceHitResult)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	FVector2D ViewportSize;</span><br><span class="line">	<span class="keyword">if</span> (GEngine &amp;&amp; GEngine-&gt;GameViewport)</span><br><span class="line">	&#123;</span><br><span class="line">		GEngine-&gt;GameViewport-&gt;<span class="built_in">GetViewportSize</span>(ViewportSize);</span><br><span class="line">	&#125; <span class="comment">// 获取屏幕大小</span></span><br><span class="line"></span><br><span class="line">	<span class="function">FVector2D <span class="title">CrosshairLocation</span><span class="params">(ViewportSize.X / <span class="number">2.f</span>, ViewportSize.Y / <span class="number">2.f</span>)</span></span>; <span class="comment">// 定位屏幕中心</span></span><br><span class="line">	FVector CrosshairWorldPosition;</span><br><span class="line">	FVector CrosshairWorldDirection;</span><br><span class="line">	<span class="type">bool</span> bScreenToWorld = UGameplayStatics::<span class="built_in">DeprojectScreenToWorld</span>(</span><br><span class="line">		UGameplayStatics::<span class="built_in">GetPlayerController</span>(<span class="keyword">this</span>, <span class="number">0</span>),</span><br><span class="line">		CrosshairLocation,</span><br><span class="line">		CrosshairWorldPosition,</span><br><span class="line">		CrosshairWorldDirection</span><br><span class="line">	); <span class="comment">// 将屏幕中心的位置转换到地图中</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (bScreenToWorld)</span><br><span class="line">	&#123;</span><br><span class="line">		FVector Start = CrosshairWorldPosition;</span><br><span class="line"></span><br><span class="line">		FVector End = Start + CrosshairWorldDirection * TRACE_LENGTH; <span class="comment">// TRACE_LENGTH 是射线长度，我define的是80000.f</span></span><br><span class="line"></span><br><span class="line">		<span class="built_in">GetWorld</span>()-&gt;<span class="built_in">LineTraceSingleByChannel</span>(</span><br><span class="line">			TraceHitResult,</span><br><span class="line">			Start,</span><br><span class="line">			End,</span><br><span class="line">			ECollisionChannel::ECC_Visibility</span><br><span class="line">		); <span class="comment">// 发出射线，遇到可见物体时便停止</span></span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> (!TraceHitResult.bBlockingHit)</span><br><span class="line">		&#123;</span><br><span class="line">			TraceHitResult.ImpactPoint = End;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">DrawDebugSphere</span>(</span><br><span class="line">				<span class="built_in">GetWorld</span>(),</span><br><span class="line">				TraceHitResult.ImpactPoint,</span><br><span class="line">				<span class="number">12.f</span>,</span><br><span class="line">				<span class="number">12</span>,</span><br><span class="line">				FColor::Red</span><br><span class="line">			);</span><br><span class="line">		&#125; <span class="comment">// 画debug球，使瞄准位置可视</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 最后让它一直Tick就好了</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="完成">完成</h2>
+<p>这下我们就可以看到开枪后我们可以打到地图的哪里了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/ok.png"
+                     
+                >
+<p>有个小问题就是这样可以打到自己，之后再修复吧。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
                      
                 >]]></content>
       <categories>
@@ -3748,6 +3748,69 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
+    <title>【虚幻引擎5 V】纯蓝图实现切换地图的数据通信</title>
+    <url>/archives/posts/893e7c0.html</url>
+    <content><![CDATA[<h2 id="目标">目标</h2>
+<p>在地图中与NPC互动，触发战斗模式，切换地图，每个敌人的血量和难度不同。</p>
+<h2 id="开始">开始</h2>
+<h3 id="接口">接口</h3>
+<p>我们先创建一个Interface，里面创建一个函数StartBattle，第二个函数是我测试用的，实际上没有用到。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/interface.png"
+                      alt="interface"
+                ></p>
+<p>在玩家蓝图里把这个接口调一下，就好了。靠近NPC后按E触发。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/startbattle.png"
+                      alt="start"
+                ></p>
+<h3 id="游戏实例">游戏实例</h3>
+<p>创建个平台游戏示例，需要传的数据尽管写到里面吧。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/instance.png"
+                      alt="instance"
+                ></p>
+<p>然后在项目设置→地图和模式→游戏实例里面给指定好。</p>
+<h3 id="打开关卡">打开关卡</h3>
+<p>从这里把游戏实例里的变量赋值，打开地图。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/openlevel.png"
+                      alt="openlevel"
+                ></p>
+<p>偷偷把游戏模式里的代码改了一下，让它需要一个行数int32值，然后在蓝图里传参。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/gamemode.png"
+                      alt="gamemode"
+                ></p>
+<h2 id="OK">OK</h2>
+<p>这样就可以指定生成的方块行数了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/ok.png"
+                      alt="ok"
+                ></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎5 IV】纯蓝图实现简单的血量系统</title>
     <url>/archives/posts/67561b4.html</url>
     <content><![CDATA[<p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
@@ -3820,31 +3883,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-<h2 id="v-model">v-model</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Vue I】从楼梯上摔下来</title>
     <url>/archives/posts/574e7c50.html</url>
     <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
@@ -3875,66 +3913,28 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>【虚幻引擎5 V】纯蓝图实现切换地图的数据通信</title>
-    <url>/archives/posts/893e7c0.html</url>
-    <content><![CDATA[<h2 id="目标">目标</h2>
-<p>在地图中与NPC互动，触发战斗模式，切换地图，每个敌人的血量和难度不同。</p>
-<h2 id="开始">开始</h2>
-<h3 id="接口">接口</h3>
-<p>我们先创建一个Interface，里面创建一个函数StartBattle，第二个函数是我测试用的，实际上没有用到。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/interface.png"
-                      alt="interface"
-                ></p>
-<p>在玩家蓝图里把这个接口调一下，就好了。靠近NPC后按E触发。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/startbattle.png"
-                      alt="start"
-                ></p>
-<h3 id="游戏实例">游戏实例</h3>
-<p>创建个平台游戏示例，需要传的数据尽管写到里面吧。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/instance.png"
-                      alt="instance"
-                ></p>
-<p>然后在项目设置→地图和模式→游戏实例里面给指定好。</p>
-<h3 id="打开关卡">打开关卡</h3>
-<p>从这里把游戏实例里的变量赋值，打开地图。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/openlevel.png"
-                      alt="openlevel"
-                ></p>
-<p>偷偷把游戏模式里的代码改了一下，让它需要一个行数int32值，然后在蓝图里传参。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/gamemode.png"
-                      alt="gamemode"
-                ></p>
-<h2 id="OK">OK</h2>
-<p>这样就可以指定生成的方块行数了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-5-attributeacrossmap/ok.png"
-                      alt="ok"
-                ></p>
-]]></content>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+<h2 id="v-model">v-model</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
       <categories>
         <category>卷</category>
-        <category>虚幻5学习笔记</category>
+        <category>Vue学习笔记</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
+        <tag>编程</tag>
+        <tag>Vue</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>
