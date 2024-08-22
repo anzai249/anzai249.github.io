@@ -1,1 +1,53 @@
-function categoryListInit(){var t=document.querySelectorAll(".all-category-list-item");if(!t)return;let e=Array.from(t).filter(t=>t.parentElement.classList.contains("all-category-list"));e.forEach(function(t){t.querySelectorAll(".all-category-list-child").forEach(function(t){t.style.maxHeight="0px",t.style.marginTop="0px"})}),e.forEach(function(t,l){t.addEventListener("click",function(){(t.querySelectorAll(".all-category-list-child").forEach(function(t){t.style.maxHeight="0px"===t.style.maxHeight?"1000px":"0px",t.style.marginTop="0px"===t.style.marginTop?"15px":"0px"}),l%2==0&&e[l+1])&&e[l+1].querySelectorAll(".all-category-list-child").forEach(function(t){t.style.maxHeight="0px"===t.style.maxHeight?"1000px":"0px",t.style.marginTop="0px"===t.style.marginTop?"15px":"0px"});l%2==1&&e[l-1]&&e[l-1].querySelectorAll(".all-category-list-child").forEach(function(t){t.style.maxHeight="0px"===t.style.maxHeight?"1000px":"0px",t.style.marginTop="0px"===t.style.marginTop?"15px":"0px"})})})}swup.on("pageView",()=>{categoryListInit()}),window.addEventListener("DOMContentLoaded",categoryListInit);
+const toggleStyle = (element, style, firstValue, secondValue) => {
+  element.style[style] =
+    element.style[style] === firstValue ? secondValue : firstValue;
+};
+
+const setupCategoryList = () => {
+  const parentElements = Array.from(
+    document.querySelectorAll(".all-category-list-item"),
+  ).filter((item) =>
+    item.parentElement.classList.contains("all-category-list"),
+  );
+
+  parentElements.forEach((parentElement) => {
+    const childElements = parentElement.querySelectorAll(
+      ".all-category-list-child",
+    );
+    childElements.forEach((childElement) => {
+      childElement.style.maxHeight = "0px";
+      childElement.style.marginTop = "0px";
+    });
+
+    parentElement.addEventListener("click", () => {
+      const clickedElementTopOffset = parentElement.offsetTop;
+      childElements.forEach((childElement) => {
+        toggleStyle(childElement, "maxHeight", "0px", "1000px");
+        toggleStyle(childElement, "marginTop", "0px", "15px");
+      });
+
+      parentElements.forEach((siblingElement) => {
+        if (
+          siblingElement.offsetTop === clickedElementTopOffset &&
+          siblingElement !== parentElement
+        ) {
+          const siblingChildElements = siblingElement.querySelectorAll(
+            ".all-category-list-child",
+          );
+          siblingChildElements.forEach((siblingChildElement) => {
+            toggleStyle(siblingChildElement, "maxHeight", "0px", "1000px");
+            toggleStyle(siblingChildElement, "marginTop", "0px", "15px");
+          });
+        }
+      });
+    });
+  });
+};
+
+try {
+  swup.hooks.on("page:view", setupCategoryList);
+} catch (e) {
+  console.error(e);
+}
+
+document.addEventListener("DOMContentLoaded", setupCategoryList);

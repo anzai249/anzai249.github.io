@@ -802,12 +802,15 @@
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
             <p>封面上有网格图案代表本篇内容使用纯蓝图实现。</p>
-<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
-<h2 id="详细"><a href="#详细" class="headerlink" title="详细"></a>详细</h2><h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
+<h2 id="目标">目标</h2>
+<p>实现加血减血，血量存储，把血量投射在屏幕上。</p>
+<h2 id="详细">详细</h2>
+<h3 id="接口">接口</h3>
+<p>因为这个项目的游戏规则是C++写的，所以先设置两个接口，不多，不怕。</p>
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.h</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 加血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 减血</span></span><br><span class="line"><span class="built_in">UFUNCTION</span>(BlueprintImplementableEvent, BlueprintCallable)</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">LoseHPTrigger</span><span class="params">(int32 Amount)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
 <p>好了！编译之后就直接去蓝图。</p>
-<h3 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h3><p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
+<h3 id="数据存储">数据存储</h3>
+<p>创建一个Actor蓝图，命名为<code>BP_PlayerData</code>，之后可能会把背包耶存这个里面。</p>
 <p>两个函数，一个加血一个减血，每个都需要一个<code>Amount</code>的整数parameter。两个变量，一个当前血量，一个最大血量，最大血量临时设置为100。</p>
 <p><img  
                      lazyload
@@ -822,7 +825,8 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2FAddhp.png"
                       alt="Addhp"
                 ></p>
-<h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h3><p>血条用进度条，红色，按钮用来测试加血。</p>
+<h3 id="UI">UI</h3>
+<p>血条用进度条，红色，按钮用来测试加血。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -836,7 +840,8 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Feat.png"
                       alt="eat"
                 ></p>
-<h3 id="GameMode"><a href="#GameMode" class="headerlink" title="GameMode"></a>GameMode</h3><p>不太会理线。</p>
+<h3 id="GameMode">GameMode</h3>
+<p>不太会理线。</p>
 <p>大致意思就是事件开始的时候把UI显示出来，然后更新一下UI上显示的血量。</p>
 <p>然后减血触发，本来很简单的除法运算，画了这么多是因为我想让进度条平滑伸缩，所以弄了个时间轴，把时间轴乘上这个数，然后加到进度条上去，就会有进度条播放，每帧减少血量，平滑过渡的效果了。</p>
 <p><code>LoseHPTrigger()</code>的触发我写到代码里了。</p>
@@ -847,7 +852,8 @@
                      data-src="https://evan.beee.top/users/anzai/posts%2Fue5-4-hpsystem%2Fgamemode.png"
                       alt="gamemode"
                 ></p>
-<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
+<h2 id="效果">效果</h2>
+<p>看上去还行，加减血逻辑正常运作，就是加血的过程不够平滑，下次修一修。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"

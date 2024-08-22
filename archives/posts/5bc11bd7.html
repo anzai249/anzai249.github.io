@@ -798,20 +798,23 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id="Flarum搭建踩坑记录"><a href="#Flarum搭建踩坑记录" class="headerlink" title="Flarum搭建踩坑记录"></a>Flarum搭建踩坑记录</h2><h3 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h3><p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
+            <h2 id="Flarum搭建踩坑记录">Flarum搭建踩坑记录</h2>
+<h3 id="目的">目的</h3>
+<p>舍友搞了个服务器，然后他用不上了就被我偷来了。其实挺早就想搭个论坛什么的了，这回是捡到机会了。</p>
+<h3 id="准备">准备</h3>
+<ul>
 <li>Windows服务器一台</li>
 <li>WampServer （我是大懒蛋）</li>
 <li>Composer</li>
 </ul>
-<h3 id="开干"><a href="#开干" class="headerlink" title="开干"></a>开干</h3><p>WampServer这东西太大了吧……</p>
+<h3 id="开干">开干</h3>
+<p>WampServer这东西太大了吧……</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/slow.png"
                      
                 >
-
 <p>只能在本地下载下来然后用文叔叔传到服务器里，能想到最好的办法了。</p>
 <p>阿里云这个镜像问题吗？没有微软的运行库，为了方便直接一包拿下。</p>
 <img  
@@ -820,7 +823,6 @@
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/ms.png"
                      
                 >
-
 <p><code>composer create-project flarum/flarum .</code></p>
 <p>把这个东西放到wamp里的www目录，开wamp。</p>
 <img  
@@ -829,14 +831,12 @@
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/localhost.png"
                      
                 >
-
 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/MySQL.png"
                      
                 >
-
 <p>这就出来了，在托盘图标里设置一下数据库密码（我刚开始就不会整）。然后进到flarum的public安装就完成啦！</p>
 <p>进去装个中文语言包。</p>
 <p><code>composer require flarum-lang/chinese-simplified</code></p>
@@ -846,7 +846,6 @@
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/zhcn.png"
                      
                 >
-
 <p>调成中文之后噩梦才刚刚开始，在外部访问会……</p>
 <img  
                      lazyload
@@ -854,7 +853,6 @@
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/403.png"
                      
                 >
-
 <p>在这之前我是没有任何Apache搭建这种项目的经验的，所以根本不知道哪里有问题。</p>
 <img  
                      lazyload
@@ -862,21 +860,19 @@
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/virtualhost.png"
                      
                 >
-
 <p>经过一段时间的尝试我发现这个东西它是用的v-host，貌似是可以虚拟化出来host然后定义每个页面的权限？</p>
 <p>稍微改一下<code>httpd-vhosts.conf</code>这个东西，在下面加个</p>
 <div class="highlight-container" data-rel="Xml"><figure class="iseeu highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Directory</span> &quot;$&#123;<span class="attr">INSTALL_DIR</span>&#125;/<span class="attr">www</span>/<span class="attr">flarum</span>/<span class="attr">public</span>/&quot;&gt;</span></span><br><span class="line">    Options +Indexes +Includes +FollowSymLinks +MultiViews</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"><span class="tag">&lt;/<span class="name">Directory</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
 <p>把URL重写all掉，然后访问限制解放。</p>
 <p>再把flarum的<code>config.php</code>里的url项改成你外部访问的url。</p>
 <p>大功告成。</p>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><img  
+<h3 id="效果">效果</h3>
+<img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/trying-flarum/bingo.png"
                      
                 >
-
 <p>让我看看沙雕网友在里面讨论的……</p>
 <p>这这这这都发的是些什么啊？</p>
 

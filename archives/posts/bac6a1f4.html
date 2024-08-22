@@ -774,7 +774,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>517 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>518 字</span>
         </span>
     
     
@@ -798,13 +798,15 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id="关于RPC"><a href="#关于RPC" class="headerlink" title="关于RPC"></a>关于RPC</h2><p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
+            <h2 id="关于RPC">关于RPC</h2>
+<p>Remote Procedure Calls(远程过程调用)，是在本地计算机中调用，在另一台计算机中远程执行的函数。</p>
 <ul>
 <li>必须从Actor处调用。</li>
 <li>这个Actor必须被复制（replicated）。</li>
 <li>如果从服务端调用RPC以在客户端上执行，则只有实际拥有该Actor的客户端才会执行该函数。</li>
 <li>如果从客户端调用RPC以在服务端上执行，则客户端必须拥有调用RPC所用的Actor。</li>
-<li>Multicast是例外：<ul>
+<li>Multicast是例外：
+<ul>
 <li>如果从服务端调用它们，服务端将在其本地执行它们，并在所有当前连接的客户端上执行它们。</li>
 <li>如果从客户端调用它们，它们将仅在本地执行，而不会在服务端上执行。</li>
 <li>目前我们有一个对此的限制机制：在给定Actor的网络更新周期内，multicast函数不会复制两次以上。（官方想从长远来看对此进行改进）</li>
@@ -819,24 +821,19 @@
                      data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/invoke.png"
                      
                 >
-
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
+<h2 id="使用">使用</h2>
+<p>这是一个开枪特效的例子，原本只会在客户端调用，客户端自己可以看到，其他客户端和服务端都无法看到。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/ue5-1-rpc/before.png"
                      
                 >
-
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br></pre></td></tr></table></figure></div>
-
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用前</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character &amp;&amp; bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
 <p>使用Multicast RPC和Server RPC结合，添加一点点代码。</p>
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.h</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(Server, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">ServerFire</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">UFUNCTION</span>(NetMulticast, Reliable)</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">MulticastFire</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure></div>
-
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// CombatComponent.cpp</span></span><br><span class="line"><span class="comment">// 使用后</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::FireButtonPressed</span><span class="params">(<span class="type">bool</span> bPressed)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	bFireButtonPressed = bPressed;</span><br><span class="line">	<span class="keyword">if</span> (bFireButtonPressed)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">ServerFire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 会红，但是别怕，能编译，在服务端上运行会复制到所有客户端。</span></span><br><span class="line"><span class="comment">// 但是在客户端上调用只会在客户端上执行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::MulticastFire_Implementation</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (EquippedWeapon == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">	<span class="keyword">if</span> (Character)</span><br><span class="line">	&#123;</span><br><span class="line">		Character-&gt;<span class="built_in">PlayFireMontage</span>(bAiming);</span><br><span class="line">		EquippedWeapon-&gt;<span class="built_in">Fire</span>();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 也会红，只在服务端上运行。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">UCombatComponent::ServerFire_Implementation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">MulticastFire</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
 <p>嘿嘿……</p>
 <img  
                      lazyload

@@ -1,1 +1,31 @@
-const audioList=[],isFixed="fixed"==Global.theme_config.plugins.aplayer.type,isMini="mini"==Global.theme_config.plugins.aplayer.type;for(const e of Global.theme_config.plugins.aplayer.audios){const i={name:e.name,artist:e.artist,url:e.url,cover:e.cover,lrc:e.lrc,theme:e.theme};audioList.push(i)}if(isMini)new APlayer({container:document.getElementById("aplayer"),mini:!0,audio:audioList});else if(isFixed)new APlayer({container:document.getElementById("aplayer"),fixed:!0,audio:audioList});
+const audioList = [];
+const isFixed = theme.plugins.aplayer.type == "fixed";
+const isMini = theme.plugins.aplayer.type == "mini";
+
+for (const audio of theme.plugins.aplayer.audios) {
+  const a = {
+    name: audio.name,
+    artist: audio.artist,
+    url: audio.url,
+    cover: audio.cover,
+    lrc: audio.lrc,
+    theme: audio.theme,
+  };
+  audioList.push(a);
+}
+
+if (isMini) {
+  const ap = new APlayer({
+    container: document.getElementById("aplayer"),
+    mini: true,
+    audio: audioList,
+  });
+} else if (isFixed) {
+  const ap = new APlayer({
+    container: document.getElementById("aplayer"),
+    fixed: true,
+    lrcType: 3,
+    audio: audioList,
+  });
+  document.querySelector(".aplayer-icon-lrc").click();
+}

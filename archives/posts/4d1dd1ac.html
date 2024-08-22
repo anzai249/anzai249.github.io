@@ -793,7 +793,9 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id="重拾darknet"><a href="#重拾darknet" class="headerlink" title="重拾darknet"></a>重拾darknet</h2><h3 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h3><p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
+            <h2 id="重拾darknet">重拾darknet</h2>
+<h3 id="啊啊啊">啊啊啊</h3>
+<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -801,7 +803,9 @@
                       alt="菠萝"
                 ></p>
 <p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整"><a href="#开整" class="headerlink" title="开整"></a>开整</h3><h4 id="准备数据集"><a href="#准备数据集" class="headerlink" title="准备数据集"></a>准备数据集</h4><p><img  
+<h3 id="开整">开整</h3>
+<h4 id="准备数据集">准备数据集</h4>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
@@ -814,7 +818,8 @@
                       alt="数据集2"
                 ></p>
 <p>提前标注好了，开扌……</p>
-<h4 id="第一次训练"><a href="#第一次训练" class="headerlink" title="第一次训练"></a>第一次训练</h4><p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+<h4 id="第一次训练">第一次训练</h4>
+<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -822,14 +827,16 @@
                       alt="4个文件夹"
                 ></p>
 <p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练"><a href="#第二次训练" class="headerlink" title="第二次训练"></a>第二次训练</h4><p><img  
+<h4 id="第二次训练">第二次训练</h4>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
                       alt="2"
                 ></p>
 <p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练"><a href="#第三次训练" class="headerlink" title="第三次训练"></a>第三次训练</h4><p><img  
+<h4 id="第三次训练">第三次训练</h4>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
@@ -838,8 +845,8 @@
 <p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
 <p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
 <div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="第四次训练"><a href="#第四次训练" class="headerlink" title="第四次训练"></a>第四次训练</h4><p><img  
+<h4 id="第四次训练">第四次训练</h4>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
@@ -852,7 +859,8 @@
                       alt="结果"
                 ></p>
 <p>轻轻松松，简简单单！</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
+<h3 id="总结">总结</h3>
+<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
 
         </div>
 
