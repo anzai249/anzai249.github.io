@@ -17,4 +17,4 @@ User-agent: *
 Disallow: /archives/index.html
 
 # 允许所有爬虫访问网站地图
-Sitemap: https://anzai.sleepingbed.com/sitemap.xml
+Sitemap: https://anzai.sleepingbed.top/sitemap.xml
