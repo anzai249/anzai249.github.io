@@ -46,8 +46,9 @@ const messageEvent = (event) => {
   };
             (_inlineA)();
             navigator.serviceWorker.addEventListener('message', event => {
-                messageEvent()
-            })
+    messageEvent(event);
+});
+
         
             })
         
