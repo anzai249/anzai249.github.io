@@ -1,4 +1,4 @@
-(() => {const CACHE_NAME = 'kmarBlogCache';
+(() => {const CACHE_NAME = 'anzaiCache';
 const VERSION_PATH = 'https://id.v3/';
 const ESCAPE = 0;
 const INVALID_KEY = 'X-Swpp-Invalid';
