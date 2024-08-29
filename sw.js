@@ -5,7 +5,15 @@ const INVALID_KEY = 'X-Swpp-Invalid';
 const STORAGE_TIMESTAMP = 'X-Swpp-Time';
 const UPDATE_JSON_URL = '/update.json';
 const UPDATE_CD = 600000;
-const matchCacheRule = (_url) => false;
+const matchCacheRule = () => {
+        (url) => {
+          const host = url.hostname;
+          if (host === 'www.googletagmanager.com' || host === 'cn.vercount.one') {
+            return 0;
+          }
+          return -1;
+        };
+      };
 const normalizeUrl = (url) => {
                     if (url.endsWith('/index.html'))
                         return url.substring(0, url.length - 10);
