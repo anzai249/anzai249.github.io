@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><!-- hexo injector head_begin start --><script>
-                      (() => {
-                          const sw = navigator.serviceWorker
-                          const error = () => console.error("ServiceWorker 注册失败，可能是您的浏览器不支持该功能。")
-                          if (!sw?.register('/sw.js')
-                              
-                              ?.catch(error)
-                              ) error()
-                      })()
-                  </script><!-- hexo injector head_begin end -->
+<head><!-- hexo injector head_begin start --><script>(() => {
+                    const sw = navigator.serviceWorker;
+                    if (sw) {
+                        sw.register('sw.js')
+                            .then(async (registration) => {
+                            console.log('SWPP 注册成功');
+                            try {
+                                // @ts-ignore
+                                await registration.periodicSync.register("update", {
+                                    minInterval: 24 * 60 * 60 * 1000
+                                });
+                            }
+                            catch (e) {
+                                console.warn('Periodic Sync 注册失败', e);
+                            }
+                        })
+                            .catch(err => console.error('SWPP 注册失败', err));
+                    }
+                    else {
+                        console.warn('当前浏览器不支持 SW');
+                    }
+                })()</script><!-- hexo injector head_begin end -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="安仔の午睡床,编程,前端,虚幻引擎,技术">
@@ -78,6 +90,20 @@
     <!--- Inject Part-->
     
         
+            
+    
+            
+    
+            
+                
+                    <meta name="twitter:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+                
+    
+            
+                
+                    <meta property="og:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+                
+    
 
     
 <link rel="stylesheet" href="/css/style.css">
