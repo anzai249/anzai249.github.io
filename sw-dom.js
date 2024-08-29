@@ -31,24 +31,23 @@ const _inlineA = () => {
                     postMessage2Sw('update');
             };
 const messageEvent = (event) => {
-    const data = event.data;
-    sessionStorage.setItem(SESSION_KEY, data.type);
-    const list = data.data?.filter((url) => /\.(js|css)$/.test(url));
-    if (list?.length) {
-      // @ts-ignore
-      list.forEach(pjaxUpdate);
-      location.reload();
-    } else
-    {
-      onSuccess();
-      sessionStorage.removeItem(SESSION_KEY);
-    }
-  };
+      const data = event.data;
+      sessionStorage.setItem(SESSION_KEY, data.type);
+      const list = data.data?.filter((url) => /\.(js|css)$/.test(url));
+      if (list?.length) {
+        // @ts-ignore
+        list.forEach(pjaxUpdate);
+        location.reload();
+      } else
+      {
+        onSuccess();
+        sessionStorage.removeItem(SESSION_KEY);
+      }
+    };
             (_inlineA)();
             navigator.serviceWorker.addEventListener('message', event => {
-    messageEvent(event);
-});
-
+                messageEvent()
+            })
         
             })
         
