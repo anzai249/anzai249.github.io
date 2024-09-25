@@ -1,0 +1,20 @@
+# robots.txt 文件示例
+
+# 阻止所有爬虫访问特定目录
+User-agent: *
+Disallow: /tree/
+Disallow: /tags/
+Disallow: /about/
+Disallow: /album/
+Disallow: /categories/
+Disallow: /games/
+Disallow: /links/
+Disallow: /page/
+
+
+# 阻止所有爬虫访问特定文件
+User-agent: *
+Disallow: /archives/index.html
+
+# 允许所有爬虫访问网站地图
+Sitemap: https://anzai.sleepingbed.top/sitemap.xml
