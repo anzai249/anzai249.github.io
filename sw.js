@@ -3,7 +3,7 @@ const VERSION_PATH = 'https://id.v3/';
 const ESCAPE = 0;
 const INVALID_KEY = 'X-Swpp-Invalid';
 const STORAGE_TIMESTAMP = 'X-Swpp-Time';
-const UPDATE_JSON_URL = 'swpp/update.json';
+const UPDATE_JSON_URL = '/update.json';
 const UPDATE_CD = 600000;
 const matchCacheRule = (url) => {
         const host = url.hostname;
