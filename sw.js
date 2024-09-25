@@ -1,6 +1,6 @@
 (() => {const CACHE_NAME = 'anzaiCache';
 const VERSION_PATH = 'https://id.v3/';
-const ESCAPE = 0;
+const ESCAPE = 28374672;
 const INVALID_KEY = 'X-Swpp-Invalid';
 const STORAGE_TIMESTAMP = 'X-Swpp-Time';
 const UPDATE_JSON_URL = '/update.json';
