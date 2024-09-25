@@ -10,7 +10,7 @@ const matchCacheRule = (url) => {
         if (host === 'www.googletagmanager.com' || host === 'cn.vercount.one') {
           return 0;
         }
-        return -1;
+        return 120000;
       };
 const normalizeUrl = (url) => {
                     if (url.endsWith('/index.html'))
