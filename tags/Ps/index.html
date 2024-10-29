@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><!-- hexo injector head_begin start --><script>(() => {
-      const sw = navigator.serviceWorker;
-      if (sw) {
-        sw.register('https://anzai.sleepingbed.top/sw.js').
-        then(async (registration) => {
-          try {
-            // @ts-ignore
-            await registration.periodicSync.register("update", {
-              minInterval: 24 * 60 * 60 * 1000
-            });
-          }
-          catch (e) {
-          }
-        }).
-        catch((err) => console.error('SWPP 注册失败', err));
-      } else
-      {
-        console.warn('当前浏览器不支持 SW');
-      }
-    })()</script><!-- hexo injector head_begin end -->
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="安仔の午睡床,编程,前端,虚幻引擎,技术">
@@ -32,6 +13,8 @@
     
         
         
+        
+            <link rel="preconnect" href="https://s4.zstatic.net" crossorigin>
         
     
     <!--- Seo Part-->
@@ -76,12 +59,11 @@
     
     <title>
         
-            标签: Ps -
+            标签: Ps | 安仔の午睡床
         
-        安仔の午睡床
     </title>
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/Chillax/chillax.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/Chillax/chillax.css">
 
     <!--- Inject Part-->
     
@@ -111,30 +93,28 @@
 
     
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/GeistMono/geist-mono.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/Geist/geist.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fonts/Geist/geist.css">
     <!--- Font Part-->
     
     
     
     
-
     
-        <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/anime.min.js"></script>
     
 
     <script id="hexo-configurations">
     window.config = {"hostname":"anzai.sleepingbed.top","root":"/","language":"zh-CN","path":"search.xml"};
-    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["床主"]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#1f5da3","secondary":"#e600b8","default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1080px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":true,"open_graph":true,"google_analytics":{"enable":true,"id":"G-MLXYJKW1BT"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xp1e_1280x720.webp","dark":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xx39_1280x720.webp"},"title":"欢迎。","subtitle":{"text":["苟利国家生死以，岂因祸福避趋之"],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/anzai249","instagram":"https://instagram.com/berlinann249","zhihu":null,"twitter":null,"email":null,"steam":"https://s.team/p/cfmc-crgr/fbwbcnvt","fa-solid fa-envelope":"mailto://b.an@sleepingbed.top","discord":"https://discord.gg/XbkZaFfF3d"},"qrs":{"weixin":null,"qq":"https://evan.beee.top/users/anzai/others/qq.png"}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"ラグトレイン","artist":"稲葉曇","url":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.mp3","cover":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.webp","lrc":null},{"name":"WINTER WITHOUT YOU","artist":"XG","url":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.mp3","cover":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.webp"},{"name":"One More Night","artist":"邓紫棋","url":"https://evan.beee.top/users/anzai/music/One-More-Night.mp3","cover":"https://evan.beee.top/users/anzai/music/RevelacionGEM.jpg"},{"name":"SHOOTING STAR","artist":"XG","url":"https://evan.beee.top/users/anzai/music/SHOOTING-STAR.mp3","cover":"https://evan.beee.top/users/anzai/music/SHOOTINGSTAR.jpg"},{"name":"Memory - Radio Edit","artist":"Elaine Paige","url":"https://evan.beee.top/users/anzai/music/Memory-Radio-Edit.mp3","cover":"https://evan.beee.top/users/anzai/music/Cats.jpg"},{"name":"The Housebuilding Song","artist":"David Ferguson","url":"https://evan.beee.top/users/anzai/music/TheHousebuildingSong.mp3","cover":"https://evan.beee.top/users/anzai/music/rdr2.webp"},{"name":"你从未离去","artist":"白挺","url":"https://evan.beee.top/users/anzai/music/你從未離去.mp3","cover":"https://evan.beee.top/users/anzai/music/bonniebears.webp"},{"name":"作品的说话","artist":"姜涛","url":"https://evan.beee.top/users/anzai/music/作品的說話.mp3","cover":"https://evan.beee.top/users/anzai/music/作品的说话.webp"}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.6.4","navbar":{"auto_hide":false,"color":{"left":"#CE6E59","right":"#ffffff","transparency":50},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-solid fa-house-heart"},"文章":{"icon":"fa-solid fa-archive","submenus":{"归档":"/archives","标签":"/tags","分类":"/categories"}},"相册":{"path":"/album","icon":"fa-solid fa-camera-retro"},"实验室":{"icon":"fa-solid fa-flask","path":"https://lab.sleepingbed.top/"},"Links":{"path":"/links","icon":"fa-solid fa-link"},"About":{"icon":"fa-solid fa-user","submenus":{"匿名提问":"https://cybergui.sleepingbed.top/","关于我":"/about"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":3,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"可能是最贪睡的强迫症患者。","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/11/28 21:31:12"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["床主"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#1f5da3","secondary":"#e600b8","default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1080px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":true,"google_analytics":{"enable":true,"id":"G-MLXYJKW1BT"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xp1e_1280x720.webp","dark":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xx39_1280x720.webp"},"title":"欢迎。","subtitle":{"text":["苟利国家生死以，岂因祸福避趋之"],"hitokoto":{"enable":true,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/anzai249","instagram":"https://instagram.com/berlinann249","zhihu":null,"twitter":null,"email":null,"steam":"https://s.team/p/cfmc-crgr/fbwbcnvt","fa-solid fa-envelope":"mailto://b.an@sleepingbed.top","discord":"https://discord.gg/XbkZaFfF3d"},"qrs":{"weixin":null,"qq":"https://evan.beee.top/users/anzai/others/qq.png"}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"ラグトレイン","artist":"稲葉曇","url":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.mp3","cover":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.webp","lrc":null},{"name":"WINTER WITHOUT YOU","artist":"XG","url":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.mp3","cover":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.webp"},{"name":"One More Night","artist":"邓紫棋","url":"https://evan.beee.top/users/anzai/music/One-More-Night.mp3","cover":"https://evan.beee.top/users/anzai/music/RevelacionGEM.jpg"},{"name":"SHOOTING STAR","artist":"XG","url":"https://evan.beee.top/users/anzai/music/SHOOTING-STAR.mp3","cover":"https://evan.beee.top/users/anzai/music/SHOOTINGSTAR.jpg"},{"name":"Memory - Radio Edit","artist":"Elaine Paige","url":"https://evan.beee.top/users/anzai/music/Memory-Radio-Edit.mp3","cover":"https://evan.beee.top/users/anzai/music/Cats.jpg"},{"name":"The Housebuilding Song","artist":"David Ferguson","url":"https://evan.beee.top/users/anzai/music/TheHousebuildingSong.mp3","cover":"https://evan.beee.top/users/anzai/music/rdr2.webp"},{"name":"你从未离去","artist":"白挺","url":"https://evan.beee.top/users/anzai/music/你從未離去.mp3","cover":"https://evan.beee.top/users/anzai/music/bonniebears.webp"},{"name":"作品的说话","artist":"姜涛","url":"https://evan.beee.top/users/anzai/music/作品的說話.mp3","cover":"https://evan.beee.top/users/anzai/music/作品的说话.webp"}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.7.3","navbar":{"auto_hide":false,"color":{"left":"#CE6E59","right":"#ffffff","transparency":50},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-solid fa-house-heart"},"文章":{"icon":"fa-solid fa-archive","submenus":{"归档":"/archives","标签":"/tags","分类":"/categories"}},"相册":{"path":"/album","icon":"fa-solid fa-camera-retro"},"实验室":{"icon":"fa-solid fa-flask","path":"https://lab.sleepingbed.top/"},"Links":{"path":"/links","icon":"fa-solid fa-link"},"About":{"icon":"fa-solid fa-user","submenus":{"匿名提问":"https://cybergui.sleepingbed.top/","关于我":"/about"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":3,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"可能是最贪睡的强迫症患者。","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/11/28 21:31:12"};
     window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
     window.data = {"masonry":true};
   </script>
     
     <!--- Fontawesome Part-->
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/fontawesome.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/brands.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/solid.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/regular.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/fontawesome/regular.min.css">
     
     
     
@@ -143,7 +123,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<script defer src="/sw-dom.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="安仔の午睡床" type="application/rss+xml">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="安仔の午睡床" type="application/rss+xml">
 </head>
 
 
@@ -161,168 +141,27 @@
 
 
 
-    <style>
-    :root {
-        --preloader-background-color: #fff;
-        --preloader-text-color: #000;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --preloader-background-color: #202124;
-            --preloader-text-color: #fff;
-        }
-    }
-
-    @media (prefers-color-scheme: light) {
-        :root {
-            --preloader-background-color: #fff;
-            --preloader-text-color: #000;
-        }
-    }
-
-    @media (max-width: 600px) {
-        .ml13 {
-            font-size: 2.6rem !important; /* Adjust this value as needed */
-        }
-    }
-
-    .preloader {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        padding: 12px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh; /* 'h-screen' is 100% of the viewport height */
-        background-color: var(--preloader-background-color);
-        z-index: 1100; /* 'z-[1100]' sets the z-index */
-        transition: opacity 0.2s ease-in-out;
-    }
-
-    .ml13 {
-        font-size: 3.2rem;
-        /* text-transform: uppercase; */
-        color: var(--preloader-text-color);
-        letter-spacing: -1px;
-        font-weight: 500;
-        font-family: 'Chillax-Variable', sans-serif;
-        text-align: center;
-    }
-
-    .ml13 .word {
-        display: inline-flex;
-        flex-wrap: wrap;
-        white-space: nowrap;
-    }
-
-    .ml13 .letter {
-        display: inline-block;
-        line-height: 1em;
-    }
-</style>
-
-<div class="preloader">
-    <h2 class="ml13">
-        安仔の午睡床
-    </h2>
-    <script>
-        var textWrapper = document.querySelector('.ml13');
-        // Split text into words
-        var words = textWrapper.textContent.trim().split(' ');
-
-        // Clear the existing content
-        textWrapper.innerHTML = '';
-
-        // Wrap each word and its letters in spans
-        words.forEach(function(word) {
-            var wordSpan = document.createElement('span');
-            wordSpan.classList.add('word');
-            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
-            textWrapper.appendChild(wordSpan);
-            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
-        });
-
-        var animation = anime.timeline({loop: true})
-            .add({
-                targets: '.ml13 .letter',
-                translateY: [40,0],
-                translateZ: 0,
-                opacity: [0,1],
-                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
-                easing: "easeOutExpo",
-                duration: 1400,
-                delay: (el, i) => 300 + 30 * i,
-            }).add({
-                targets: '.ml13 .letter',
-                translateY: [0,-40],
-                opacity: [1,0],
-                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
-                easing: "easeInExpo",
-                duration: 1200,
-                delay: (el, i) => 100 + 30 * i,
-                complete: function() {
-                    hidePreloader(); // Call hidePreloader after the animation completes
-                }
-            });
-
-        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
-
-        // If the theme status is not found in local storage, check the preferred color scheme
-        if (themeStatus === undefined || themeStatus === null) {
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                themeStatus = 'dark';
-            } else {
-                themeStatus = 'light';
-            }
-        }
-
-        // Now you can use the themeStatus variable in your code
-        if (themeStatus) {
-            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
-            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
-        } else {
-            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
-            document.documentElement.style.setProperty('--preloader-text-color', '#000');
-        }
-
-        window.addEventListener('load', function () {
-            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
-        });
-
-        function hidePreloader() {
-            var preloader = document.querySelector('.preloader');
-            preloader.style.opacity = '0';
-            setTimeout(function () {
-                preloader.style.display = 'none';
-            }, 200);
-        }
-    </script>
-</div>
-
 <main class="page-container" id="swup">
 
     
 
-    <div class="main-content-container">
+    <div class="main-content-container flex flex-col justify-between min-h-dvh">
 
 
         <div class="main-content-header">
             <header class="navbar-container px-6 md:px-12">
-
-    <div class="navbar-content ">
+    <div class="navbar-content transition-navbar ">
         <div class="left">
             
-                <a class="logo-image" href="/">
-                    <img src="https://evan.beee.top/users/anzai/others/title_animated.svg">
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="https://evan.beee.top/users/anzai/others/title_animated.svg" class="w-full h-full rounded-sm">
                 </a>
             
+            <a class="logo-title" href="/">
+                
+                安仔の午睡床
+                
+            </a>
         </div>
 
         <div class="right">
@@ -491,7 +330,7 @@
     </div>
 
     <!-- Mobile sheet -->
-    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
         <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
             
                 
@@ -694,7 +533,7 @@
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">47</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">48</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -735,7 +574,7 @@
                          <!-- Close the previous LI if not the first item -->
                         <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-24'>
                     
-                    <a href="/archives/posts/7e916f91" class="block overflow-hidden w-fit">
+                    <a href="/archives/posts/7e916f91" class="block w-fit">
                         <span class="article-title my-0.5 text-2xl">ReCAPTCHA恶搞Ps模板</span>
                     </a>
                     
@@ -757,7 +596,7 @@
                          <!-- Close the previous LI if not the first item -->
                         <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='11-29'>
                     
-                    <a href="/archives/posts/6f1a8c0d" class="block overflow-hidden w-fit">
+                    <a href="/archives/posts/6f1a8c0d" class="block w-fit">
                         <span class="article-title my-0.5 text-2xl">gif表情包制作工艺流程</span>
                     </a>
                     
@@ -802,11 +641,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共 47 篇文章
+                        共撰写了 48 篇文章
                     </span>
                     
                         <span>
-                            共 29.7k 字
+                            共 30.1k 字
                         </span>
                     
                 </p>
@@ -831,7 +670,7 @@
         
         <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
             <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.4</a></span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.3</a></span>
         </div>
         
             <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="
@@ -948,7 +787,7 @@
                 <input autocomplete="off"
                        autocorrect="off"
                        autocapitalize="off"
-                       placeholder="搜索..."
+                       placeholder="站内搜索您需要的内容..."
                        spellcheck="false"
                        type="search"
                        class="search-input"
@@ -971,7 +810,7 @@
 </main>
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/Swup.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupSlideTheme.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupProgressPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupScrollPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupPreloadPlugin.min.js"></script>
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/Swup.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupSlideTheme.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupProgressPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupScrollPlugin.min.js" ></script><script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/SwupPreloadPlugin.min.js" ></script>
 <script>
     const swup = new Swup({
         plugins: [
@@ -996,53 +835,58 @@
 
 
 
-<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/imageViewer.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/utils.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/main.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/navbarShrink.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/scrollTopBottom.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/categoryList.js"></script>
+<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/imageViewer.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/utils.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/main.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/navbarShrink.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/scrollTopBottom.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/lightDarkSwitch.js" ></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/categoryList.js" ></script>
 
 
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/localSearch.js"></script>
-
-
-
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/codeBlock.js"></script>
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/localSearch.js" ></script>
 
 
 
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/lazyload.js"></script>
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/codeBlock.js" ></script>
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/runtime.js"></script>
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/odometer.min.js"></script>
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/assets/odometer-theme-minimal.css">
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/lazyload.js" ></script>
 
 
 
-  <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/Typed.min.js"></script>
-  <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/typed.js"></script>
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/runtime.js" ></script>
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/odometer.min.js" ></script>
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/assets/odometer-theme-minimal.css">
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/mermaid.min.js"></script>
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/mermaid.js"></script>
+  <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/Typed.min.js" ></script>
+  <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/typed.js" ></script>
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/minimasonry.min.js"></script>
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/masonry.js"></script>
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/mermaid.min.js" ></script>
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/mermaid.js" ></script>
+
+
+
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/minimasonry.min.js" ></script>
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/masonry.js" ></script>
+
+
+
+    <script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/anime.min.js" ></script>
 
 
 
 
-<div class="post-scripts" data-swup-reload-script>
-    
-        <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/tocToggle.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/toc.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/tabs.js"></script>
-    
-</div>
+    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/tools/tocToggle.js" data-swup-reload-script></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/toc.js" data-swup-reload-script></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/tabs.js" data-swup-reload-script></script>
+
+
+<script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/layouts/essays.js" data-swup-reload-script></script>
+
 
 
     <div id="aplayer"></div>
-<script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/APlayer.min.js"></script>
-<script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/aplayer.js"></script>
+<script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/libs/APlayer.min.js" ></script>
+<script  src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.7.3/js/plugins/aplayer.js" ></script>
 
 </body>
 </html>
