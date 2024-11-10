@@ -4235,7 +4235,7 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
 <li><a class="link"   href="https://developer.nvidia.com/cuda-toolkit" >CUDA Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 <li><a class="link"   href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" >stable-diffusion-webui <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
 <li><a class="link"   href="https://civitai.com/models/790437/" >Victoria 3 Style Art Model File <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://civitai.com/models/153568" >Stable Diffusion Base Model <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> - I recommend <em>Real Dream</em>.</li>
+<li><a class="link"   href="https://civitai.com/models/462367" >Stable Diffusion Base Model <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> - I recommend <em>Real Dream Classic</em>, Note: Please always use SD1.5 based model.</li>
 </ul>
 <h3 id="Setup">Setup</h3>
 <p>The setup method of stable-diffusion-webui can be found on its GitHub page.</p>
