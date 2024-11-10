@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start --><script>(() => {
+      const sw = navigator.serviceWorker;
+      if (sw) {
+        sw.register('https://anzai.sleepingbed.top/sw.js').
+        then(async (registration) => {
+          try {
+            // @ts-ignore
+            await registration.periodicSync.register("update", {
+              minInterval: 24 * 60 * 60 * 1000
+            });
+          }
+          catch (e) {
+          }
+        }).
+        catch((err) => console.error('SWPP 注册失败', err));
+      } else
+      {
+        console.warn('当前浏览器不支持 SW');
+      }
+    })()</script><!-- hexo injector head_begin end -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="安仔の午睡床,编程,前端,虚幻引擎,技术">
@@ -138,7 +157,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="安仔の午睡床" type="application/rss+xml">
+<script defer src="/sw-dom.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="安仔の午睡床" type="application/rss+xml">
 </head>
 
 
