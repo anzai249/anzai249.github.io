@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
+    <title>数字缩写与格式化工具114k.js</title>
+    <url>/archives/posts/cde209f.html</url>
+    <content><![CDATA[<h1>114k.js</h1>
+<p>工作原因，随便写了个数字缩写与格式化工具。</p>
+<p>不要在意它的名字。</p>
+<h2 id="用法">用法</h2>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm i 114k.js</span><br></pre></td></tr></table></figure></div>
+<p>提供了两个方法，abbreviateNumber和formatNumber。</p>
+<h3 id="abbreviateNumber">abbreviateNumber()</h3>
+<p>按语言简写数字。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">abbreviateNumber(num: Number, digits?: Number, rounding?: String, locale?: String): String</span><br></pre></td></tr></table></figure></div>
+<p><code>num</code> 需要操作的数字</p>
+<p><code>digits</code> 保留小数位数</p>
+<p><code>rounding</code> 舍入，可为<code>&quot;round&quot;</code>，<code>&quot;ceil&quot;</code>或<code>&quot;floor&quot;</code></p>
+<p><code>locale</code> 语言，可为<code>&quot;en&quot;</code><br>
+<code>&quot;ru&quot;</code><br>
+<code>&quot;zh-CN&quot;</code><br>
+<code>&quot;zh-TW&quot;</code><br>
+<code>&quot;ja&quot;</code><br>
+<code>&quot;ko&quot;</code><br>
+<code>&quot;vi&quot;</code></p>
+<h3 id="formatNumber">formatNumber()</h3>
+<p>格式化数字。</p>
+<p><code>1,145,141,919,810</code></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">formatNumber(num: Number): String</span><br></pre></td></tr></table></figure></div>
+<p><code>num</code> 需要操作的数字</p>
+<h2 id="效果">效果</h2>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`The population of India in 2023 was <span class="subst">$&#123;formatNumber(<span class="number">1428627663</span>)&#125;</span>, about <span class="subst">$&#123;abbreviateNumber(<span class="number">1428627663</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;en&quot;</span>)&#125;</span> people.`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// The population of India in 2023 was 1,428,627,663, about 1.43B people.</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`台灣共有<span class="subst">$&#123;abbreviateNumber(<span class="number">36197</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-TW&quot;</span>)&#125;</span>平方千米的土地。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 台灣共有3.62萬平方千米的土地。</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`中国大陆在约<span class="subst">$&#123;abbreviateNumber(<span class="number">9596961</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>平方千米的土地中塞入了约<span class="subst">$&#123;abbreviateNumber(<span class="number">1426389855</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>的人口。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 中国大陆在约959.7万平方千米的土地中塞入了约14.26亿的人口。</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="开源地址">开源地址</h2>
+<p>欢迎issue和pull request。</p>
+<p><a class="link"   href="https://github.com/anzai249/114k.js" >https://github.com/anzai249/114k.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><a class="link"   href="https://www.npmjs.com/package/114k.js" >https://www.npmjs.com/package/114k.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>开源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>easy-masonry内嵌测试</title>
+    <url>/archives/posts/39986e43.html</url>
+    <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<script data-swup-reload-script>
+    function resizeIframe() {
+        var iframe = document.getElementById("myIframe");
+        var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
+        iframe.height = iframeHeight;
+        }
+</script>
+<iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
   </entry>
   <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
@@ -93,44 +144,24 @@
       </tags>
   </entry>
   <entry>
-    <title>我的世界C4D竹子预置</title>
-    <url>/archives/posts/c391084a.html</url>
-    <content><![CDATA[<h2 id="竹子预置配布">竹子预置配布</h2>
-<h3 id="起因">起因</h3>
-<img  
+    <title>🎉庆祝本站开设一周年🎉</title>
+    <url>/archives/posts/c0a885d4.html</url>
+    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
+<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
+<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
+<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。没有你们我的网站就不会活这么久。</p>
+<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
+<p>最后提前祝大家圣诞快乐，新年快乐！</p>
+<p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/1.png"
-                     
-                >
-手捏竹子真的累死我了！！所以我打算捏个自动竹子。
-<h3 id="展示">展示</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/2.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/3.png"
-                     
-                >
-<p>花了一下午时间捏这个</p>
-<h3 id="下载">下载</h3>
-<p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>密码：73jp</p>
-<p>都给我冲！</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
+                      alt="xmas"
+                ></p>
 ]]></content>
       <categories>
-        <category>卷</category>
+        <category>睡大觉</category>
       </categories>
-      <tags>
-        <tag>C4D</tag>
-        <tag>3D</tag>
-        <tag>游戏</tag>
-      </tags>
   </entry>
   <entry>
     <title>我的世界C4D纹饰陶罐预置</title>
@@ -173,37 +204,10 @@
       </tags>
   </entry>
   <entry>
-    <title>easy-masonry内嵌测试</title>
-    <url>/archives/posts/39986e43.html</url>
-    <content><![CDATA[<p><a class="link"   href="https://github.com/anzai249/easy-masonry" >https://github.com/anzai249/easy-masonry <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<script data-swup-reload-script>
-    function resizeIframe() {
-        var iframe = document.getElementById("myIframe");
-        var iframeHeight = iframe.contentWindow.document.body.scrollHeight;
-        iframe.height = iframeHeight;
-        }
-</script>
-<iframe id="myIframe" height=1700px width=100% scrolling=no src="39986e43/album.html" onload="resizeIframe()"></iframe>]]></content>
-  </entry>
-  <entry>
-    <title>🎉庆祝本站开设一周年🎉</title>
-    <url>/archives/posts/c0a885d4.html</url>
-    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
-<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
-<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
-<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。没有你们我的网站就不会活这么久。</p>
-<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
-<p>最后提前祝大家圣诞快乐，新年快乐！</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
-                      alt="xmas"
-                ></p>
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
 ]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
   </entry>
   <entry>
     <title>【Blender I】从零开始</title>
@@ -383,6 +387,46 @@
       </tags>
   </entry>
   <entry>
+    <title>我的世界C4D竹子预置</title>
+    <url>/archives/posts/c391084a.html</url>
+    <content><![CDATA[<h2 id="竹子预置配布">竹子预置配布</h2>
+<h3 id="起因">起因</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/1.png"
+                     
+                >
+手捏竹子真的累死我了！！所以我打算捏个自动竹子。
+<h3 id="展示">展示</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/2.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/C4D-bamboo-rig/3.png"
+                     
+                >
+<p>花了一下午时间捏这个</p>
+<h3 id="下载">下载</h3>
+<p><a class="link"   href="https://www.aliyundrive.com/s/EaMRnDkgE3M" >https://www.aliyundrive.com/s/EaMRnDkgE3M <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>密码：73jp</p>
+<p>都给我冲！</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>C4D</tag>
+        <tag>3D</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender III】给微软做UI？</title>
     <url>/archives/posts/3e8cf982.html</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -551,6 +595,70 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender V】车</title>
+    <url>/archives/posts/8f815186.html</url>
+    <content><![CDATA[<h2 id="制作">制作</h2>
+<p>先捏个形状。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     
+                >
+<p>还有车窗。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     
+                >
+<p>道路两旁的树直接用粒子系统解决。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
+                     
+                >
+<p>雪。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
+                     
+                >
+<p>改成毛发，就可以看到这种效果。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
+                     
+                >
+<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>导出动画我还是有点基础的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender IV】金币基站</title>
     <url>/archives/posts/1dcf26b5.html</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -703,67 +811,84 @@
       </tags>
   </entry>
   <entry>
-    <title>【Blender V】车</title>
-    <url>/archives/posts/8f815186.html</url>
-    <content><![CDATA[<h2 id="制作">制作</h2>
-<p>先捏个形状。</p>
+    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
+    <url>/archives/posts/bf30c6e.html</url>
+    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
+<h2 id="玛丽亚·波奇卡列娃">玛丽亚·波奇卡列娃</h2>
+<h3 id="简介">简介</h3>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
                      
                 >
-<p>还有车窗。</p>
+<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
+<h3 id="经历">经历</h3>
+<h4 id="出身">出身</h4>
+<p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
+<h4 id="从军生涯">从军生涯</h4>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
                      
                 >
-<p>道路两旁的树直接用粒子系统解决。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
-                     
-                >
-<p>雪。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
-                     
-                >
-<p>改成毛发，就可以看到这种效果。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
-                     
-                >
-<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>导出动画我还是有点基础的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
-                     
-                >
+<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
+<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
+<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
+<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
+<h4 id="退役后">退役后</h4>
+<p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
+<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
+<h3 id="评价">评价</h3>
+<p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
 ]]></content>
       <categories>
         <category>卷</category>
-        <category>Blender学习笔记</category>
+        <category>周三名人</category>
       </categories>
       <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VI】空海</title>
+    <url>/archives/posts/359fc4d7.html</url>
+    <content><![CDATA[<h2 id="空海">空海</h2>
+<h3 id="简介">简介</h3>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
+                     
+                >
+<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
+<h3 id="留学中国">留学中国</h3>
+<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
+<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
+<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
+<h3 id="返回日本">返回日本</h3>
+<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
+<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
+<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
+<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
+<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
+<h3 id="评价">评价</h3>
+<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -808,141 +933,6 @@
       <tags>
         <tag>名人</tag>
         <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
-    <url>/archives/posts/bf30c6e.html</url>
-    <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
-<h2 id="玛丽亚·波奇卡列娃">玛丽亚·波奇卡列娃</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria.jpg"
-                     
-                >
-<p>玛丽亚·列昂季耶芙娜·波奇卡列娃(Мари́я Лео́нтьевна Бочкарёва)，俄国女性军人，俄国历史上第一位带领女兵作战的女军官。被称为“俄国的圣女贞德”。</p>
-<h3 id="经历">经历</h3>
-<h4 id="出身">出身</h4>
-<p>玛丽亚出生在一个农民家庭，早年经常遭到父亲的虐待，16岁那年便第一次出嫁，在她的早年生活中经常受到丈夫的虐待。之后她便有了当兵的念头。</p>
-<h4 id="从军生涯">从军生涯</h4>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-bochkareva/Bochkareva_Maria2.jpg"
-                     
-                >
-<p>第一次世界大战爆发后，她请求上前线战斗被屡次拒绝，军官给沙皇尼古拉二世写了电报请求批准，得到沙皇批准后，她接受了三个月的训练，在战场上战功显赫，多次负伤，在她顽强的毅力支撑下，重现站了起来并在医院做了一段时间护理工作，被晋升为下士。</p>
-<p>一战造成了500多万俄军丧生。1917年初沙皇因二月革命而退位后，她向俄国临时政府要人米哈伊尔·罗坚科提议建立一支全女性的作战部队以解决军队的士气问题。她的建议得到了陆军总司令阿列克谢·布鲁西洛夫将军的赞许，她也为此面见了临时政府总理兼战争部长的亚历山大·克伦斯基，这项建议得到了临时政府的批准。经过严苛的筛选后，300多人组成了“俄国妇女第一敢死营”和“彼得格勒妇女敢死营”。</p>
-<p>1917年6月25日，已晋升中尉的波奇卡列娃和女子军团战士们在“圣以撒主教座堂”前接受祈福，之后女子军团在她的率领下开赴前线。到了前线之后，随即参加了七月俄军发动的“克伦斯基战役”，在斯莫尔贡附近的战斗中，这只女子军团表现出色。这次战斗让女子军团付出了伤亡50人的代价，波奇卡列娃也在这场战斗中再次负伤，被送回到彼得格勒。</p>
-<p>但女兵团收获的却是男兵们的歧视，20个女兵甚至遭到男兵们的残杀。最后女子军团不得不解散。</p>
-<h4 id="退役后">退役后</h4>
-<p>俄国退出一战后，为了寻求国际上的帮助，波奇卡列娃出国寻找援助。1918年7月10日，美国总统伍德罗·威尔逊会见波奇卡列娃，威尔逊认为她具有睿智与决心的非凡气质。美国行程结束之后，她前往英国，并在英国受到了乔治五世的接见。</p>
-<p>回国后，她打算回到托木斯克照顾父母，但是她因与白军的关系被逮捕并处决，年仅30岁。</p>
-<h3 id="评价">评价</h3>
-<p>她英勇的战功和顽强的意志保卫了祖国领土。而女子敢死队的出现引起了国际女权运动的极大关注美国女权运动活动家瑞塔·柴尔德·多尔认为，既然俄国妇女能与男子一样服兵役，这对鼓励其他国家的妇女参与政治公共活动来说就意义非凡。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云">王小云</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
-                     
-                >
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历">简要经历</h3>
-<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研">科研</h3>
-<p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖">获奖</h3>
-<ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料">参考资料</h3>
-<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>密码学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VI】空海</title>
-    <url>/archives/posts/359fc4d7.html</url>
-    <content><![CDATA[<h2 id="空海">空海</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/Kukai.jpg"
-                     
-                >
-<p>空海，俗名佐伯 眞魚，宝龟（奈良时代光仁天皇）五年（公元774年）生于赞岐国多度郡屏风浦，日本佛教僧侣、书法家。</p>
-<h3 id="留学中国">留学中国</h3>
-<p>公元804年，空海参加了西渡中国的遣唐使队伍，至大唐学法。805年，遇到中国的惠果和尚，并就教于长安青龙寺。</p>
-<p>他还拥有超乎常人的学习能力，本计划在中国学习20年，但是只学习了几个月便可接受最后的灌顶，成为密宗大师。</p>
-<p>返回日本时带回了大批经文，对于当时的日本来说具有极高的研究价值。</p>
-<h3 id="返回日本">返回日本</h3>
-<p>810 年，空海被任命为奈良中央寺庙东大寺的行政长官和僧纲长，812年，随着最澄等人在高尾山寺举行公开灌顶仪式，空海成为日本公认的密宗大师。</p>
-<p>816年，空海在高野山隐居，但几年后他接到圣旨出山担任尚书顾问，便不能亲自指挥建筑隐居处，便将其交给一位师兄。</p>
-<p>821年主持修复満濃池，3月后修复完成，至今仍是日本重要的农田灌溉水库。</p>
-<p>之后的几年，空海一直致力于弘扬真言宗与建设寺庙，在日本开设真言宗讲堂，还在京都开设自己的佛教学校，还为学生提供免费食物。</p>
-<p>承和二年（835年）圆寂，醍醐天皇将弘法大師作为谥号赠与他。</p>
-<h3 id="评价">评价</h3>
-<p>日本的一句名言：“弘法夺‘大师’之名，秀吉夺‘太阁’之名，玄奘夺‘三藏’之名”，可见其在日本评价之高。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>历史</tag>
       </tags>
   </entry>
   <entry>
@@ -1070,37 +1060,49 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 VIII】南条爱乃</title>
-    <url>/archives/posts/4194a63b.html</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>提醒</p>
-
-    </div>
-    <div class="notel-content">
-      <p>这有可能是最后一篇周三名人了。</p>
-
-    </div>
-  </div>
-<h2 id="南条爱乃">南条爱乃</h2>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云">王小云</h2>
 <h3 id="简介">简介</h3>
-<p><img  
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
-                      alt="南条爱乃"
-                ></p>
-<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
-<h3 id="出身">出身</h3>
-<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
-<p>2010年加入LoveLive!，出演绚濑绘里。</p>
-<h3 id="个人生活">个人生活</h3>
-<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
-<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
-<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
-<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
-<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
+                     
+                >
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历">简要经历</h3>
+<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研">科研</h3>
+<p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖">获奖</h3>
+<ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -1108,6 +1110,57 @@
       </categories>
       <tags>
         <tag>名人</tag>
+        <tag>密码学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>剧透警告</p>
+
+    </div>
+    <div class="notel-content">
+      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+
+    </div>
+  </div>
+<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
+<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
+<ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><s>不行！女主不够攻！</s></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
+<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因">尝试分析原因</h3>
+<ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦">做梦</h3>
+<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
         <tag>动画</tag>
       </tags>
   </entry>
@@ -1248,6 +1301,48 @@
       </tags>
   </entry>
   <entry>
+    <title>【周三名人 VIII】南条爱乃</title>
+    <url>/archives/posts/4194a63b.html</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>提醒</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这有可能是最后一篇周三名人了。</p>
+
+    </div>
+  </div>
+<h2 id="南条爱乃">南条爱乃</h2>
+<h3 id="简介">简介</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-yoshino/jolno.webp"
+                      alt="南条爱乃"
+                ></p>
+<p>南條愛乃，日本声优，所属事务所Voice Kit，fripSide前主唱，演唱过超炮主题曲《only my railgun》，代表角色有《侦探歌剧 少女福尔摩斯》中的明智小衣，《LoveLive!》中的绚濑绘里。</p>
+<h3 id="出身">出身</h3>
+<p>1984年7月12日，出生于静冈县烧津市。毕业于代代木动画学院、RAMS Professional Education。</p>
+<p>2010年加入LoveLive!，出演绚濑绘里。</p>
+<h3 id="个人生活">个人生活</h3>
+<p>喜欢摄影、绘画、游戏、午睡、逛咖啡店，不擅长运动。</p>
+<p>小学中学时看过《魔卡少女樱》，对李小狼和声优熊井统子产生了兴趣，便在心中埋下了声优的种子。</p>
+<p>也是一个孤身一人来到东京打拼的人，做过各种兼职，由于不知道什么时候有声优的工作，所以换了很多工作。</p>
+<p>以声优、歌手、fripSide、μ’s等不同身份登上过武道馆、横A、SSA、东蛋等各大演唱会的舞台。</p>
+<p>在2014、15与16年的cut杂志采访中，南条对于LoveLive!的评价分别是“比自己的学生时代还要青春”、“通过绘里得到的第二段人生”与“像是奇迹一样十分美丽的故事”。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开源匿名提问箱 - CyberGui</title>
     <url>/archives/posts/aecf41ef.html</url>
     <content><![CDATA[<h1>CyberGui</h1>
@@ -1314,61 +1409,90 @@
         <category>卷</category>
       </categories>
       <tags>
+        <tag>开源</tag>
         <tag>编程</tag>
         <tag>Vue</tag>
         <tag>Web</tag>
-        <tag>开源</tag>
       </tags>
   </entry>
   <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>剧透警告</p>
-
-    </div>
-    <div class="notel-content">
-      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
-
-    </div>
-  </div>
-<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
-<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
-<ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><s>不行！女主不够攻！</s></li>
-</ol>
+    <title>重拾darknet</title>
+    <url>/archives/posts/4d1dd1ac.html</url>
+    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
+<h3 id="啊啊啊">啊啊啊</h3>
+<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
-                      alt="1"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
+                      alt="菠萝"
                 ></p>
-<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
-<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因">尝试分析原因</h3>
-<ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦">做梦</h3>
-<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
+<h3 id="开整">开整</h3>
+<h4 id="准备数据集">准备数据集</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
+                      alt="数据集1"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
+                      alt="数据集2"
+                ></p>
+<p>提前标注好了，开扌……</p>
+<h4 id="第一次训练">第一次训练</h4>
+<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
+                      alt="4个文件夹"
+                ></p>
+<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
+<h4 id="第二次训练">第二次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
+                      alt="2"
+                ></p>
+<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
+<h4 id="第三次训练">第三次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
+                      alt="3"
+                ></p>
+<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
+<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="第四次训练">第四次训练</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
+                      alt="4"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
+                      alt="结果"
+                ></p>
+<p>轻轻松松，简简单单！</p>
+<h3 id="总结">总结</h3>
+<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
 ]]></content>
       <categories>
-        <category>睡大觉</category>
+        <category>卷</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
+        <tag>机器视觉</tag>
+        <tag>人工智能</tag>
       </tags>
   </entry>
   <entry>
@@ -1919,86 +2043,6 @@
       </tags>
   </entry>
   <entry>
-    <title>重拾darknet</title>
-    <url>/archives/posts/4d1dd1ac.html</url>
-    <content><![CDATA[<h2 id="重拾darknet">重拾darknet</h2>
-<h3 id="啊啊啊">啊啊啊</h3>
-<p>一晚上没睡觉气死我了，工作室破事真多，要不是要冲业绩我肯定不干啊。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/pineapple.jpg"
-                      alt="菠萝"
-                ></p>
-<p>2202年暑假打比赛的时候训练的凤梨识别。</p>
-<h3 id="开整">开整</h3>
-<h4 id="准备数据集">准备数据集</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/1.png"
-                      alt="数据集1"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/2.png"
-                      alt="数据集2"
-                ></p>
-<p>提前标注好了，开扌……</p>
-<h4 id="第一次训练">第一次训练</h4>
-<p>满怀期待调好了配置开始训练，loss直线下降，我还以为整挺好呢，结果我忘记处理数据集的<code>ImageSets</code>和<code>lables</code>了，全忘了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/4Folders.png"
-                      alt="4个文件夹"
-                ></p>
-<p>那么翻出第一次用时找了半天的<code>voc_label.py</code>，冲一个。</p>
-<h4 id="第二次训练">第二次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart1.png"
-                      alt="2"
-                ></p>
-<p>看起来一片大好，忘记在<code>train.names</code>把菠萝头改成电池了，只得重做。</p>
-<h4 id="第三次训练">第三次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart2.png"
-                      alt="3"
-                ></p>
-<p>奶奶滴！跟我玩阴的是吧！这正确率真的太低了T_T</p>
-<p>那么吧batch从之前的32改为64，图片尺寸如果翻倍成512显存会满，所以就搞了个350，虽说很难看的数字，不过不也是很工整么。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Training</span></span><br><span class="line"><span class="string">batch</span> <span class="string">=</span> <span class="number">64</span></span><br><span class="line"><span class="string">width</span> <span class="string">=</span> <span class="number">350</span></span><br><span class="line"><span class="string">height</span> <span class="string">=</span> <span class="number">350</span></span><br></pre></td></tr></table></figure></div>
-<h4 id="第四次训练">第四次训练</h4>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/chart_yolov4-18650.png"
-                      alt="4"
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/darknet-review/battery.png"
-                      alt="结果"
-                ></p>
-<p>轻轻松松，简简单单！</p>
-<h3 id="总结">总结</h3>
-<p>困死我了，净浪费我时间，我作业还没写呢！！！</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>机器视觉</tag>
-        <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开源瀑布流相册生成器 - Easy Masonry</title>
     <url>/archives/posts/7492ee4b.html</url>
     <content><![CDATA[<h1>Easy Masonry</h1>
@@ -2025,9 +2069,9 @@
         <category>卷</category>
       </categories>
       <tags>
+        <tag>开源</tag>
         <tag>编程</tag>
         <tag>Vue</tag>
-        <tag>开源</tag>
       </tags>
   </entry>
   <entry>
@@ -2481,363 +2525,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Hexo搭建个人网站零基础教学</title>
-    <url>/archives/posts/7d954cd0.html</url>
-    <content><![CDATA[
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>提示</p>
-
-    </div>
-    <div class="notel-content">
-      <p>本教程面向零基础用户，下面的一些定义也经过专门设计与解读，大佬请勿喷。如果您不是计算机类专业或没有相关专业知识，预算在50元以内，那么这个教程就是为你准备的！这里我会以本站搭建的历程稍作改动作为教程。</p>
-
-    </div>
-  </div>
-<h1>Hexo搭建个人网站零基础教学</h1>
-<h2 id="基础知识速通">基础知识速通</h2>
-<p>思考：我们访问一个网站的时候，电脑需要经过哪几步处理？</p>
-<ol>
-<li>我们用户输入像 <a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”</li>
-<li>电脑查询这个“网址”对应的“位置”</li>
-<li>从这个“位置”拿到我们想要的网页</li>
-<li>把网页给你看</li>
-</ol>
-<p>如果想让你的电脑时时刻刻都知道这个位置的网站内容，这个位置需要一个24小时都开机的电脑，这样它就可以24小时把网页发给你的电脑，这台24小时开机的电脑叫做“服务器”，我们为了节约成本，可以选用Vercel、Netlify、GitHub Pages之类的服务来代替自己购买服务器，这里我们用Netlify做演示，因为剩下那俩实在太慢了。</p>
-<p><a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”我们可以通过购买“域名”来获得。</p>
-<p>入门所需知识：</p>
-<ul>
-<li>Markdown语法</li>
-<li>HTML基础使用</li>
-</ul>
-<p>以上两条会一丢丢即可，忘记了可以查。</p>
-<h2 id="域名购买">域名购买</h2>
-<p>我用过阿里云万网和NameSilo购买域名，一般来说域名越长越便宜。.top域名便宜的只需要$1。</p>
-<p>这里用万网举例，需要注意的是，如果你的服务器在大陆地区，你的网站需要备案。如果你的域名在大陆地区，你的域名需要实名认证。</p>
-<p><a class="link"   href="https://wanwang.aliyun.com/" >阿里云万网点这里！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>注册一个账号，在这里搜索想要的域名。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/wanwang1.png"
-                      alt="万网1"
-                ></p>
-<p>用sleepingbed举个例子。你看，这就出来了，买就好了。</p>
-<p>需要注意的是，我域名前面的“anzai”是在解析的时候设置的“主机记录”，购买域名时一般来说不需要加，你只需要买如sleepingbed.top这个样子的即可。当然我只是拿sleepingbed.top举个例子，别真买这个，因为这个已经被我买了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/wanwang2.png"
-                      alt="万网2"
-                ></p>
-<p>买完后先把实名信息传上去，先放着，我们进行下一步。</p>
-<h2 id="环境搭建">环境搭建</h2>
-<p>搭建环境我们需要下载以下软件。</p>
-<ul>
-<li><a class="link"   href="https://code.visualstudio.com/" >VSCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://nodejs.org/en" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="ms-windows-store://pdp/?ProductId=9N0DX20HK701&amp;referrer=bingwebsearch&amp;ocid=bingwebsearch" >Terminal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> （仅限Windows）</li>
-</ul>
-<p>我们还需要注册这些账号。</p>
-<ul>
-<li><a class="link"   href="https://github.com/" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.netlify.com/" >Netlify <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<p>如果你认为上面这些链接进不去，那么可以使用这个工具。</p>
-<ul>
-<li><a class="link"   href="https://www.dogfight360.com/blog/686/" >steamcommunity 302 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> （仅限Windows）</li>
-</ul>
-<h3 id="steamcommunity-302">steamcommunity 302</h3>
-<p>从这里下载。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/302.png"
-                      alt=""
-                ></p>
-<p>解压后以管理员身份运行那个红的。</p>
-<p>设置里把这些典型的项目打勾，保存设置。最后启动服务即可。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2F302setting.png"
-                      alt="setting"
-                ></p>
-<h3 id="VSCode">VSCode</h3>
-<p>安装好后需要用插件设置语言为中文，其实英文也没啥问题。不赘述，Bing搜索有很多。</p>
-<h3 id="Node-js">Node.js</h3>
-<p>这里推荐下载LTS版本。设置保持默认，一路Next到底。</p>
-<h3 id="Git">Git</h3>
-<p>Git的安装有些复杂，两点比较重要，其他保持默认。</p>
-<p>这里要把Windows Terminal那项打开，Windows Explorer integration可以关闭。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitsetting.png"
-                      alt="gitsetting"
-                ></p>
-<p>这里要选Visual Studio Code，记得<strong>不要选</strong>Insider！</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitvscode.png"
-                      alt="文本编辑器"
-                ></p>
-<h3 id="其他环境">其他环境</h3>
-<p>其他环境基本可以保持默认Next到底，这里暂时不多赘述。全部安装好后最好重启一下。</p>
-<h2 id="配置-搭建">配置&amp;搭建</h2>
-<p>首先我们先新建一个文件夹，用来存你的网页源码。注意，文件夹名字要用<strong>英文</strong>，尽量<strong>不要</strong>有特殊符号。</p>
-<p>我就叫testsite了，你网站叫啥名字就可以叫什么。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnewfolder.png"
-                      alt="newfolder"
-                ></p>
-<p>在这个文件夹的空白位置右键，点“在终端中打开”，如果你没看到这个选项，那可能是你上一步的Terminal没有正确安装，然后这个选项也有可能是英文的。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fopenterminal.png"
-                      alt=""
-                ></p>
-<p>看到类似这样的东西，那你就成功了，背景颜色不用在意，你的可能是黑色的。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fterminal.png"
-                      alt="terminal"
-                ></p>
-<p>先输入这两句，配置一下Git，最好和你的GitHub填入的信息保持一致。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line">git config --global user.email 你的邮箱</span><br></pre></td></tr></table></figure></div>
-<p>下面这句是忽略证书验证。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure></div>
-<p>这样Git初始设置完成。如果你在中国大陆地区，访问npm速度会很慢，可以通过配置cnpm解决，下面配置cnpm。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
-<p>安装Hexo。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
-<p>创建Hexo项目。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></div>
-<p>安装所需模块。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure></div>
-<p>创建Git仓库。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-<p>文件夹里成这样了。简单解释一下里面的几个文件夹。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdir.png"
-                      alt="dir"
-                ></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">.  </span><br><span class="line">├── _config.yml  // 网站默认设置</span><br><span class="line">├── package.json  // 所用软件包，尽量别动</span><br><span class="line">├── scaffolds  // 默认模板</span><br><span class="line">├── source  // 源码</span><br><span class="line">|   ├── _drafts  // 草稿</span><br><span class="line">|   └── _posts  // 文章</span><br><span class="line">└── themes  // 主题</span><br></pre></td></tr></table></figure></div>
-<p>那么我们打开<code>_config.yml</code>，里面是这样的，可以配置你的网站名字和作者之类的基本信息。哪里不懂可以直接查查这个词是什么意思。尽量不要改变文件结构，少一个空格有的时候也会造成错误，尽量只修改橙色的部分。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fconfig.png"
-                      alt="config"
-                ></p>
-<p>如果你无法通过双击的方式打开<code>_config.yml</code>，那么说明你VSCode设置可能有问题。如果你确认你安装了VSCode，你可以通过输入以下命令打开整个文件夹，然后再在左侧点击<code>_config.yml</code>。或者直接右键打开方式选“Visual Studio Code”</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">code .</span><br></pre></td></tr></table></figure></div>
-<h3 id="寻找主题">寻找主题</h3>
-<p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程，请优先按照官方文档中的使用教程使用，我这里只是举一个简单的例子。</p>
-<p>以我的主题举例。点进去后作者会亲切的教你如何安装和设置。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fredefine.png"
-                      alt="redefine"
-                ></p>
-<p>那么我们在刚才打开的终端里输入</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
-<p>或者</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
-<p>然后再把<code>_config.yml</code>里的主题设置改掉，把默认的landscape改成你下载的主题名字。找不到这一行的可以使用搜索功能。</p>
-<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span></span><br></pre></td></tr></table></figure></div>
-<p>这样主题就设置好了！</p>
-<p>那么我们看看效果吧！</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
-<p>看到<code>https://localhost:4000/</code>了吧，把这个放在浏览器地址栏回车看看吧！</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at https://localhost:4000/ . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure></div>
-<p>耶！</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fredefinebingo.png"
-                      alt="耶"
-                ></p>
-<p><code>hexo server</code>，它的作用是把你现有的文件在本地开一个服务器，debug用的。</p>
-<p>主题设置！这里有点麻烦。</p>
-<p>进入<code>node_modules</code>文件夹，找到你的主题目录，一般来说名字是叫<code>hexo-theme-主题名</code>之类的，点进去，里面有个<code>_config.yml</code>，把这个文件复制一份，重命名为<code>_config.主题名.yml</code>，然后剪切到你的刚才的文件夹下。</p>
-
-  <div class="note p-4 mb-4 rounded-small warning">
-    <p>注意，别把它原本的<code>_config.yml</code>给替换了，请一定小心！操作完成后你的工程根目录里应该会有一个<code>_config.yml</code>和一个<code>_config.主题名.yml</code>。</p>
-
-  </div>
-<p>举个例子就是，如果你用的是redefine主题，那么你进入<code>node_modules</code>文件夹，进入<code>hexo-theme-redefine</code>文件夹，然后把<code>_config.yml</code>复制一份，重命名为<code>_config.redefine.yml</code>，剪切到<code>testsite</code>文件夹。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fthemeconfig.png"
-                      alt="themeconfig"
-                ></p>
-<p>然后你打开这个文件，就能看到主题的自定义配置了，一般来说主题还会有官方文档，具体用法请参见你的主题的官方文档。</p>
-<p>创建新文章。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure></div>
-<p>这会让你的<code>source/_posts/</code>里面多出一个<code>文章标题.md</code>文件，打开它就可以看到这些。title是你的文章标题，可以改，下面的日期和标签不用多解释吧。想要多个标签可以用 <code>[标签1, 标签2, 标签3]</code>，记住，冒号后面有个空格，不要丢掉。</p>
-<div class="highlight-container" data-rel="Markdown"><figure class="iseeu highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line">title: test</span><br><span class="line"></span><br><span class="line">date: 2023-08-22 10:59:13</span><br><span class="line"></span><br><span class="line">tags:</span><br><span class="line"></span><br><span class="line">---</span><br></pre></td></tr></table></figure></div>
-<p>之后你就可以用Markdown语法写文章了！</p>
-<p>学习Markdown可以去<a class="link"   href="https://www.runoob.com/markdown/md-tutorial.html" >菜鸟教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="部署">部署</h2>
-
-  <div class="note p-4 mb-4 rounded-small primary">
-    <p>这里使用的流程是：本地编辑→在线生成→部署。有能力的同学也可以使用：本地编辑→本地生成→部署。</p>
-<p>前者的优点是步骤少、方便，后者的优点是npm包更加可控、更加方便自定义。</p>
-
-  </div>
-<p>先去GitHub创建一个新仓库。最好是私有库，private。不需要README，加上了反而麻烦，也不需要gitignore，hexo给你生成好了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnewrepo.png"
-                      alt="newrepo"
-                ></p>
-<p>创建完之后会给你一些指令，把给你的指令魔改一下。像这样，再执行<code>commit</code>和之后的代码。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
-<p>如果需要详细教学请按照<a class="link"   href="https://www.runoob.com/git/git-remote-repo.html" >教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>把你的网页源码传上GitHub。</p>
-<p>你大概能看到你类似这样的东西。那么你就成功了！</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitrepo.png"
-                      alt="repo"
-                ></p>
-<p>接着登录Netlify，new site一个。选import an existing project。</p>
-<p>我的Netlify因为使用过，所以可能会和新注册的有所不同，不过应该都大差不差，可以寻找Create from Git之类的。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnetlifynew.png"
-                      alt="newsite"
-                ></p>
-<p>这里选Deploy with GitHub，会跳出窗口让你验证，给它权限就可以了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdeploygithub.png"
-                      alt="deploygithub"
-                ></p>
-<p>选你刚才在GitHub上弄的库。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fselect.png"
-                      alt="select"
-                ></p>
-<p>下一步，这里这样填</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fbuild.png"
-                      alt="build"
-                ></p>
-<p>最后点部署，等它一堆命令过去，就部署完成啦！</p>
-<h2 id="解析网站">解析网站</h2>
-<p>这里的domain settings可以自定义域名。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdomain.png"
-                      alt="domain"
-                ></p>
-<p>在这里添加你的域名，比如说我的anzai.sleepingbed.top，把它填到这，然后回到阿里云，找到你的域名点解析，记录类型选CNAME。主机记录就是我这个网址里的anzai，比如说你写www，那么就是www.你的域名.com之类的。然后值就写我下图红框的文字。添加就好了。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fcustomdomain.png"
-                      alt="custom"
-                ></p>
-<p>等个几分钟，估计你就可以通过你的域名访问了。</p>
-<h2 id="更新网站">更新网站</h2>
-<p>主条目：<a href="https://anzai.sleepingbed.top/archives/posts/9f0af8b7">Git使用手册</a></p>
-<p>我们需要把代码推到我们的仓库让它自动更新。</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新信息&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
-<p>这样应该就好了。</p>
-<h2 id="网站加速">网站加速</h2>
-<p>如果你觉得网站很慢，可以使用CDN服务，CDN是内容分发网络，我们现在主要用它加速网站。我购买了我主题作者的CDN服务，这样可以将网站的静态资源（如图片）加速加载。</p>
-<p>如果觉得太复杂，那么可以使用图床来托管图片。</p>
-<p>图片链接直接改为加速后的链接即可。（这里需要有Markdown基础哦）</p>
-<h2 id="结尾">结尾</h2>
-<p>最近问的人实在是太多了，如果你觉得哪里有错误或者哪里需要加点什么，欢迎评论或者私信。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更新一下以前写的我的世界自动写书器</title>
-    <url>/archives/posts/aa51d9bd.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>建议</p>
-
-    </div>
-    <div class="notel-content">
-      <p>别用它炸服真的我求你了。</p>
-
-    </div>
-  </div>
-<h1>minecraft-auto-book</h1>
-<h2 id="我为啥要写这个？">我为啥要写这个？</h2>
-<p>去年暑假玩群友服务器，想丰富一下藏书，然后还懒得手抄。</p>
-<p>然后就有了这个……下面这个上一个版本写的《三国演义》。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/preview.png"
-                      alt="preview"
-                ></p>
-<h2 id="和上一个版本有什么区别？">和上一个版本有什么区别？</h2>
-<p>第一个版本我根据wiki算出每页大概能容纳多少字，然后做的，所以有的时候有一页不满或者字太多一页盛不下的情况。</p>
-<p>这个版本我给改成按行来写了，它会固定每行有几个字，然后粘贴上去。</p>
-<p>然后还修了一堆bug。</p>
-<h2 id="弱点">弱点</h2>
-<p>最恶心的地方在于中日韩文字比较宽，然而Mojang做的这个书还是按字符宽度决定每行能装下几个字。</p>
-<p>所以英语之类的语言需要改一下代码（具体写到GitHub README里面了）。</p>
-<p>而且有的地方有中英交替的地方就很难处理，有没有大佬pr一下？</p>
-<h2 id="效果">效果</h2>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules1.png"
-                      alt="我的叔叔于勒1"
-                ></p>
-<p>用新版本写的《我的叔叔于勒》。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules2.png"
-                      alt="我的叔叔于勒2"
-                ></p>
-<p>可以清楚看到一整页都写满了文字。</p>
-<h2 id="体验">体验</h2>
-<p><a class="link"   href="https://github.com/anzai249/minecraft-auto-book" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>点个星星呗~</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>开源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>社恐患者如何做脱稿演讲？</title>
     <url>/archives/posts/3c42d251.html</url>
     <content><![CDATA[<h1>社恐患者如何做脱稿演讲？</h1>
@@ -3283,73 +2970,301 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况">近况</h2>
-<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划">计划</h2>
-<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
+    <title>使用Hexo搭建个人网站零基础教学</title>
+    <url>/archives/posts/7d954cd0.html</url>
+    <content><![CDATA[
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>提示</p>
+
+    </div>
+    <div class="notel-content">
+      <p>本教程面向零基础用户，下面的一些定义也经过专门设计与解读，大佬请勿喷。如果您不是计算机类专业或没有相关专业知识，预算在50元以内，那么这个教程就是为你准备的！这里我会以本站搭建的历程稍作改动作为教程。</p>
+
+    </div>
+  </div>
+<h1>Hexo搭建个人网站零基础教学</h1>
+<h2 id="基础知识速通">基础知识速通</h2>
+<p>思考：我们访问一个网站的时候，电脑需要经过哪几步处理？</p>
+<ol>
+<li>我们用户输入像 <a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”</li>
+<li>电脑查询这个“网址”对应的“位置”</li>
+<li>从这个“位置”拿到我们想要的网页</li>
+<li>把网页给你看</li>
+</ol>
+<p>如果想让你的电脑时时刻刻都知道这个位置的网站内容，这个位置需要一个24小时都开机的电脑，这样它就可以24小时把网页发给你的电脑，这台24小时开机的电脑叫做“服务器”，我们为了节约成本，可以选用Vercel、Netlify、GitHub Pages之类的服务来代替自己购买服务器，这里我们用Netlify做演示，因为剩下那俩实在太慢了。</p>
+<p><a href="https://anzai.sleepingbed.top/">https://anzai.sleepingbed.top/</a> 这样的“网址”我们可以通过购买“域名”来获得。</p>
+<p>入门所需知识：</p>
+<ul>
+<li>Markdown语法</li>
+<li>HTML基础使用</li>
+</ul>
+<p>以上两条会一丢丢即可，忘记了可以查。</p>
+<h2 id="域名购买">域名购买</h2>
+<p>我用过阿里云万网和NameSilo购买域名，一般来说域名越长越便宜。.top域名便宜的只需要$1。</p>
+<p>这里用万网举例，需要注意的是，如果你的服务器在大陆地区，你的网站需要备案。如果你的域名在大陆地区，你的域名需要实名认证。</p>
+<p><a class="link"   href="https://wanwang.aliyun.com/" >阿里云万网点这里！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>注册一个账号，在这里搜索想要的域名。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/wanwang1.png"
+                      alt="万网1"
+                ></p>
+<p>用sleepingbed举个例子。你看，这就出来了，买就好了。</p>
+<p>需要注意的是，我域名前面的“anzai”是在解析的时候设置的“主机记录”，购买域名时一般来说不需要加，你只需要买如sleepingbed.top这个样子的即可。当然我只是拿sleepingbed.top举个例子，别真买这个，因为这个已经被我买了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/wanwang2.png"
+                      alt="万网2"
+                ></p>
+<p>买完后先把实名信息传上去，先放着，我们进行下一步。</p>
+<h2 id="环境搭建">环境搭建</h2>
+<p>搭建环境我们需要下载以下软件。</p>
+<ul>
+<li><a class="link"   href="https://code.visualstudio.com/" >VSCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://nodejs.org/en" >Node.js <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://git-scm.com/" >Git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="ms-windows-store://pdp/?ProductId=9N0DX20HK701&amp;referrer=bingwebsearch&amp;ocid=bingwebsearch" >Terminal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> （仅限Windows）</li>
+</ul>
+<p>我们还需要注册这些账号。</p>
+<ul>
+<li><a class="link"   href="https://github.com/" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.netlify.com/" >Netlify <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<p>如果你认为上面这些链接进不去，那么可以使用这个工具。</p>
+<ul>
+<li><a class="link"   href="https://www.dogfight360.com/blog/686/" >steamcommunity 302 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> （仅限Windows）</li>
+</ul>
+<h3 id="steamcommunity-302">steamcommunity 302</h3>
+<p>从这里下载。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/hexo-tutorial/302.png"
+                      alt=""
+                ></p>
+<p>解压后以管理员身份运行那个红的。</p>
+<p>设置里把这些典型的项目打勾，保存设置。最后启动服务即可。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2F302setting.png"
+                      alt="setting"
+                ></p>
+<h3 id="VSCode">VSCode</h3>
+<p>安装好后需要用插件设置语言为中文，其实英文也没啥问题。不赘述，Bing搜索有很多。</p>
+<h3 id="Node-js">Node.js</h3>
+<p>这里推荐下载LTS版本。设置保持默认，一路Next到底。</p>
+<h3 id="Git">Git</h3>
+<p>Git的安装有些复杂，两点比较重要，其他保持默认。</p>
+<p>这里要把Windows Terminal那项打开，Windows Explorer integration可以关闭。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitsetting.png"
+                      alt="gitsetting"
+                ></p>
+<p>这里要选Visual Studio Code，记得<strong>不要选</strong>Insider！</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitvscode.png"
+                      alt="文本编辑器"
+                ></p>
+<h3 id="其他环境">其他环境</h3>
+<p>其他环境基本可以保持默认Next到底，这里暂时不多赘述。全部安装好后最好重启一下。</p>
+<h2 id="配置-搭建">配置&amp;搭建</h2>
+<p>首先我们先新建一个文件夹，用来存你的网页源码。注意，文件夹名字要用<strong>英文</strong>，尽量<strong>不要</strong>有特殊符号。</p>
+<p>我就叫testsite了，你网站叫啥名字就可以叫什么。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnewfolder.png"
+                      alt="newfolder"
+                ></p>
+<p>在这个文件夹的空白位置右键，点“在终端中打开”，如果你没看到这个选项，那可能是你上一步的Terminal没有正确安装，然后这个选项也有可能是英文的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fopenterminal.png"
+                      alt=""
+                ></p>
+<p>看到类似这样的东西，那你就成功了，背景颜色不用在意，你的可能是黑色的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fterminal.png"
+                      alt="terminal"
+                ></p>
+<p>先输入这两句，配置一下Git，最好和你的GitHub填入的信息保持一致。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line">git config --global user.email 你的邮箱</span><br></pre></td></tr></table></figure></div>
+<p>下面这句是忽略证书验证。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure></div>
+<p>这样Git初始设置完成。如果你在中国大陆地区，访问npm速度会很慢，可以通过配置cnpm解决，下面配置cnpm。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br></pre></td></tr></table></figure></div>
+<p>安装Hexo。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure></div>
+<p>创建Hexo项目。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></div>
+<p>安装所需模块。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure></div>
+<p>创建Git仓库。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>文件夹里成这样了。简单解释一下里面的几个文件夹。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdir.png"
+                      alt="dir"
+                ></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">.  </span><br><span class="line">├── _config.yml  // 网站默认设置</span><br><span class="line">├── package.json  // 所用软件包，尽量别动</span><br><span class="line">├── scaffolds  // 默认模板</span><br><span class="line">├── source  // 源码</span><br><span class="line">|   ├── _drafts  // 草稿</span><br><span class="line">|   └── _posts  // 文章</span><br><span class="line">└── themes  // 主题</span><br></pre></td></tr></table></figure></div>
+<p>那么我们打开<code>_config.yml</code>，里面是这样的，可以配置你的网站名字和作者之类的基本信息。哪里不懂可以直接查查这个词是什么意思。尽量不要改变文件结构，少一个空格有的时候也会造成错误，尽量只修改橙色的部分。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fconfig.png"
+                      alt="config"
+                ></p>
+<p>如果你无法通过双击的方式打开<code>_config.yml</code>，那么说明你VSCode设置可能有问题。如果你确认你安装了VSCode，你可以通过输入以下命令打开整个文件夹，然后再在左侧点击<code>_config.yml</code>。或者直接右键打开方式选“Visual Studio Code”</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">code .</span><br></pre></td></tr></table></figure></div>
+<h3 id="寻找主题">寻找主题</h3>
+<p><a class="link"   href="https://hexo.io/themes/" >Hexo主题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 看到这些好看的主题了吗？点进去详细了解吧！页面里一般都会有使用教程，请优先按照官方文档中的使用教程使用，我这里只是举一个简单的例子。</p>
+<p>以我的主题举例。点进去后作者会亲切的教你如何安装和设置。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fredefine.png"
+                      alt="redefine"
+                ></p>
+<p>那么我们在刚才打开的终端里输入</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
+<p>或者</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-theme-redefine@latest</span><br></pre></td></tr></table></figure></div>
+<p>然后再把<code>_config.yml</code>里的主题设置改掉，把默认的landscape改成你下载的主题名字。找不到这一行的可以使用搜索功能。</p>
+<div class="highlight-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">redefine</span></span><br></pre></td></tr></table></figure></div>
+<p>这样主题就设置好了！</p>
+<p>那么我们看看效果吧！</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></div>
+<p>看到<code>https://localhost:4000/</code>了吧，把这个放在浏览器地址栏回车看看吧！</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at https://localhost:4000/ . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure></div>
+<p>耶！</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fredefinebingo.png"
+                      alt="耶"
+                ></p>
+<p><code>hexo server</code>，它的作用是把你现有的文件在本地开一个服务器，debug用的。</p>
+<p>主题设置！这里有点麻烦。</p>
+<p>进入<code>node_modules</code>文件夹，找到你的主题目录，一般来说名字是叫<code>hexo-theme-主题名</code>之类的，点进去，里面有个<code>_config.yml</code>，把这个文件复制一份，重命名为<code>_config.主题名.yml</code>，然后剪切到你的刚才的文件夹下。</p>
+
+  <div class="note p-4 mb-4 rounded-small warning">
+    <p>注意，别把它原本的<code>_config.yml</code>给替换了，请一定小心！操作完成后你的工程根目录里应该会有一个<code>_config.yml</code>和一个<code>_config.主题名.yml</code>。</p>
+
+  </div>
+<p>举个例子就是，如果你用的是redefine主题，那么你进入<code>node_modules</code>文件夹，进入<code>hexo-theme-redefine</code>文件夹，然后把<code>_config.yml</code>复制一份，重命名为<code>_config.redefine.yml</code>，剪切到<code>testsite</code>文件夹。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fthemeconfig.png"
+                      alt="themeconfig"
+                ></p>
+<p>然后你打开这个文件，就能看到主题的自定义配置了，一般来说主题还会有官方文档，具体用法请参见你的主题的官方文档。</p>
+<p>创建新文章。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure></div>
+<p>这会让你的<code>source/_posts/</code>里面多出一个<code>文章标题.md</code>文件，打开它就可以看到这些。title是你的文章标题，可以改，下面的日期和标签不用多解释吧。想要多个标签可以用 <code>[标签1, 标签2, 标签3]</code>，记住，冒号后面有个空格，不要丢掉。</p>
+<div class="highlight-container" data-rel="Markdown"><figure class="iseeu highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line">title: test</span><br><span class="line"></span><br><span class="line">date: 2023-08-22 10:59:13</span><br><span class="line"></span><br><span class="line">tags:</span><br><span class="line"></span><br><span class="line">---</span><br></pre></td></tr></table></figure></div>
+<p>之后你就可以用Markdown语法写文章了！</p>
+<p>学习Markdown可以去<a class="link"   href="https://www.runoob.com/markdown/md-tutorial.html" >菜鸟教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="部署">部署</h2>
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>这里使用的流程是：本地编辑→在线生成→部署。有能力的同学也可以使用：本地编辑→本地生成→部署。</p>
+<p>前者的优点是步骤少、方便，后者的优点是npm包更加可控、更加方便自定义。</p>
+
+  </div>
+<p>先去GitHub创建一个新仓库。最好是私有库，private。不需要README，加上了反而麻烦，也不需要gitignore，hexo给你生成好了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnewrepo.png"
+                      alt="newrepo"
+                ></p>
+<p>创建完之后会给你一些指令，把给你的指令魔改一下。像这样，再执行<code>commit</code>和之后的代码。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure></div>
+<p>如果需要详细教学请按照<a class="link"   href="https://www.runoob.com/git/git-remote-repo.html" >教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>把你的网页源码传上GitHub。</p>
+<p>你大概能看到你类似这样的东西。那么你就成功了！</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fgitrepo.png"
+                      alt="repo"
+                ></p>
+<p>接着登录Netlify，new site一个。选import an existing project。</p>
+<p>我的Netlify因为使用过，所以可能会和新注册的有所不同，不过应该都大差不差，可以寻找Create from Git之类的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fnetlifynew.png"
+                      alt="newsite"
+                ></p>
+<p>这里选Deploy with GitHub，会跳出窗口让你验证，给它权限就可以了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdeploygithub.png"
+                      alt="deploygithub"
+                ></p>
+<p>选你刚才在GitHub上弄的库。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fselect.png"
+                      alt="select"
+                ></p>
+<p>下一步，这里这样填</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fbuild.png"
+                      alt="build"
+                ></p>
+<p>最后点部署，等它一堆命令过去，就部署完成啦！</p>
+<h2 id="解析网站">解析网站</h2>
+<p>这里的domain settings可以自定义域名。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fdomain.png"
+                      alt="domain"
+                ></p>
+<p>在这里添加你的域名，比如说我的anzai.sleepingbed.top，把它填到这，然后回到阿里云，找到你的域名点解析，记录类型选CNAME。主机记录就是我这个网址里的anzai，比如说你写www，那么就是www.你的域名.com之类的。然后值就写我下图红框的文字。添加就好了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts%2Fhexo-tutorial%2Fcustomdomain.png"
+                      alt="custom"
+                ></p>
+<p>等个几分钟，估计你就可以通过你的域名访问了。</p>
+<h2 id="更新网站">更新网站</h2>
+<p>主条目：<a href="https://anzai.sleepingbed.top/archives/posts/9f0af8b7">Git使用手册</a></p>
+<p>我们需要把代码推到我们的仓库让它自动更新。</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新信息&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+<p>这样应该就好了。</p>
+<h2 id="网站加速">网站加速</h2>
+<p>如果你觉得网站很慢，可以使用CDN服务，CDN是内容分发网络，我们现在主要用它加速网站。我购买了我主题作者的CDN服务，这样可以将网站的静态资源（如图片）加速加载。</p>
+<p>如果觉得太复杂，那么可以使用图床来托管图片。</p>
+<p>图片链接直接改为加速后的链接即可。（这里需要有Markdown基础哦）</p>
+<h2 id="结尾">结尾</h2>
+<p>最近问的人实在是太多了，如果你觉得哪里有错误或者哪里需要加点什么，欢迎评论或者私信。</p>
 ]]></content>
       <categories>
         <category>卷</category>
       </categories>
       <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ReCAPTCHA恶搞Ps模板</title>
-    <url>/archives/posts/7e916f91.html</url>
-    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
-<h2 id="效果">效果</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
-                     
-                >
-<h2 id="使用说明">使用说明</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
-                     
-                >
-<p>每个图层的简要说明</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
-                     
-                >
-<p>双击想要编辑的智能对象</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
-                     
-                >
-<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
-                     
-                >
-<p>回去就可以看到这个里面的也变了。</p>
-<p>那么之后随意修改一下文字就可以啦！</p>
-<h2 id="下载">下载</h2>
-<p>Fake ReCAPTCHA.psd</p>
-<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>Ps</tag>
+        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
@@ -3453,6 +3368,118 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </categories>
       <tags>
         <tag>车</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ReCAPTCHA恶搞Ps模板</title>
+    <url>/archives/posts/7e916f91.html</url>
+    <content><![CDATA[<h1>ReCAPTCHA Ps模板</h1>
+<h2 id="效果">效果</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/preview.png"
+                     
+                >
+<h2 id="使用说明">使用说明</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/layers.png"
+                     
+                >
+<p>每个图层的简要说明</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/doubleclick.png"
+                     
+                >
+<p>双击想要编辑的智能对象</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/new.png"
+                     
+                >
+<p>在新弹出来的这个里编辑一下然后Ctrl+S保存</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/recaptcha-psd/bingo.png"
+                     
+                >
+<p>回去就可以看到这个里面的也变了。</p>
+<p>那么之后随意修改一下文字就可以啦！</p>
+<h2 id="下载">下载</h2>
+<p>Fake ReCAPTCHA.psd</p>
+<p><a class="link"   href="https://www.aliyundrive.com/s/zJQmNpVmbSM" >https://www.aliyundrive.com/s/zJQmNpVmbSM <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>Ps</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更新一下以前写的我的世界自动写书器</title>
+    <url>/archives/posts/aa51d9bd.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>建议</p>
+
+    </div>
+    <div class="notel-content">
+      <p>别用它炸服真的我求你了。</p>
+
+    </div>
+  </div>
+<h1>minecraft-auto-book</h1>
+<h2 id="我为啥要写这个？">我为啥要写这个？</h2>
+<p>去年暑假玩群友服务器，想丰富一下藏书，然后还懒得手抄。</p>
+<p>然后就有了这个……下面这个上一个版本写的《三国演义》。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/preview.png"
+                      alt="preview"
+                ></p>
+<h2 id="和上一个版本有什么区别？">和上一个版本有什么区别？</h2>
+<p>第一个版本我根据wiki算出每页大概能容纳多少字，然后做的，所以有的时候有一页不满或者字太多一页盛不下的情况。</p>
+<p>这个版本我给改成按行来写了，它会固定每行有几个字，然后粘贴上去。</p>
+<p>然后还修了一堆bug。</p>
+<h2 id="弱点">弱点</h2>
+<p>最恶心的地方在于中日韩文字比较宽，然而Mojang做的这个书还是按字符宽度决定每行能装下几个字。</p>
+<p>所以英语之类的语言需要改一下代码（具体写到GitHub README里面了）。</p>
+<p>而且有的地方有中英交替的地方就很难处理，有没有大佬pr一下？</p>
+<h2 id="效果">效果</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules1.png"
+                      alt="我的叔叔于勒1"
+                ></p>
+<p>用新版本写的《我的叔叔于勒》。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules2.png"
+                      alt="我的叔叔于勒2"
+                ></p>
+<p>可以清楚看到一整页都写满了文字。</p>
+<h2 id="体验">体验</h2>
+<p><a class="link"   href="https://github.com/anzai249/minecraft-auto-book" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>点个星星呗~</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>开源</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -3755,6 +3782,23 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <tag>编程</tag>
         <tag>软件工程</tag>
         <tag>预习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况">近况</h2>
+<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划">计划</h2>
+<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
       </tags>
   </entry>
   <entry>
@@ -4083,6 +4127,77 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
+    <title>Victoria 3 Style Art Generator Tutorial</title>
+    <url>/archives/posts/a8fd0cc2.html</url>
+    <content><![CDATA[<h1>Victoria 3 Style Art Generator Tutorial</h1>
+<h2 id="Brief-LoRa">Brief LoRa</h2>
+<blockquote>
+<p>Low-rank adaptation (LoRA) is an adapter-based technique for efficiently fine-tuning models. The basic idea is to design a low-rank matrix that is then added to the original matrix. An adapter, in this context, is a collection of low-rank matrices which, when added to a base model, produces a fine-tuned model. It allows for performance that approaches full-model fine-tuning with less space requirement. A language model with billions of parameters may be LoRA fine-tuned with only several millions of parameters.</p>
+<p>From Wikipedia</p>
+</blockquote>
+<p>This technique can make model fine-tuning easier. Not only requires fewer datasets, but also consumes less resources of the computer.</p>
+<p>The Victoria 3 Style Art model was trained (or more accurately, fine-tuned) via this method.</p>
+<h2 id="Usage">Usage</h2>
+<h3 id="Environment">Environment</h3>
+<ul>
+<li>a NVIDIA graphic card with CUDA</li>
+<li><a class="link"   href="https://developer.nvidia.com/cuda-toolkit" >CUDA Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" >stable-diffusion-webui <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://civitai.com/models/790437/" >Victoria 3 Style Art Model File <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://civitai.com/models/462367" >Stable Diffusion Base Model <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> - I recommend <em>Real Dream Classic</em>, Note: Please always use SD1.5 based model.</li>
+</ul>
+<h3 id="Setup">Setup</h3>
+<p>The setup method of stable-diffusion-webui can be found on its GitHub page.</p>
+<p>If you already complete setting up the first 3 things, you can put <code>realDream_*.safetensors</code> into <code>stable-diffusion-webui/webui/models/Stable-diffusion</code> and put <code>vic3_v3.safetensors</code> into <code>stable-diffusion-webui/webui/models/Lora</code>.</p>
+<p><strong>Please double-check that you haven’t misplaced them.</strong></p>
+<h3 id="Generating">Generating</h3>
+<p>Launch stable-diffusion-webui. (also, you can find launching tutorial on its GitHub page)</p>
+<p>You can select your checkpoint (base model) on the upper left on this page. I will show you an example using Real Dream.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/checkpoints.png"
+                      alt="checkpoints"
+                ></p>
+<p>For now, use the <code>txt2img</code> tab, other tabs you can explore them later.</p>
+<p>Then put in your prompt, let me show you an example.  By the way, this model is not really good at generating human. I will just show you how to generate pics without human. Here is the example:</p>
+<p>Positive:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">(masterpiece, best quality:1.2), vic3, library, indoor, book, shelf, candle, (fire:1.75), burn, ash, smoke, ruin &lt;lora:vic3_v3:0.8&gt;</span><br></pre></td></tr></table></figure></div>
+<p>Negative:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry</span><br></pre></td></tr></table></figure></div>
+<p>The most important thing is including <code>&lt;lora:vic3_v3:0.8&gt;</code> and <code>vic3</code> into the positive prompt. You can also change the strength of the style by changing the number after <code>&lt;lora:vic3_v3:</code>, for example <code>&lt;lora:vic3_v3:0.5&gt;</code>.</p>
+<p>Now, move to the <code>Generation</code> tab. The best method I tested is:</p>
+<ul>
+<li>Sampling method: DPM++ 3M SDE</li>
+<li>Schedule type: Karras</li>
+<li>Sampling steps: 15 - 30</li>
+<li>CFG Scale: 1.5 - 2.5</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/generation.png"
+                      alt="generation"
+                ></p>
+<p>If you are confident enough you can also try to adjust the parameters yourself to achieve the effect you want.</p>
+<p>The last step: click <code>Generate</code> button and wait for a while.</p>
+<p>Finished. But please remember, this model is NOT for commercial use.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/00005-433196723.png"
+                      alt="result"
+                ></p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【虚幻引擎5 V】纯蓝图实现切换地图的数据通信</title>
     <url>/archives/posts/893e7c0.html</url>
     <content><![CDATA[<h2 id="目标">目标</h2>
@@ -4218,77 +4333,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>Victoria 3 Style Art Generator Tutorial</title>
-    <url>/archives/posts/a8fd0cc2.html</url>
-    <content><![CDATA[<h1>Victoria 3 Style Art Generator Tutorial</h1>
-<h2 id="Brief-LoRa">Brief LoRa</h2>
-<blockquote>
-<p>Low-rank adaptation (LoRA) is an adapter-based technique for efficiently fine-tuning models. The basic idea is to design a low-rank matrix that is then added to the original matrix. An adapter, in this context, is a collection of low-rank matrices which, when added to a base model, produces a fine-tuned model. It allows for performance that approaches full-model fine-tuning with less space requirement. A language model with billions of parameters may be LoRA fine-tuned with only several millions of parameters.</p>
-<p>From Wikipedia</p>
-</blockquote>
-<p>This technique can make model fine-tuning easier. Not only requires fewer datasets, but also consumes less resources of the computer.</p>
-<p>The Victoria 3 Style Art model was trained (or more accurately, fine-tuned) via this method.</p>
-<h2 id="Usage">Usage</h2>
-<h3 id="Environment">Environment</h3>
-<ul>
-<li>a NVIDIA graphic card with CUDA</li>
-<li><a class="link"   href="https://developer.nvidia.com/cuda-toolkit" >CUDA Toolkit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" >stable-diffusion-webui <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://civitai.com/models/790437/" >Victoria 3 Style Art Model File <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://civitai.com/models/462367" >Stable Diffusion Base Model <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> - I recommend <em>Real Dream Classic</em>, Note: Please always use SD1.5 based model.</li>
-</ul>
-<h3 id="Setup">Setup</h3>
-<p>The setup method of stable-diffusion-webui can be found on its GitHub page.</p>
-<p>If you already complete setting up the first 3 things, you can put <code>realDream_*.safetensors</code> into <code>stable-diffusion-webui/webui/models/Stable-diffusion</code> and put <code>vic3_v3.safetensors</code> into <code>stable-diffusion-webui/webui/models/Lora</code>.</p>
-<p><strong>Please double-check that you haven’t misplaced them.</strong></p>
-<h3 id="Generating">Generating</h3>
-<p>Launch stable-diffusion-webui. (also, you can find launching tutorial on its GitHub page)</p>
-<p>You can select your checkpoint (base model) on the upper left on this page. I will show you an example using Real Dream.</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/checkpoints.png"
-                      alt="checkpoints"
-                ></p>
-<p>For now, use the <code>txt2img</code> tab, other tabs you can explore them later.</p>
-<p>Then put in your prompt, let me show you an example.  By the way, this model is not really good at generating human. I will just show you how to generate pics without human. Here is the example:</p>
-<p>Positive:</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">(masterpiece, best quality:1.2), vic3, library, indoor, book, shelf, candle, (fire:1.75), burn, ash, smoke, ruin &lt;lora:vic3_v3:0.8&gt;</span><br></pre></td></tr></table></figure></div>
-<p>Negative:</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry</span><br></pre></td></tr></table></figure></div>
-<p>The most important thing is including <code>&lt;lora:vic3_v3:0.8&gt;</code> and <code>vic3</code> into the positive prompt. You can also change the strength of the style by changing the number after <code>&lt;lora:vic3_v3:</code>, for example <code>&lt;lora:vic3_v3:0.5&gt;</code>.</p>
-<p>Now, move to the <code>Generation</code> tab. The best method I tested is:</p>
-<ul>
-<li>Sampling method: DPM++ 3M SDE</li>
-<li>Schedule type: Karras</li>
-<li>Sampling steps: 15 - 30</li>
-<li>CFG Scale: 1.5 - 2.5</li>
-</ul>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/generation.png"
-                      alt="generation"
-                ></p>
-<p>If you are confident enough you can also try to adjust the parameters yourself to achieve the effect you want.</p>
-<p>The last step: click <code>Generate</code> button and wait for a while.</p>
-<p>Finished. But please remember, this model is NOT for commercial use.</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/victoria-3-img-gen/00005-433196723.png"
-                      alt="result"
-                ></p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Vue II】数据绑定</title>
     <url>/archives/posts/dee9d14e.html</url>
     <content><![CDATA[<h2 id="v-bind">v-bind</h2>
@@ -4308,9 +4352,9 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <category>Vue学习笔记</category>
       </categories>
       <tags>
+        <tag>前端</tag>
         <tag>编程</tag>
         <tag>Vue</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -4338,9 +4382,9 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <category>Vue学习笔记</category>
       </categories>
       <tags>
+        <tag>前端</tag>
         <tag>编程</tag>
         <tag>Vue</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
 </search>
