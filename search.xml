@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>数字缩写与格式化工具114k.js</title>
-    <url>/archives/posts/cde209f.html</url>
-    <content><![CDATA[<h1>114k.js</h1>
-<p>工作原因，随便写了个数字缩写与格式化工具。</p>
-<p>不要在意它的名字。</p>
-<h2 id="用法">用法</h2>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm i 114k.js</span><br></pre></td></tr></table></figure></div>
-<p>提供了两个方法，abbreviateNumber和formatNumber。</p>
-<h3 id="abbreviateNumber">abbreviateNumber()</h3>
-<p>按语言简写数字。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">abbreviateNumber(num: Number, digits?: Number, rounding?: String, locale?: String): String</span><br></pre></td></tr></table></figure></div>
-<p><code>num</code> 需要操作的数字</p>
-<p><code>digits</code> 保留小数位数</p>
-<p><code>rounding</code> 舍入，可为<code>&quot;round&quot;</code>，<code>&quot;ceil&quot;</code>或<code>&quot;floor&quot;</code></p>
-<p><code>locale</code> 语言，可为<code>&quot;en&quot;</code><br>
-<code>&quot;ru&quot;</code><br>
-<code>&quot;zh-CN&quot;</code><br>
-<code>&quot;zh-TW&quot;</code><br>
-<code>&quot;ja&quot;</code><br>
-<code>&quot;ko&quot;</code><br>
-<code>&quot;vi&quot;</code></p>
-<h3 id="formatNumber">formatNumber()</h3>
-<p>格式化数字。</p>
-<p><code>1,145,141,919,810</code></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">formatNumber(num: Number): String</span><br></pre></td></tr></table></figure></div>
-<p><code>num</code> 需要操作的数字</p>
-<h2 id="效果">效果</h2>
-<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`The population of India in 2023 was <span class="subst">$&#123;formatNumber(<span class="number">1428627663</span>)&#125;</span>, about <span class="subst">$&#123;abbreviateNumber(<span class="number">1428627663</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;en&quot;</span>)&#125;</span> people.`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// The population of India in 2023 was 1,428,627,663, about 1.43B people.</span></span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`台灣共有<span class="subst">$&#123;abbreviateNumber(<span class="number">36197</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-TW&quot;</span>)&#125;</span>平方千米的土地。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 台灣共有3.62萬平方千米的土地。</span></span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`中国大陆在约<span class="subst">$&#123;abbreviateNumber(<span class="number">9596961</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>平方千米的土地中塞入了约<span class="subst">$&#123;abbreviateNumber(<span class="number">1426389855</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>的人口。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 中国大陆在约959.7万平方千米的土地中塞入了约14.26亿的人口。</span></span><br></pre></td></tr></table></figure></div>
-<h2 id="开源地址">开源地址</h2>
-<p>欢迎issue和pull request。</p>
-<p><a class="link"   href="https://github.com/anzai249/114k.js" >https://github.com/anzai249/114k.js<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-<p><a class="link"   href="https://www.npmjs.com/package/114k.js" >https://www.npmjs.com/package/114k.js<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>开源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>郑州轻工业大学2022级程序设计班级天梯赛基础题题解</title>
     <url>/archives/posts/8bdbda59.html</url>
     <content><![CDATA[<h2 id="前排提醒">前排提醒</h2>
@@ -131,6 +87,50 @@
       </tags>
   </entry>
   <entry>
+    <title>数字缩写与格式化工具114k.js</title>
+    <url>/archives/posts/cde209f.html</url>
+    <content><![CDATA[<h1>114k.js</h1>
+<p>工作原因，随便写了个数字缩写与格式化工具。</p>
+<p>不要在意它的名字。</p>
+<h2 id="用法">用法</h2>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm i 114k.js</span><br></pre></td></tr></table></figure></div>
+<p>提供了两个方法，abbreviateNumber和formatNumber。</p>
+<h3 id="abbreviateNumber">abbreviateNumber()</h3>
+<p>按语言简写数字。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">abbreviateNumber(num: Number, digits?: Number, rounding?: String, locale?: String): String</span><br></pre></td></tr></table></figure></div>
+<p><code>num</code> 需要操作的数字</p>
+<p><code>digits</code> 保留小数位数</p>
+<p><code>rounding</code> 舍入，可为<code>&quot;round&quot;</code>，<code>&quot;ceil&quot;</code>或<code>&quot;floor&quot;</code></p>
+<p><code>locale</code> 语言，可为<code>&quot;en&quot;</code><br>
+<code>&quot;ru&quot;</code><br>
+<code>&quot;zh-CN&quot;</code><br>
+<code>&quot;zh-TW&quot;</code><br>
+<code>&quot;ja&quot;</code><br>
+<code>&quot;ko&quot;</code><br>
+<code>&quot;vi&quot;</code></p>
+<h3 id="formatNumber">formatNumber()</h3>
+<p>格式化数字。</p>
+<p><code>1,145,141,919,810</code></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">formatNumber(num: Number): String</span><br></pre></td></tr></table></figure></div>
+<p><code>num</code> 需要操作的数字</p>
+<h2 id="效果">效果</h2>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`The population of India in 2023 was <span class="subst">$&#123;formatNumber(<span class="number">1428627663</span>)&#125;</span>, about <span class="subst">$&#123;abbreviateNumber(<span class="number">1428627663</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;en&quot;</span>)&#125;</span> people.`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// The population of India in 2023 was 1,428,627,663, about 1.43B people.</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`台灣共有<span class="subst">$&#123;abbreviateNumber(<span class="number">36197</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-TW&quot;</span>)&#125;</span>平方千米的土地。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 台灣共有3.62萬平方千米的土地。</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">    <span class="string">`中国大陆在约<span class="subst">$&#123;abbreviateNumber(<span class="number">9596961</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>平方千米的土地中塞入了约<span class="subst">$&#123;abbreviateNumber(<span class="number">1426389855</span>, <span class="number">2</span>, <span class="string">&quot;round&quot;</span>, <span class="string">&quot;zh-CN&quot;</span>)&#125;</span>的人口。`</span></span><br><span class="line">)</span><br><span class="line"><span class="comment">// 中国大陆在约959.7万平方千米的土地中塞入了约14.26亿的人口。</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="开源地址">开源地址</h2>
+<p>欢迎issue和pull request。</p>
+<p><a class="link"   href="https://github.com/anzai249/114k.js" >https://github.com/anzai249/114k.js<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+<p><a class="link"   href="https://www.npmjs.com/package/114k.js" >https://www.npmjs.com/package/114k.js<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>开源</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的世界C4D竹子预置</title>
     <url>/archives/posts/c391084a.html</url>
     <content><![CDATA[<h2 id="竹子预置配布">竹子预置配布</h2>
@@ -211,10 +211,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/archives/posts/8bd69e52.html</url>
-    <content><![CDATA[<p>Hello world</p>
+    <title>🎉庆祝本站开设一周年🎉</title>
+    <url>/archives/posts/c0a885d4.html</url>
+    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
+<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
+<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
+<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>。没有你们我的网站就不会活这么久。</p>
+<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
+<p>最后提前祝大家圣诞快乐，新年快乐！</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
+                      alt="xmas"
+                ></p>
 ]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
   </entry>
   <entry>
     <title>easy-masonry内嵌测试</title>
@@ -285,24 +299,176 @@
       </tags>
   </entry>
   <entry>
-    <title>🎉庆祝本站开设一周年🎉</title>
-    <url>/archives/posts/c0a885d4.html</url>
-    <content><![CDATA[<h1>庆祝本站开设一周年</h1>
-<p>转眼间网站已经开设一周年了，一年前脑袋一热做这么个东西，都没想到还能撑一年，不知道未来的路会是怎样的，不过我挺期待的。</p>
-<p>从本站使用新域名后，截至GMT+8 2023/11/28 11:58，我一共写了41篇文章，共获得访问人数2817，访问次数7879。</p>
-<p>非常感谢各位的支持与帮助，感谢我的<a href="https://anzai.sleepingbed.top/links">友链</a>中各位大佬的榜样力量，也感谢<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >Theme Redefine<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>。没有你们我的网站就不会活这么久。</p>
-<p>之后打算换个背景图啥的，但是我找了一圈没看到合适的，过几天再看吧。搞点什么活动我也不知道，大家可以在评论区提建议啥的，虽说我可能做不到。</p>
-<p>最后提前祝大家圣诞快乐，新年快乐！</p>
-<p><img  
+    <title>Hello world</title>
+    <url>/archives/posts/8bd69e52.html</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>【周三名人 III】鬼头明里</title>
+    <url>/archives/posts/aec84f53.html</url>
+    <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
+<h3 id="简介">简介</h3>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/anniversary-1/IMG_20231125_170639_837.jpg"
-                      alt="xmas"
-                ></p>
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/akari.webp"
+                     
+                >
+<p>鬼头明里，日本声优，所属事务所Raccoon Dog。代表角色有《LoveLive!》的近江彼方，《调教咖啡厅》的日向夏帆，《鬼灭之刃》的灶门祢豆子。</p>
+<h3 id="出身">出身</h3>
+<p>1994年10月16日出生，日本爱知县名古屋出身。Pro Fit声优养成所毕业。</p>
+<h3 id="个人生活">个人生活</h3>
+<p>喜欢画画、唱歌。</p>
+<p>小时候的梦想是成为漫画家，曾被别人夸画画画得好，适合当漫画家从而对漫画家产生了兴趣。后来因父母想要她使用自己的钱读大学，便边打工边上了育成所。</p>
+<p>曾经在诊所、拉面店等地打工，因此瘦了很多。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
+                     
+                >
+<p>明里画的夏帆，从萌娘百科偷的图。</p>
+<p>擅长做炒面、炒乌冬、蛋包饭、蒜香猪五花炒鸡蛋小松菜、锡箔纸烧烤。</p>
+<h4 id="阿卡林衣柜">阿卡林衣柜</h4>
+<p>会根据发型挑选衣服。许多女性声优都会从她那里寻找衣服或者搭配建议。</p>
+<p>前田佳织里：“多谢明里さま让我活下去！”</p>
+<p>鬼头明里：“等等你不会一直靠我送的衣服活下去吧？”</p>
+<p>指出毬亚：“推荐的品牌名是Akari Kito，只要穿上这个品牌的衣服就会变时尚喔。”</p>
+<h3 id="所获荣誉">所获荣誉</h3>
+<p>2021年3月6日，获得第15届声优奖助演女优赏。</p>
+<p>2023年，在第17回声优奖中以虹咲学园学园偶像同好会名义获得歌唱奖。</p>
 ]]></content>
       <categories>
-        <category>睡大觉</category>
+        <category>卷</category>
+        <category>周三名人</category>
       </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Blender II】三兄弟</title>
+    <url>/archives/posts/db52fdd4.html</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>进度是不是有点快啊……</p>
+<h2 id="制作">制作</h2>
+<p>先创建一个小方块，加个倒角，当作身体。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
+                     
+                >
+<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
+                     
+                >
+<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
+                     
+                >
+<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
+                     
+                >
+<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
+                     
+                >
+<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>加个背景，经典弯折场景。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
+                     
+                >
+<p>加点灯光，调一下渲染器</p>
+<p>（加材质的忘记截图了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
+                     
+                >
+<p>改一下天空颜色</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
+                     
+                >
+<p>渲染设置就这吧，我显卡应该是受得住。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
+                     
+                >
+<p>渲染！</p>
+<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
+                     
+                >
+<p>要把布尔的遮罩在渲染时隐藏掉。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
+                     
+                >
+<p>完成！</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
   </entry>
   <entry>
     <title>【Blender III】给微软做UI？</title>
@@ -473,6 +639,70 @@
       </tags>
   </entry>
   <entry>
+    <title>【Blender V】车</title>
+    <url>/archives/posts/8f815186.html</url>
+    <content><![CDATA[<h2 id="制作">制作</h2>
+<p>先捏个形状。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
+                     
+                >
+<p>还有车窗。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
+                     
+                >
+<p>道路两旁的树直接用粒子系统解决。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
+                     
+                >
+<p>雪。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
+                     
+                >
+<p>改成毛发，就可以看到这种效果。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
+                     
+                >
+<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
+                     
+                >
+<h2 id="渲染">渲染</h2>
+<p>导出动画我还是有点基础的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
+                     
+                >
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Blender学习笔记</category>
+      </categories>
+      <tags>
+        <tag>3D</tag>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Blender IV】金币基站</title>
     <url>/archives/posts/1dcf26b5.html</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -625,236 +855,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Blender II】三兄弟</title>
-    <url>/archives/posts/db52fdd4.html</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>进度是不是有点快啊……</p>
-<h2 id="制作">制作</h2>
-<p>先创建一个小方块，加个倒角，当作身体。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/box.png"
-                     
-                >
-<p>弄两个小圆柱体，再加倒角，小腿就出来了。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/legs.png"
-                     
-                >
-<p>眼皮教程里是直接编辑的球体，但是我用了个布尔操作，C4D后遗症。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool.png"
-                     
-                >
-<p>加亿点点细节，第一个小人就整完了嘿嘿。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no1.png"
-                     
-                >
-<p>剩下两个就简单了，一个是球形身体，一个是柱形身体，五官直接复制微调。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no2.png"
-                     
-                >
-<p>之后还需要将这些物体平滑着色，不然是有棱角的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/no3.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/ok.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>加个背景，经典弯折场景。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/background.png"
-                     
-                >
-<p>加点灯光，调一下渲染器</p>
-<p>（加材质的忘记截图了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/light.png"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/highcontrast.png"
-                     
-                >
-<p>改一下天空颜色</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/backcolor.png"
-                     
-                >
-<p>渲染设置就这吧，我显卡应该是受得住。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/config.png"
-                     
-                >
-<p>渲染！</p>
-<p>噗！笑死我了！你这Blender的布尔遮罩怎么还在这！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/pff.png"
-                     
-                >
-<p>要把布尔的遮罩在渲染时隐藏掉。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/bool2.png"
-                     
-                >
-<p>完成！</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-2-3bros/3bros.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Blender V】车</title>
-    <url>/archives/posts/8f815186.html</url>
-    <content><![CDATA[<h2 id="制作">制作</h2>
-<p>先捏个形状。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/1.png"
-                     
-                >
-<p>还有车窗。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/2.png"
-                     
-                >
-<p>道路两旁的树直接用粒子系统解决。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/3.png"
-                     
-                >
-<p>雪。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/4.png"
-                     
-                >
-<p>改成毛发，就可以看到这种效果。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/5.png"
-                     
-                >
-<p>渲染为集合，给小树小草放进去，随机一下尺寸。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/6.png"
-                     
-                >
-<h2 id="渲染">渲染</h2>
-<p>导出动画我还是有点基础的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/blender-5-car/car0001-0300.gif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Blender学习笔记</category>
-      </categories>
-      <tags>
-        <tag>3D</tag>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 III】鬼头明里</title>
-    <url>/archives/posts/aec84f53.html</url>
-    <content><![CDATA[<h2 id="鬼头明里">鬼头明里</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/akari.webp"
-                     
-                >
-<p>鬼头明里，日本声优，所属事务所Raccoon Dog。代表角色有《LoveLive!》的近江彼方，《调教咖啡厅》的日向夏帆，《鬼灭之刃》的灶门祢豆子。</p>
-<h3 id="出身">出身</h3>
-<p>1994年10月16日出生，日本爱知县名古屋出身。Pro Fit声优养成所毕业。</p>
-<h3 id="个人生活">个人生活</h3>
-<p>喜欢画画、唱歌。</p>
-<p>小时候的梦想是成为漫画家，曾被别人夸画画画得好，适合当漫画家从而对漫画家产生了兴趣。后来因父母想要她使用自己的钱读大学，便边打工边上了育成所。</p>
-<p>曾经在诊所、拉面店等地打工，因此瘦了很多。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-akari/DI3KcFvUQAA1HQU.webp"
-                     
-                >
-<p>明里画的夏帆，从萌娘百科偷的图。</p>
-<p>擅长做炒面、炒乌冬、蛋包饭、蒜香猪五花炒鸡蛋小松菜、锡箔纸烧烤。</p>
-<h4 id="阿卡林衣柜">阿卡林衣柜</h4>
-<p>会根据发型挑选衣服。许多女性声优都会从她那里寻找衣服或者搭配建议。</p>
-<p>前田佳织里：“多谢明里さま让我活下去！”</p>
-<p>鬼头明里：“等等你不会一直靠我送的衣服活下去吧？”</p>
-<p>指出毬亚：“推荐的品牌名是Akari Kito，只要穿上这个品牌的衣服就会变时尚喔。”</p>
-<h3 id="所获荣誉">所获荣誉</h3>
-<p>2021年3月6日，获得第15届声优奖助演女优赏。</p>
-<p>2023年，在第17回声优奖中以虹咲学园学园偶像同好会名义获得歌唱奖。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 I】玛丽亚·波奇卡列娃</title>
     <url>/archives/posts/bf30c6e.html</url>
     <content><![CDATA[<p>考完雅思新开的板块，今天开始营业，暂定周三更新。</p>
@@ -897,60 +897,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 II】王小云</title>
-    <url>/archives/posts/39029b32.html</url>
-    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
-<h2 id="王小云">王小云</h2>
-<h3 id="简介">简介</h3>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
-                     
-                >
-<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
-<h3 id="简要经历">简要经历</h3>
-<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
-<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
-<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
-<h3 id="科研">科研</h3>
-<p>主要从事密码理论及相关数学问题研究。</p>
-<ul>
-<li>密码哈希函数碰撞攻击理论</li>
-<li>破解MD5、SHA-1等5个哈希算法</li>
-<li>比特分析法进一步应用于带密钥的密码算法</li>
-<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
-<li>主持设计的哈希函数SM3</li>
-</ul>
-<h3 id="获奖">获奖</h3>
-<ul>
-<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
-<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
-<li>2019年未来科学大奖——数学与计算机科学奖</li>
-<li>2018年北京市“三八”红旗奖章</li>
-<li>2017年全国创新争先奖状</li>
-<li>2016年全国优秀科技工作者</li>
-<li>2016年网络安全优秀人才奖</li>
-<li>2014年中国密码学会密码创新奖特等奖</li>
-<li>2010年苏步青应用数学奖</li>
-<li>2008年国家自然科学二等奖</li>
-<li>2006年陈嘉庚科学奖</li>
-<li>求是杰出科学家奖</li>
-<li>中国青年女科学家奖</li>
-</ul>
-<h3 id="参考资料">参考资料</h3>
-<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
-        <tag>密码学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【周三名人 VI】空海</title>
     <url>/archives/posts/359fc4d7.html</url>
     <content><![CDATA[<h2 id="空海">空海</h2>
@@ -980,6 +926,45 @@
                      data-src="https://evan.beee.top/users/anzai/posts/celebrity-kukai/IMG_20231027_111925.jpg"
                      
                 >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+        <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 V】蒙哥马利</title>
+    <url>/archives/posts/a7511508.html</url>
+    <content><![CDATA[<blockquote>
+<p>每一位士兵在上阵前都必须明白，他所投身的这场小规模战斗在整个大局中所起到的作用。</p>
+<p>——伯纳德·劳·蒙哥马利</p>
+</blockquote>
+<h2 id="蒙哥马利">蒙哥马利</h2>
+<h3 id="简介">简介</h3>
+<p>伯纳德·劳·蒙哥马利（Bernard Law Montgomery），又可称为第一代阿拉曼的蒙哥马利子爵伯纳德·劳·蒙哥马利（Bernard Law Montgomery, 1st Viscount Montgomery of Alamein）。英国陆军元帅，二战最杰出的指挥官之一。</p>
+<h3 id="一战">一战</h3>
+<p>蒙哥马利毕业于坎伯利参谋学院，在第一次世界大战中作战英勇，屡次升迁，担任多种职务，战争结束后任驻防德国科隆明火枪联队第二指挥官。</p>
+<p>之后参与英爱战争、镇压巴勒斯坦暴动。1939年8月回国接任以“钢铁师”著称的英国远征军第3师师长。</p>
+<h3 id="二战">二战</h3>
+<p>1940年5月28日，比利时投降，英军被迫撤退，蒙哥马利接任第2军军长，指挥撤退。</p>
+<p>1942年，德国击败英国第8集团军，驻军阿拉曼，指挥官正是被称为“沙漠之狐”的隆美尔。蒙哥马利被任命为第8军军长，在10月-11月发动第二次阿拉曼战役，击溃德军，扭转北非战局。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
+                     
+                >
+<p>经过这次战役，蒙哥马利声名大噪，被称为捕捉沙漠之狐的猎手。1943年5月，北非轴心国军队投降，北非战役结束。</p>
+<p>1943年7月，蒙哥马利率领军队登录西西里岛，进而进军意大利半岛，9月，意大利投降。</p>
+<p>1944年1月，参与制定诺曼底登陆计划，6月，蒙哥马利率领第21集团军和协调美国第12集团军作战，成功开辟新战线。</p>
+<p>1944年9月17日，刚进升为元帅的蒙哥马利向驻荷兰德军发动“市场花园行动”，但以惨重的伤亡落败。</p>
+<h3 id="战后">战后</h3>
+<p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
+<p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
+]]></content>
       <categories>
         <category>卷</category>
         <category>周三名人</category>
@@ -1054,34 +1039,49 @@
       </tags>
   </entry>
   <entry>
-    <title>【周三名人 V】蒙哥马利</title>
-    <url>/archives/posts/a7511508.html</url>
-    <content><![CDATA[<blockquote>
-<p>每一位士兵在上阵前都必须明白，他所投身的这场小规模战斗在整个大局中所起到的作用。</p>
-<p>——伯纳德·劳·蒙哥马利</p>
-</blockquote>
-<h2 id="蒙哥马利">蒙哥马利</h2>
+    <title>【周三名人 II】王小云</title>
+    <url>/archives/posts/39029b32.html</url>
+    <content><![CDATA[<p>是不是更新太频繁了？正在考虑削减频率。</p>
+<h2 id="王小云">王小云</h2>
 <h3 id="简介">简介</h3>
-<p>伯纳德·劳·蒙哥马利（Bernard Law Montgomery），又可称为第一代阿拉曼的蒙哥马利子爵伯纳德·劳·蒙哥马利（Bernard Law Montgomery, 1st Viscount Montgomery of Alamein）。英国陆军元帅，二战最杰出的指挥官之一。</p>
-<h3 id="一战">一战</h3>
-<p>蒙哥马利毕业于坎伯利参谋学院，在第一次世界大战中作战英勇，屡次升迁，担任多种职务，战争结束后任驻防德国科隆明火枪联队第二指挥官。</p>
-<p>之后参与英爱战争、镇压巴勒斯坦暴动。1939年8月回国接任以“钢铁师”著称的英国远征军第3师师长。</p>
-<h3 id="二战">二战</h3>
-<p>1940年5月28日，比利时投降，英军被迫撤退，蒙哥马利接任第2军军长，指挥撤退。</p>
-<p>1942年，德国击败英国第8集团军，驻军阿拉曼，指挥官正是被称为“沙漠之狐”的隆美尔。蒙哥马利被任命为第8军军长，在10月-11月发动第二次阿拉曼战役，击溃德军，扭转北非战局。</p>
 <img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-montgomery/1280px-Bernard_Law_Montgomery_1942.jpg"
+                     data-src="https://evan.beee.top/users/anzai/posts/celebrity-xiaoyun/WangXiaoyun.jpg"
                      
                 >
-<p>经过这次战役，蒙哥马利声名大噪，被称为捕捉沙漠之狐的猎手。1943年5月，北非轴心国军队投降，北非战役结束。</p>
-<p>1943年7月，蒙哥马利率领军队登录西西里岛，进而进军意大利半岛，9月，意大利投降。</p>
-<p>1944年1月，参与制定诺曼底登陆计划，6月，蒙哥马利率领第21集团军和协调美国第12集团军作战，成功开辟新战线。</p>
-<p>1944年9月17日，刚进升为元帅的蒙哥马利向驻荷兰德军发动“市场花园行动”，但以惨重的伤亡落败。</p>
-<h3 id="战后">战后</h3>
-<p>1946年6月，蒙哥马利出任大英帝国总参谋长。1948年9月，蒙哥马利出任西方联盟各国总司令委员会主席。1951年4月，出任北大西洋公约组织欧洲盟军最高副司令。</p>
-<p>1976年3月25日，蒙哥马利于英国汉普郡奥尔顿逝世，葬于汉普郡宾斯特德圣十字教堂。</p>
+<p>王小云，现任山东大学网络空间安全学院院长、清华大学高等研究院“杨振宁讲座”教授。2017年当选中国科学院院士。2019年当选国际密码协会会士（IACR Fellow）。兼任中国密码学会副理事长，中国数学会副理事长，中国科协女科技工作者专门委员会委员，中国女科技工作者协会常务理事，教育部高等学校网络空间安全专业教学指导委员会副主任委员。</p>
+<h3 id="简要经历">简要经历</h3>
+<p>1983年考入山东大学数学系，于1993年获得博士学位留校任教，于2001年升任数学系教授。</p>
+<p>2005年受聘为清华大学高等研究中心杨振宁讲座教授。</p>
+<p>2006年，担任密码技术与信息安全教育部重点实验室主任。</p>
+<h3 id="科研">科研</h3>
+<p>主要从事密码理论及相关数学问题研究。</p>
+<ul>
+<li>密码哈希函数碰撞攻击理论</li>
+<li>破解MD5、SHA-1等5个哈希算法</li>
+<li>比特分析法进一步应用于带密钥的密码算法</li>
+<li>格最短向量求解的启发式算法二重筛法以及带Gap格的反转定理</li>
+<li>主持设计的哈希函数SM3</li>
+</ul>
+<h3 id="获奖">获奖</h3>
+<ul>
+<li>2020年国际密码协会“最具时间价值奖”（IACR Test-of-Time Awards）</li>
+<li>2020年真实世界密码学奖（The Levchin Prize for Real-World Cryptography）</li>
+<li>2019年未来科学大奖——数学与计算机科学奖</li>
+<li>2018年北京市“三八”红旗奖章</li>
+<li>2017年全国创新争先奖状</li>
+<li>2016年全国优秀科技工作者</li>
+<li>2016年网络安全优秀人才奖</li>
+<li>2014年中国密码学会密码创新奖特等奖</li>
+<li>2010年苏步青应用数学奖</li>
+<li>2008年国家自然科学二等奖</li>
+<li>2006年陈嘉庚科学奖</li>
+<li>求是杰出科学家奖</li>
+<li>中国青年女科学家奖</li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<p>清华大学：<a class="link"   href="https://www.cs.tsinghua.edu.cn/info/1138/3905.htm" >https://www.cs.tsinghua.edu.cn/info/1138/3905.htm<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
 ]]></content>
       <categories>
         <category>卷</category>
@@ -1089,28 +1089,7 @@
       </categories>
       <tags>
         <tag>名人</tag>
-        <tag>历史</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周三名人 VII】华彦钧</title>
-    <url>/archives/posts/c29ca138.html</url>
-    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
-<h3 id="生平">生平</h3>
-<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
-<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
-<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
-<p>1950年12月4日病故。</p>
-<h3 id="音乐作品">音乐作品</h3>
-<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
-<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
-]]></content>
-      <categories>
-        <category>卷</category>
-        <category>周三名人</category>
-      </categories>
-      <tags>
-        <tag>名人</tag>
+        <tag>密码学</tag>
       </tags>
   </entry>
   <entry>
@@ -1152,6 +1131,78 @@
       </categories>
       <tags>
         <tag>名人</tag>
+        <tag>动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周三名人 VII】华彦钧</title>
+    <url>/archives/posts/c29ca138.html</url>
+    <content><![CDATA[<h2 id="华彦钧">华彦钧</h2>
+<h3 id="生平">生平</h3>
+<p>华彦钧，生于光绪十九年（1893），父亲名叫华清和，是一名道士。四岁时父亲将他寄养在无锡县东亭镇小泗房巷的族人家里，直到八岁时才被带回道观。因道家清规，二人以师徒相称，直到华清和病逝前才告诉儿子自己是他的父亲。</p>
+<p>父亲去世后他继承了当家道士的职位，在道观中与族兄轮流主管财务。</p>
+<p>1928年左右，因梅毒而双目失明，从此靠街头卖艺为生。娶董催弟为妻。</p>
+<p>1950年12月4日病故。</p>
+<h3 id="音乐作品">音乐作品</h3>
+<p>华彦钧精通笛子、琵琶、二胡、鼓等乐器，最有名的作品是《二泉映月》。日本指挥家小泽征尔评价：“如果我听了这次演奏，我昨天绝对不敢指挥这个曲目，因为我并没有理解这首音乐，因此，我没有资格指挥这个曲目……这种音乐只应跪下来听。”</p>
+<p>1950年，中央音乐学院教授杨荫浏、曹安和抢录了其三首二胡曲和三首琵琶曲。《二泉映月》、《听松》、《寒春风曲》，《大浪淘沙》、《龙船》、《昭君出塞》。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+        <category>周三名人</category>
+      </categories>
+      <tags>
+        <tag>名人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
+    <url>/archives/posts/15cf674d.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>剧透警告</p>
+
+    </div>
+    <div class="notel-content">
+      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
+
+    </div>
+  </div>
+<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
+<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
+<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
+<ol>
+<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
+<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
+<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
+<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
+<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
+<li><s>不行！女主不够攻！</s></li>
+</ol>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
+                      alt="1"
+                ></p>
+<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
+<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
+<h3 id="尝试分析原因">尝试分析原因</h3>
+<ol>
+<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
+<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
+<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
+</ol>
+<h3 id="做梦">做梦</h3>
+<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
+]]></content>
+      <categories>
+        <category>睡大觉</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
         <tag>动画</tag>
       </tags>
   </entry>
@@ -1358,8 +1409,8 @@
         <category>卷</category>
       </categories>
       <tags>
-        <tag>开源</tag>
         <tag>编程</tag>
+        <tag>开源</tag>
         <tag>Vue</tag>
         <tag>Web</tag>
       </tags>
@@ -1445,57 +1496,6 @@
       </tags>
   </entry>
   <entry>
-    <title>观赏《赛博朋克：边缘行者》后反思国产动画</title>
-    <url>/archives/posts/15cf674d.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>剧透警告</p>
-
-    </div>
-    <div class="notel-content">
-      <p>我本不想剧透，但是万一我无意间说了什么影响了你的观看体验那么别怪我没提前告诉你。</p>
-
-    </div>
-  </div>
-<h2 id="早上好，夜之城！">早上好，夜之城！</h2>
-<h3 id="哭！都给我哭！">哭！都给我哭！</h3>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="//music.163.com/outchain/player?type=2&id=1496089152&auto=0&height=66"></iframe>
-<h3 id="关于边缘行者动画">关于边缘行者动画</h3>
-<ol>
-<li>刚进去就有吓我一跳的画面，不得不说，国漫好保守啊。</li>
-<li>对于断胳膊腿之类的描绘也基本不带躲避，怪不得不能引进……</li>
-<li>揭露了在未来在资本的控制下人命被忽视，唯有钱才是头等大事的情况，也为今天的人们敲响警钟。</li>
-<li>看到倒数第二集才发现这片子在我那个区是R21，这不坏事了……</li>
-<li>很虐，但是我也不敢说它是完全的悲剧，毕竟还是有人活下去的，这个看法因人而异了。</li>
-<li><s>不行！女主不够攻！</s></li>
-</ol>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/chinese-cartoon/1.png"
-                      alt="1"
-                ></p>
-<h2 id="早上好，国漫！现在我有BingChilling">早上好，国漫！<s>现在我有BingChilling</s></h2>
-<p>如今国漫发展缓慢到极点，内容缺乏创新，老套的剧情还在往外搬，观众低龄化严重，没有适合成年人看的动画。</p>
-<h3 id="尝试分析原因">尝试分析原因</h3>
-<ol>
-<li>我个人认为年龄分级制度是必要的，就像我上面提到的R21，Netflix平台适配了多个国家地区的年龄分级，观看时左上还会显示儿童不适的信息。而我们的年龄分级制度却推行缓慢。</li>
-<li>人们对于动画类的影片消费意识不太高，白嫖久了就不愿意为优秀的作品付费，希望这方面可以像Steam在这几年的发展带动人们购买正版游戏的思想进步一样，让人们拥有这种意识（然而我还是想白嫖）。</li>
-<li>电视台也不买点好作品，天天就那一套，央视少儿频道变幼儿频道，新科动漫频道没有新鲜血液……</li>
-</ol>
-<h3 id="做梦">做梦</h3>
-<p>总的来说国漫还有很长的路要走，我希望大家都可以为国漫的发展贡献自己的力量，希望国漫制作商也利用好现存IP，大胆创新，为国漫打出新的天地。</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>动画</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于近期干扰连接的公告</title>
     <url>/archives/posts/b47922c2.html</url>
     <content><![CDATA[<h1>关于近期干扰连接的公告</h1>
@@ -1512,6 +1512,134 @@
 <h3 id="周三名人">周三名人</h3>
 <p>我发现周三名人更新太频繁了，所以以后周三名人两周一更新。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>开源瀑布流相册生成器 - Easy Masonry</title>
+    <url>/archives/posts/7492ee4b.html</url>
+    <content><![CDATA[<h1>Easy Masonry</h1>
+<h2 id="效果">效果</h2>
+<h3 id="图">图</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"
+                      alt="Masonry"
+                ></p>
+<h3 id="主要功能">主要功能</h3>
+<p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p>
+<h2 id="采用技术">采用技术</h2>
+<p>Vue</p>
+<h2 id="体验">体验</h2>
+<p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p>
+<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p>
+<h2 id="自己部署">自己部署</h2>
+<p>点个星星呗~</p>
+<p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>开源</tag>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git使用手册</title>
+    <url>/archives/posts/9f0af8b7.html</url>
+    <content><![CDATA[<h2 id="简介">简介</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
+                     
+                >
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<h2 id="基础用法">基础用法</h2>
+<h3 id="创建仓库">创建仓库</h3>
+<p>本地新建</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
+<p>克隆仓库</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="工作区域">工作区域</h3>
+<ul>
+<li>工作区
+<ul>
+<li>.git所在目录</li>
+<li>用户实际操作的目录</li>
+</ul>
+</li>
+<li>暂存区
+<ul>
+<li>.git/index</li>
+<li>存放add后没有commit的内容</li>
+</ul>
+</li>
+<li>本地仓库
+<ul>
+<li>.git/objects</li>
+<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
+</ul>
+</li>
+</ul>
+<h3 id="文件状态">文件状态</h3>
+<pre class="mermaid">flowchart LR
+   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
+   A[未跟踪] --"git add"--> D[已暂存]
+   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
+   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
+<h3 id="提交">提交</h3>
+<p>查看仓库状态</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
+<p>添加到暂存区</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
+<p>从暂存区中删除</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
+<p>提交</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
+<h3 id="日志">日志</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
+<h3 id="回退版本">回退版本</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
+<h3 id="对比文件">对比文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
+<p>此外本质零还可以比较分支之间的差异。</p>
+<h3 id="删除文件">删除文件</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
+<h3 id="关联远程">关联远程</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+<h3 id="分支">分支</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<p>rebase</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
+<h3 id="Gitflow模型">Gitflow模型</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
+<p>将仓库分为以下分支进行开发：</p>
+<ul>
+<li>main</li>
+<li>hotfix</li>
+<li>release</li>
+<li>develop</li>
+<li>feature</li>
+</ul>
+<p>下图是<a class="link"   href="https://draw.io" >draw.io<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>（<a class="link"   href="https://www.apache.org/licenses/LICENSE-2.0.html" >Apache License 2.0<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>）的一个模板，直接拿来用了，里面的Nightly分支是每晚自动构建。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://evan.beee.top/users/anzai/posts/git-notes/gitflow.svg"
+                      alt="Gitflow"
+                ></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>Git</tag>
+      </tags>
   </entry>
   <entry>
     <title>DWH基础知识梳理</title>
@@ -2043,134 +2171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开源瀑布流相册生成器 - Easy Masonry</title>
-    <url>/archives/posts/7492ee4b.html</url>
-    <content><![CDATA[<h1>Easy Masonry</h1>
-<h2 id="效果">效果</h2>
-<h3 id="图">图</h3>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/easy-masonry/easy-masonry.png"
-                      alt="Masonry"
-                ></p>
-<h3 id="主要功能">主要功能</h3>
-<p>你提供图片链接、标题和说明，程序帮你生成一个单HTML相册。</p>
-<h2 id="采用技术">采用技术</h2>
-<p>Vue</p>
-<h2 id="体验">体验</h2>
-<p><a href="https://anzai.sleepingbed.top/album/">点我点我！</a></p>
-<p>欢迎大家来找bug，bug可以来GitHub提issue或者pr都行。</p>
-<h2 id="自己部署">自己部署</h2>
-<p>点个星星呗~</p>
-<p>项目地址：<a class="link"   href="https://github.com/anzai249/easy-masonry" >GitHub<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>开源</tag>
-        <tag>编程</tag>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git使用手册</title>
-    <url>/archives/posts/9f0af8b7.html</url>
-    <content><![CDATA[<h2 id="简介">简介</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/git-notes/logo.png"
-                     
-                >
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-<h2 id="基础用法">基础用法</h2>
-<h3 id="创建仓库">创建仓库</h3>
-<p>本地新建</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></div>
-<p>克隆仓库</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git clone &lt;repository&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="工作区域">工作区域</h3>
-<ul>
-<li>工作区
-<ul>
-<li>.git所在目录</li>
-<li>用户实际操作的目录</li>
-</ul>
-</li>
-<li>暂存区
-<ul>
-<li>.git/index</li>
-<li>存放add后没有commit的内容</li>
-</ul>
-</li>
-<li>本地仓库
-<ul>
-<li>.git/objects</li>
-<li>Git用于存储代码和版本信息的区域，commit后的内容存到此处</li>
-</ul>
-</li>
-</ul>
-<h3 id="文件状态">文件状态</h3>
-<pre class="mermaid">flowchart LR
-   A[未跟踪] --"git add"--> B[未修改] --修改文件--> C[已修改] --"git add"--> D[已暂存]
-   A[未跟踪] --"git add"--> D[已暂存]
-   D[已暂存] --"git commit"--> B[未修改] --"git rm"--> A[未跟踪]
-   D[已暂存] --"git reset"--> C[已修改] --"git checkout"--> B[未修改]</pre>
-<h3 id="提交">提交</h3>
-<p>查看仓库状态</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure></div>
-<p>添加到暂存区</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure></div>
-<p>从暂存区中删除</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">rm</span></span><br></pre></td></tr></table></figure></div>
-<p>提交</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git commit</span><br></pre></td></tr></table></figure></div>
-<h3 id="日志">日志</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示hash id、提交者、时间和提交信息</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"><span class="comment"># 只显示hash和提交信息</span></span><br><span class="line">git <span class="built_in">log</span> --oneline</span><br></pre></td></tr></table></figure></div>
-<h3 id="回退版本">回退版本</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 不放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --soft</span><br><span class="line"><span class="comment"># 放弃工作区和暂存区的内容</span></span><br><span class="line">git reset --hard</span><br><span class="line"><span class="comment"># 保留工作区，放弃暂存区的内容</span></span><br><span class="line">git reset --mixed</span><br></pre></td></tr></table></figure></div>
-<h3 id="对比文件">对比文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 比较工作区和暂存区之间的差异</span></span><br><span class="line">git diff</span><br><span class="line"><span class="comment"># 比较工作区和仓库之间的差异</span></span><br><span class="line">git diff HEAD</span><br><span class="line"><span class="comment"># 比较暂存区和仓库之间的差异</span></span><br><span class="line">git diff --cached</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比较两个版本之间的差异</span></span><br><span class="line">git diff &lt;commit ID 1&gt; &lt;commit ID 2&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-<p>上一个版本用<code>HEAD~</code>或<code>HEAD^</code>，上两个版本<code>HEAD~2</code>。</p>
-<p>此外本质零还可以比较分支之间的差异。</p>
-<h3 id="删除文件">删除文件</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 从工作区和暂存区全部删除</span></span><br><span class="line">git <span class="built_in">rm</span></span><br><span class="line"><span class="comment"># 只从暂存区中删除</span></span><br><span class="line">git <span class="built_in">rm</span> --cached</span><br></pre></td></tr></table></figure></div>
-<h3 id="关联远程">关联远程</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看对应远程仓库</span></span><br><span class="line">git remote -v</span><br><span class="line"><span class="comment"># 关联</span></span><br><span class="line">git remote add &lt;shortname&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 获取远程仓库的修改，不合并到本地</span></span><br><span class="line">git fetch</span><br><span class="line"><span class="comment"># 从远程拉取</span></span><br><span class="line">git pull</span><br><span class="line"><span class="comment"># 推送到远程仓库</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
-<h3 id="分支">分支</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建分支</span></span><br><span class="line">git branch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 切换分支</span></span><br><span class="line">git switch &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 合并分支</span></span><br><span class="line">git merge &lt;branchname&gt;</span><br><span class="line"><span class="comment"># 删除分支</span></span><br><span class="line">git branch -d &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<p>rebase</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 将当前分支的commit直接剪到目标分支上面</span></span><br><span class="line">git rebase &lt;branchname&gt;</span><br></pre></td></tr></table></figure></div>
-<h3 id="Gitflow模型">Gitflow模型</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标记版本号</span></span><br><span class="line">git tag</span><br></pre></td></tr></table></figure></div>
-<p>将仓库分为以下分支进行开发：</p>
-<ul>
-<li>main</li>
-<li>hotfix</li>
-<li>release</li>
-<li>develop</li>
-<li>feature</li>
-</ul>
-<p>下图是<a class="link"   href="https://draw.io" >draw.io<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>（<a class="link"   href="https://www.apache.org/licenses/LICENSE-2.0.html" >Apache License 2.0<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>）的一个模板，直接拿来用了，里面的Nightly分支是每晚自动构建。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="http://evan.beee.top/users/anzai/posts/git-notes/gitflow.svg"
-                      alt="Gitflow"
-                ></p>
-]]></content>
-      <categories>
-        <category>卷</category>
-      </categories>
-      <tags>
-        <tag>编程</tag>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>gif表情包制作工艺流程</title>
     <url>/archives/posts/6f1a8c0d.html</url>
     <content><![CDATA[<h2 id="GIF表情包制作工艺流程">GIF表情包制作工艺流程</h2>
@@ -2602,6 +2602,171 @@
       </tags>
   </entry>
   <entry>
+    <title>香港理工大学国际暑期学校经验分享与课程知识回顾</title>
+    <url>/archives/posts/115bdc53.html</url>
+    <content><![CDATA[<h1>PolyU International Summer School</h1>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>屯馬綫-&gt;屯門</p>
+
+    </div>
+    <div class="notel-content">
+      <p>下一站，紅磡，乘客可以換乘東鐵綫。</p>
+
+    </div>
+  </div>
+<h2 id="准备工作">准备工作</h2>
+<h3 id="申请">申请</h3>
+<p>在<a class="link" href="https://www.polyu.edu.hk/summerschool/">这个网站<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>看到了理大正在招夏校学生，我也投了个。</a></p>
+<p>要求提供外语成绩和学校成绩单，实测雅思6.5(5.5)，双非院校均分84分就可以。我选到了喜欢的课程，人工智能与科幻（EIE1D03 Artificial Intelligence and Science Fiction）。</p>
+<h3 id="拿到Offer之后">拿到Offer之后</h3>
+<p>理大效率太高了吧，上午跟我要成绩单下午就给我offer。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="http://evan.beee.top/users/anzai/posts/polyu-summer-school/notice-of-offer.png" alt="offer邮件"></p>
+<p>学校会立即让你去搞学生签证，尽早准备：</p>
+<ul>
+<li>Offer</li>
+<li>ID995A表</li>
+<li>户口本扫描件</li>
+<li>身份证扫面件</li>
+<li>财产证明</li>
+</ul>
+<p>寄给学校然后申请电子签证。</p>
+<h3 id="拿到e-Visa之后">拿到e-Visa之后</h3>
+<p>拿着寄给你的资料和Offer还有身份证去出入境管理大厅办逗留（D）签，之后会印到港澳通行证背面。</p>
+<p>逗留签入境不能用闸机，所以每次去深圳回来都得走人工。</p>
+<h2 id="入境">入境</h2>
+<p>拿着Offer、e-Visa和护照备用，进去走闸机，出示通行证和身份证，告诉他你的名字，说你是学生，去上学，就可以了。</p>
+<p>他会给你个通关白条，很重要，不能丢，我每次出入境都会给他看这个，然后报道也要用。</p>
+<h2 id="签到入住">签到入住</h2>
+<p>拿着通行证啥的直接去何文田宿舍，何文田港铁站A1口出去就是。也可以坐巴士，线路很多。记得提前搞个八达通，很方便的（就是押金有点贵）。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/airport-bus.png" alt="机场巴士"></p>
+<p>学校提供住宿呜呜呜呜呜呜真好。</p>
+<p>宿管会让你签协议，一些规则什么的，签完记得拍个照。之后会给你个房卡，房卡保管好，别丢，直接上去就行。</p>
+<h2 id="报道">报道</h2>
+<p>第二天去学校报到领衣服，还送个小风扇。然后去Orientation，有答题环节和小游戏环节。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/polyu-building.png" alt="校园"></p>
+<h2 id="课程">课程</h2>
+<p>我选的课程是EIE1D03 Artificial Intelligence and Science Fiction，这里是知识回顾，懒得看可以直接跳过。</p>
+<h3 id="课程结构">课程结构</h3>
+<ul>
+<li>Introduction</li>
+<li>Basic AI problems and approaches</li>
+<li>Philosophical issues</li>
+<li>AI and science fiction</li>
+<li>Expert systems and fuzzy systems</li>
+<li>Robots and robotics</li>
+<li>Artificial neural networks</li>
+<li>Evolutionary computation</li>
+<li>Natural language processing and machine translation</li>
+<li>AI in finance and investment</li>
+<li>AI in games</li>
+<li>AI in medicine</li>
+<li>Future challenges</li>
+</ul>
+<h3 id="评分">评分</h3>
+<p>Continuous Assessment (100%):</p>
+<ul>
+<li>作业 (40%): 撰写报告 36% + 实操 3% + 实验室到场参观 1%</li>
+<li>演讲 (10%)</li>
+<li>两个测试 (20%)</li>
+<li>期末测试 (30%)</li>
+</ul>
+<h3 id="什么是人工智能">什么是人工智能</h3>
+<p>1955年John McCarthy的定义。自己查去！</p>
+<p>衡量&amp;区分方式：Strong and weak AI、图灵测试。</p>
+<h3 id="AI的哲学问题">AI的哲学问题</h3>
+<p>主要内容是意识、自由意志和伦理问题。</p>
+<p>Isaac Asimov的机器人三定律：</p>
+<ul>
+<li>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</li>
+<li>A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.</li>
+<li>A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.</li>
+</ul>
+<h3 id="搜索算法">搜索算法</h3>
+<h4 id="深度优先-广度优先">深度优先&amp;广度优先</h4>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f1.png" alt="search-f1"></p>
+<p>这个题里，S是起点，G是终点。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f1-ans.png" alt="search-f1-ans"></p>
+<p>左边是深度优先，右边是广度优先。</p>
+<p>深度优先使用更少的内存，不过它比较看运气，不会把整个搜索空间全部对比。</p>
+<p>广度优先不会被困在探索死胡同中（比如很长的子树），如果有多个解法，他会找到花费最小的结果，不过代价是要移动相对较多次。</p>
+<h4 id="A-search">A* search</h4>
+<p>来看看这个题</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f2.png" alt="search-f2"></p>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="18.762ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 8293 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mo" transform="translate(550,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(939,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1539,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(2205.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(3261.6,0)"><path data-c="1D454" d="M311 43Q296 30 267 15T206 0Q143 0 105 45T66 160Q66 265 143 353T314 442Q361 442 401 394L404 398Q406 401 409 404T418 412T431 419T447 422Q461 422 470 413T480 394Q480 379 423 152T363 -80Q345 -134 286 -169T151 -205Q10 -205 10 -137Q10 -111 28 -91T74 -71Q89 -71 102 -80T116 -111Q116 -121 114 -130T107 -144T99 -154T92 -162L90 -164H91Q101 -167 151 -167Q189 -167 211 -155Q234 -144 254 -122T282 -75Q288 -56 298 -13Q311 35 311 43ZM384 328L380 339Q377 350 375 354T369 368T359 382T346 393T328 402T306 405Q262 405 221 352Q191 313 171 233T151 117Q151 38 213 38Q269 38 323 108L331 118L384 328Z"></path></g><g data-mml-node="mo" transform="translate(3738.6,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(4127.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(4727.6,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(5338.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6339,0)"><path data-c="210E" d="M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z"></path></g><g data-mml-node="mo" transform="translate(6915,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(7304,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(7904,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></svg></mjx-container></p>
+<p>答案：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f2-ans.png" alt="search-f2-ans"></p>
+<p>最小的<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="4.362ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 1928 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mo" transform="translate(550,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(939,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1539,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></svg></mjx-container>是9，路径为SBFG。</p>
+<h4 id="Minimax">Minimax</h4>
+<p>比大小游戏，直接上答案。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f3-ans.png" alt="search-f3-ans"></p>
+<h3 id="模糊逻辑">模糊逻辑</h3>
+<p>不同于布尔，模糊逻辑一般由多种因素决定。</p>
+<p>看看这道题：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/fuzzy-f1.png" alt="fuzzy-f1"></p>
+<p><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.054ex" height="1.025ex" role="img" focusable="false" viewBox="0 -442 466 453"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D452" d="M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z"></path></g></g></g></svg></mjx-container>和<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.231ex" height="1.595ex" role="img" focusable="false" viewBox="0 -694 986 705"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"></path></g><g data-mml-node="mi" transform="translate(520,0)"><path data-c="1D452" d="M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z"></path></g></g></g></svg></mjx-container>都有两个模糊集，<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.699ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 751 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g></g></g></svg></mjx-container>和<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>，所以：</p>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="13.566ex" height="1.731ex" role="img" focusable="false" viewBox="0 -683 5996.1 765"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D440" d="M289 629Q289 635 232 637Q208 637 201 638T194 648Q194 649 196 659Q197 662 198 666T199 671T201 676T203 679T207 681T212 683T220 683T232 684Q238 684 262 684T307 683Q386 683 398 683T414 678Q415 674 451 396L487 117L510 154Q534 190 574 254T662 394Q837 673 839 675Q840 676 842 678T846 681L852 683H948Q965 683 988 683T1017 684Q1051 684 1051 673Q1051 668 1048 656T1045 643Q1041 637 1008 637Q968 636 957 634T939 623Q936 618 867 340T797 59Q797 55 798 54T805 50T822 48T855 46H886Q892 37 892 35Q892 19 885 5Q880 0 869 0Q864 0 828 1T736 2Q675 2 644 2T609 1Q592 1 592 11Q592 13 594 25Q598 41 602 43T625 46Q652 46 685 49Q699 52 704 61Q706 65 742 207T813 490T848 631L654 322Q458 10 453 5Q451 4 449 3Q444 0 433 0Q418 0 415 7Q413 11 374 317L335 624L267 354Q200 88 200 79Q206 46 272 46H282Q288 41 289 37T286 19Q282 3 278 1Q274 0 267 0Q265 0 255 0T221 1T157 2Q127 2 95 1T58 0Q43 0 39 2T35 11Q35 13 38 25T43 40Q45 46 65 46Q135 46 154 86Q158 92 223 354T289 629Z"></path></g><g data-mml-node="mo" transform="translate(1328.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(2384.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(2884.6,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(3662.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mo" transform="translate(4440.3,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(5496.1,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g></g></g></svg></mjx-container></p>
+<p>然后output可以是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.699ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 751 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g></g></g></svg></mjx-container>、<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.636ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 723 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44D" d="M58 8Q58 23 64 35Q64 36 329 334T596 635L586 637Q575 637 512 637H500H476Q442 637 420 635T365 624T311 598T266 548T228 469Q227 466 226 463T224 458T223 453T222 450L221 448Q218 443 202 443Q185 443 182 453L214 561Q228 606 241 651Q249 679 253 681Q256 683 487 683H718Q723 678 723 675Q723 673 717 649Q189 54 188 52L185 49H274Q369 50 377 51Q452 60 500 100T579 247Q587 272 590 277T603 282H607Q628 282 628 271Q547 5 541 2Q538 0 300 0H124Q58 0 58 8Z"></path></g></g></g></svg></mjx-container>或<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>，那么答案很明显如下：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/fuzzy-f1-ans.png" alt="fuzzy-f1-ans"></p>
+<h3 id="神经网络">神经网络</h3>
+<p>人工神经网络（ANN）是由简单的处理元素、单元或节点组成的互连组合，其功能松散地基于动物神经元。网络的处理能力存储在单元间的连接强度或权重中，这些强度或权重是通过适应一组训练模式或从一组训练模式中学习的过程获得的</p>
+<p>《奥特曼大迷宫》（05后知道这个吗？）</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ann-f1.png" alt="ann-f1"></p>
+<p>输入三个值，与箭头上的数字相乘，<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.593ex" height="1.532ex" role="img" focusable="false" viewBox="0 -677 704 677"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D447" d="M40 437Q21 437 21 445Q21 450 37 501T71 602L88 651Q93 669 101 677H569H659Q691 677 697 676T704 667Q704 661 687 553T668 444Q668 437 649 437Q640 437 637 437T631 442L629 445Q629 451 635 490T641 551Q641 586 628 604T573 629Q568 630 515 631Q469 631 457 630T439 622Q438 621 368 343T298 60Q298 48 386 46Q418 46 427 45T436 36Q436 31 433 22Q429 4 424 1L422 0Q419 0 415 0Q410 0 363 1T228 2Q99 2 64 0H49Q43 6 43 9T45 27Q49 40 55 46H83H94Q174 46 189 55Q190 56 191 56Q196 59 201 76T241 233Q258 301 269 344Q339 619 339 625Q339 630 310 630H279Q212 630 191 624Q146 614 121 583T67 467Q60 445 57 441T43 437H40Z"></path></g></g></g></svg></mjx-container>是阈值，过了就是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.131ex" height="1.507ex" role="img" focusable="false" viewBox="0 -666 500 666"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>，不过就是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.131ex" height="1.557ex" role="img" focusable="false" viewBox="0 -666 500 688"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path></g></g></g></svg></mjx-container>。</p>
+<p>答案：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ann-f1-ans.png" alt="ann-f1-ans"></p>
+<h3 id="演化计算">演化计算</h3>
+<p>一代更比一代强。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1.png" alt="ec-f1"></p>
+<p>(a)就是算概率</p>
+<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -2.7ex;" xmlns="http://www.w3.org/2000/svg" width="13.071ex" height="5.824ex" role="img" focusable="false" viewBox="0 -1381 5777.3 2574.3"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g><g data-mml-node="mi" transform="translate(751,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1373.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mfrac" transform="translate(2429.6,0)"><g data-mml-node="mrow" transform="translate(1226.4,676)"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mi" transform="translate(550,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="mrow" transform="translate(220,-908)"><g data-mml-node="munderover"><g data-mml-node="mo"><path data-c="2211" d="M61 748Q64 750 489 750H913L954 640Q965 609 976 579T993 533T999 516H979L959 517Q936 579 886 621T777 682Q724 700 655 705T436 710H319Q183 710 183 709Q186 706 348 484T511 259Q517 250 513 244L490 216Q466 188 420 134T330 27L149 -187Q149 -188 362 -188Q388 -188 436 -188T506 -189Q679 -189 778 -162T936 -43Q946 -27 959 6H999L913 -249L489 -250Q65 -250 62 -248Q56 -246 56 -239Q56 -234 118 -161Q186 -81 245 -11L428 206Q428 207 242 462L57 717L56 728Q56 744 61 748Z"></path></g><g data-mml-node="TeXAtom" transform="translate(1089,477.1) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g></g><g data-mml-node="TeXAtom" transform="translate(1089,-285.4) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g><g data-mml-node="mi" transform="translate(2012.8,0)"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mi" transform="translate(2562.8,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g></g><rect width="3107.8" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container></p>
+<p>答案：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1-ans1.png" alt="ec-f1-ans1"></p>
+<p>(b)<s>复分解，双交换，价……</s></p>
+<p>等等走错片场了。把两个DNA从不同的地方交换，之后的情况就是跳过这个再往后推，然后再交换。（我不是学生物的这怎么解释啊，生孩子的时候染色体的那个交换叫啥来着？）</p>
+<p>©每种情况改一位就行。</p>
+<p>答案：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1-ans2.png" alt="ec-f1-ans2"></p>
+<h3 id="自然语言处理">自然语言处理</h3>
+<p>谁会语法啊？</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/nlp-f1.png" alt="nlp-f1"></p>
+<p>(i)照着上面的规则把这句子给拆了，有点绕。</p>
+<p>(ii)就是按照拆开的语法看看哪句话可以对应这个语法。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/nlp-f1-ans.png" alt="nlp-f1-ans"></p>
+<h2 id="旅游">旅游</h2>
+<p>我去了大屿山和大澳，大巴车、缆车和午饭的钱已经包含在费用里了，所以去那里不用多交一分钱。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/lantau-peak-doraemon.png" alt="大屿山顶的哆啦A梦"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/lantau-buddha.png" alt="天坛大佛"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/tai-o.png" alt="大澳的船上拍的"></p>
+<h2 id="手工">手工</h2>
+<p>我选了mini bus sign workshop。</p>
+<p>我是要饭的。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/bus-sign.png" alt="巴士牌子"></p>
+<h2 id="吃什么？">吃什么？</h2>
+<p>理大食堂蛮便宜，一顿40块就可以吃饱，烧腊蛮多，可以吃撑，略甜。汉堡薯条30多块，吃个六成饱吧，味道不可能有外面好，都这么便宜了还要什么自行车。咖喱也蛮可以。30多块，比汉堡量大一些。</p>
+<p>肯麦如果点汉堡的话会贵很多，如果牛肉堡套餐的话要60+，肯德基的米饭很划算，30-40块就能吃很饱，还是那句话，加了汉堡价格立涨20。有一次我去麦当劳吃早餐，点好餐才发现前面有80多单，我一想，这惨了，不过效率蛮高，15分钟就出餐了，80多单啊！</p>
+<p>尖东的沙冰很好吃，K11的-2层有个卖饮品的地方，一杯沙冰40块，量很大，性价比拉满，买出来去维港旁边的那个公园看电视，爽死了！</p>
+<p>维多利亚公园有个买吃的的铺子，那里的炒饭贼香，有中国菜，还有东南亚菜，50多块钱一碗，香死了！！吃完直接去旁边的商场散步，超放松！</p>
+<p>我买了一桶泡面，打算那顿15块解决，结果发现里面没有叉子，又去惠康买了一盒叉子，花了16，笑死了，叉子比饭都贵。</p>
+<h2 id="感受">感受</h2>
+<p>太热了。</p>
+<p>这地方就算是学生都能感受到一股压力，没课也会觉得市民都在赶时间，还有高物价带来的经济压力。本地人不会太热情，不会像大陆人这样热情，真的需要适应一段时间。</p>
+<p>不过用一个月的时间适应这些对我来说真的足够了，要是多待一阵我估计连广东话都会说了。离开的时候那叫一个不舍。</p>
+<p>体验到理大的教学了，我只能说国际化的教育在那个地方已经极为深刻了，全英文讲课，演讲也要英文，校园里随处可见西方面孔。技术也很先进，采用的大部分都是最先进的教学软件（然而在大陆都没法用），设备也很方便。</p>
+<p>图书馆里有公用电脑，登录自己的NetID就会获得自己的私人空间。然后还给你100GB的校园网网盘，超级方便。校园网还不用花钱。校园网里部署了生成式AI门户站，可以在里面用ChatGPT、Stable Diffusion之类的工具。还有学校自己开发的AI演讲评价器、AI文章评价器，优化自己的作业真的很方便。</p>
+<p>以尖东沙冰结尾吧。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ice.png" alt="尖东沙冰"></p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>旅游</tag>
+        <tag>留学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三个月雅思突击经验</title>
     <url>/archives/posts/a65333d3.html</url>
     <content><![CDATA[
@@ -2727,65 +2892,6 @@
       <tags>
         <tag>英语</tag>
         <tag>个人修养</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更新一下以前写的我的世界自动写书器</title>
-    <url>/archives/posts/aa51d9bd.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>建议</p>
-
-    </div>
-    <div class="notel-content">
-      <p>别用它炸服真的我求你了。</p>
-
-    </div>
-  </div>
-<h1>minecraft-auto-book</h1>
-<h2 id="我为啥要写这个？">我为啥要写这个？</h2>
-<p>去年暑假玩群友服务器，想丰富一下藏书，然后还懒得手抄。</p>
-<p>然后就有了这个……下面这个上一个版本写的《三国演义》。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/preview.png"
-                      alt="preview"
-                ></p>
-<h2 id="和上一个版本有什么区别？">和上一个版本有什么区别？</h2>
-<p>第一个版本我根据wiki算出每页大概能容纳多少字，然后做的，所以有的时候有一页不满或者字太多一页盛不下的情况。</p>
-<p>这个版本我给改成按行来写了，它会固定每行有几个字，然后粘贴上去。</p>
-<p>然后还修了一堆bug。</p>
-<h2 id="弱点">弱点</h2>
-<p>最恶心的地方在于中日韩文字比较宽，然而Mojang做的这个书还是按字符宽度决定每行能装下几个字。</p>
-<p>所以英语之类的语言需要改一下代码（具体写到GitHub README里面了）。</p>
-<p>而且有的地方有中英交替的地方就很难处理，有没有大佬pr一下？</p>
-<h2 id="效果">效果</h2>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules1.png"
-                      alt="我的叔叔于勒1"
-                ></p>
-<p>用新版本写的《我的叔叔于勒》。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules2.png"
-                      alt="我的叔叔于勒2"
-                ></p>
-<p>可以清楚看到一整页都写满了文字。</p>
-<h2 id="体验">体验</h2>
-<p><a class="link"   href="https://github.com/anzai249/minecraft-auto-book" >GitHub<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-<p>点个星星呗~</p>
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>开源</tag>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -3162,185 +3268,165 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>香港理工大学国际暑期学校经验分享与课程知识回顾</title>
-    <url>/archives/posts/115bdc53.html</url>
-    <content><![CDATA[<h1>PolyU International Summer School</h1>
-
+    <title>更新一下以前写的我的世界自动写书器</title>
+    <url>/archives/posts/aa51d9bd.html</url>
+    <content><![CDATA[
   <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>屯馬綫-&gt;屯門</p>
+      <p>建议</p>
 
     </div>
     <div class="notel-content">
-      <p>下一站，紅磡，乘客可以換乘東鐵綫。</p>
+      <p>别用它炸服真的我求你了。</p>
 
     </div>
   </div>
-<h2 id="准备工作">准备工作</h2>
-<h3 id="申请">申请</h3>
-<p>在<a class="link" href="https://www.polyu.edu.hk/summerschool/">这个网站<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>看到了理大正在招夏校学生，我也投了个。</a></p>
-<p>要求提供外语成绩和学校成绩单，实测雅思6.5(5.5)，双非院校均分84分就可以。我选到了喜欢的课程，人工智能与科幻（EIE1D03 Artificial Intelligence and Science Fiction）。</p>
-<h3 id="拿到Offer之后">拿到Offer之后</h3>
-<p>理大效率太高了吧，上午跟我要成绩单下午就给我offer。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="http://evan.beee.top/users/anzai/posts/polyu-summer-school/notice-of-offer.png" alt="offer邮件"></p>
-<p>学校会立即让你去搞学生签证，尽早准备：</p>
-<ul>
-<li>Offer</li>
-<li>ID995A表</li>
-<li>户口本扫描件</li>
-<li>身份证扫面件</li>
-<li>财产证明</li>
-</ul>
-<p>寄给学校然后申请电子签证。</p>
-<h3 id="拿到e-Visa之后">拿到e-Visa之后</h3>
-<p>拿着寄给你的资料和Offer还有身份证去出入境管理大厅办逗留（D）签，之后会印到港澳通行证背面。</p>
-<p>逗留签入境不能用闸机，所以每次去深圳回来都得走人工。</p>
-<h2 id="入境">入境</h2>
-<p>拿着Offer、e-Visa和护照备用，进去走闸机，出示通行证和身份证，告诉他你的名字，说你是学生，去上学，就可以了。</p>
-<p>他会给你个通关白条，很重要，不能丢，我每次出入境都会给他看这个，然后报道也要用。</p>
-<h2 id="签到入住">签到入住</h2>
-<p>拿着通行证啥的直接去何文田宿舍，何文田港铁站A1口出去就是。也可以坐巴士，线路很多。记得提前搞个八达通，很方便的（就是押金有点贵）。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/airport-bus.png" alt="机场巴士"></p>
-<p>学校提供住宿呜呜呜呜呜呜真好。</p>
-<p>宿管会让你签协议，一些规则什么的，签完记得拍个照。之后会给你个房卡，房卡保管好，别丢，直接上去就行。</p>
-<h2 id="报道">报道</h2>
-<p>第二天去学校报到领衣服，还送个小风扇。然后去Orientation，有答题环节和小游戏环节。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/polyu-building.png" alt="校园"></p>
-<h2 id="课程">课程</h2>
-<p>我选的课程是EIE1D03 Artificial Intelligence and Science Fiction，这里是知识回顾，懒得看可以直接跳过。</p>
-<h3 id="课程结构">课程结构</h3>
-<ul>
-<li>Introduction</li>
-<li>Basic AI problems and approaches</li>
-<li>Philosophical issues</li>
-<li>AI and science fiction</li>
-<li>Expert systems and fuzzy systems</li>
-<li>Robots and robotics</li>
-<li>Artificial neural networks</li>
-<li>Evolutionary computation</li>
-<li>Natural language processing and machine translation</li>
-<li>AI in finance and investment</li>
-<li>AI in games</li>
-<li>AI in medicine</li>
-<li>Future challenges</li>
-</ul>
-<h3 id="评分">评分</h3>
-<p>Continuous Assessment (100%):</p>
-<ul>
-<li>作业 (40%): 撰写报告 36% + 实操 3% + 实验室到场参观 1%</li>
-<li>演讲 (10%)</li>
-<li>两个测试 (20%)</li>
-<li>期末测试 (30%)</li>
-</ul>
-<h3 id="什么是人工智能">什么是人工智能</h3>
-<p>1955年John McCarthy的定义。自己查去！</p>
-<p>衡量&amp;区分方式：Strong and weak AI、图灵测试。</p>
-<h3 id="AI的哲学问题">AI的哲学问题</h3>
-<p>主要内容是意识、自由意志和伦理问题。</p>
-<p>Isaac Asimov的机器人三定律：</p>
-<ul>
-<li>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</li>
-<li>A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.</li>
-<li>A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.</li>
-</ul>
-<h3 id="搜索算法">搜索算法</h3>
-<h4 id="深度优先-广度优先">深度优先&amp;广度优先</h4>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f1.png" alt="search-f1"></p>
-<p>这个题里，S是起点，G是终点。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f1-ans.png" alt="search-f1-ans"></p>
-<p>左边是深度优先，右边是广度优先。</p>
-<p>深度优先使用更少的内存，不过它比较看运气，不会把整个搜索空间全部对比。</p>
-<p>广度优先不会被困在探索死胡同中（比如很长的子树），如果有多个解法，他会找到花费最小的结果，不过代价是要移动相对较多次。</p>
-<h4 id="A-search">A* search</h4>
-<p>来看看这个题</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f2.png" alt="search-f2"></p>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="18.762ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 8293 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mo" transform="translate(550,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(939,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1539,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(2205.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(3261.6,0)"><path data-c="1D454" d="M311 43Q296 30 267 15T206 0Q143 0 105 45T66 160Q66 265 143 353T314 442Q361 442 401 394L404 398Q406 401 409 404T418 412T431 419T447 422Q461 422 470 413T480 394Q480 379 423 152T363 -80Q345 -134 286 -169T151 -205Q10 -205 10 -137Q10 -111 28 -91T74 -71Q89 -71 102 -80T116 -111Q116 -121 114 -130T107 -144T99 -154T92 -162L90 -164H91Q101 -167 151 -167Q189 -167 211 -155Q234 -144 254 -122T282 -75Q288 -56 298 -13Q311 35 311 43ZM384 328L380 339Q377 350 375 354T369 368T359 382T346 393T328 402T306 405Q262 405 221 352Q191 313 171 233T151 117Q151 38 213 38Q269 38 323 108L331 118L384 328Z"></path></g><g data-mml-node="mo" transform="translate(3738.6,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(4127.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(4727.6,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mo" transform="translate(5338.8,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(6339,0)"><path data-c="210E" d="M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z"></path></g><g data-mml-node="mo" transform="translate(6915,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(7304,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(7904,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></svg></mjx-container></p>
-<p>答案：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f2-ans.png" alt="search-f2-ans"></p>
-<p>最小的<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="4.362ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 1928 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mo" transform="translate(550,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(939,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1539,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></svg></mjx-container>是9，路径为SBFG。</p>
-<h4 id="Minimax">Minimax</h4>
-<p>比大小游戏，直接上答案。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/search-f3-ans.png" alt="search-f3-ans"></p>
-<h3 id="模糊逻辑">模糊逻辑</h3>
-<p>不同于布尔，模糊逻辑一般由多种因素决定。</p>
-<p>看看这道题：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/fuzzy-f1.png" alt="fuzzy-f1"></p>
-<p><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.054ex" height="1.025ex" role="img" focusable="false" viewBox="0 -442 466 453"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D452" d="M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z"></path></g></g></g></svg></mjx-container>和<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.231ex" height="1.595ex" role="img" focusable="false" viewBox="0 -694 986 705"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"></path></g><g data-mml-node="mi" transform="translate(520,0)"><path data-c="1D452" d="M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z"></path></g></g></g></svg></mjx-container>都有两个模糊集，<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.699ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 751 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g></g></g></svg></mjx-container>和<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>，所以：</p>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="13.566ex" height="1.731ex" role="img" focusable="false" viewBox="0 -683 5996.1 765"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D440" d="M289 629Q289 635 232 637Q208 637 201 638T194 648Q194 649 196 659Q197 662 198 666T199 671T201 676T203 679T207 681T212 683T220 683T232 684Q238 684 262 684T307 683Q386 683 398 683T414 678Q415 674 451 396L487 117L510 154Q534 190 574 254T662 394Q837 673 839 675Q840 676 842 678T846 681L852 683H948Q965 683 988 683T1017 684Q1051 684 1051 673Q1051 668 1048 656T1045 643Q1041 637 1008 637Q968 636 957 634T939 623Q936 618 867 340T797 59Q797 55 798 54T805 50T822 48T855 46H886Q892 37 892 35Q892 19 885 5Q880 0 869 0Q864 0 828 1T736 2Q675 2 644 2T609 1Q592 1 592 11Q592 13 594 25Q598 41 602 43T625 46Q652 46 685 49Q699 52 704 61Q706 65 742 207T813 490T848 631L654 322Q458 10 453 5Q451 4 449 3Q444 0 433 0Q418 0 415 7Q413 11 374 317L335 624L267 354Q200 88 200 79Q206 46 272 46H282Q288 41 289 37T286 19Q282 3 278 1Q274 0 267 0Q265 0 255 0T221 1T157 2Q127 2 95 1T58 0Q43 0 39 2T35 11Q35 13 38 25T43 40Q45 46 65 46Q135 46 154 86Q158 92 223 354T289 629Z"></path></g><g data-mml-node="mo" transform="translate(1328.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(2384.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(2884.6,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mn" transform="translate(3662.6,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mo" transform="translate(4440.3,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(5496.1,0)"><path data-c="34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></g></g></g></svg></mjx-container></p>
-<p>然后output可以是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.699ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 751 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g></g></g></svg></mjx-container>、<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.636ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 723 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44D" d="M58 8Q58 23 64 35Q64 36 329 334T596 635L586 637Q575 637 512 637H500H476Q442 637 420 635T365 624T311 598T266 548T228 469Q227 466 226 463T224 458T223 453T222 450L221 448Q218 443 202 443Q185 443 182 453L214 561Q228 606 241 651Q249 679 253 681Q256 683 487 683H718Q723 678 723 675Q723 673 717 649Q189 54 188 52L185 49H274Q369 50 377 51Q452 60 500 100T579 247Q587 272 590 277T603 282H607Q628 282 628 271Q547 5 541 2Q538 0 300 0H124Q58 0 58 8Z"></path></g></g></g></svg></mjx-container>或<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>，那么答案很明显如下：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/fuzzy-f1-ans.png" alt="fuzzy-f1-ans"></p>
-<h3 id="神经网络">神经网络</h3>
-<p>人工神经网络（ANN）是由简单的处理元素、单元或节点组成的互连组合，其功能松散地基于动物神经元。网络的处理能力存储在单元间的连接强度或权重中，这些强度或权重是通过适应一组训练模式或从一组训练模式中学习的过程获得的</p>
-<p>《奥特曼大迷宫》（05后知道这个吗？）</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ann-f1.png" alt="ann-f1"></p>
-<p>输入三个值，与箭头上的数字相乘，<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.593ex" height="1.532ex" role="img" focusable="false" viewBox="0 -677 704 677"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D447" d="M40 437Q21 437 21 445Q21 450 37 501T71 602L88 651Q93 669 101 677H569H659Q691 677 697 676T704 667Q704 661 687 553T668 444Q668 437 649 437Q640 437 637 437T631 442L629 445Q629 451 635 490T641 551Q641 586 628 604T573 629Q568 630 515 631Q469 631 457 630T439 622Q438 621 368 343T298 60Q298 48 386 46Q418 46 427 45T436 36Q436 31 433 22Q429 4 424 1L422 0Q419 0 415 0Q410 0 363 1T228 2Q99 2 64 0H49Q43 6 43 9T45 27Q49 40 55 46H83H94Q174 46 189 55Q190 56 191 56Q196 59 201 76T241 233Q258 301 269 344Q339 619 339 625Q339 630 310 630H279Q212 630 191 624Q146 614 121 583T67 467Q60 445 57 441T43 437H40Z"></path></g></g></g></svg></mjx-container>是阈值，过了就是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.131ex" height="1.507ex" role="img" focusable="false" viewBox="0 -666 500 666"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>，不过就是<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.131ex" height="1.557ex" role="img" focusable="false" viewBox="0 -666 500 688"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path></g></g></g></svg></mjx-container>。</p>
-<p>答案：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ann-f1-ans.png" alt="ann-f1-ans"></p>
-<h3 id="演化计算">演化计算</h3>
-<p>一代更比一代强。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1.png" alt="ec-f1"></p>
-<p>(a)就是算概率</p>
-<p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -2.7ex;" xmlns="http://www.w3.org/2000/svg" width="13.071ex" height="5.824ex" role="img" focusable="false" viewBox="0 -1381 5777.3 2574.3"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g><g data-mml-node="mi" transform="translate(751,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(1373.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mfrac" transform="translate(2429.6,0)"><g data-mml-node="mrow" transform="translate(1226.4,676)"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mi" transform="translate(550,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="mrow" transform="translate(220,-908)"><g data-mml-node="munderover"><g data-mml-node="mo"><path data-c="2211" d="M61 748Q64 750 489 750H913L954 640Q965 609 976 579T993 533T999 516H979L959 517Q936 579 886 621T777 682Q724 700 655 705T436 710H319Q183 710 183 709Q186 706 348 484T511 259Q517 250 513 244L490 216Q466 188 420 134T330 27L149 -187Q149 -188 362 -188Q388 -188 436 -188T506 -189Q679 -189 778 -162T936 -43Q946 -27 959 6H999L913 -249L489 -250Q65 -250 62 -248Q56 -246 56 -239Q56 -234 118 -161Q186 -81 245 -11L428 206Q428 207 242 462L57 717L56 728Q56 744 61 748Z"></path></g><g data-mml-node="TeXAtom" transform="translate(1089,477.1) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path data-c="30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z" transform="translate(500,0)"></path></g></g><g data-mml-node="TeXAtom" transform="translate(1089,-285.4) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g><g data-mml-node="mi" transform="translate(2012.8,0)"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mi" transform="translate(2562.8,0)"><path data-c="1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g></g><rect width="3107.8" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container></p>
-<p>答案：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1-ans1.png" alt="ec-f1-ans1"></p>
-<p>(b)<s>复分解，双交换，价……</s></p>
-<p>等等走错片场了。把两个DNA从不同的地方交换，之后的情况就是跳过这个再往后推，然后再交换。（我不是学生物的这怎么解释啊，生孩子的时候染色体的那个交换叫啥来着？）</p>
-<p>©每种情况改一位就行。</p>
-<p>答案：</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ec-f1-ans2.png" alt="ec-f1-ans2"></p>
-<h3 id="自然语言处理">自然语言处理</h3>
-<p>谁会语法啊？</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/nlp-f1.png" alt="nlp-f1"></p>
-<p>(i)照着上面的规则把这句子给拆了，有点绕。</p>
-<p>(ii)就是按照拆开的语法看看哪句话可以对应这个语法。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/nlp-f1-ans.png" alt="nlp-f1-ans"></p>
-<h2 id="旅游">旅游</h2>
-<p>我去了大屿山和大澳，大巴车、缆车和午饭的钱已经包含在费用里了，所以去那里不用多交一分钱。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/lantau-peak-doraemon.png" alt="大屿山顶的哆啦A梦"></p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/lantau-buddha.png" alt="天坛大佛"></p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/tai-o.png" alt="大澳的船上拍的"></p>
-<h2 id="手工">手工</h2>
-<p>我选了mini bus sign workshop。</p>
-<p>我是要饭的。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/bus-sign.png" alt="巴士牌子"></p>
-<h2 id="吃什么？">吃什么？</h2>
-<p>理大食堂蛮便宜，一顿40块就可以吃饱，烧腊蛮多，可以吃撑，略甜。汉堡薯条30多块，吃个六成饱吧，味道不可能有外面好，都这么便宜了还要什么自行车。咖喱也蛮可以。30多块，比汉堡量大一些。</p>
-<p>肯麦如果点汉堡的话会贵很多，如果牛肉堡套餐的话要60+，肯德基的米饭很划算，30-40块就能吃很饱，还是那句话，加了汉堡价格立涨20。有一次我去麦当劳吃早餐，点好餐才发现前面有80多单，我一想，这惨了，不过效率蛮高，15分钟就出餐了，80多单啊！</p>
-<p>尖东的沙冰很好吃，K11的-2层有个卖饮品的地方，一杯沙冰40块，量很大，性价比拉满，买出来去维港旁边的那个公园看电视，爽死了！</p>
-<p>维多利亚公园有个买吃的的铺子，那里的炒饭贼香，有中国菜，还有东南亚菜，50多块钱一碗，香死了！！吃完直接去旁边的商场散步，超放松！</p>
-<p>我买了一桶泡面，打算那顿15块解决，结果发现里面没有叉子，又去惠康买了一盒叉子，花了16，笑死了，叉子比饭都贵。</p>
-<h2 id="感受">感受</h2>
-<p>太热了。</p>
-<p>这地方就算是学生都能感受到一股压力，没课也会觉得市民都在赶时间，还有高物价带来的经济压力。本地人不会太热情，不会像大陆人这样热情，真的需要适应一段时间。</p>
-<p>不过用一个月的时间适应这些对我来说真的足够了，要是多待一阵我估计连广东话都会说了。离开的时候那叫一个不舍。</p>
-<p>体验到理大的教学了，我只能说国际化的教育在那个地方已经极为深刻了，全英文讲课，演讲也要英文，校园里随处可见西方面孔。技术也很先进，采用的大部分都是最先进的教学软件（然而在大陆都没法用），设备也很方便。</p>
-<p>图书馆里有公用电脑，登录自己的NetID就会获得自己的私人空间。然后还给你100GB的校园网网盘，超级方便。校园网还不用花钱。校园网里部署了生成式AI门户站，可以在里面用ChatGPT、Stable Diffusion之类的工具。还有学校自己开发的AI演讲评价器、AI文章评价器，优化自己的作业真的很方便。</p>
-<p>以尖东沙冰结尾吧。</p>
-<p><img lazyload="" src="/images/loading.svg" data-src="https://evan.beee.top/users/anzai/posts/polyu-summer-school/ice.png" alt="尖东沙冰"></p>
+<h1>minecraft-auto-book</h1>
+<h2 id="我为啥要写这个？">我为啥要写这个？</h2>
+<p>去年暑假玩群友服务器，想丰富一下藏书，然后还懒得手抄。</p>
+<p>然后就有了这个……下面这个上一个版本写的《三国演义》。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/preview.png"
+                      alt="preview"
+                ></p>
+<h2 id="和上一个版本有什么区别？">和上一个版本有什么区别？</h2>
+<p>第一个版本我根据wiki算出每页大概能容纳多少字，然后做的，所以有的时候有一页不满或者字太多一页盛不下的情况。</p>
+<p>这个版本我给改成按行来写了，它会固定每行有几个字，然后粘贴上去。</p>
+<p>然后还修了一堆bug。</p>
+<h2 id="弱点">弱点</h2>
+<p>最恶心的地方在于中日韩文字比较宽，然而Mojang做的这个书还是按字符宽度决定每行能装下几个字。</p>
+<p>所以英语之类的语言需要改一下代码（具体写到GitHub README里面了）。</p>
+<p>而且有的地方有中英交替的地方就很难处理，有没有大佬pr一下？</p>
+<h2 id="效果">效果</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules1.png"
+                      alt="我的叔叔于勒1"
+                ></p>
+<p>用新版本写的《我的叔叔于勒》。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/minecraft-auto-book/Jules2.png"
+                      alt="我的叔叔于勒2"
+                ></p>
+<p>可以清楚看到一整页都写满了文字。</p>
+<h2 id="体验">体验</h2>
+<p><a class="link"   href="https://github.com/anzai249/minecraft-auto-book" >GitHub<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+<p>点个星星呗~</p>
 ]]></content>
       <categories>
-        <category>卷</category>
+        <category>睡大觉</category>
       </categories>
       <tags>
-        <tag>旅游</tag>
-        <tag>留学</tag>
+        <tag>开源</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
-    <title>近况说明</title>
-    <url>/archives/posts/c469b857.html</url>
-    <content><![CDATA[<h2 id="近况">近况</h2>
-<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
-<h2 id="计划">计划</h2>
-<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
-<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
-<p>应该是没了，之后想起来再补充好了。</p>
+    <title>开开小米SU7</title>
+    <url>/archives/posts/c9d679e0.html</url>
+    <content><![CDATA[
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>emmm</p>
+
+    </div>
+    <div class="notel-content">
+      <p>我是不懂车的，下面都是些个人体验日记，不作为购买意见。专业意见请咨询专业人员。<br>
+封面是<a class="link"   href="https://gamemcu.com/su7/" >https://gamemcu.com/su7/<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>感兴趣的同学可以去支持一下。</p>
+
+    </div>
+  </div>
+<h1>小米SU7试驾体验</h1>
+<h2 id="预约等了好久">预约等了好久</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/6406F660ED29BAFDECDDB655CBEA2312.webp"
+                      alt="几个月前预约"
+                ></p>
+<p>这张是车刚出来的时候拍的，位置是郑州正弘城-1楼。当时人满为患。拍照技术比较菜，我把原因归咎于人很多（滑稽）。</p>
+<p>当时就约了试驾，然后5月30号才开上，真的好火。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/750039BC6C65C54EA1C8983583B991B9.webp"
+                      alt="梗图"
+                ></p>
+<p>梗图一张</p>
+<h2 id="外观">外观</h2>
+<p>有豪车那味了。它的玻璃是没有框的，我上车的时候怕给碰碎了。</p>
+<p>然后那个门，往地上投影，手抖拍糊了呜呜呜。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1971.webp"
+                      alt="投影"
+                ></p>
+<h2 id="车机大屏">车机大屏</h2>
+<p>领车员哥哥（？就暂时叫这个名字吧）先介绍了一下这个东西有多流畅。（其实我觉得是MIUI套壳）</p>
+<p>支持三列应用同时查看。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1968.webp"
+                      alt="360度的摄像头"
+                ></p>
+<p>这个360度的摄像好方便欸，连车底都能看到，停车方便了好多。想知道车底的视角怎么实现的。</p>
+<p>（其实有自动泊车）</p>
+<p>最后我还好奇车机能不能刷机毕竟是个MIUI（滑稽）</p>
+<h2 id="小爱同学">小爱同学</h2>
+<p>能识别出指令是谁发出的，主驾叫它它就说“主驾请讲。”，副驾叫它它就说“副驾请讲。”</p>
+<p>可以一句话发多个指令，也可以连续问，比如让音乐软件打开某个页面并播放。</p>
+<p>调座椅、方向盘、后视镜高度蛮方便的，一句话。</p>
+<h2 id="四驱">四驱</h2>
+<p>动力很足，油门踩下去会有模拟出的引擎声音，嗡！嗡！</p>
+<p>可以自定义开关前后马达，可以把前面的关了当后驱车用，也可以把后面的关了当前驱车用。（如果都关了……）</p>
+<h2 id="行驶模式">行驶模式</h2>
+<p>有休闲模式，运动模式之类的情景，体验到主要的区别就是加速快慢。还能自定义。</p>
+<p>加速快的时候有很强的推背感，不过刹车挺软的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1969.webp"
+                      alt="两辆"
+                ></p>
+<p>两辆一起跑，偶遇的。</p>
+<h2 id="座椅">座椅</h2>
+<p>前排座椅可以通风，后背不至于出很多汗。</p>
+<p>靠枕里面有音响，导航语音会在里面播放。</p>
+<p>舒不舒适感觉不出来，我这人比较能凑合。</p>
+<p>急转弯的时候腰部有气囊，防止惯性带来的危害，转弯不用怕身体倾斜了。</p>
+<h2 id="尾翼">尾翼</h2>
+<p>可以手动调节尾翼高度。</p>
+<p>也可以自动调节尾翼和空气悬挂，对场景进行一定程度的适配，增强一下抓地力。（我没往快了开，怕创车）</p>
+<h2 id="导航（重点不在导航吧）">导航（重点不在导航吧）</h2>
+<p>主驾驶前面挡风玻璃会有HUD投影，把地图投到那里，蛮方便的。</p>
+<p>MAX版有红外，可以测到最远200米的车、红绿灯啥的（真心怀疑它在复杂交通条件下的精确度）</p>
+<p>Unreal Engine全用这了是吧。</p>
+<h2 id="方向盘旁边的控制杆">方向盘旁边的控制杆</h2>
+<p>它是那种，你掰过去会自动回弹回来，然后触发功能（如转向），不需要你手动掰回来。开惯了需要手动掰回来那种，这种感觉反馈有点差，容易让我不知道是否打了转向。（不过蛮灵敏的）</p>
+<p>右边的控制杆是用来换挡的，习惯于雨刷器的控制了（没准哪天下雨我习惯性按一下，然后车停高速上了）</p>
+<h2 id="回去了">回去了</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/su7/autoparking.webp"
+                      alt="自动泊车"
+                ></p>
+<p>开车的时候不好录视频，回去自动泊车才录了段。</p>
+<h2 id="总结">总结</h2>
+<p>好玩。</p>
 ]]></content>
       <categories>
-        <category>卷</category>
+        <category>睡大觉</category>
       </categories>
       <tags>
-        <tag>英语</tag>
+        <tag>车</tag>
       </tags>
   </entry>
   <entry>
@@ -3394,6 +3480,23 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </categories>
       <tags>
         <tag>Ps</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近况说明</title>
+    <url>/archives/posts/c469b857.html</url>
+    <content><![CDATA[<h2 id="近况">近况</h2>
+<p>近期一直在准备雅思考试，当时因为六级忘记带身份证了一时冲动就报上了，作为一个英语苦手当然要好好复习了，所以我日日夜夜复习中，基本没空发文章。</p>
+<h2 id="计划">计划</h2>
+<p>我打算考完雅思之后继续捡起虚幻5和C++的学习，然后想给博客开一个“每周名人”类的名人传记板块，具体怎么办等我考完再说:)</p>
+<p>不过我可能也可以分享一些雅思的复习心得，前提是我要考好。</p>
+<p>应该是没了，之后想起来再补充好了。</p>
+]]></content>
+      <categories>
+        <category>卷</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
       </tags>
   </entry>
   <entry>
@@ -3699,106 +3802,143 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>开开小米SU7</title>
-    <url>/archives/posts/c9d679e0.html</url>
-    <content><![CDATA[
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>emmm</p>
-
-    </div>
-    <div class="notel-content">
-      <p>我是不懂车的，下面都是些个人体验日记，不作为购买意见。专业意见请咨询专业人员。<br>
-封面是<a class="link"   href="https://gamemcu.com/su7/" >https://gamemcu.com/su7/<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i>感兴趣的同学可以去支持一下。</p>
-
-    </div>
-  </div>
-<h1>小米SU7试驾体验</h1>
-<h2 id="预约等了好久">预约等了好久</h2>
-<p><img  
+    <title>syokupan_natto 作品鉴赏</title>
+    <url>/archives/posts/e3aeb0a4.html</url>
+    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
+<p>以下照片均转自，侵删</p>
+<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/6406F660ED29BAFDECDDB655CBEA2312.webp"
-                      alt="几个月前预约"
-                ></p>
-<p>这张是车刚出来的时候拍的，位置是郑州正弘城-1楼。当时人满为患。拍照技术比较菜，我把原因归咎于人很多（滑稽）。</p>
-<p>当时就约了试驾，然后5月30号才开上，真的好火。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/750039BC6C65C54EA1C8983583B991B9.webp"
-                      alt="梗图"
-                ></p>
-<p>梗图一张</p>
-<h2 id="外观">外观</h2>
-<p>有豪车那味了。它的玻璃是没有框的，我上车的时候怕给碰碎了。</p>
-<p>然后那个门，往地上投影，手抖拍糊了呜呜呜。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1971.webp"
-                      alt="投影"
-                ></p>
-<h2 id="车机大屏">车机大屏</h2>
-<p>领车员哥哥（？就暂时叫这个名字吧）先介绍了一下这个东西有多流畅。（其实我觉得是MIUI套壳）</p>
-<p>支持三列应用同时查看。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1968.webp"
-                      alt="360度的摄像头"
-                ></p>
-<p>这个360度的摄像好方便欸，连车底都能看到，停车方便了好多。想知道车底的视角怎么实现的。</p>
-<p>（其实有自动泊车）</p>
-<p>最后我还好奇车机能不能刷机毕竟是个MIUI（滑稽）</p>
-<h2 id="小爱同学">小爱同学</h2>
-<p>能识别出指令是谁发出的，主驾叫它它就说“主驾请讲。”，副驾叫它它就说“副驾请讲。”</p>
-<p>可以一句话发多个指令，也可以连续问，比如让音乐软件打开某个页面并播放。</p>
-<p>调座椅、方向盘、后视镜高度蛮方便的，一句话。</p>
-<h2 id="四驱">四驱</h2>
-<p>动力很足，油门踩下去会有模拟出的引擎声音，嗡！嗡！</p>
-<p>可以自定义开关前后马达，可以把前面的关了当后驱车用，也可以把后面的关了当前驱车用。（如果都关了……）</p>
-<h2 id="行驶模式">行驶模式</h2>
-<p>有休闲模式，运动模式之类的情景，体验到主要的区别就是加速快慢。还能自定义。</p>
-<p>加速快的时候有很强的推背感，不过刹车挺软的。</p>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/IMG_1969.webp"
-                      alt="两辆"
-                ></p>
-<p>两辆一起跑，偶遇的。</p>
-<h2 id="座椅">座椅</h2>
-<p>前排座椅可以通风，后背不至于出很多汗。</p>
-<p>靠枕里面有音响，导航语音会在里面播放。</p>
-<p>舒不舒适感觉不出来，我这人比较能凑合。</p>
-<p>急转弯的时候腰部有气囊，防止惯性带来的危害，转弯不用怕身体倾斜了。</p>
-<h2 id="尾翼">尾翼</h2>
-<p>可以手动调节尾翼高度。</p>
-<p>也可以自动调节尾翼和空气悬挂，对场景进行一定程度的适配，增强一下抓地力。（我没往快了开，怕创车）</p>
-<h2 id="导航（重点不在导航吧）">导航（重点不在导航吧）</h2>
-<p>主驾驶前面挡风玻璃会有HUD投影，把地图投到那里，蛮方便的。</p>
-<p>MAX版有红外，可以测到最远200米的车、红绿灯啥的（真心怀疑它在复杂交通条件下的精确度）</p>
-<p>Unreal Engine全用这了是吧。</p>
-<h2 id="方向盘旁边的控制杆">方向盘旁边的控制杆</h2>
-<p>它是那种，你掰过去会自动回弹回来，然后触发功能（如转向），不需要你手动掰回来。开惯了需要手动掰回来那种，这种感觉反馈有点差，容易让我不知道是否打了转向。（不过蛮灵敏的）</p>
-<p>右边的控制杆是用来换挡的，习惯于雨刷器的控制了（没准哪天下雨我习惯性按一下，然后车停高速上了）</p>
-<h2 id="回去了">回去了</h2>
-<p><img  
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
+                     
+                >
+<img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/su7/autoparking.webp"
-                      alt="自动泊车"
-                ></p>
-<p>开车的时候不好录视频，回去自动泊车才录了段。</p>
-<h2 id="总结">总结</h2>
-<p>好玩。</p>
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
+                     
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
+                     
+                >
 ]]></content>
       <categories>
         <category>睡大觉</category>
       </categories>
       <tags>
-        <tag>车</tag>
+        <tag>动画</tag>
+        <tag>美女</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【虚幻引擎5 III】做个翻卡片连连看</title>
+    <url>/archives/posts/167165dd.html</url>
+    <content><![CDATA[<h2 id="游戏规则">游戏规则</h2>
+<p>电脑随机生成含有偶数个卡片的矩阵，玩家点击卡片，卡片翻转展示正面的图案，翻开下一张卡片时，如果两张卡片图案相同，则消除，图片不同则两张卡片翻转会原来的状态。</p>
+<pre class="mermaid">graph LR
+    A[翻开第一个卡片] --> B[储存第一个卡片的ID];
+    B --> C[翻开第二个卡片];
+    C --> D{两张卡片ID是否相同?};
+    D -- Yes --> E[卡片消除];
+    D -- No --> F[两张卡片翻转回去];
+    F --> A;</pre>
+<h2 id="实现">实现</h2>
+<p>篇幅原因只展示关键代码。</p>
+<h3 id="卡片">卡片</h3>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.h</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">ACard</span>();</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flip</span><span class="params">()</span></span>; <span class="comment">// 改变翻转状态</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span>; <span class="comment">// 翻转动画调用</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">FlipOver</span><span class="params">()</span></span>; <span class="comment">// 翻转结束，其实用Finished这样的词更好</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">bool</span> <span class="title">IsFlipped</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回是否翻转</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function">FString <span class="title">GetCardID</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回卡片ID（图案）</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span>; <span class="comment">// 指定卡片ID</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UPROPERTY</span>(EditAnywhere)</span><br><span class="line">        UStaticMeshComponent* CardMesh; <span class="comment">// 卡片模型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">	<span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">BeginPlay</span><span class="params">()</span> <span class="keyword">override</span></span>; <span class="comment">// 开始播放</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">bool</span> bIsFlipped; <span class="comment">// 是否翻转的bool</span></span><br><span class="line">    FString CardID; <span class="comment">// 卡片ID</span></span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.cpp</span></span><br><span class="line"></span><br><span class="line">ACard::<span class="built_in">ACard</span>()</span><br><span class="line">&#123;</span><br><span class="line"> 	<span class="comment">// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don&#x27;t need it.</span></span><br><span class="line">	PrimaryActorTick.bCanEverTick = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">	CardMesh = <span class="built_in">CreateDefaultSubobject</span>&lt;UStaticMeshComponent&gt;(<span class="built_in">TEXT</span>(<span class="string">&quot;Card Mesh&quot;</span>));</span><br><span class="line">	RootComponent = CardMesh;</span><br><span class="line"></span><br><span class="line">	bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Called when the game starts or when spawned</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flip</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;Filp state changed&quot;</span>));</span><br><span class="line">	<span class="keyword">if</span> (!bIsFlipped) <span class="comment">// 简单的判断</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 传入一个不断变化的Z之后给它赋值到卡片的旋转上</span></span><br><span class="line">	FRotator CardRotator = CardMesh-&gt;<span class="built_in">GetComponentRotation</span>();</span><br><span class="line">	CardRotator.Yaw = Z;</span><br><span class="line">	CardMesh-&gt;<span class="built_in">SetWorldRotation</span>(CardRotator);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::FlipOver</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ACardGameMode* GameModeRef = <span class="literal">nullptr</span>; <span class="comment">// 定义和获得游戏模式</span></span><br><span class="line">	<span class="keyword">if</span> (!GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		UWorld* World = <span class="built_in">GetWorld</span>();</span><br><span class="line">		<span class="keyword">if</span> (World)</span><br><span class="line">		&#123;</span><br><span class="line">			AGameModeBase* GameMode = UGameplayStatics::<span class="built_in">GetGameMode</span>(World);</span><br><span class="line">			GameModeRef = <span class="built_in">Cast</span>&lt;ACardGameMode&gt;(GameMode);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		GameModeRef-&gt;<span class="built_in">CardClicked</span>(<span class="keyword">this</span>); <span class="comment">// 调用游戏模式里的点击卡片函数</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ACard::IsFlipped</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> bIsFlipped;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">FString <span class="title">ACard::GetCardID</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> CardID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CardID = NewID;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>用蓝方块代替卡片，再弄一个灯光，之后告诉你目的。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card1.png"
+                     
+                >
+<p>操作灯光。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card2.png"
+                     
+                >
+<p>卡片翻转动画，需要先判断是否处于正在旋转的状态，如果不弄这个可能会出现怪怪的问题，比如说快速点击同一个卡片，它自己和自己匹配上也能消除/doge。然后就是判断它是否已经旋转，已经旋转的点击之后倒放，翻回来，没旋转的正放，旋转。Finished之后调用FlipOver()去GameMode里进行逻辑判断。</p>
+<p>（然后我刚开始把Is Flipped的if连反了）</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card3.png"
+                     
+                >
+<h3 id="游戏模式">游戏模式</h3>
+<p>.h不分享了，直接.cpp</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.cpp</span></span><br><span class="line"></span><br><span class="line">ACardGameMode::<span class="built_in">ACardGameMode</span>()</span><br><span class="line">&#123;</span><br><span class="line">    DefaultPawnClass = <span class="literal">nullptr</span>;</span><br><span class="line">    FlippedCardNum = <span class="number">0</span>;</span><br><span class="line">    CardClass = ACard::<span class="built_in">StaticClass</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 游戏开始时调用 StartGame() 函数</span></span><br><span class="line">    <span class="built_in">StartGame</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::StartGame</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    CardPatterns.<span class="built_in">Empty</span>(); <span class="comment">// 这俩是TArray，前者是存卡片ID（图案，FString）的，后者是存卡片（ACard*）的</span></span><br><span class="line">    CardGrid.<span class="built_in">Empty</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (int32 i = <span class="number">0</span>; i &lt; <span class="number">8</span>; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        FString CardPattern = FString::<span class="built_in">Printf</span>(<span class="built_in">TEXT</span>(<span class="string">&quot;Pattern_%d&quot;</span>), i); <span class="comment">// 生成ID</span></span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    CardPatterns.<span class="built_in">Sort</span>([](<span class="type">const</span> FString&amp; A, <span class="type">const</span> FString&amp; B) &#123; <span class="comment">// 打乱ID</span></span><br><span class="line">        <span class="keyword">return</span> FMath::<span class="built_in">RandBool</span>();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="type">const</span> int32 NumRows = <span class="number">4</span>; <span class="comment">// 行列，记得乘出来是个偶数，不然最后会剩一个</span></span><br><span class="line">    <span class="type">const</span> int32 NumCols = <span class="number">4</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (CardClass) <span class="comment">// 判断一下给的卡片子类是否存在（不存在引擎会炸，别问我怎么知道的）</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (int32 Row = <span class="number">0</span>; Row &lt; NumRows; ++Row)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (int32 Col = <span class="number">0</span>; Col &lt; NumCols; ++Col)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="function">FTransform <span class="title">SpawnTransform</span><span class="params">(FRotator::ZeroRotator, FVector(<span class="number">0.00f</span>, Row * <span class="number">100.0f</span>, <span class="number">50</span> + Col * <span class="number">100.0f</span>), FVector::OneVector)</span></span>; <span class="comment">// 分配坐标</span></span><br><span class="line">                ACard* NewCard = <span class="built_in">GetWorld</span>()-&gt;<span class="built_in">SpawnActor</span>&lt;ACard&gt;(CardClass, SpawnTransform.<span class="built_in">GetLocation</span>(), FRotator::ZeroRotator); <span class="comment">// 生成</span></span><br><span class="line">                NewCard-&gt;<span class="built_in">SetCardID</span>(CardPatterns[Row * NumCols + Col]); <span class="comment">// 分配ID</span></span><br><span class="line">                CardGrid.<span class="built_in">Add</span>(NewCard); <span class="comment">// 放到卡片序列里</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::CardClicked</span><span class="params">(ACard* ClickedCard)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;%s&quot;</span>), *ClickedCard-&gt;<span class="built_in">GetCardID</span>());</span><br><span class="line">    <span class="keyword">if</span> (ClickedCard-&gt;<span class="built_in">IsFlipped</span>()) <span class="comment">// 判断它是否已经翻过来了，因为这个是在最后调用的，所以要反着写。</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (FlippedCardNum &lt; <span class="number">1</span>) <span class="comment">// 原理同上，1的时候点击才会达到翻开两个消除。</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum++;</span><br><span class="line">            <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">            MemoryCard = ClickedCard; <span class="comment">// 翻开一个的时候把它记下来</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum = <span class="number">0</span>; <span class="comment">// 消除了，可以初始化翻开的卡片数</span></span><br><span class="line">            <span class="keyword">if</span> (MemoryCard-&gt;<span class="built_in">GetCardID</span>() == ClickedCard-&gt;<span class="built_in">GetCardID</span>()) <span class="comment">// 两个是否一样</span></span><br><span class="line">            &#123;</span><br><span class="line">                ClickedCard-&gt;<span class="built_in">Destroy</span>(); <span class="comment">// 一样就消了</span></span><br><span class="line">                MemoryCard-&gt;<span class="built_in">Destroy</span>();</span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>; <span class="comment">// 清掉记下来的卡片</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">CardFilp</span>(ClickedCard, MemoryCard); <span class="comment">// 不一样就把两个都翻回去，这个函数在下面那张图里</span></span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        FlippedCardNum--; <span class="comment">// 如果卡片是翻过来的，那么把它翻回去</span></span><br><span class="line">        <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">        MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>这是CardFilp()，一次性把这俩卡都翻回去。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode1.png"
+                     
+                >
+<p>要把这里指定为卡的子类，不然上面的if(CardClass)过不去。</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode2.png"
+                     
+                >
+<h3 id="其他">其他</h3>
+<p>需要写一个允许监听鼠标点击和悬停事件的Controller，这里不多赘述。</p>
+<p>没有美术师，所以没有模型和图案。判断图案全靠输出日志。如果想加图案也不难，直接往Card类里塞Mesh就行了。</p>
+<h2 id="效果">效果</h2>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/ok.gif"
+                     
+                >]]></content>
+      <categories>
+        <category>卷</category>
+        <category>虚幻5学习笔记</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>虚幻引擎</tag>
       </tags>
   </entry>
   <entry>
@@ -3947,71 +4087,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
-    <title>syokupan_natto 作品鉴赏</title>
-    <url>/archives/posts/e3aeb0a4.html</url>
-    <content><![CDATA[<h2 id="COSER-syokupan-natto-作品鉴赏">COSER syokupan_natto 作品鉴赏</h2>
-<p>以下照片均转自，侵删</p>
-<p><a class="link"   href="https://www.instagram.com/syokupan_natto/" >https://www.instagram.com/syokupan_natto/<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-<p><a class="link"   href="https://twitter.com/syokupan_natto" >https://twitter.com/syokupan_natto<i class="fa-sharp fa-regular fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em]"></i></p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/286215497_131140569322180_8409596459421855903_n.jpg"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fh664XKVUAAYaaP.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FhBeZbpUAAAbVIu.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiaiNJ4VsAATv5J.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiFxUe7UUAIhEz-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/Fij9cvHVEAAKH7-.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQIVQAAtcNi.jfif"
-                     
-                >
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/syokupan-natto-s-cosplay-appreciation/FiKYbQKUoAE_TYX.jfif"
-                     
-                >
-]]></content>
-      <categories>
-        <category>睡大觉</category>
-      </categories>
-      <tags>
-        <tag>动画</tag>
-        <tag>美女</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【虚幻引擎5 II】简单的射线追踪</title>
     <url>/archives/posts/ef2e4bdf.html</url>
     <content><![CDATA[<h2 id="原理">原理</h2>
@@ -4040,81 +4115,6 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://evan.beee.top/users/anzai/posts/ue5-2-hittarget/hitself.png"
-                     
-                >]]></content>
-      <categories>
-        <category>卷</category>
-        <category>虚幻5学习笔记</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>虚幻引擎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【虚幻引擎5 III】做个翻卡片连连看</title>
-    <url>/archives/posts/167165dd.html</url>
-    <content><![CDATA[<h2 id="游戏规则">游戏规则</h2>
-<p>电脑随机生成含有偶数个卡片的矩阵，玩家点击卡片，卡片翻转展示正面的图案，翻开下一张卡片时，如果两张卡片图案相同，则消除，图片不同则两张卡片翻转会原来的状态。</p>
-<pre class="mermaid">graph LR
-    A[翻开第一个卡片] --> B[储存第一个卡片的ID];
-    B --> C[翻开第二个卡片];
-    C --> D{两张卡片ID是否相同?};
-    D -- Yes --> E[卡片消除];
-    D -- No --> F[两张卡片翻转回去];
-    F --> A;</pre>
-<h2 id="实现">实现</h2>
-<p>篇幅原因只展示关键代码。</p>
-<h3 id="卡片">卡片</h3>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.h</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">ACard</span>();</span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flip</span><span class="params">()</span></span>; <span class="comment">// 改变翻转状态</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span>; <span class="comment">// 翻转动画调用</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">FlipOver</span><span class="params">()</span></span>; <span class="comment">// 翻转结束，其实用Finished这样的词更好</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">bool</span> <span class="title">IsFlipped</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回是否翻转</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function">FString <span class="title">GetCardID</span><span class="params">()</span> <span class="type">const</span></span>; <span class="comment">// 返回卡片ID（图案）</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UFUNCTION</span>(BlueprintCallable)</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span>; <span class="comment">// 指定卡片ID</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">UPROPERTY</span>(EditAnywhere)</span><br><span class="line">        UStaticMeshComponent* CardMesh; <span class="comment">// 卡片模型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">	<span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">BeginPlay</span><span class="params">()</span> <span class="keyword">override</span></span>; <span class="comment">// 开始播放</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">bool</span> bIsFlipped; <span class="comment">// 是否翻转的bool</span></span><br><span class="line">    FString CardID; <span class="comment">// 卡片ID</span></span><br></pre></td></tr></table></figure></div>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Card.cpp</span></span><br><span class="line"></span><br><span class="line">ACard::<span class="built_in">ACard</span>()</span><br><span class="line">&#123;</span><br><span class="line"> 	<span class="comment">// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don&#x27;t need it.</span></span><br><span class="line">	PrimaryActorTick.bCanEverTick = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">	CardMesh = <span class="built_in">CreateDefaultSubobject</span>&lt;UStaticMeshComponent&gt;(<span class="built_in">TEXT</span>(<span class="string">&quot;Card Mesh&quot;</span>));</span><br><span class="line">	RootComponent = CardMesh;</span><br><span class="line"></span><br><span class="line">	bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Called when the game starts or when spawned</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flip</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;Filp state changed&quot;</span>));</span><br><span class="line">	<span class="keyword">if</span> (!bIsFlipped) <span class="comment">// 简单的判断</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		bIsFlipped = <span class="literal">false</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::Flipping</span><span class="params">(<span class="type">float</span> Z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 传入一个不断变化的Z之后给它赋值到卡片的旋转上</span></span><br><span class="line">	FRotator CardRotator = CardMesh-&gt;<span class="built_in">GetComponentRotation</span>();</span><br><span class="line">	CardRotator.Yaw = Z;</span><br><span class="line">	CardMesh-&gt;<span class="built_in">SetWorldRotation</span>(CardRotator);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::FlipOver</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ACardGameMode* GameModeRef = <span class="literal">nullptr</span>; <span class="comment">// 定义和获得游戏模式</span></span><br><span class="line">	<span class="keyword">if</span> (!GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		UWorld* World = <span class="built_in">GetWorld</span>();</span><br><span class="line">		<span class="keyword">if</span> (World)</span><br><span class="line">		&#123;</span><br><span class="line">			AGameModeBase* GameMode = UGameplayStatics::<span class="built_in">GetGameMode</span>(World);</span><br><span class="line">			GameModeRef = <span class="built_in">Cast</span>&lt;ACardGameMode&gt;(GameMode);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> (GameModeRef)</span><br><span class="line">	&#123;</span><br><span class="line">		GameModeRef-&gt;<span class="built_in">CardClicked</span>(<span class="keyword">this</span>); <span class="comment">// 调用游戏模式里的点击卡片函数</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ACard::IsFlipped</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> bIsFlipped;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">FString <span class="title">ACard::GetCardID</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> CardID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACard::SetCardID</span><span class="params">(<span class="type">const</span> FString&amp; NewID)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CardID = NewID;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>用蓝方块代替卡片，再弄一个灯光，之后告诉你目的。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card1.png"
-                     
-                >
-<p>操作灯光。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card2.png"
-                     
-                >
-<p>卡片翻转动画，需要先判断是否处于正在旋转的状态，如果不弄这个可能会出现怪怪的问题，比如说快速点击同一个卡片，它自己和自己匹配上也能消除/doge。然后就是判断它是否已经旋转，已经旋转的点击之后倒放，翻回来，没旋转的正放，旋转。Finished之后调用FlipOver()去GameMode里进行逻辑判断。</p>
-<p>（然后我刚开始把Is Flipped的if连反了）</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/card3.png"
-                     
-                >
-<h3 id="游戏模式">游戏模式</h3>
-<p>.h不分享了，直接.cpp</p>
-<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// CardGameMode.cpp</span></span><br><span class="line"></span><br><span class="line">ACardGameMode::<span class="built_in">ACardGameMode</span>()</span><br><span class="line">&#123;</span><br><span class="line">    DefaultPawnClass = <span class="literal">nullptr</span>;</span><br><span class="line">    FlippedCardNum = <span class="number">0</span>;</span><br><span class="line">    CardClass = ACard::<span class="built_in">StaticClass</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::BeginPlay</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Super::<span class="built_in">BeginPlay</span>();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 游戏开始时调用 StartGame() 函数</span></span><br><span class="line">    <span class="built_in">StartGame</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::StartGame</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    CardPatterns.<span class="built_in">Empty</span>(); <span class="comment">// 这俩是TArray，前者是存卡片ID（图案，FString）的，后者是存卡片（ACard*）的</span></span><br><span class="line">    CardGrid.<span class="built_in">Empty</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (int32 i = <span class="number">0</span>; i &lt; <span class="number">8</span>; ++i)</span><br><span class="line">    &#123;</span><br><span class="line">        FString CardPattern = FString::<span class="built_in">Printf</span>(<span class="built_in">TEXT</span>(<span class="string">&quot;Pattern_%d&quot;</span>), i); <span class="comment">// 生成ID</span></span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">        CardPatterns.<span class="built_in">Add</span>(CardPattern);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    CardPatterns.<span class="built_in">Sort</span>([](<span class="type">const</span> FString&amp; A, <span class="type">const</span> FString&amp; B) &#123; <span class="comment">// 打乱ID</span></span><br><span class="line">        <span class="keyword">return</span> FMath::<span class="built_in">RandBool</span>();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="type">const</span> int32 NumRows = <span class="number">4</span>; <span class="comment">// 行列，记得乘出来是个偶数，不然最后会剩一个</span></span><br><span class="line">    <span class="type">const</span> int32 NumCols = <span class="number">4</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (CardClass) <span class="comment">// 判断一下给的卡片子类是否存在（不存在引擎会炸，别问我怎么知道的）</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (int32 Row = <span class="number">0</span>; Row &lt; NumRows; ++Row)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (int32 Col = <span class="number">0</span>; Col &lt; NumCols; ++Col)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="function">FTransform <span class="title">SpawnTransform</span><span class="params">(FRotator::ZeroRotator, FVector(<span class="number">0.00f</span>, Row * <span class="number">100.0f</span>, <span class="number">50</span> + Col * <span class="number">100.0f</span>), FVector::OneVector)</span></span>; <span class="comment">// 分配坐标</span></span><br><span class="line">                ACard* NewCard = <span class="built_in">GetWorld</span>()-&gt;<span class="built_in">SpawnActor</span>&lt;ACard&gt;(CardClass, SpawnTransform.<span class="built_in">GetLocation</span>(), FRotator::ZeroRotator); <span class="comment">// 生成</span></span><br><span class="line">                NewCard-&gt;<span class="built_in">SetCardID</span>(CardPatterns[Row * NumCols + Col]); <span class="comment">// 分配ID</span></span><br><span class="line">                CardGrid.<span class="built_in">Add</span>(NewCard); <span class="comment">// 放到卡片序列里</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ACardGameMode::CardClicked</span><span class="params">(ACard* ClickedCard)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;%s&quot;</span>), *ClickedCard-&gt;<span class="built_in">GetCardID</span>());</span><br><span class="line">    <span class="keyword">if</span> (ClickedCard-&gt;<span class="built_in">IsFlipped</span>()) <span class="comment">// 判断它是否已经翻过来了，因为这个是在最后调用的，所以要反着写。</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (FlippedCardNum &lt; <span class="number">1</span>) <span class="comment">// 原理同上，1的时候点击才会达到翻开两个消除。</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum++;</span><br><span class="line">            <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">            MemoryCard = ClickedCard; <span class="comment">// 翻开一个的时候把它记下来</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            FlippedCardNum = <span class="number">0</span>; <span class="comment">// 消除了，可以初始化翻开的卡片数</span></span><br><span class="line">            <span class="keyword">if</span> (MemoryCard-&gt;<span class="built_in">GetCardID</span>() == ClickedCard-&gt;<span class="built_in">GetCardID</span>()) <span class="comment">// 两个是否一样</span></span><br><span class="line">            &#123;</span><br><span class="line">                ClickedCard-&gt;<span class="built_in">Destroy</span>(); <span class="comment">// 一样就消了</span></span><br><span class="line">                MemoryCard-&gt;<span class="built_in">Destroy</span>();</span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>; <span class="comment">// 清掉记下来的卡片</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">CardFilp</span>(ClickedCard, MemoryCard); <span class="comment">// 不一样就把两个都翻回去，这个函数在下面那张图里</span></span><br><span class="line">                MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        FlippedCardNum--; <span class="comment">// 如果卡片是翻过来的，那么把它翻回去</span></span><br><span class="line">        <span class="built_in">UE_LOG</span>(LogTemp, Warning, <span class="built_in">TEXT</span>(<span class="string">&quot;FlippedCardNum %d&quot;</span>), FlippedCardNum);</span><br><span class="line">        MemoryCard = <span class="literal">nullptr</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>这是CardFilp()，一次性把这俩卡都翻回去。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode1.png"
-                     
-                >
-<p>要把这里指定为卡的子类，不然上面的if(CardClass)过不去。</p>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/mode2.png"
-                     
-                >
-<h3 id="其他">其他</h3>
-<p>需要写一个允许监听鼠标点击和悬停事件的Controller，这里不多赘述。</p>
-<p>没有美术师，所以没有模型和图案。判断图案全靠输出日志。如果想加图案也不难，直接往Card类里塞Mesh就行了。</p>
-<h2 id="效果">效果</h2>
-<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://evan.beee.top/users/anzai/posts/ue5-3-cardgame/ok.gif"
                      
                 >]]></content>
       <categories>
@@ -4333,6 +4333,31 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
       </tags>
   </entry>
   <entry>
+    <title>【Vue II】数据绑定</title>
+    <url>/archives/posts/dee9d14e.html</url>
+    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-bind] --> C[value]
+   C[value] -- "×" --> A[data]</pre>
+<h2 id="v-model">v-model</h2>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
+<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
+<pre class="mermaid">flowchart LR
+   A[data] --> B[v-model] --> C[value]
+   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
+      <categories>
+        <category>卷</category>
+        <category>Vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>前端</tag>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Vue I】从楼梯上摔下来</title>
     <url>/archives/posts/574e7c50.html</url>
     <content><![CDATA[<h2 id="目的何在？">目的何在？</h2>
@@ -4357,33 +4382,8 @@ A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> 
         <category>Vue学习笔记</category>
       </categories>
       <tags>
-        <tag>前端</tag>
         <tag>编程</tag>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Vue II】数据绑定</title>
-    <url>/archives/posts/dee9d14e.html</url>
-    <content><![CDATA[<h2 id="v-bind">v-bind</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-bind:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>将下方Vue实例返回的数据读取，但是在这里改不会影响到原始变量。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-bind] --> C[value]
-   C[value] -- "×" --> A[data]</pre>
-<h2 id="v-model">v-model</h2>
-<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 原版写法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model:value</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 简写，v-model默认修饰value --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;attribute&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-<p>这下在上面更改的数据会传回到变量，只能应用在表单类元素中。</p>
-<pre class="mermaid">flowchart LR
-   A[data] --> B[v-model] --> C[value]
-   C[value] -- 双向绑定 --> A[data]</pre>]]></content>
-      <categories>
-        <category>卷</category>
-        <category>Vue学习笔记</category>
-      </categories>
-      <tags>
         <tag>前端</tag>
-        <tag>编程</tag>
         <tag>Vue</tag>
       </tags>
   </entry>
