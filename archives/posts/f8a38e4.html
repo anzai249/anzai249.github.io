@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head><!-- hexo injector head_begin start --><script>(() => {
-      const sw = navigator.serviceWorker;
-      if (sw) {
-        sw.register('https://anzai.sleepingbed.top/sw.js').
-        then(async (registration) => {
-          try {
-            // @ts-ignore
-            await registration.periodicSync.register("update", {
-              minInterval: 24 * 60 * 60 * 1000
-            });
-          }
-          catch (e) {
-          }
-        }).
-        catch((err) => console.error('SWPP 注册失败', err));
-      } else
-      {
-        console.warn('当前浏览器不支持 SW');
-      }
-    })()</script><!-- hexo injector head_begin end -->
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="安仔の午睡床,编程,前端,虚幻引擎,技术">
@@ -33,6 +14,8 @@
         
         
         
+            <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+        
     
     <!--- Seo Part-->
     
@@ -41,21 +24,24 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="呜呜呜真的要去做游戏了">
+    
+    
+        
+        <meta name="description" content="啊对对对，开摆就完了呗。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【图形学 I】线性代数">
 <meta property="og:url" content="https://anzai.sleepingbed.top/archives/posts/f8a38e4">
 <meta property="og:site_name" content="安仔の午睡床">
-<meta property="og:description" content="呜呜呜真的要去做游戏了">
+<meta property="og:description" content="啊对对对，开摆就完了呗。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://evan.beee.top/users/anzai/posts/cg-1-linearalgebra/leftright.png">
+<meta property="og:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
 <meta property="article:published_time" content="2023-09-19T03:46:23.000Z">
 <meta property="article:modified_time" content="2023-11-11T15:51:11.718Z">
 <meta property="article:author" content="anzai249">
 <meta property="article:tag" content="3D">
 <meta property="article:tag" content="图形学">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://evan.beee.top/users/anzai/posts/cg-1-linearalgebra/leftright.png">
+<meta name="twitter:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
     
     
         <!-- Google tag (gtag.js) -->
@@ -77,12 +63,11 @@
     
     <title>
         
-            【图形学 I】线性代数 -
+            【图形学 I】线性代数 | 安仔の午睡床
         
-        安仔の午睡床
     </title>
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/Chillax/chillax.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/Chillax/chillax.css">
 
     <!--- Inject Part-->
     
@@ -108,34 +93,32 @@
 
     
         
-<link rel="stylesheet" href="/assets/build/styles.css">
+<link rel="stylesheet" href="/css/build/tailwind.css">
 
     
 
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/GeistMono/geist-mono.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fonts/Geist/geist.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/Geist/geist.css">
     <!--- Font Part-->
     
     
     
     
-
     
-        <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/anime.min.js"></script>
     
 
     <script id="hexo-configurations">
     window.config = {"hostname":"anzai.sleepingbed.top","root":"/","language":"zh-CN","path":"search.xml"};
-    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["床主"]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#1f5da3","secondary":"#e600b8","default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1080px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":true,"open_graph":true,"google_analytics":{"enable":true,"id":"G-MLXYJKW1BT"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xp1e_1280x720.webp","dark":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xx39_1280x720.webp"},"title":"欢迎。","subtitle":{"text":["苟利国家生死以，岂因祸福避趋之"],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/anzai249","instagram":"https://instagram.com/berlinann249","zhihu":null,"twitter":null,"email":null,"steam":"https://s.team/p/cfmc-crgr/fbwbcnvt","fa-solid fa-envelope":"mailto://b.an@sleepingbed.top","discord":"https://discord.gg/XbkZaFfF3d"},"qrs":{"weixin":null,"qq":"https://evan.beee.top/users/anzai/others/qq.png"}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"ラグトレイン","artist":"稲葉曇","url":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.mp3","cover":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.webp","lrc":null},{"name":"WINTER WITHOUT YOU","artist":"XG","url":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.mp3","cover":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.webp"},{"name":"One More Night","artist":"邓紫棋","url":"https://evan.beee.top/users/anzai/music/One-More-Night.mp3","cover":"https://evan.beee.top/users/anzai/music/RevelacionGEM.jpg"},{"name":"SHOOTING STAR","artist":"XG","url":"https://evan.beee.top/users/anzai/music/SHOOTING-STAR.mp3","cover":"https://evan.beee.top/users/anzai/music/SHOOTINGSTAR.jpg"},{"name":"Memory - Radio Edit","artist":"Elaine Paige","url":"https://evan.beee.top/users/anzai/music/Memory-Radio-Edit.mp3","cover":"https://evan.beee.top/users/anzai/music/Cats.jpg"},{"name":"The Housebuilding Song","artist":"David Ferguson","url":"https://evan.beee.top/users/anzai/music/TheHousebuildingSong.mp3","cover":"https://evan.beee.top/users/anzai/music/rdr2.webp"},{"name":"你从未离去","artist":"白挺","url":"https://evan.beee.top/users/anzai/music/你從未離去.mp3","cover":"https://evan.beee.top/users/anzai/music/bonniebears.webp"},{"name":"作品的说话","artist":"姜涛","url":"https://evan.beee.top/users/anzai/music/作品的說話.mp3","cover":"https://evan.beee.top/users/anzai/music/作品的说话.webp"}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.6.4","navbar":{"auto_hide":false,"color":{"left":"#CE6E59","right":"#ffffff","transparency":50},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-solid fa-house-heart"},"文章":{"icon":"fa-solid fa-archive","submenus":{"归档":"/archives","标签":"/tags","分类":"/categories"}},"相册":{"path":"/album","icon":"fa-solid fa-camera-retro"},"实验室":{"icon":"fa-solid fa-flask","path":"https://lab.sleepingbed.top/"},"Links":{"path":"/links","icon":"fa-solid fa-link"},"About":{"icon":"fa-solid fa-user","submenus":{"匿名提问":"https://cybergui.sleepingbed.top/","关于我":"/about"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":3,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"可能是最贪睡的强迫症患者。","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/11/28 21:31:12"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["床主"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#1f5da3","secondary":"#e600b8","default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1080px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":{"enable":true,"image":"https://evan.beee.top/users/anzai/others/Avatar.jpg","description":"啊对对对，开摆就完了呗。"},"google_analytics":{"enable":true,"id":"G-MLXYJKW1BT"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-8xypoy_1280x720.webp","dark":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xx39_1280x720.webp"},"title":"欢迎。","subtitle":{"text":["苟利国家生死以，岂因祸福避趋之"],"hitokoto":{"enable":true,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/anzai249","instagram":"https://instagram.com/berlinann249","zhihu":null,"twitter":null,"email":null,"steam":"https://s.team/p/cfmc-crgr/fbwbcnvt","fa-solid fa-envelope":"mailto://b.an@sleepingbed.top","discord":"https://discord.gg/XbkZaFfF3d"},"qrs":{"weixin":null,"qq":"https://evan.beee.top/users/anzai/others/qq.png"}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"WINTER WITHOUT YOU","artist":"XG","url":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.mp3","cover":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.webp","lrc":null},{"name":"ラグトレイン","artist":"稲葉曇","url":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.mp3","cover":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.webp"},{"name":"One More Night","artist":"邓紫棋","url":"https://evan.beee.top/users/anzai/music/One-More-Night.mp3","cover":"https://evan.beee.top/users/anzai/music/RevelacionGEM.jpg"},{"name":"SHOOTING STAR","artist":"XG","url":"https://evan.beee.top/users/anzai/music/SHOOTING-STAR.mp3","cover":"https://evan.beee.top/users/anzai/music/SHOOTINGSTAR.jpg"},{"name":"Memory - Radio Edit","artist":"Elaine Paige","url":"https://evan.beee.top/users/anzai/music/Memory-Radio-Edit.mp3","cover":"https://evan.beee.top/users/anzai/music/Cats.jpg"},{"name":"The Housebuilding Song","artist":"David Ferguson","url":"https://evan.beee.top/users/anzai/music/TheHousebuildingSong.mp3","cover":"https://evan.beee.top/users/anzai/music/rdr2.webp"},{"name":"你从未离去","artist":"白挺","url":"https://evan.beee.top/users/anzai/music/你從未離去.mp3","cover":"https://evan.beee.top/users/anzai/music/bonniebears.webp"},{"name":"作品的说话","artist":"姜涛","url":"https://evan.beee.top/users/anzai/music/作品的說話.mp3","cover":"https://evan.beee.top/users/anzai/music/作品的说话.webp"}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.8.2","navbar":{"auto_hide":false,"color":{"left":"#CE6E59","right":"#ffffff","transparency":50},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-solid fa-house-heart"},"文章":{"icon":"fa-solid fa-archive","submenus":{"归档":"/archives","标签":"/tags","分类":"/categories"}},"相册":{"path":"/album","icon":"fa-solid fa-camera-retro"},"实验室":{"icon":"fa-solid fa-flask","path":"https://lab.sleepingbed.top/"},"Links":{"path":"/links","icon":"fa-solid fa-link"},"About":{"icon":"fa-solid fa-user","path":"/about"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":3,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"可能是最贪睡的强迫症患者。","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/11/28 21:31:12"};
     window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
     window.data = {"masonry":true};
   </script>
     
     <!--- Fontawesome Part-->
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/fontawesome.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/brands.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/solid.min.css">
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/fontawesome/regular.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/regular.min.css">
     
     
     
@@ -144,7 +127,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<script defer src="/sw-dom.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -260,182 +243,38 @@ mjx-container[display="true"] + br {
 </head>
 
 
+
 <body>
-<div class="progress-bar-container">
-    
+	<div class="progress-bar-container">
+	
 
-    
-        <span class="pjax-progress-bar"></span>
-<!--        <span class="swup-progress-icon">-->
-<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
-<!--        </span>-->
-    
-</div>
-
-
-
-    <style>
-    :root {
-        --preloader-background-color: #fff;
-        --preloader-text-color: #000;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --preloader-background-color: #202124;
-            --preloader-text-color: #fff;
-        }
-    }
-
-    @media (prefers-color-scheme: light) {
-        :root {
-            --preloader-background-color: #fff;
-            --preloader-text-color: #000;
-        }
-    }
-
-    @media (max-width: 600px) {
-        .ml13 {
-            font-size: 2.6rem !important; /* Adjust this value as needed */
-        }
-    }
-
-    .preloader {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        padding: 12px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh; /* 'h-screen' is 100% of the viewport height */
-        background-color: var(--preloader-background-color);
-        z-index: 1100; /* 'z-[1100]' sets the z-index */
-        transition: opacity 0.2s ease-in-out;
-    }
-
-    .ml13 {
-        font-size: 3.2rem;
-        /* text-transform: uppercase; */
-        color: var(--preloader-text-color);
-        letter-spacing: -1px;
-        font-weight: 500;
-        font-family: 'Chillax-Variable', sans-serif;
-        text-align: center;
-    }
-
-    .ml13 .word {
-        display: inline-flex;
-        flex-wrap: wrap;
-        white-space: nowrap;
-    }
-
-    .ml13 .letter {
-        display: inline-block;
-        line-height: 1em;
-    }
-</style>
-
-<div class="preloader">
-    <h2 class="ml13">
-        安仔の午睡床
-    </h2>
-    <script>
-        var textWrapper = document.querySelector('.ml13');
-        // Split text into words
-        var words = textWrapper.textContent.trim().split(' ');
-
-        // Clear the existing content
-        textWrapper.innerHTML = '';
-
-        // Wrap each word and its letters in spans
-        words.forEach(function(word) {
-            var wordSpan = document.createElement('span');
-            wordSpan.classList.add('word');
-            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
-            textWrapper.appendChild(wordSpan);
-            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
-        });
-
-        var animation = anime.timeline({loop: true})
-            .add({
-                targets: '.ml13 .letter',
-                translateY: [40,0],
-                translateZ: 0,
-                opacity: [0,1],
-                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
-                easing: "easeOutExpo",
-                duration: 1400,
-                delay: (el, i) => 300 + 30 * i,
-            }).add({
-                targets: '.ml13 .letter',
-                translateY: [0,-40],
-                opacity: [1,0],
-                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
-                easing: "easeInExpo",
-                duration: 1200,
-                delay: (el, i) => 100 + 30 * i,
-                complete: function() {
-                    hidePreloader(); // Call hidePreloader after the animation completes
-                }
-            });
-
-        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
-
-        // If the theme status is not found in local storage, check the preferred color scheme
-        if (themeStatus === undefined || themeStatus === null) {
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                themeStatus = 'dark';
-            } else {
-                themeStatus = 'light';
-            }
-        }
-
-        // Now you can use the themeStatus variable in your code
-        if (themeStatus) {
-            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
-            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
-        } else {
-            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
-            document.documentElement.style.setProperty('--preloader-text-color', '#000');
-        }
-
-        window.addEventListener('load', function () {
-            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
-        });
-
-        function hidePreloader() {
-            var preloader = document.querySelector('.preloader');
-            preloader.style.opacity = '0';
-            setTimeout(function () {
-                preloader.style.display = 'none';
-            }, 200);
-        }
-    </script>
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
 </div>
 
 <main class="page-container" id="swup">
 
-    
+	
 
-    <div class="main-content-container">
-
-
-        <div class="main-content-header">
-            <header class="navbar-container px-6 md:px-12">
-
-    <div class="navbar-content ">
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
         <div class="left">
             
-                <a class="logo-image" href="/">
-                    <img src="https://evan.beee.top/users/anzai/others/title_animated.svg">
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="https://evan.beee.top/users/anzai/others/Avatar.jpg" class="w-full h-full rounded-sm">
                 </a>
             
+            <a class="logo-title" href="/">
+                
+                安仔の午睡床
+                
+            </a>
         </div>
 
         <div class="right">
@@ -555,31 +394,15 @@ mjx-container[display="true"] + br {
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="has-dropdown"
-                                   href="#"
-                                        onClick=&#34;return false;&#34;>
+                                <a class=""
+                                   href="/about"
+                                        >
                                     <i class="fa-solid fa-user fa-fw"></i>
                                     关于
-                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                    
                                 </a>
 
                                 <!-- Submenu -->
-                                
-                                    <ul class="sub-menu">
-                                        
-                                            <li>
-                                                <a target="_blank" rel="noopener" href="https://cybergui.sleepingbed.top/">
-                                                    匿名提问
-                                                </a>
-                                            </li>
-                                        
-                                            <li>
-                                                <a href="/about">
-                                                    关于我
-                                                </a>
-                                            </li>
-                                        
-                                    </ul>
                                 
                             </li>
                     
@@ -604,7 +427,7 @@ mjx-container[display="true"] + br {
     </div>
 
     <!-- Mobile sheet -->
-    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
         <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
             
                 
@@ -729,34 +552,20 @@ mjx-container[display="true"] + br {
                 
                     
 
-                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
-                             navbar-data-toggle="submenu-About"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/about"
                         >
                             <span>
                                 关于
                             </span>
                             
-                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                                <i class="fa-solid fa-user fa-sm fa-fw"></i>
                             
-                        </div>
+                        </a>
                         
 
-                        
-                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
-                                
-                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
-                                        <a class=" text-third-text-color text-xl"
-                                           target="_blank" rel="noopener" href="https://cybergui.sleepingbed.top/">匿名提问</a>
-                                    </div>
-                                
-                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
-                                        <a class=" text-third-text-color text-xl"
-                                           href="/about">关于我</a>
-                                    </div>
-                                
-                            </div>
                         
                     </li>
             
@@ -807,7 +616,7 @@ mjx-container[display="true"] + br {
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">48</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">49</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -818,44 +627,41 @@ mjx-container[display="true"] + br {
 </header>
 
 
-        </div>
+		</div>
 
-        <div class="main-content-body">
+		<div class="main-content-body transition-fade-up">
+			
 
-            
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
 
-            <div class="main-content">
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://evan.beee.top/users/anzai/posts/cg-1-linearalgebra/thumbnail.png" alt="【图形学 I】线性代数" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75" />
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">【图形学 I】线性代数</h1>
+			</div>
+			
+		</div>
 
-                
-                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
-    <div class="article-content-container">
-
-        <div class="article-title relative w-full">
-            
-                
-                
-                <img src="https://evan.beee.top/users/anzai/posts/cg-1-linearalgebra/thumbnail.png" alt="【图形学 I】线性代数" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
-                
-                <div class="w-full flex items-center absolute bottom-0 justify-start">
-                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">【图形学 I】线性代数</h1>
-                </div>
-            
-            </div>
-
-        
-            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
-                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
-                    <img src="https://evan.beee.top/users/anzai/others/Avatar.jpg">
-                </div>
-                <div class="info flex flex-col justify-between">
-                    <div class="author flex items-center">
-                        <span class="name text-default-text-color text-lg font-semibold">anzai249</span>
-                        
-                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">床主</span>
-                        
-                    </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">anzai249</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">床主</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
         <span class="desktop">2023-09-19 11:46:23</span>
@@ -933,16 +739,16 @@ mjx-container[display="true"] + br {
     
 </div>
 
-                    </div>
-                </div>
-            </div>
-        
+				</div>
+			</div>
+		</div>
+		
 
-        
+		
 
 
-        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			
   <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
       <p>前排提醒</p>
@@ -1066,11 +872,11 @@ mjx-container[display="true"] + br {
 <p>好了，套这个就好了！</p>
 <p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -2.17ex;" xmlns="http://www.w3.org/2000/svg" width="10.896ex" height="5.319ex" role="img" focusable="false" viewBox="0 -1392 4816.2 2351"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="TeXAtom" transform="translate(783,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g><g data-mml-node="mo" transform="translate(2014.5,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mstyle" transform="translate(3070.2,0)"><g data-mml-node="mfrac"><g data-mml-node="msup" transform="translate(279.7,676)"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(783,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g><g data-mml-node="mrow" transform="translate(220,-709.5)"><g data-mml-node="mo" transform="translate(0 -0.5)"><path data-c="7C" d="M139 -249H137Q125 -249 119 -235V251L120 737Q130 750 139 750Q152 750 159 735V-235Q151 -249 141 -249H139Z"></path></g><g data-mml-node="mi" transform="translate(278,0)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(1028,0) translate(0 -0.5)"><path data-c="7C" d="M139 -249H137Q125 -249 119 -235V251L120 737Q130 750 139 750Q152 750 159 735V-235Q151 -249 141 -249H139Z"></path></g></g><rect width="1506" height="60" x="120" y="220"></rect></g></g></g></g></svg></mjx-container></p>
 
-        </div>
+		</div>
 
-        
-            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
-                <div class="article-copyright-info-container">
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
     <ul>
         <li><strong>标题:</strong> 【图形学 I】线性代数</li>
         <li><strong>作者:</strong> anzai249</li>
@@ -1098,24 +904,24 @@ mjx-container[display="true"] + br {
     </ul>
 </div>
 
-            </div>
-        
+		</div>
+		
 
-        
-            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/3D/">#3D</a>&nbsp;
-                    </li>
-                
-                    <li class="tag-item mx-0.5">
-                        <a href="/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/">#图形学</a>&nbsp;
-                    </li>
-                
-            </ul>
-        
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/3D/">#3D</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/">#图形学</a>&nbsp;
+			</li>
+			
+		</ul>
+		
 
-        
+		
   <div class="recommended-article px-2 sm:px-6 md:px-8">
    <div class="recommended-desktop">
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
@@ -1146,47 +952,41 @@ mjx-container[display="true"] + br {
    </div>
   </div>
 
-        
-            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
-                
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
-                        href="/archives/posts/aecf41ef"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">开源匿名提问箱 - CyberGui</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="next"
-                        rel="next"
-                        href="/archives/posts/4194a63b"
-                        >
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">【周三名人 VIII】南条爱乃</span>
-                                <span class="post-nav-item">下一篇</span>
-                            </span>
-                            <span class="right arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/archives/posts/aecf41ef">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">开源匿名提问箱 - CyberGui</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/archives/posts/4194a63b">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">【周三名人 VIII】南条爱乃</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
 
 
-        
-            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
-                <div class="comments-container mt-10 w-full ">
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
     <div id="comment-anchor" class="w-full h-2.5"></div>
     <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
         评论
@@ -1197,7 +997,7 @@ mjx-container[display="true"] + br {
             
     <div class="twikoo-container">
         <script data-swup-reload-script
-                src='https://cdn.staticfile.org/twikoo/1.6.25/twikoo.all.min.js'
+                src='https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.25/twikoo.all.min.js'
         ></script>
         <div id="twikoo-comment"></div>
         <script data-swup-reload-script>
@@ -1225,36 +1025,30 @@ mjx-container[display="true"] + br {
     
 </div>
 
-            </div>
-        
-    </div>
+		</div>
+		
+	</div>
 
-    
-        <div class="toc-content-container">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <div class="toc-title">此页目录</div>
-        <div class="page-title">【图形学 I】线性代数</div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">图形学相关线性代数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%91%E9%87%8F"><span class="nav-text">向量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E7%A4%BA"><span class="nav-text">表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E9%95%BF%E5%BA%A6"><span class="nav-text">向量长度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E5%AF%B9%E5%BA%94%E7%9F%A9%E9%98%B5%E8%BD%AC%E7%BD%AE"><span class="nav-text">向量对应矩阵转置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%B9%E7%A7%AF"><span class="nav-text">点积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%89%E7%A7%AF"><span class="nav-text">叉积</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5"><span class="nav-text">矩阵</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E7%A4%BA-2"><span class="nav-text">表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E7%BD%AE"><span class="nav-text">转置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B9%98%E6%B3%95"><span class="nav-text">乘法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%95%E4%BD%8D%E7%9F%A9%E9%98%B5"><span class="nav-text">单位矩阵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%86%E7%9F%A9%E9%98%B5"><span class="nav-text">逆矩阵</span></a></li></ol></li></ol></li></ol>
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">【图形学 I】线性代数</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">图形学相关线性代数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%91%E9%87%8F"><span class="nav-text">向量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E7%A4%BA"><span class="nav-text">表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E9%95%BF%E5%BA%A6"><span class="nav-text">向量长度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E5%AF%B9%E5%BA%94%E7%9F%A9%E9%98%B5%E8%BD%AC%E7%BD%AE"><span class="nav-text">向量对应矩阵转置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%B9%E7%A7%AF"><span class="nav-text">点积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%89%E7%A7%AF"><span class="nav-text">叉积</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5"><span class="nav-text">矩阵</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E7%A4%BA-2"><span class="nav-text">表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E7%BD%AE"><span class="nav-text">转置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B9%98%E6%B3%95"><span class="nav-text">乘法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%95%E4%BD%8D%E7%9F%A9%E9%98%B5"><span class="nav-text">单位矩阵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%86%E7%9F%A9%E9%98%B5"><span class="nav-text">逆矩阵</span></a></li></ol></li></ol></li></ol>
 
-    </div>
+	</div>
 </div>
-        </div>
-    
+	</div>
+	
 </div>
+			</div>
 
+			
+		</div>
 
-
-                
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="main-content-footer">
-            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
     <div class="info-container py-3 text-center">
         
         <div class="text-center">
@@ -1263,16 +1057,16 @@ mjx-container[display="true"] + br {
               <span>2022</span>
               -
             
-            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">anzai249</a>
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">anzai249</a>
             
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共 48 篇文章
+                        共撰写了 49 篇文章
                     </span>
                     
                         <span>
-                            共 30.1k 字
+                            共 30.5k 字
                         </span>
                     
                 </p>
@@ -1297,7 +1091,7 @@ mjx-container[display="true"] + br {
         
         <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
             <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.6.4</a></span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
         </div>
         
             <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="
@@ -1343,122 +1137,108 @@ mjx-container[display="true"] + br {
         
     </div>  
 </footer>
-        </div>
-    </div>
+		</div>
+	</div>
 
-    
-        <div class="post-tools">
-            <div class="post-tools-container">
-    <ul class="article-tools-list">
-        <!-- TOC aside toggle -->
-        
-            <li class="right-bottom-tools page-aside-toggle">
-                <i class="fa-regular fa-outdent"></i>
-            </li>
-        
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
 
-        <!-- go comment -->
-        
-            <li class="go-comment">
-                <i class="fa-regular fa-comments"></i>
-            </li>
-        
-    </ul>
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/rss2.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
 </div>
 
-        </div>
-    
-
-    <div class="right-side-tools-container">
-        <div class="side-tools-container">
-    <ul class="hidden-tools-list">
-        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-plus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-minus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-            <i class="fa-regular fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-            <li class="right-bottom-tools rss flex justify-center items-center">
-                <a class="flex justify-center items-center"
-                   href="/rss2.xml"
-                   target="_blank"
-                >
-                <i class="fa-regular fa-rss"></i>
-                </a>
-            </li>
-        
-
-        
-
-        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-            <i class="fa-regular fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="visible-tools-list">
-        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-            <i class="fa-regular fa-cog fa-spin"></i>
-        </li>
-        
-            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-                <i class="arrow-up fas fa-arrow-up"></i>
-                <span class="percent"></span>
-            </li>
-        
-        
-    </ul>
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
 </div>
-
-    </div>
-
-    <div class="image-viewer-container">
-    <img src="">
-</div>
-
-
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fa-solid fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="搜索..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="popup-btn-close">
-                <i class="fa-solid fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
+	
 
 </main>
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/Swup.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupSlideTheme.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupProgressPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupScrollPlugin.min.js"></script><script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/SwupPreloadPlugin.min.js"></script>
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/Swup.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupSlideTheme.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupProgressPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupScrollPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupPreloadPlugin.min.js" ></script>
 <script>
     const swup = new Swup({
         plugins: [
@@ -1481,55 +1261,64 @@ mjx-container[display="true"] + br {
 
 
 
+	<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/imageViewer.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/utils.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/main.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/navbarShrink.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/scrollTopBottom.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/lightDarkSwitch.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/categoryList.js" ></script>
 
 
-<script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/imageViewer.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/utils.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/main.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/navbarShrink.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/scrollTopBottom.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/categoryList.js"></script>
-
-
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/localSearch.js"></script>
-
-
-
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/codeBlock.js"></script>
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/localSearch.js" ></script>
 
 
 
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/lazyload.js"></script>
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/codeBlock.js" ></script>
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/runtime.js"></script>
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/odometer.min.js"></script>
-    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/assets/odometer-theme-minimal.css">
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/lazyload.js" ></script>
 
 
 
-  <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/Typed.min.js"></script>
-  <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/typed.js"></script>
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/runtime.js" ></script>
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/odometer.min.js" ></script>
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/assets/odometer-theme-minimal.css">
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/mermaid.min.js"></script>
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/mermaid.js"></script>
+  <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/Typed.min.js" ></script>
+  <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/typed.js" ></script>
 
 
 
-    <script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/minimasonry.min.js"></script>
-    <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/masonry.js"></script>
-
-
-
-
-<div class="post-scripts" data-swup-reload-script>
     
-        <script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/tools/tocToggle.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/layouts/toc.js"></script><script type="module" src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/tabs.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
     
-</div>
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/mermaid.js" ></script>
 
 
-    <div id="aplayer"></div>
-<script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/libs/APlayer.min.js"></script>
-<script src="https://s4.zstatic.net/ajax/libs/hexo-theme-redefine/2.6.4/js/plugins/aplayer.js"></script>
 
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/minimasonry.min.js" ></script>
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/masonry.js" ></script>
+
+
+
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/anime.min.js" ></script>
+
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/tocToggle.js" data-swup-reload-script></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/toc.js" data-swup-reload-script></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/tabs.js" data-swup-reload-script></script>
+
+
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/essays.js" data-swup-reload-script></script>
+
+
+
+
+	
+	<div id="aplayer"></div>
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/APlayer.min.js" ></script>
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/aplayer.js" ></script>
+
+	
 </body>
+
 </html>
