@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="安仔の午睡床,编程,前端,虚幻引擎,技术">
+    
+    <meta name="author" content="anzai249">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+            <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://anzai.sleepingbed.top/archives/posts/a68331c2.html"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="啊对对对，开摆就完了呗。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QP基础知识梳理">
+<meta property="og:url" content="https://anzai.sleepingbed.top/archives/posts/a68331c2">
+<meta property="og:site_name" content="安仔の午睡床">
+<meta property="og:description" content="啊对对对，开摆就完了呗。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+<meta property="article:published_time" content="2023-11-24T20:42:00.000Z">
+<meta property="article:modified_time" content="2025-05-03T04:29:55.035Z">
+<meta property="article:author" content="anzai249">
+<meta property="article:tag" content="编程">
+<meta property="article:tag" content="软件工程">
+<meta property="article:tag" content="预习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+    
+    
+        <!-- Google tag (gtag.js) -->
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-MLXYJKW1BT"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MLXYJKW1BT');
+        </script>
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="https://evan.beee.top/users/anzai/others/Avatar.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+    <meta name="theme-color" content="#1f5da3">
+    <link rel="shortcut icon" href="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            QP基础知识梳理 | 安仔の午睡床
+        
+    </title>
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+            
+                
+                    <meta name="twitter:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+                
+    
+            
+                
+                    <meta property="og:image" content="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+                
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"anzai.sleepingbed.top","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["床主"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#1f5da3","secondary":"#e600b8","default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1080px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":{"enable":true,"image":"https://evan.beee.top/users/anzai/others/Avatar.jpg","description":"啊对对对，开摆就完了呗。"},"google_analytics":{"enable":true,"id":"G-MLXYJKW1BT"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-2yp6gg_1920x1080.webp","dark":"https://evan.beee.top/users/anzai/wallpaper/wallhaven-p9xx39_1280x720.webp"},"title":"欢迎。","subtitle":{"text":["苟利国家生死以，岂因祸福避趋之"],"hitokoto":{"enable":true,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":3000,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/anzai249","instagram":"https://instagram.com/berlinann249","zhihu":null,"twitter":null,"email":null,"steam":"https://s.team/p/cfmc-crgr/fbwbcnvt","fa-solid fa-envelope":"mailto://b.an@sleepingbed.top","discord":"https://discord.gg/XbkZaFfF3d"},"qrs":{"weixin":null,"qq":"https://evan.beee.top/users/anzai/others/qq.png"}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"Memory - Radio Edit","artist":"Elaine Paige","url":"https://evan.beee.top/users/anzai/music/Memory-Radio-Edit.mp3","cover":"https://evan.beee.top/users/anzai/music/Cats.jpg","lrc":null},{"name":"WINTER WITHOUT YOU","artist":"XG","url":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.mp3","cover":"https://evan.beee.top/users/anzai/music/WINTERWITHOUTYOU.webp","lrc":"https://evan.beee.top/users/anzai/music/WINTER%20WITHOUT%20YOU.lrc"},{"name":"ラグトレイン","artist":"稲葉曇","url":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.mp3","cover":"https://evan.beee.top/users/anzai/music/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3.webp"},{"name":"One More Night","artist":"邓紫棋","url":"https://evan.beee.top/users/anzai/music/One-More-Night.mp3","cover":"https://evan.beee.top/users/anzai/music/RevelacionGEM.jpg"},{"name":"SHOOTING STAR","artist":"XG","url":"https://evan.beee.top/users/anzai/music/SHOOTING-STAR.mp3","cover":"https://evan.beee.top/users/anzai/music/SHOOTINGSTAR.jpg"},{"name":"The Housebuilding Song","artist":"David Ferguson","url":"https://evan.beee.top/users/anzai/music/TheHousebuildingSong.mp3","cover":"https://evan.beee.top/users/anzai/music/rdr2.webp"},{"name":"你从未离去","artist":"白挺","url":"https://evan.beee.top/users/anzai/music/你從未離去.mp3","cover":"https://evan.beee.top/users/anzai/music/bonniebears.webp"},{"name":"作品的说话","artist":"姜涛","url":"https://evan.beee.top/users/anzai/music/作品的說話.mp3","cover":"https://evan.beee.top/users/anzai/music/作品的说话.webp"}]},"mermaid":{"enable":true,"version":"9.3.0"}},"version":"2.8.2","navbar":{"auto_hide":false,"color":{"left":"#CE6E59","right":"#ffffff","transparency":50},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-solid fa-house-heart"},"文章":{"icon":"fa-solid fa-archive","submenus":{"归档":"/archives","标签":"/tags","分类":"/categories"}},"相册":{"path":"/album","icon":"fa-solid fa-camera-retro"},"实验室":{"icon":"fa-solid fa-flask","path":"https://lab.sleepingbed.top/"},"Links":{"path":"/links","icon":"fa-solid fa-link"},"About":{"icon":"fa-solid fa-user","path":"/about"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":3,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"可能是最贪睡的强迫症患者。","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/11/28 21:31:12"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/fontawesome/regular.min.css">
+    
+    
+    
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/rss2.xml" title="安仔の午睡床" type="application/rss+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="https://evan.beee.top/users/anzai/others/Avatar.jpg" class="w-full h-full rounded-sm">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                安仔の午睡床
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-solid fa-house-heart fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-archive fa-fw"></i>
+                                    文章
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/archives">
+                                                    归档
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/tags">
+                                                    标签
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories">
+                                                    分类
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/album"
+                                        >
+                                    <i class="fa-solid fa-camera-retro fa-fw"></i>
+                                    相册
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   target="_blank" rel="noopener" href="https://lab.sleepingbed.top/"
+                                        >
+                                    <i class="fa-solid fa-flask fa-fw"></i>
+                                    实验室
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/links"
+                                        >
+                                    <i class="fa-solid fa-link fa-fw"></i>
+                                    链接
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/about"
+                                        >
+                                    <i class="fa-solid fa-user fa-fw"></i>
+                                    关于
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-solid fa-house-heart fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-文章"
+                        >
+                            <span>
+                                文章
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-文章">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/archives">归档</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/tags">标签</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories">分类</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/album"
+                        >
+                            <span>
+                                相册
+                            </span>
+                            
+                                <i class="fa-solid fa-camera-retro fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           target="_blank" rel="noopener" href="https://lab.sleepingbed.top/"
+                        >
+                            <span>
+                                实验室
+                            </span>
+                            
+                                <i class="fa-solid fa-flask fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/links"
+                        >
+                            <span>
+                                链接
+                            </span>
+                            
+                                <i class="fa-solid fa-link fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/about"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>Archives</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>Tags</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>Categories</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">36</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">7</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">50</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://evan.beee.top/users/anzai/posts/qp-recap/thumbnail.png" alt="QP基础知识梳理" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75" />
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">QP基础知识梳理</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="https://evan.beee.top/users/anzai/others/Avatar.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">anzai249</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">床主</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-11-25 04:42</span>
+        <span class="mobile">2023-11-25 04:42</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-05-03 12:29:55</span>
+            <span class="mobile">2025-05-03 12:29:55</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E5%8D%B7/">卷</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件工程</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E9%A2%84%E4%B9%A0/">预习</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.9k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>6 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>前排提醒</p>
+
+    </div>
+    <div class="notel-content">
+      <p>这是我根据个人理解整理的QP课程主要框架和知识，如有错误可邮件或评论区叫我更正。<br>
+本课程为英文授课，此处用中文梳理知识点，如有翻译理解问题多多包涵。</p>
+
+    </div>
+  </div>
+<h1>质量保证原则</h1>
+<h2 id="简介">简介</h2>
+<p>本课程由荷兰方提斯大学的Carl Wolff授课。</p>
+<p>课程名字翻译成质量原则太奇怪了，所以我就翻译成了质量<strong>保证</strong>原则。</p>
+<h2 id="课程引入">课程引入</h2>
+<h3 id="组装例子">组装例子</h3>
+<p>波音787飞机、麦当劳汉堡的“组装”过程中需要很多步骤与合作，有的时候还会涉及到不同国家，那么思考，这些过程中哪里会出现错误？为什么？是谁导致了这些错误？</p>
+<h3 id="流程（Process）">流程（Process）</h3>
+<p>流程是为了完成某种或某一组特定的目标而进行的一个或一组活动。</p>
+<p>创建或规划一个流程需要找到它的输入输出，常见的流程涉及影响流程执行方式的决策点，流程还涉及参与者（Actor，可以是人、组织、软件系统等）。</p>
+<h4 id="业务流程（Business-Process）">业务流程（Business Process）</h4>
+<p>业务流程是相关事件、活动和决策的集合，涉及许多参与者和资源，并且共同产生对组织或其客户有价值的结果。</p>
+<ul>
+<li>业务流程是公司向客户提供服务或产品时所做的事情，翻译成商业流程貌似也行。</li>
+<li>如果一家公司拥有更好的流程和或能更好地执行这些流程，那么该公司就能胜过另一家提供类似服务的公司。</li>
+</ul>
+<h4 id="例子">例子</h4>
+<p>以柠檬汽水为例的，这图再详细一点就能当Cheat Sheet用了。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/process.png"
+                      alt="ProcessExample"
+                ></p>
+<p>还有更复杂的流程，比如说用户服务。</p>
+<h2 id="质量">质量</h2>
+<p>质量是某件事情的结果。比如一个产品、服务等体验很好，符合预期目的，那么他就是高质量的。</p>
+<p>质量的高低因人而异，汝之蜜糖，彼之砒霜。</p>
+<p>业务质量是衡量公司满足客户需求和期望的程度的指标。</p>
+<p><strong>Everyone in the organization is responsible for quality!</strong></p>
+<h3 id="决定质量的因素">决定质量的因素</h3>
+<ul>
+<li>表现</li>
+<li>特征</li>
+<li>可靠性</li>
+<li>一致性</li>
+<li>耐用性</li>
+<li>适用性</li>
+<li>美观性</li>
+<li>整体感知</li>
+</ul>
+<h3 id="衡量业务质量的因素">衡量业务质量的因素</h3>
+<ul>
+<li>产品和服务</li>
+<li>用户服务（e.g. 售后）</li>
+<li>公司信誉</li>
+<li>财政稳定</li>
+</ul>
+<h3 id="质量管理理念">质量管理理念</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/quality-management-concepts.png"
+                      alt="质量管理理念"
+                ></p>
+<h3 id="决定数据质量的因素">决定数据质量的因素</h3>
+<ul>
+<li><strong>准确性</strong></li>
+<li>完整性</li>
+<li>可靠性</li>
+<li>时效性</li>
+<li>关联性</li>
+<li>可用性</li>
+</ul>
+<h3 id="如何衡量质量？">如何衡量质量？</h3>
+<ul>
+<li>360°反馈</li>
+<li>自我评估</li>
+<li>目标管理（MBO）</li>
+<li>列清单</li>
+</ul>
+<h3 id="设置质量标准">设置质量标准</h3>
+<ul>
+<li>清晰定义的市场</li>
+<li>创建高质量的流程</li>
+<li>设置标准和进行认证</li>
+<li>持续反馈</li>
+<li><strong>让团队参与</strong></li>
+</ul>
+<h3 id="质量管理">质量管理</h3>
+<h4 id="质量管理体系（QMS）">质量管理体系（QMS）</h4>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/QMS.png"
+                      alt="QMS"
+                ></p>
+<h3 id="决定软件质量的因素">决定软件质量的因素</h3>
+<ul>
+<li>安全性（分为Safety和Security，这俩词的区别网上的解释太专业了我不会复述）</li>
+<li>可靠性</li>
+<li>可伸缩性</li>
+<li>稳健性</li>
+<li>可理解性</li>
+<li>可测试性</li>
+<li>适应性</li>
+<li>模块化</li>
+<li>复杂性</li>
+<li>便携性</li>
+<li>可用性</li>
+<li>重复使用性</li>
+<li>高效性</li>
+<li>可学习性</li>
+</ul>
+<h3 id="软件质量保证（SQA）">软件质量保证（SQA）</h3>
+<h4 id="活动">活动</h4>
+<ul>
+<li>应用技术方法</li>
+<li>正式技术审查</li>
+<li>软件测试</li>
+<li>执行标准</li>
+<li>控制变化</li>
+<li>衡量</li>
+<li>记录保存和报告</li>
+</ul>
+<h4 id="好处">好处</h4>
+<ul>
+<li>软件的缺陷更少，减少测试期间花费精力和时间</li>
+<li>更高的可靠性和客户满意</li>
+<li>维护成本降低</li>
+<li>软件整体生命周期成本降低</li>
+</ul>
+<h4 id="坏处">坏处</h4>
+<ul>
+<li>高成本</li>
+<li>文化变动</li>
+</ul>
+<h4 id="错误与故障">错误与故障</h4>
+<p>软件错误是指代码方面的错误，软件故障是指应用过程中的错误。</p>
+<h3 id="质量审查">质量审查</h3>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/quality-review.png"
+                      alt="QualityReview"
+                ></p>
+<h3 id="质量成本">质量成本</h3>
+<ul>
+<li>预防成本</li>
+<li>鉴定成本</li>
+<li>失败成本</li>
+</ul>
+<h2 id="利益相关者">利益相关者</h2>
+<p>可以是员工、管理者、客户等等。</p>
+<h3 id="利益相关者分析">利益相关者分析</h3>
+<p>把利益相关者列出来，然后看他们的能力和利益排这个表。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/stakeholder-analysis.png"
+                      alt="stakeholder-analysis"
+                ></p>
+<h2 id="可持续性">可持续性</h2>
+<ul>
+<li>社会可持续</li>
+<li>经济可持续</li>
+<li>自然可持续</li>
+</ul>
+<h2 id="风险管理">风险管理</h2>
+<p>风险是未来潜在的问题。我们做的每一个决定都可能潜在风险。</p>
+<h3 id="风险管理流程">风险管理流程</h3>
+<pre class="mermaid">graph TD
+A[寻找风险] --> B[量化风险] --> C[确定对策] --> D[施行对策] --> E[监控审核] --> A</pre>
+<h3 id="风险评估">风险评估</h3>
+<table>
+<thead>
+<tr>
+<th>流程</th>
+<th>风险</th>
+<th>可能性</th>
+<th>严重性</th>
+<th>影响(=可能性*严重性)</th>
+<th>责任人</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>根据类似这种表来评估可能性和严重性</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/risk-management.png"
+                      alt="risk-management"
+                ></p>
+<h2 id="企业社会责任（CSR）">企业社会责任（CSR）</h2>
+<p>字面意思……</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/how-to-build-csr.png"
+                      alt="how-to-build-csr"
+                ></p>
+<h3 id="不负社会责任的危害">不负社会责任的危害</h3>
+<ul>
+<li>失去业务</li>
+<li>损害公司形象</li>
+<li>让员工、客户、股东、政府感到不满意</li>
+<li>不遵守规则、法律和法规</li>
+<li>失去业务增长的潜力</li>
+<li>被列入黑名单</li>
+<li>可能导致破产</li>
+</ul>
+<h2 id="软件流程改善（SPI）">软件流程改善（SPI）</h2>
+<p>SPI侧重于提高软件组织中工程和管理实践的时间、成本和质量。SPI倡议通常基于明确定义的参考模型进行，比如：</p>
+<ul>
+<li>CMMI（能力成熟度模型整合）</li>
+<li>ISO 9001 / 15504</li>
+</ul>
+<h3 id="CMMI-阶段">CMMI 阶段</h3>
+<p>不会翻译</p>
+<ol>
+<li>Initial</li>
+<li>Managed</li>
+<li>Defined</li>
+<li>Quantitatively Managed</li>
+<li>Optimizing</li>
+</ol>
+<h2 id="项目简报">项目简报</h2>
+<p>项目在最初阶段的简单论证。这一阶段的最终结果被称为项目简报，顾名思义，它是对项目的简要描述。其目的是介绍项目，并解释为什么它相关且值得投入资源和资金来启动。</p>
+<p>为确保项目正确执行，应始终在考虑到将直接影响项目批准的利益相关者的情况下创建项目简报。</p>
+<h3 id="系统性问题分析（SPA）">系统性问题分析（SPA）</h3>
+<ol>
+<li>问题是什么？</li>
+<li>为什么是个问题？</li>
+<li>这对谁来说是个问题？谁不是？</li>
+<li>问题存在多久了？</li>
+<li>问题有多大？</li>
+<li>如果问题未得到解决会发生什么？</li>
+<li>还有其他也需要解决的问题吗？</li>
+<li>过去对这个问题做了什么？</li>
+<li>哪些变更管理方面可能起作用？</li>
+<li>谁对解决方案感兴趣？谁不感兴趣？</li>
+</ol>
+<h3 id="其他需要包含的内容">其他需要包含的内容</h3>
+<ul>
+<li>利益相关者分析</li>
+<li>风险分析</li>
+</ul>
+<h2 id="平衡计分卡（BSC）">平衡计分卡（BSC）</h2>
+<ul>
+<li>视角
+<ul>
+<li>客户</li>
+<li>内部业务流程</li>
+<li>财政</li>
+<li>创新与学习</li>
+</ul>
+</li>
+<li>战略目标（e.g. SWOT）</li>
+<li>度量指标（e.g. KPI）</li>
+<li>目标</li>
+</ul>
+<h2 id="价值链">价值链</h2>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/value-chain.png"
+                      alt="value-chain"
+                ></p>
+<h2 id="商业模式画布">商业模式画布</h2>
+<p>以郑州轻工业大学为例</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://evan.beee.top/users/anzai/posts/qp-recap/Business-Model-Canvas.png"
+                      alt="zzuli-bmc"
+                ></p>
+<h2 id="质量大师">质量大师</h2>
+<ul>
+<li>菲利普·克罗斯比
+<ul>
+<li>“零缺陷”理念</li>
+</ul>
+</li>
+<li>爱德华·戴明
+<ul>
+<li>全面质量管理（TQM）</li>
+</ul>
+</li>
+<li>约瑟夫·朱兰
+<ul>
+<li>质量三步骤</li>
+</ul>
+</li>
+<li>田口玄一</li>
+<li>新郎茂雄</li>
+<li>今井正明</li>
+<li>大野耐一和丰田英二
+<ul>
+<li>丰田生产系统</li>
+</ul>
+</li>
+</ul>
+<h2 id="测试">测试</h2>
+<p>定义很多，可以自己按照经验自己定义。</p>
+<p>The best way to build confidence is to try to destroy it!</p>
+<h3 id="V-Model">V-Model</h3>
+<p>详见<a class="link"   target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/V%E6%A8%A1%E5%9E%8B" >V-Model<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="黑盒白盒">黑盒白盒</h3>
+<h4 id="白盒测试">白盒测试</h4>
+<p>根据信息系统组件的技术操作描述来检查信息系统的组件。也称为：玻璃盒或结构测试。</p>
+<p>优点</p>
+<ul>
+<li>可以暴露结构中的弱点</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>检查未指定的特征</li>
+<li>因解释错误、思维错误、主观性以及建造者、测试者常常缺乏动机而不可靠</li>
+</ul>
+<h4 id="黑盒测试">黑盒测试</h4>
+<p>根据信息系统的功能操作描述来检查信息系统。也称为：功能测试。</p>
+<p>优点</p>
+<ul>
+<li>检查必要特征</li>
+<li>用户可以执行此测试</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>对（内部的）冗余或不必要特征缺乏清晰度</li>
+</ul>
+<h3 id="测试计划">测试计划</h3>
+<ol>
+<li>简介</li>
+<li>范围</li>
+<li>测试策略（方法）</li>
+<li>环境需求（测试环境）</li>
+<li>人员配备和培训需求</li>
+<li>测试计划和估算</li>
+<li>测试可交付成果</li>
+<li>退出标准</li>
+<li>暂停和恢复标准</li>
+<li>责任</li>
+<li>风险和应急方案</li>
+<li>假设</li>
+<li>测试参考资料</li>
+<li>审查与批准</li>
+<li>结论</li>
+</ol>
+
+		</div>
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> QP基础知识梳理</li>
+        <li><strong>作者:</strong> anzai249</li>
+        <li><strong>创建于
+                :</strong> 2023-11-25 04:42:00</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2025-05-03 12:29:55
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://anzai.sleepingbed.top/archives/posts/a68331c2.html
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%BC%96%E7%A8%8B/">#编程</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">#软件工程</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E9%A2%84%E4%B9%A0/">#预习</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>推荐阅读</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/archives/posts/44534fa9.html" title="SDS基础知识梳理" rel="bookmark">
+  <img src="https://evan.beee.top/users/anzai/posts/sds-recap/thumbnail.png" alt="SDS基础知识梳理" class="!max-w-none">
+  <span class="title">SDS基础知识梳理</span>
+</a><a class="recommended-article-item" href="/archives/posts/908a9dd4.html" title="DWH基础知识梳理" rel="bookmark">
+  <img src="https://evan.beee.top/users/anzai/posts/dwh-recap/thumbnail.png" alt="DWH基础知识梳理" class="!max-w-none">
+  <span class="title">DWH基础知识梳理</span>
+</a><a class="recommended-article-item" href="/archives/posts/d8022a67.html" title="MarSight.ai，一个集成产品流量、SEO和社媒数据的智能营销工作空间" rel="bookmark">
+  <img src="https://evan.beee.top/users/anzai/posts/marsight/thumbnail.png" alt="MarSight.ai，一个集成产品流量、SEO和社媒数据的智能营销工作空间" class="!max-w-none">
+  <span class="title">MarSight.ai，一个集成产品流量、SEO和社媒数据的智能营销工作空间</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>推荐阅读</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/archives/posts/44534fa9.html" title="SDS基础知识梳理" rel="bookmark">
+  <img src="https://evan.beee.top/users/anzai/posts/sds-recap/thumbnail.png" alt="SDS基础知识梳理" class="!max-w-none">
+  <span class="title">SDS基础知识梳理</span>
+</a><a class="recommended-article-item" href="/archives/posts/908a9dd4.html" title="DWH基础知识梳理" rel="bookmark">
+  <img src="https://evan.beee.top/users/anzai/posts/dwh-recap/thumbnail.png" alt="DWH基础知识梳理" class="!max-w-none">
+  <span class="title">DWH基础知识梳理</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/archives/posts/c0a885d4">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">🎉庆祝本站开设一周年🎉</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/archives/posts/3c42d251">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">社恐患者如何做脱稿演讲？</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div class="twikoo-container">
+        <script data-swup-reload-script
+                src='https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.25/twikoo.all.min.js'
+        ></script>
+        <div id="twikoo-comment"></div>
+        <script data-swup-reload-script>
+            function loadTwikoo() {
+                twikoo.init({
+                    el: '#twikoo-comment',
+                    envId: 'https://comments.sleepingbed.top/.netlify/functions/twikoo',
+                });
+            }
+
+            if ('true') {
+                const loadTwikooTimeout = setTimeout(() => {
+                    loadTwikoo();
+                    clearTimeout(loadTwikooTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadTwikoo);
+            }
+        </script>
+    </div>
+
+
+        
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">QP基础知识梳理</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">质量保证原则</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%BE%E7%A8%8B%E5%BC%95%E5%85%A5"><span class="nav-text">课程引入</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E8%A3%85%E4%BE%8B%E5%AD%90"><span class="nav-text">组装例子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%81%E7%A8%8B%EF%BC%88Process%EF%BC%89"><span class="nav-text">流程（Process）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F"><span class="nav-text">质量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%B3%E5%AE%9A%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-text">决定质量的因素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A1%E9%87%8F%E4%B8%9A%E5%8A%A1%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-text">衡量业务质量的因素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E7%90%86%E5%BF%B5"><span class="nav-text">质量管理理念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%B3%E5%AE%9A%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-text">决定数据质量的因素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E8%A1%A1%E9%87%8F%E8%B4%A8%E9%87%8F%EF%BC%9F"><span class="nav-text">如何衡量质量？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E8%B4%A8%E9%87%8F%E6%A0%87%E5%87%86"><span class="nav-text">设置质量标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86"><span class="nav-text">质量管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%B3%E5%AE%9A%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-text">决定软件质量的因素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F%E4%BF%9D%E8%AF%81%EF%BC%88SQA%EF%BC%89"><span class="nav-text">软件质量保证（SQA）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E5%AE%A1%E6%9F%A5"><span class="nav-text">质量审查</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E6%88%90%E6%9C%AC"><span class="nav-text">质量成本</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85"><span class="nav-text">利益相关者</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A9%E7%9B%8A%E7%9B%B8%E5%85%B3%E8%80%85%E5%88%86%E6%9E%90"><span class="nav-text">利益相关者分析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%80%A7"><span class="nav-text">可持续性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86"><span class="nav-text">风险管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E6%B5%81%E7%A8%8B"><span class="nav-text">风险管理流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A3%8E%E9%99%A9%E8%AF%84%E4%BC%B0"><span class="nav-text">风险评估</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%81%E4%B8%9A%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%EF%BC%88CSR%EF%BC%89"><span class="nav-text">企业社会责任（CSR）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E8%B4%9F%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E7%9A%84%E5%8D%B1%E5%AE%B3"><span class="nav-text">不负社会责任的危害</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E6%B5%81%E7%A8%8B%E6%94%B9%E5%96%84%EF%BC%88SPI%EF%BC%89"><span class="nav-text">软件流程改善（SPI）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CMMI-%E9%98%B6%E6%AE%B5"><span class="nav-text">CMMI 阶段</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E7%AE%80%E6%8A%A5"><span class="nav-text">项目简报</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90%EF%BC%88SPA%EF%BC%89"><span class="nav-text">系统性问题分析（SPA）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E9%9C%80%E8%A6%81%E5%8C%85%E5%90%AB%E7%9A%84%E5%86%85%E5%AE%B9"><span class="nav-text">其他需要包含的内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%B3%E8%A1%A1%E8%AE%A1%E5%88%86%E5%8D%A1%EF%BC%88BSC%EF%BC%89"><span class="nav-text">平衡计分卡（BSC）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%B7%E5%80%BC%E9%93%BE"><span class="nav-text">价值链</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%94%BB%E5%B8%83"><span class="nav-text">商业模式画布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E5%A4%A7%E5%B8%88"><span class="nav-text">质量大师</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95"><span class="nav-text">测试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#V-Model"><span class="nav-text">V-Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E7%9B%92%E7%99%BD%E7%9B%92"><span class="nav-text">黑盒白盒</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92"><span class="nav-text">测试计划</span></a></li></ol></li></ol></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">anzai249</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 50 篇文章
+                    </span>
+                    
+                        <span>
+                            共 31.6k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
+        </div>
+        
+            <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="
+                
+                https://beian.miit.gov.cn
+                
+                ">冀ICP备2023032446号</a></div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+                
+
+                    
+                        <link rel=stylesheet href="https://evan.beee.top/users/anzai/others/sakana.min.css"><div style="position:fixed;bottom:-1px;right:5%;overflow:visible;" id=sakana-widget class=aplayer></div><script data-swup-reload-script>function initSakanaWidget() {var sakanaWidget = document.getElementById("sakana-widget");var aplayer = document.getElementById("aplayer");document.body.appendChild(sakanaWidget);const github = SakanaWidget.getCharacter('chisato');github.image = `https://evan.beee.top/users/anzai/others/blends1.webp`;SakanaWidget.registerCharacter('github', github);new SakanaWidget({ character: 'github', controls: false,size:250 }).setState({ i: 0.02, d: 0.97 }).mount('#sakana-widget');}</script><script async onload=initSakanaWidget() src=https://s4.zstatic.net/ajax/libs/sakana-widget/2.7.0/sakana.min.js></script>
+                    
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/rss2.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/Swup.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupSlideTheme.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupProgressPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupScrollPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/SwupPreloadPlugin.min.js" ></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+	<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/imageViewer.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/utils.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/main.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/navbarShrink.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/scrollTopBottom.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/lightDarkSwitch.js" ></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/categoryList.js" ></script>
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/localSearch.js" ></script>
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/codeBlock.js" ></script>
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/lazyload.js" ></script>
+
+
+
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/runtime.js" ></script>
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/odometer.min.js" ></script>
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/assets/odometer-theme-minimal.css">
+
+
+
+  <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/Typed.min.js" ></script>
+  <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/typed.js" ></script>
+
+
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
+    
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/mermaid.js" ></script>
+
+
+
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/minimasonry.min.js" ></script>
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/masonry.js" ></script>
+
+
+
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/anime.min.js" ></script>
+
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/tools/tocToggle.js" data-swup-reload-script></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/toc.js" data-swup-reload-script></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/tabs.js" data-swup-reload-script></script>
+
+
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/layouts/essays.js" data-swup-reload-script></script>
+
+
+
+
+	
+	<div id="aplayer"></div>
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/libs/APlayer.min.js" ></script>
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.8.2/source/js/build/plugins/aplayer.js" ></script>
+
+	
+</body>
+
+</html>
